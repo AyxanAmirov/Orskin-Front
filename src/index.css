@@ -3,124 +3,22 @@
 @tailwind utilities;
 
 
-@font-face {
-    font-family: 'Oxygen Regular';
-    src: url('./fonts/Oxygen-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  /* @font-face {
-    font-family: 'Oxygen Light';
-    src: url('./fonts/Oxygen-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  } */
-  
-  /* @font-face {
-    font-family: 'Oxygen Bold';
-    src: url('./fonts/Oxygen-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  } */
 
-
-
-
+.navBody::after{
+   content: "";
+   position: absolute; 
+   z-index: 999;
+   opacity: .4;
+   left: 0; 
+   bottom: -40px;
+   height: 60px;
+   width: 100%;
+   background-color: #b3d6d0;
+}
 .container {
     margin: 0 auto;
 }
 
-.edit-border {
-    border: 1px solid #E0E0E0 ;
-    padding: 8px 16px;
-    width: 100%;
-    border-radius: 10px;
-
-}
-.border-create{
-    border : 1px solid #E0E0E0;
-    border-radius: 5px;
-    padding: 8px 16px;
-}
-.grid-container{
-    display: grid;
-    max-width: 1140px;
-    width: 90%;
-    grid-template-columns: repeat(3,1fr);
-}
-.email-border {
-    border: 1px solid #E0E0E0;
-    width: 800px;
-    border-radius: 5px;
-    padding: 8px 16px;
-}
-
-.border-details {
-    border-bottom: 1px solid #61616161;
-    border-top: 1px solid #61616161;
-}
-
-.border-details-bottom {
-    border-bottom: 1px solid #61616161;
-}
-
-.border-create {
-    border: 1px solid #616161;
-    border-radius: 10px;
-}
-
-.btn-forgot {
-    width: 400px;
-    height: 50px;
-}
-
-.back-btn {
-    border: 1px solid #616161;
-}
-
-.bg-0C132C {
-    background-color: #0C132C;
-}
-
-.bt-account {
-    border-top: 1px solid #616161;
-    padding: 10px;
-}
-
-.text-FDFDFD {
-    color: #FDFDFD;
-}
-
-.border-blog {
-    border: 1px solid #fff;
-    border-radius: 15px;
-    padding: 20px;
-}
-
-.border-blue {
-    border: 1px solid #E0F2FE;
-}
-
-.border-bottom {
-    border-bottom: 1px solid #0E0E0E;
-}
-
-.border-green {
-    border: 1px solid #CCFBF1;
-}
-
-.bg-light-blue {
-    background-color: #F0F9FF;
-}
-
-.bg-light-green {
-    background-color: #F0FDFA;
-}
-
-.text-light-green {
-    color: #0D9488;
-}
 
 .row {
     display: flex;
