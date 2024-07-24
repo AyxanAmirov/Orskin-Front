@@ -13,31 +13,31 @@ function Navbar() {
             <img src={Logo} alt="company" />
           </div>
           <div className="col-lg-8">
-            <div className="flex justify-between flex-col items-end w-full gap-[20px]">
+            <div className="flex px-[40px] justify-between flex-col items-end w-full gap-[20px]">
               <ul className="flex w-full justify-between items-center">
-                <li className="text-white text-[18px] font-[600] uppercase ">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase ">
                   <Link to="/">Home</Link>
                 </li>
-                <li className="text-white text-[18px] font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/about">About us</Link>
                 </li>
-                <li className="text-white text-[18px]  font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px]  font-[600] uppercase">
                   Services
                 </li>
-                <li className="text-white text-[18px] font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   Shop
                 </li>
-                <li className="text-white text-[18px] font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   Blog
                 </li>
-                <li className="text-white text-[18px] font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   Contact
                 </li>
                 <li>
                   {" "}
                   <FontAwesomeIcon
                     icon={faCartShopping}
-                    className="text-white text-[18px]"
+                    className="text-white text-[18px] hover:text-[black] transition-all duration-700"
                   />
                 </li>
               </ul>
@@ -47,10 +47,10 @@ function Navbar() {
                   className="rounded-l-[10px] rounded-bl-[10px] p-[10px] h-[50px] w-[250px]"
                   placeholder="Search..."
                 />
-                <div className="bg-black px-[20px] rounded-r-[10px] rounded-br-[10px] flex items-center">
+                <div className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[10px] rounded-br-[10px] flex items-center">
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
-                    className="text-white"
+                    className="text-white "
                   />
                 </div>
               </form>
