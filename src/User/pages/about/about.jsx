@@ -2,10 +2,15 @@ import React from "react";
 import AboutBanner from "../../assets/images/aboutus-banner.jpg";
 import TeamPerson from "../../assets/images/team-or.jpg";
 import DoctorGustavo from "../../assets/images/Dr.-Gustavo-Mazariegos.jpg";
+import DoctorAsima from "../../assets/images/team-dr.jpg";
+import Team from "../../assets/images/team.jpg";
+import Slider from "../../components/slider/slider";
 function About() {
   return (
     <>
-      <img src={AboutBanner} alt="about" />
+      <div className="flex justify-center">
+        <img src={AboutBanner} alt="about" />
+      </div>
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">
           <div className="flex justify-center mt-[70px]">
@@ -38,14 +43,14 @@ function About() {
             <div className="col-lg-5 px-[30px]">
               <img src={TeamPerson} alt="person" />
             </div>
-            <div className="col-lg-5 flex flex-col gap-[30px]  pr-[60px]">
+            <div className="col-lg-5 flex flex-col gap-[20px]  pr-[60px]">
               <h3 className="text-[25px] leading-[32px] text-[#B3D6D0] font-[600]">
                 Orsolya Matheisz
               </h3>
               <h4 className="text-[25px] leading-[32px] text-[#BCBEC0]">
                 Co-Founder
               </h4>
-              <p className=" text-[18px] leading-[25px]">
+              <p className=" text-[18px] leading-[25px] pr-[25px]">
                 Introducing our Co-Founder Orsolya Matheisz, also known as Orsi,
                 a licensed aesthetician from Hungary with a passion for beauty
                 and wellness. With over 18 years of experience in beauty, facial
@@ -79,10 +84,37 @@ function About() {
               <img src={DoctorGustavo} alt="doctor" />
             </div>
           </div>
+          <div className="flex justify-center gap-[30px]">
+            <div className="col-lg-5 px-[30px]">
+              <img src={DoctorAsima} alt="person" />
+            </div>
+            <div className="col-lg-5 flex flex-col gap-[20px]  pr-[60px]">
+              <h3 className="text-[25px] leading-[32px] text-[#B3D6D0] font-[600]">
+                DR. Asima Nasir
+              </h3>
+              <h4 className="text-[25px] leading-[32px] text-[#BCBEC0]">
+                Medical Director
+              </h4>
+              <p className=" text-[18px] leading-[25px] pr-[25px]">
+                An enthusiastic and committed American board-certified aesthetic
+                physician combines art and science to enhance one’s inherent
+                attractiveness. After consulting with the patient and learning
+                about their needs, a holistic approach is used to treat each
+                individual patient in accordance with their specific needs. As a
+                staff member of the Orskin Aesthetic Clinic, Dr. Asima Nasir
+                provides the best treatment possible while producing outstanding
+                outcomes.Additionally, Dr. Asima completed a master’s degree in
+                business administration in healthcare management at UCAM Spain.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="mt-[40px] flex justify-center">
+        <img src={Team} alt="team" />
+      </div>
+      <Slider/>
     </>
   );
 }
-
 export default About;
