@@ -50,7 +50,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="flex w-full flex-col items-center">
+        <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
           <h2 className="text-[#393939] font-[400] text-[50px] uppercase">
             Shop
           </h2>
