@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'walpaper': "url('/src/User/assets/images/walpaper-1.jpg')",
+      }
+    },
   },
   plugins: [],
 }

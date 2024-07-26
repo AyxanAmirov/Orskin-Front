@@ -1,34 +1,16 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 
-const Slider = () => {
-  const [data, setData] = useState([]);
+const Slider = ({data}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          "https://6622d9c13e17a3ac846e1a5a.mockapi.io/books"
-        );
-        const result = response.data;
-
-        setData(result);
-      } catch (error) {
-        console.error("Veri çekme hatası:", error);
-      }
-    };
-
-    fetchData();
-
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
     }, 4000);
 
     return () => clearInterval(intervalId);
-  }, [data.length]);
+  }, [data]);
 
-  // Handle dot click
   const handleDotClick = (index) => {
     setCurrentIndex(index);
   };

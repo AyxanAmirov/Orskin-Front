@@ -1,13 +1,19 @@
-import React from 'react'
-
+import React from "react";
+import HomeSlider from "../../components/HomeSlider/HomeSlider.jsx";
+const slides = [
+  { image: 'https://orskin.ae/wp-content/uploads/2023/07/home-banner1.jpg' },
+  { image: 'https://orskin.ae/wp-content/uploads/2023/07/home-banner2.jpg'},
+  { image: 'https://orskin.ae/wp-content/uploads/2023/07/home-banner3.jpg' }
+];
 function Home() {
   return (
-    <div className='h-[100vh] w-full bg-black'>
+    <>
+    <HomeSlider slides={slides}/>
+       <div className="w-full h-64 bg-walpaper bg-no-repeat bg-center bg-cover">
 
-    <h1 className='font-bold w-full h-[100vh] flex items-center justify-center text-[50px]'>Hello world</h1>
-
-    </div>
-  )
+       </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;
