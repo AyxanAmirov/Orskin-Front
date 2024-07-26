@@ -1,0 +1,24 @@
+.card{
+    overflow: hidden;
+}
+.overlay {
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    transform: translateX(-100%);
+}
+.icons{
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.card:hover .overlay {
+    opacity: .6;
+    visibility: visible;
+    transform: translateX(0);
+}
+.card:hover .icons{
+    opacity: 1;
+    visibility: visible;
+}
