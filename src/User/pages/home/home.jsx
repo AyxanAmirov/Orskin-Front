@@ -94,13 +94,13 @@ function Home() {
         </div>
       </div>
       <div className="flex mt-[30px]">
-        <div className="col-lg-6">
-          <img src={HomeBanner} alt="banner" />
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <img src={HomeBanner} alt="banner" className="w-full h-full object-cover"/>
         </div>
-        <div className="col-lg-6">
-          <div className="flex flex-col items-center text-center gap-[30px]">
-            <div className="max-w-[350px]">
-              <img src={FacialTitle} alt="title" />
+        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+          <div className="w-full flex items-center flex-col text-center ">
+            <div className="max-w-[350px] flex flex-col items-center gap-[30px]">
+              <img src={FacialTitle} alt="title" className="xl:w-[100%] lg:w-[100%] md:w-[220px]"/>
               <h4 className="text-[#393939] font-bold text-[20px] my-[15px]">
                 MAKING YOU HAPPY YOU’RE IN YOUR OWN SKIN.
               </h4>
