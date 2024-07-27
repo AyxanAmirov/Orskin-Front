@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container">
         <div className="flex justify-between">
           <div className="col-lg-2">
-            <img src={Logo} alt="company" />
+            <Link to={"/"}><img src={Logo} alt="company" /></Link>
           </div>
           <div className="col-lg-8">
             <div className="flex px-[40px] justify-between flex-col items-end w-full gap-[20px]">

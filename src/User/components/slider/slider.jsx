@@ -27,10 +27,10 @@ const Slider = ({data}) => {
           <div className="max-w-[700px] flex flex-col gap-[60px] text-center">
             <h3 className="text-[40px] text-[#2f2f2f]">WHAT OUR CLIENTS SAY</h3>
             <p className="text-xl text-[#393939] font-bold">
-              {data[currentIndex].desc}
+              {data[currentIndex]?.desc}
             </p>
             <h5 className="font-[400] tracking-[5px]">
-              {data[currentIndex].author}
+              {data[currentIndex]?.author}
             </h5>
           </div>
           <div className="absolute bottom-4 flex gap-2">
