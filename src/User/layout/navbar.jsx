@@ -30,7 +30,7 @@ function Navbar() {
                   <Link to="/about">About us</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px]  font-[600] uppercase">
-                  Services
+                  <Link to="/services">Services</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   Shop
