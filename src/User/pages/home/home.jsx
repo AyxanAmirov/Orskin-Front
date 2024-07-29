@@ -65,9 +65,9 @@ function Home() {
       <HomeSlider slides={slides} />
       <div className="w-full h-[500px] bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px]"></div>
       <div className="container">
-        <div className="flex  w-full justify-center">
+        <div className="flex  w-full justify-center pb-[40px]">
           <div className="col-lg-9 col-md-9 col-sm-9 col-9 ">
-            <div className="flex w-full justify-between py-[30px]">
+            <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 xl:gap-[30px] lg:gap-[30px] md:gap-[30px] sm:gap-[50px] gap-[50px] place-items-center  w-full  py-[30px] ">
               <img src={CosmeticMarka1} alt="dmg" className="object-contain" />
               <img
                 src={CosmeticMarka2}
@@ -80,13 +80,13 @@ function Home() {
           </div>
         </div>
         <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
-          <h2 className="text-[#393939] font-[400] text-[50px] uppercase">
+          <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[45px] uppercase">
             Shop
           </h2>
-          <h4 className="font-bold text-[18px]">
+          <h4 className="font-bold text-[18px] text-center">
             WE BRING YOU THE BEST IN SKINCARE PRODUCTS
           </h4>
-          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
+          <div className="grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
             {productData.map((product, index) => (
               <Products key={index} product={product} />
             ))}

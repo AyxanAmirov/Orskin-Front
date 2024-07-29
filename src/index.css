@@ -19,7 +19,9 @@
 .container {
     margin: 0 auto;
 }
-
+.border-bottom-footer{
+    border-bottom: 1px solid #a6a5a5;
+}
 
 .row {
     display: flex;
@@ -276,7 +278,9 @@
     .container {
         max-width: 720px;
     }
-
+    .foot-links:hover .foot-items{
+        color: #B3D6D0;
+    }
     .col-md-1 {
         width: calc(100% / 12 * 1);
     }
