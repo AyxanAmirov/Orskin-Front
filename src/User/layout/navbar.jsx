@@ -39,7 +39,7 @@ function Navbar() {
                   Blog
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  Contact
+                  <Link to="/contact">Contact</Link>
                 </li>
                 <li>
                   {" "}

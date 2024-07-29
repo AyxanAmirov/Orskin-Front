@@ -5,6 +5,7 @@ import Layout from "./User/layout/layout";
 import ScrollToTop from "./providers/scrollToTop/scroll";
 import About from "./User/pages/about/about";
 import Services from "./User/pages/services/services";
+import Contact from "./User/pages/contact/contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </ScrollToTop>
