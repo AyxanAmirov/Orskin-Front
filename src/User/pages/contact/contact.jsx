@@ -5,7 +5,6 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import LeafletMap from "../../components/map/map";
 
 function Contact() {
   return (
@@ -111,8 +110,15 @@ function Contact() {
           </div>
         </div>
       </div>
-      <LeafletMap/>
-    </>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.4424300213145!2d55.261461775164456!3d25.222019177695024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f425bd2f81ec1%3A0x6b2f70c7bbe69233!2s285d%20Al%20Wasl%20Rd%20-%20Al%20Bada'a%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2saz!4v1722337468106!5m2!1sen!2saz"
+        width="100%"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>    </>
   );
 }
 

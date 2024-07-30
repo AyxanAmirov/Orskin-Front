@@ -36,7 +36,7 @@ function Navbar() {
                   Shop
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  Blog
+                  <Link to="/blog">Blog</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/contact">Contact</Link>

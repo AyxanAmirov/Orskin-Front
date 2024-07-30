@@ -6,6 +6,7 @@ import ScrollToTop from "./providers/scrollToTop/scroll";
 import About from "./User/pages/about/about";
 import Services from "./User/pages/services/services";
 import Contact from "./User/pages/contact/contact";
+import Blog from "./User/pages/blog/blog";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
         </Route>
       </Routes>
     </ScrollToTop>

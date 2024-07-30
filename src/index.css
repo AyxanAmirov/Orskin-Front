@@ -140,7 +140,12 @@
 .flex-direction-column {
     flex-direction: column;
 }
-
+.bt-blog{
+    border-top: 2px solid #AAD7D2;
+}
+.bb-blog{
+    border-bottom: 2px solid #AAD7D2;
+}
 .opacity-1 {
     opacity: .1;
 }
