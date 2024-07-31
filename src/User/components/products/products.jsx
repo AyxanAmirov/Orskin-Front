@@ -22,7 +22,7 @@ function Products({ product }) {
         </div>
       </div>
 
-      <p className="font-[400] mt-2">{product.title}</p>
+      <p className="font-[400] mt-2 text-center">{product.title}</p>
       <p className="text-[#a5a7aa] text-[13px]">{product.price}</p>
     </div>
   );

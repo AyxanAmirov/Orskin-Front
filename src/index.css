@@ -136,7 +136,9 @@
 .d-block {
     display: block;
 }
-
+.pagination{
+    border: 1px solid #AAD7D2;
+}
 .flex-direction-column {
     flex-direction: column;
 }

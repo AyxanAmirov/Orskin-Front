@@ -7,6 +7,7 @@ import About from "./User/pages/about/about";
 import Services from "./User/pages/services/services";
 import Contact from "./User/pages/contact/contact";
 import Blog from "./User/pages/blog/blog";
+import Shop from "./User/pages/shop/shop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/shop" element={<Shop />} />
         </Route>
       </Routes>
     </ScrollToTop>

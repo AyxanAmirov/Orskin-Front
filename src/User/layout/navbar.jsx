@@ -33,7 +33,7 @@ function Navbar() {
                   <Link to="/services">Services</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  Shop
+                  <Link to="/shop">Shop</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/blog">Blog</Link>
