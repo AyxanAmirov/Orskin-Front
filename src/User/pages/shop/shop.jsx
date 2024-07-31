@@ -226,7 +226,9 @@ function Shop() {
           </div>
           <div className="col-lg-3 relative">
             <div className="sticky top-[30px] ">
-              <h3 className="text-[26px] font-[600] text-[#AAD7D2] mb-[30px]">Filter</h3>
+              <h3 className="text-[26px] font-[600] text-[#AAD7D2] mb-[30px]">
+                Filter
+              </h3>
               <Accordion allowToggle>
                 <AccordionItem>
                   <h2>

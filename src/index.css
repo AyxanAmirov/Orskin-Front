@@ -19,6 +19,16 @@
 .container {
     margin: 0 auto;
 }
+.border-cart{
+    border: 1px solid #E2E2E2;
+}
+.border-cart-head{
+    border-bottom: 1px solid #E2E2E2;
+}
+.border-cart-num{
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
 .custom-scrollbar::-webkit-scrollbar {
     width: 8px;
     height: 8px;

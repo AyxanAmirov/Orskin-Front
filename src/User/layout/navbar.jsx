@@ -42,11 +42,10 @@ function Navbar() {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  {" "}
-                  <FontAwesomeIcon
+                 <Link to="/cart"> <FontAwesomeIcon
                     icon={faCartShopping}
                     className="text-white text-[18px] hover:text-[black] transition-all duration-700"
-                  />
+                  /></Link>
                 </li>
               </ul>
               <form className="flex">
