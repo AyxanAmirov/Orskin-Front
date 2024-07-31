@@ -225,8 +225,8 @@ function Shop() {
             </div>
           </div>
           <div className="col-lg-3 relative">
-            <div className="sticky top-[10px] ">
-              <h3 className="text-[26px] font-[600] text-[#AAD7D2] ">Filter</h3>
+            <div className="sticky top-[30px] ">
+              <h3 className="text-[26px] font-[600] text-[#AAD7D2] mb-[30px]">Filter</h3>
               <Accordion allowToggle>
                 <AccordionItem>
                   <h2>
@@ -237,11 +237,27 @@ function Shop() {
                       <AccordionIcon />
                     </AccordionButton>
                   </h2>
-                  <AccordionPanel pb={4}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <AccordionPanel
+                    pb={4}
+                    display={"flex"}
+                    flexDirection={"column"}
+                    gap={"20px"}
+                    maxHeight={"400px"}
+                    overflow={"auto"}
+                    className="custom-scrollbar"
+                  >
+                    <div className="flex gap-[10px]">
+                      <input type="checkbox" />
+                      <label className="text-[13px]">Random</label>
+                    </div>
+                    <div className="flex gap-[10px]">
+                      <input type="checkbox" />
+                      <label className="text-[13px]">Random</label>
+                    </div>
+                    <div className="flex gap-[10px]">
+                      <input type="checkbox" />
+                      <label className="text-[13px]">Random</label>
+                    </div>
                   </AccordionPanel>
                 </AccordionItem>
 
@@ -249,12 +265,29 @@ function Shop() {
                   <h2>
                     <AccordionButton>
                       <Box as="span" flex="1" textAlign="left">
-                        By brand{" "}
+                        By brand
                       </Box>
                       <AccordionIcon />
                     </AccordionButton>
                   </h2>
-                  <AccordionPanel pb={4}></AccordionPanel>
+                  <AccordionPanel
+                    pb={4}
+                    display={"flex"}
+                    flexDirection={"column"}
+                    gap={"20px"}
+                    maxHeight={"400px"}
+                    overflow={"auto"}
+                    className="custom-scrollbar"
+                  >
+                    <div className="flex gap-[10px]">
+                      <input type="checkbox" />
+                      <label className="text-[13px]">Random</label>
+                    </div>
+                    <div className="flex gap-[10px]">
+                      <input type="checkbox" />
+                      <label className="text-[13px]">Random</label>
+                    </div>
+                  </AccordionPanel>
                 </AccordionItem>
               </Accordion>
             </div>
