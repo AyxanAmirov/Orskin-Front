@@ -208,8 +208,8 @@ function Shop() {
   return (
     <div className="my-[50px]">
       <div className="container">
-        <div className="flex gap-[40px]">
-          <div className="col-lg-9">
+        <div className="flex flex-wrap gap-[40px]">
+          <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-[50px] gap-[30px]">
               {currentProduct.map((product, index) => (
                 <Products key={index} product={product} />
@@ -224,7 +224,7 @@ function Shop() {
               />
             </div>
           </div>
-          <div className="col-lg-3 relative">
+          <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 relative">
             <div className="sticky top-[30px] ">
               <h3 className="text-[26px] font-[600] text-[#AAD7D2] mb-[30px]">
                 Filter

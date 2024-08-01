@@ -10,11 +10,11 @@ function Blog() {
         <img src={NewWalpaper} alt="new" />
       </div>
       <div className="bb-blog pb-[50px] mt-[30px] mb-[90px]">
-        <div className="flex">
-          <div className="col-lg-6">
+        <div className="flex flex-wrap">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <img src={BlogImg} alt="blog" />
           </div>
-          <div className="col-lg-6 ">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
             <div className="h-full w-full flex flex-col justify-between">
               <div className="max-w-[500px]">
                 <div className="bt-blog mt-[60px] ">
@@ -29,7 +29,7 @@ function Blog() {
                   </div>
                 </div>
               </div>
-              <button className="w-fit bg-[#a8d4cc]  self-end py-[10px] px-[25px] font-[600] text-[#ffffff] uppercase text-[20px] duration-[.4s] hover:bg-[black] hover:text-[#a8d4cc]">
+              <button className="w-fit bg-[#a8d4cc]  self-end xl:py-[10px] lg:py-[10px] md:py-[10px] py-[8px] xl:px-[25px] lg:px-[25px] px-[20px] md:px-[25px] font-[600] text-[#ffffff] uppercase xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[17px] text-[17px]  duration-[.4s] hover:bg-[black] hover:text-[#a8d4cc]">
                 Read More
               </button>
             </div>

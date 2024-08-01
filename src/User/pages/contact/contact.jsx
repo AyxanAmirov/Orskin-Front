@@ -22,14 +22,14 @@ function Contact() {
               className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]"
             />
             <div className="flex gap-[3px]">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <input
                   type="number"
                   placeholder="Phone Number"
                   className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]"
                 />
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <input
                   type="email"
                   placeholder="@  Email*"
