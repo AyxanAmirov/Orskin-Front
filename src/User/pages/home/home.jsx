@@ -10,14 +10,12 @@ import Products from "../../components/products/products.jsx";
 import { Link } from "react-router-dom";
 import Slider from "../../components/slider/slider.jsx";
 import axios from "axios";
-//home slider
 const slides = [
   { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner1.jpg" },
   { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner2.jpg" },
   { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner3.jpg" },
 ];
 
-//shop products
 const productData = [
   {
     imgSrc:
@@ -40,7 +38,6 @@ const productData = [
 ];
 
 function Home() {
-  //slider
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -86,7 +83,7 @@ function Home() {
           <h4 className="font-bold text-[18px] text-center">
             WE BRING YOU THE BEST IN SKINCARE PRODUCTS
           </h4>
-          <div className="grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
+          <div className="grid max-w-[1140px] w-[90%] m-auto grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
             {productData.map((product, index) => (
               <Products key={index} product={product} />
             ))}

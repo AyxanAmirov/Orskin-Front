@@ -126,6 +126,7 @@ function Cart() {
                 <p className="text-[14px] text-[#A5A7AA] font-[600]">AED 793.09</p>
               </div>
             </div>
+          
             <div className="flex flex-col gap-[10px] mt-[30px]">
               <button className="w-full uppercase text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 update cart

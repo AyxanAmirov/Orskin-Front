@@ -35,7 +35,7 @@ function Services() {
     <section>
       <HomeSlider slides={slides} />
       <div className="container">
-        <div className="grid grid-cols-3 gap-[30px]">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-[30px] lg:w-full md:w-full xl:w-full xl:max-w-full lg:max-w-full md:max-w-full max-w-[1140px] w-[60%] m-auto mb-[50px]">
           <ViewCard />
           <ViewCard />
           <ViewCard />

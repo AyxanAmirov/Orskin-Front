@@ -14,10 +14,10 @@ function Navbar() {
   return (
     <nav className="navBody relative w-full bg-[#B3D6D0] py-[40px] px-[60px] ">
       <div className="container">
-        <div className="flex  justify-between">
+        <div className="flex items-center  justify-between">
           <div className="col-lg-2">
             <Link to={"/"}>
-              <img src={Logo} alt="company" />
+              <img src={Logo} alt="company" className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full "/>
             </Link>
           </div>
           <div className="col-lg-8 menu-hidden">
