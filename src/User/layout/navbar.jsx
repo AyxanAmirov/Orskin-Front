@@ -17,7 +17,11 @@ function Navbar() {
         <div className="flex items-center  justify-between">
           <div className="col-lg-2">
             <Link to={"/"}>
-              <img src={Logo} alt="company" className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full "/>
+              <img
+                src={Logo}
+                alt="company"
+                className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full "
+              />
             </Link>
           </div>
           <div className="col-lg-8 menu-hidden">
@@ -42,10 +46,13 @@ function Navbar() {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                 <Link to="/cart"> <FontAwesomeIcon
-                    icon={faCartShopping}
-                    className="text-white text-[18px] hover:text-[black] transition-all duration-700"
-                  /></Link>
+                  <Link to="/cart">
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faCartShopping}
+                      className="text-white text-[18px] hover:text-[black] transition-all duration-700"
+                    />
+                  </Link>
                 </li>
               </ul>
               <form className="flex">
@@ -86,16 +93,16 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    Services
+                    <Link to="/services">Services</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    Shop
+                    <Link to="/shop">Shop</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    Blog
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    Contact
+                    <Link to="/contact">Contact</Link>
                   </li>
                   <li className="py-2">
                     <FontAwesomeIcon
