@@ -41,8 +41,8 @@ function Cart() {
           </tbody>
         </table>
       </div>
-      <div className="flex gap-[50px] mb-[70px] ">
-        <div className="col-lg-6">
+      <div className="flex justify-center xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap gap-[50px] mb-[70px] ">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <div className="border-[1px] border-[#E2E2E2] border-solid p-[30px]">
             <h3 className="text-[#9AD6CC] mb-[30px] text-[25px] border-b-[1px] border-[#E2E2E2] border-solid pb-[10px]">
               Calculate shipping
@@ -99,7 +99,7 @@ function Cart() {
             </div>
           </form>
         </div>
-        <div className="col-lg-6">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <div className="h-full border-[1px] border-[#E2E2E2] border-solid p-[30px]">
             <h3 className="text-[#9AD6CC] mb-[30px] text-[25px] border-b-[1px] border-[#E2E2E2] border-solid pb-[10px]">
               Cart totals
@@ -123,10 +123,12 @@ function Cart() {
               </div>
               <div className="flex justify-between">
                 <p>Total </p>
-                <p className="text-[14px] text-[#A5A7AA] font-[600]">AED 793.09</p>
+                <p className="text-[14px] text-[#A5A7AA] font-[600]">
+                  AED 793.09
+                </p>
               </div>
             </div>
-          
+
             <div className="flex flex-col gap-[10px] mt-[30px]">
               <button className="w-full uppercase text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 update cart

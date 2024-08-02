@@ -5,20 +5,32 @@ import {
   faCartShopping,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
-import "./product.css"
+import "./product.css";
+import { Link } from "react-router-dom";
 function Products({ product }) {
   return (
     <div className="flex flex-col items-center">
       <div className="card relative ">
         <img src={product.imgSrc} alt="product" className="w-full" />
+
         <div className="overlay absolute  inset-0 bg-[#B3D6D0] "></div>
         <div className="icons absolute right-[30px] top-[20px] flex flex-col gap-[20px] ">
-          <FontAwesomeIcon icon={faEye} className="text-[grey] text-[23px] cursor-pointer" />
+          <Link to="/details">
+            <FontAwesomeIcon
+              icon={faEye}
+              className="text-[grey] text-[23px] cursor-pointer"
+            />
+          </Link>
+          <Link to="/cart">
+            <FontAwesomeIcon
+              icon={faCartShopping}
+              className="text-[grey] text-[23px] cursor-pointer"
+            />
+          </Link>
           <FontAwesomeIcon
-            icon={faCartShopping}
+            icon={faHeart}
             className="text-[grey] text-[23px] cursor-pointer"
           />
-          <FontAwesomeIcon icon={faHeart} className="text-[grey] text-[23px] cursor-pointer" />
         </div>
       </div>
 

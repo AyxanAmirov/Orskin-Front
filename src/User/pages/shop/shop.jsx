@@ -208,7 +208,7 @@ function Shop() {
   return (
     <div className="my-[50px]">
       <div className="container">
-        <div className="flex flex-wrap gap-[40px]">
+        <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap gap-[40px]">
           <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-[50px] gap-[30px]">
               {currentProduct.map((product, index) => (

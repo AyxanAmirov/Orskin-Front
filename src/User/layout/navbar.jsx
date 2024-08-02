@@ -105,10 +105,12 @@ function Navbar() {
                     <Link to="/contact">Contact</Link>
                   </li>
                   <li className="py-2">
-                    <FontAwesomeIcon
-                      icon={faCartShopping}
-                      className="text-white text-[18px] hover:text-[black] transition-all duration-700"
-                    />
+                    <Link to="/cart">
+                      <FontAwesomeIcon
+                        icon={faCartShopping}
+                        className="text-white text-[18px] hover:text-[black] transition-all duration-700"
+                      />
+                    </Link>
                   </li>
                 </ul>
               </Box>
