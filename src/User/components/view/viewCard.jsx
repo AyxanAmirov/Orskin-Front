@@ -9,9 +9,9 @@ function ViewCard() {
             src="https://orskin.ae/wp-content/uploads/2023/12/Botox.jpg"
             alt="services"
           />
-          <p className="text-center text-[18px]">LASER</p>
+          <p className="text-center xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[15px]">LASER</p>
         </div>
-        <Link to="" className="bg-[#EDE1D4] py-[15px] text-center font-[600]">
+        <Link to="" className="bg-[#EDE1D4] xl:py-[15px] lg:py-[15px] md:py-[15px] sm:py-[15px] py-[10px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[13px] text-center font-[600]">
           View Menu
         </Link>
       </div>

@@ -47,8 +47,8 @@ function Contact() {
               </button>
             </div>
           </form>
-          <div className="flex w-[600px] justify-between">
-            <div className="col-lg-6 flex flex-col gap-[30px] ">
+          <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap gap-[30px]">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  flex flex-col gap-[30px] ">
               <div className="flex gap-[30px] items-center">
                 <FontAwesomeIcon
                   icon={faLocationDot}
@@ -77,7 +77,7 @@ function Contact() {
                 <p className=" text-[14px]">info@orskin.ae</p>
               </div>
             </div>
-            <div className="col-lg-6 flex flex-col gap-[40px] ">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  flex flex-col gap-[40px] ">
               <h3 className="text-[22px] text-[#B3D6D0]">We are open</h3>
               <p className="text-[22px] text-[#B3D6D0]">
                 Monday to Saturday

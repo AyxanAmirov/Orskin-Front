@@ -18,24 +18,24 @@ function Products({ product }) {
           <Link to="/details">
             <FontAwesomeIcon
               icon={faEye}
-              className="text-[grey] text-[23px] cursor-pointer"
+              className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
             />
           </Link>
           <Link to="/cart">
             <FontAwesomeIcon
               icon={faCartShopping}
-              className="text-[grey] text-[23px] cursor-pointer"
+              className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
             />
           </Link>
           <FontAwesomeIcon
             icon={faHeart}
-            className="text-[grey] text-[23px] cursor-pointer"
+            className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
           />
         </div>
       </div>
 
-      <p className="font-[400] mt-2 text-center">{product.title}</p>
-      <p className="text-[#a5a7aa] text-[13px]">{product.price}</p>
+      <p className="font-[400] mt-2 text-center xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[16px] text-[10px]">{product.title}</p>
+      <p className="text-[#a5a7aa] xl:text-[13px] lg:text-[13px] md:text-[13px] sm:text-[13px] text-[8px]">{product.price}</p>
     </div>
   );
 }

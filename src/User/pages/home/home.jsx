@@ -77,10 +77,10 @@ function Home() {
           </div>
         </div>
         <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
-          <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[45px] uppercase">
+          <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[33px]  uppercase">
             Shop
           </h2>
-          <h4 className="font-bold text-[18px] text-center">
+          <h4 className="font-bold xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[13px] text-center">
             WE BRING YOU THE BEST IN SKINCARE PRODUCTS
           </h4>
           <div className="grid max-w-[1140px] w-[90%] m-auto grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">

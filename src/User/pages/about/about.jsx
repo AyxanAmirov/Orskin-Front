@@ -37,7 +37,7 @@ function About({}) {
         <div className="flex flex-col items-center gap-[50px]">
           <div className="flex flex-wrap justify-center mt-[70px] xl:gap-0 lg:gap-0 md:gap-[30px] sm:gap-[30px] gap-[30px]">
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-              <p className="px-[50px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px]">
+              <p className="xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px]">
                 At Orskin, we are driven to help you to achieve your vision of
                 well-being and beauty. Our approach to skincare services is to
                 provide you with an array of holistic and personalized
@@ -52,7 +52,7 @@ function About({}) {
               </p>
             </div>
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-              <p className="px-[50px] text-[#B3D6D0] xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px]  leading-[32px]">
+              <p className="xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] text-[#B3D6D0] xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px]  leading-[32px]">
                 Our highly experienced skincare experts are qualified and
                 trained in Europe, US and Asia. Some of our signature services
                 include Advalight Laser, Neurotris Microcurrent Facial, and
@@ -62,17 +62,17 @@ function About({}) {
           </div>
           <h2 className="xl:text-[44px] lg:text-[44px] md:text-[44px] sm:text-[40px] text-[40px] text-[#9AD6CC]">MEET OUR TEAM</h2>
           <div className="flex flex-wrap justify-center lg:gap-[30px] xl:gap-[30px] md:gap-[50px] sm:gap-[50px] gap-[50px]  " >
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 px-[30px]">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]">
               <img src={TeamPerson} alt="person" className="w-full"/>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[20px]  xl:pr-[60px] lg:pr-[60px] xl:pl-[0px] lg:pl-[0px] md:pl-[50px] md:pr-[50px] sm:pl-[50px] sm:pr-[50px] pl-[50px] pr-[50px] ">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[20px]  xl:pr-[60px] lg:pr-[60px] xl:pl-[0px] lg:pl-[0px] md:pl-[50px] md:pr-[50px] sm:pl-[50px] sm:pr-[50px]  ">
               <h3 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]">
                 Orsolya Matheisz
               </h3>
               <h4 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#BCBEC0]">
                 Co-Founder
               </h4>
-              <p className="xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px] pr-[25px] ">
+              <p className="xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px] xl:pr-[25px] lg:pr-[25px] md:pr-[25px] sm:pr-[25px] ">
                 Introducing our Co-Founder Orsolya Matheisz, also known as Orsi,
                 a licensed aesthetician from Hungary with a passion for beauty
                 and wellness. With over 18 years of experience in beauty, facial
@@ -86,7 +86,7 @@ function About({}) {
             </div>
           </div>
           <div className="flex justify-center flex-wrap lg:gap-[0px] xl:gap-[0px] md:gap-[50px] sm:gap-[50px] gap-[50px]">
-            <div className="lg:order-1 xl:order-1 order-2 col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[30px] px-[50px] ">
+            <div className="lg:order-1 xl:order-1 order-2 col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[30px] xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] ">
               <h3 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]">
                 Dr. Gustavo Mazariegos
               </h3>
@@ -102,15 +102,15 @@ function About({}) {
                 Surgeon.
               </p>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 px-[30px]">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]">
               <img src={DoctorGustavo} alt="doctor" className="w-full"/>
             </div>
           </div>
           <div className="flex lg:gap-[30px] xl:gap-[30px] md:gap-[50px] sm:gap-[50px] gap-[50px]  flex-wrap justify-center ">
-            <div className="col-lg-5  col-md-12 col-sm-12 col-12 px-[30px]">
+            <div className="col-lg-5  col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]">
               <img src={DoctorAsima} alt="person" className="w-full"/>
             </div>
-            <div className="col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[20px]  xl:pr-[60px] lg:pr-[60px] xl:pl-[0px] lg:pl-[0px] md:pl-[50px] md:pr-[50px] sm:pl-[50px] sm:pr-[50px] pl-[50px] pr-[50px]">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[20px]  xl:pr-[60px] lg:pr-[60px] xl:pl-[0px] lg:pl-[0px] md:pl-[50px] md:pr-[50px] sm:pl-[50px] sm:pr-[50px] ">
               <h3 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]">
                 DR. Asima Nasir
               </h3>

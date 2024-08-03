@@ -49,6 +49,7 @@ function ProductDetails() {
             <h2 className="text-[#9ad6cc] text-[22px]">
               Epicuren – Silk Radience 3-in-1 Cleansing Oil
             </h2>
+           
             <p className="text-[#A5A7AA] text-[13px]">AED 496.32 + VAT</p>
             <p className="max-w-[350px] leading-[3rem]">
               Awaken your skin’s natural suppleness and dissolve impurities with

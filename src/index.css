@@ -196,10 +196,10 @@
         display: none;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
 
     .container {
-        max-width: auto;
+        max-width: 80%;
     }
     
     .d-none-m{
@@ -256,7 +256,7 @@
 }
 
   
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 640px) {
     .container {
         max-width: 540px;
     }
@@ -367,7 +367,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     .container {
         max-width: 960px;
     }
@@ -423,7 +423,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .container {
         max-width: 1140px;
     }
