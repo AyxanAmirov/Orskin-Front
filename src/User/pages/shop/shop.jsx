@@ -208,6 +208,7 @@ function Shop() {
   return (
     <div className="mt-[230px] mb-[50px]">
       <div className="container">
+        <h2 className="text-center font-[500] xl:text-[40px] lg:text-[40px] text-[30px] mb-[20px]">Shop</h2>
         <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap gap-[40px]">
           <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-[50px] gap-[30px]">

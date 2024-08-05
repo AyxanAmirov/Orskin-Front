@@ -30,7 +30,7 @@ function GoTop() {
   return (
     showButton && (
       <div
-        className="fixed right-10 bottom-[90px] px-[15px] py-[10px] bg-[#70BEBB] cursor-pointer"
+        className="fixed right-7 bottom-[90px] px-[15px] py-[10px] bg-[#70BEBB] cursor-pointer"
         onClick={scrollToTop}
       >
         <FontAwesomeIcon icon={faArrowUp} className="text-white text-[18px]" />
