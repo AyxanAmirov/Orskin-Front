@@ -4,8 +4,8 @@ import BlogImg from "../../assets/images/WhatsApp-Image-2024-06-28-at-11.45.00-1
 import { Link } from "react-router-dom";
 function Blog() {
   return (
-    <div className="container">
-      <div className="mt-[50px] flex flex-col items-center">
+    <div className="container ">
+      <div className="mt-[230px] flex flex-col items-center">
         <h1 className="font-[400 ] text-[30px]">OUR BLOG</h1>
         <img src={NewWalpaper} alt="new" />
       </div>

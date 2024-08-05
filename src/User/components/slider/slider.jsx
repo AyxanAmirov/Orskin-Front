@@ -25,11 +25,11 @@ const Slider = ({data}) => {
       {data.length > 0 && (
         <div className="container flex flex-col items-center">
           <div className="max-w-[700px] flex flex-col gap-[60px] text-center">
-            <h3 className="text-[40px] text-[#2f2f2f]">WHAT OUR CLIENTS SAY</h3>
-            <p className="text-xl text-[#393939] font-bold">
+            <h3 className="xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[22px] text-[22px] text-[#2f2f2f]">WHAT OUR CLIENTS SAY</h3>
+            <p className="xl:text-xl lg:text-xl md:text-xl sm:text-[15px] text-[15px] text-[#393939] font-bold">
               {data[currentIndex]?.desc}
             </p>
-            <h5 className="font-[400] tracking-[5px]">
+            <h5 className="font-[400] tracking-[5px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[14px]">
               {data[currentIndex]?.author}
             </h5>
           </div>

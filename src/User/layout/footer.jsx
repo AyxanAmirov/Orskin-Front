@@ -20,7 +20,7 @@ function Footer() {
                   className="flex justify-center  xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent duration-[.4s]"
                 >
                   <li className="text-white  md:hover:text-[black] sm:hover:text-[black] hover:text-[black] xl:hover:text-[white] lg:hover:text-[white] transition-all duration-700  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] uppercase w-fit">
-                    Home
+                    <Link to={"/"}>Home</Link>
                   </li>
                 </Link>
                 <Link
@@ -28,7 +28,7 @@ function Footer() {
                   className="flex justify-center xl:py-[0] lg:py-[0] sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent duration-[.4s]"
                 >
                   <li className="text-white  hover:text-[black] xl:hover:text-[white]  transition-all duration-700  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] uppercase w-fit">
-                    CONTACT
+                    <Link to={"/contact"}>CONTACT</Link>
                   </li>
                 </Link>
                 <Link

@@ -12,7 +12,7 @@ function Contact() {
       <img src={Banner} alt="banner" className="w-full" />
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-[50px] my-[70px]">
-          <h2 className="text-[#8B8B8B] text-[45px]">
+          <h2 className="text-[#8B8B8B] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[28px] text-[28px]">
             EXPERIENCE THE ORSKIN DIFFERENCE
           </h2>
           <form className="w-full mb-[40px] flex flex-col gap-[30px]">

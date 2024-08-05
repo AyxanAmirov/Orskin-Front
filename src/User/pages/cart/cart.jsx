@@ -24,12 +24,12 @@ const productData = [
 function Cart() {
   return (
     <div className="container">
-      <div className="my-[120px] border-cart">
-        <h2 className="text-[#9AD6CC] text-[26px] border-cart-head">
+      <div className="mt-[250px] mb-[120px] border-cart">
+        <h2 className="text-[#9AD6CC] xl:text-[26px] lg:text-[26px] md:text-[26px] text-[22px] border-cart-head">
           You Have 2 Items In Your Cart
         </h2>
         <table className="w-full text-left">
-          <thead className=" border-cart-head">
+          <thead className=" border-cart-head xl:table-header-group lg:table-header-group hidden">
             <th className="py-[10px]">Product</th>
             <th className="py-[10px]">Price</th>
             <th className="py-[10px]">Quantity</th>
@@ -74,7 +74,7 @@ function Cart() {
                   />
                 </div>
               </div>
-              <button className="bg-[#9ad6cc] py-[10px] px-[35px] rounded-[4px] text-[white] self-end duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+              <button className="bg-[#9ad6cc] xl:text-[16px] lg:text-[16px] text-[14px] py-[10px] px-[35px] rounded-[4px] text-[white] self-end duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 Update
               </button>
             </form>
@@ -83,16 +83,16 @@ function Cart() {
             <h3 className="text-[#9AD6CC] mb-[30px] text-[25px] border-b-[1px] border-[#E2E2E2] border-solid pb-[10px]">
               Have A Promotional Code?
             </h3>
-            <div className="flex gap-[20px] items-center">
-              <div className="col-lg-6">
+            <div className="flex xl:flex-nowrap lg:flex-nowrap  flex-wrap gap-[20px] items-center">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <input
                   type="text"
                   placeholder="Cupon code"
                   className="w-full border-[1px] px-[8px] rounded-tl-[5px] rounded-[5px] border-[#E2E2E2] border-solid py-[10px] focus:outline-none focus:border-[green]"
                 />
               </div>
-              <div className="col-lg-6">
-                <button className="w-full text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+              <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <button className="w-full text-[14px]  bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                   APPLY CUPON
                 </button>
               </div>
@@ -130,10 +130,10 @@ function Cart() {
             </div>
 
             <div className="flex flex-col gap-[10px] mt-[30px]">
-              <button className="w-full uppercase text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+              <button className="w-full uppercase xl:text-[14px] lg:text-[14px] text-[12px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 update cart
               </button>
-              <button className="w-full uppercase text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+              <button className="w-full uppercase xl:text-[14px] lg:text-[14px] text-[12px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 proceed to checkout
               </button>
             </div>

@@ -206,7 +206,7 @@ function Shop() {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="my-[50px]">
+    <div className="mt-[230px] mb-[50px]">
       <div className="container">
         <div className="flex xl:flex-nowrap lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap gap-[40px]">
           <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
