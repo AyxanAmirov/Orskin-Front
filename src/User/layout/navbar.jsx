@@ -1,39 +1,57 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faCartShopping, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faCartShopping, faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
-function Navbar() {
+
+function Navbar({ setIsVisible, isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      setIsVisible(false);
+    } else {
+      setIsVisible(true);
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', controlNavbar);
+    return () => {
+      window.removeEventListener('scroll', controlNavbar);
+    };
+  }, [lastScrollY]);
+
   return (
-    <nav className="navBody relative w-full bg-[#B3D6D0] py-[40px] px-[60px] ">
+    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'transform-none opacity-100' : '-translate-y-full opacity-0'}`}>
       <div className="container">
-        <div className="flex items-center  justify-between">
+        <div className="flex items-center justify-between">
           <div className="col-lg-2">
             <Link to={"/"}>
               <img
                 src={Logo}
                 alt="company"
-                className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full "
+                className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full"
               />
             </Link>
           </div>
           <div className="col-lg-8 menu-hidden">
             <div className="flex px-[40px] justify-between flex-col items-end w-full gap-[20px]">
               <ul className="flex w-full justify-between items-center">
-                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase ">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/">Home</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/about">About us</Link>
                 </li>
-                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px]  font-[600] uppercase">
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/services">Services</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
@@ -47,7 +65,6 @@ function Navbar() {
                 </li>
                 <li>
                   <Link to="/cart">
-                    {" "}
                     <FontAwesomeIcon
                       icon={faCartShopping}
                       className="text-white text-[18px] hover:text-[black] transition-all duration-700"
@@ -64,14 +81,14 @@ function Navbar() {
                 <div className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[10px] rounded-br-[10px] flex items-center">
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
-                    className="text-white "
+                    className="text-white"
                   />
                 </div>
               </form>
             </div>
           </div>
           {/* //toggle menu */}
-          <div className=" xl:hidden lg:hidden text-end">
+          <div className="xl:hidden lg:hidden text-end">
             <IconButton
               aria-label="Toggle menu"
               icon={<FontAwesomeIcon icon={faBars} />}
