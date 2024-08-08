@@ -43,8 +43,12 @@
     background-color: #f1f1f1;
     border-radius: 4px;
   }
-  
-
+  .active{
+    font-weight: bold;
+}
+.text-shadow{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #fff, 0 0 82px #fff, 0 0 92px #fff;;
+}
 .row {
     display: flex;
     flex-wrap: wrap;

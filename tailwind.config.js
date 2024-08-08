@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'walpaper': "url('/src/User/assets/images/walpaper-1.jpg')",
+        'service': "url('/src/User/assets/images/servce-sub-bg.jpg')"
       }
     },
   },

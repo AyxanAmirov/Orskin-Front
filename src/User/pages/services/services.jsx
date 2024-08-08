@@ -15,7 +15,6 @@ const slides = [
 
 function Services() {
   const [data, setData] = useState([]);
-
   useEffect(() => {
     const getData = async () => {
       try {
@@ -31,6 +30,7 @@ function Services() {
 
     getData();
   }, []);
+
   return (
     <section>
       <HomeSlider slides={slides} />

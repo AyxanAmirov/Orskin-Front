@@ -15,7 +15,7 @@ function Layout() {
       </div>
       <Outlet />
       <GoTop />
-      <Whatsapp/>
+      <Whatsapp />
       <Footer />
     </>
   );

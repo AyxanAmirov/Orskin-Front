@@ -10,6 +10,8 @@ import Blog from "./User/pages/blog/blog";
 import Shop from "./User/pages/shop/shop";
 import Cart from "./User/pages/cart/cart";
 import ProductDetails from "./User/pages/details/productDetails";
+import ServiceLayout from "./User/layoutService/serviceLayout";
+import ServiceLaser from "./User/pages/serviceLaser/serviceLaser";
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/details" element={<ProductDetails />} />
+          <Route path="/services/laser" element={<ServiceLayout/>}>
+             <Route index element={<ServiceLaser/>}/>
+          </Route>
         </Route>
       </Routes>
     </ScrollToTop>
