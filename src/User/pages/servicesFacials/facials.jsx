@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServiceLaser() {
+function Facials() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function ServiceLaser() {
   )
 }
 
-export default ServiceLaser
+export default Facials

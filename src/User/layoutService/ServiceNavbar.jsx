@@ -1,11 +1,24 @@
 import React from "react";
 import Service from "../assets/images/choose-your-department (1).png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+
 function ServiceNavbar() {
+  const location = useLocation();
+
+  const images = {
+    "/services/laser": "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg",
+    "/services/slimming": "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Slimming_Banner.jpg",
+    "/services/aesthetics": "https://orskin.ae/wp-content/uploads/2023/12/orskin-aesthetics.jpg",
+    "/services/facials": "https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg",
+    "/services/wellness": "https://orskin.ae/wp-content/uploads/2023/07/wellness-banner.jpg",
+  };
+
+  const currentImage = images[location.pathname] || "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg"; 
+
   return (
     <div className="mt-[175px]">
       <img
-        src="https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg"
+        src={currentImage}
         alt="cover"
       />
       <div className="container">

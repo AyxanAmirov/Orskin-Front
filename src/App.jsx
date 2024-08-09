@@ -12,6 +12,10 @@ import Cart from "./User/pages/cart/cart";
 import ProductDetails from "./User/pages/details/productDetails";
 import ServiceLayout from "./User/layoutService/serviceLayout";
 import ServiceLaser from "./User/pages/serviceLaser/serviceLaser";
+import Slimming from "./User/pages/ServiceSlimming/slimming";
+import Aesthetics from "./User/pages/serviceAesthetics/aesthetics";
+import Facials from "./User/pages/servicesFacials/facials";
+import Wellness from "./User/pages/serviceWellness/wellness";
 
 function App() {
   return (
@@ -20,14 +24,18 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/details" element={<ProductDetails />} />
-          <Route path="/services/laser" element={<ServiceLayout/>}>
-             <Route index element={<ServiceLaser/>}/>
+          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<ServiceLayout />}>
+            <Route path="laser" element={<ServiceLaser />} />
+            <Route path="slimming" element={<Slimming />} />
+            <Route path="aesthetics" element={<Aesthetics />} />
+            <Route path="facials" element={<Facials />} />
+            <Route path="wellness" element={<Wellness />} />
           </Route>
         </Route>
       </Routes>
