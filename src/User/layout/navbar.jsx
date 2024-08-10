@@ -75,10 +75,10 @@ function Navbar({ setIsVisible, isVisible }) {
               <form className="flex">
                 <input
                   type="text"
-                  className="rounded-l-[10px] rounded-bl-[10px] p-[10px] h-[50px] w-[250px]"
+                  className="rounded-l-[7px] rounded-bl-[7px] p-[10px] h-[50px] w-[250px]"
                   placeholder="Search..."
                 />
-                <div className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[10px] rounded-br-[10px] flex items-center">
+                <div className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[7px] rounded-br-[7px] flex items-center">
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
                     className="text-white"
