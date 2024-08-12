@@ -59,7 +59,12 @@
 .d-flex {
     display: flex;
 }
-
+.chakra-accordion__item,.css-17mg6aq{
+    border: none!important;
+}
+.chakra-accordion__button,.css-uttm9k:hover{
+    background-color: transparent !important ;
+}
 .green {
     color: green;
 }
