@@ -10,7 +10,7 @@ function Layout() {
 
   return (
     <>
-      <div className={isVisible && "mb-[130px]"}>
+      <div className={isVisible && "mb-[176px]"}>
         <Navbar setIsVisible={setIsVisible} isVisible={isVisible} />
       </div>
       <Outlet />

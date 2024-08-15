@@ -14,22 +14,22 @@ function Products({ product }) {
         <img src={product.imgSrc} alt="product" className="w-full" />
 
         <div className="overlay absolute  inset-0 bg-[#B3D6D0] "></div>
-        <div className="icons absolute right-[30px] top-[20px] flex flex-col gap-[20px] ">
+        <div className="icons absolute right-[30px] top-[20px] flex flex-col gap-[14px] ">
           <Link to="/details">
             <FontAwesomeIcon
               icon={faEye}
-              className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
+              className="text-[#ffff] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] cursor-pointer hover:text-[#9AD6CC] duration-[.3s]"
             />
           </Link>
           <Link to="/cart">
             <FontAwesomeIcon
               icon={faCartShopping}
-              className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
+              className="text-[#ffff] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] cursor-pointer hover:text-[#9AD6CC] duration-[.3s]"
             />
           </Link>
           <FontAwesomeIcon
             icon={faHeart}
-            className="text-[grey] xl:text-[23px] lg:text-[23px] md:text-[23px] sm:text-[23px] text-[18px] cursor-pointer"
+            className="text-[#ffff] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[20px] text-[18px] cursor-pointer hover:text-[#9AD6CC] duration-[.3s]"
           />
         </div>
       </div>
