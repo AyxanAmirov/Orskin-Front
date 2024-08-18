@@ -3,6 +3,7 @@ import HomeSlider from "../../components/HomeSlider/HomeSlider";
 import ViewCard from "../../components/view/viewCard";
 import axios from "axios";
 import Slider from "../../components/slider/slider";
+import ServicesCards from "../../components/allServices/servicesCards";
 const slides = [
   { image: "https://orskin.ae/wp-content/uploads/2023/07/laser-banner.jpg" },
   { image: "https://orskin.ae/wp-content/uploads/2023/07/slimming-banner.jpg" },
@@ -11,6 +12,29 @@ const slides = [
   },
   { image: "https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg" },
   { image: "https://orskin.ae/wp-content/uploads/2023/07/wellness-banner.jpg" },
+];
+
+const services = [
+  {
+    img: "https://orskin.ae/wp-content/uploads/2023/12/AdvaTX.jpg",
+    title: "Laser",
+  },
+  {
+    img: "https://orskin.ae/wp-content/uploads/2023/12/AdvaTX.jpg",
+    title: "Slimming",
+  },
+  {
+    img: "https://orskin.ae/wp-content/uploads/2023/12/AdvaTX.jpg",
+    title: "Aesthetics",
+  },
+  {
+    img: "https://orskin.ae/wp-content/uploads/2023/12/AdvaTX.jpg",
+    title: "Facials",
+  },
+  {
+    img: "https://orskin.ae/wp-content/uploads/2023/12/AdvaTX.jpg",
+    title: "Wellness",
+  },
 ];
 
 function Services() {
@@ -34,14 +58,12 @@ function Services() {
   return (
     <section>
       <HomeSlider slides={slides} />
-      <div className="container">
+      <div className="max-w-[1000px] w-[90%] m-auto">
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-[30px] w-full   mb-[50px]">
-          <ViewCard />
-          <ViewCard />
-          <ViewCard />
-          <ViewCard />
-          <ViewCard />
-          <ViewCard />
+          {services?.map((service) => (
+            <ViewCard service={service} />
+          ))}
+          <ServicesCards/>
         </div>
       </div>
       <Slider data={data} />

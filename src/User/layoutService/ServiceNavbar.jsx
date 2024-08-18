@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Service from "../assets/images/choose-your-department (1).png";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -12,8 +12,9 @@ function ServiceNavbar() {
     "/services/facials": "https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg",
     "/services/wellness": "https://orskin.ae/wp-content/uploads/2023/07/wellness-banner.jpg",
   };
+  let currentImage = images[location.pathname]||  "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg"; 
 
-  const currentImage = images[location.pathname] || "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg"; 
+
 
   return (
     <div className="mt-[175px]">

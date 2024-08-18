@@ -16,6 +16,7 @@ import Slimming from "./User/pages/ServiceSlimming/slimming";
 import Aesthetics from "./User/pages/serviceAesthetics/aesthetics";
 import Facials from "./User/pages/servicesFacials/facials";
 import Wellness from "./User/pages/serviceWellness/wellness";
+import LatestOffers from "./User/pages/lstestService/latestOffers";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
             <Route path="facials" element={<Facials />} />
             <Route path="wellness" element={<Wellness />} />
           </Route>
+          <Route path="services/latest-offers" element={<LatestOffers />} />
+
         </Route>
       </Routes>
     </ScrollToTop>

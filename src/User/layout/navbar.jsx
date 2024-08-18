@@ -5,29 +5,13 @@ import { faMagnifyingGlass, faCartShopping, faBars } from "@fortawesome/free-sol
 import { Link } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
 
-function Navbar({ setIsVisible, isVisible }) {
+function Navbar({  isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  // const controlNavbar = () => {
-  //   if (window.scrollY > lastScrollY) {
-  //     setIsVisible(false);
-  //   } else {
-  //     setIsVisible(true);
-  //   }
-  //   setLastScrollY(window.scrollY);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', controlNavbar);
-  //   return () => {
-  //     window.removeEventListener('scroll', controlNavbar);
-  //   };
-  // }, [lastScrollY]);
 
   return (
     <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'transform-none opacity-100' : '-translate-y-full opacity-0'}`}>

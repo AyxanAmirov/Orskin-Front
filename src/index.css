@@ -55,7 +55,9 @@
     margin-right: -15px;
     margin-left: -15px;
 }
-
+.custom-shadow-1{
+    box-shadow: 2px 2px 3px 4px #ddd
+}
 .d-flex {
     display: flex;
 }
@@ -68,6 +70,9 @@
 .green {
     color: green;
 }
+.custom-transition {
+    transition: background-color 0.4s ease, color 0 ;
+  }
 
 .text-center {
     text-align: center;
