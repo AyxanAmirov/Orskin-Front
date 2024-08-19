@@ -6,7 +6,7 @@ import GoTop from "../components/goToTop/goTop";
 import Whatsapp from "../components/whatsapp/whatsapp";
 
 function Layout() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
