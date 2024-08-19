@@ -560,15 +560,18 @@ a {
 
 
 .nav-none {
-    /* display: none; */
     top: -300px;
     transition: all .4s;
 }
 
 .nav-block {
-    /* display: block; */
     top: 0px;
     transition: all .4s;
+}
 
 
+@media screen and (min-width:768px) {
+    .footer-menu>a {
+        width: auto !important;
+    }
 }

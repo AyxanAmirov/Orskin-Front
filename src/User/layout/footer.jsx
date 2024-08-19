@@ -14,10 +14,10 @@ function Footer() {
         <div className="flex flex-col  gap-[20px]">
           <div className="flex flex-wrap justify-between text-center items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <ul className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap  xl:gap-[20px] lg:gap-[20px]">
+              <ul className=" footer-menu flex xl:flex-nowrap lg:flex-nowrap flex-wrap  xl:gap-[20px] lg:gap-[20px]">
                 <Link
                   to="/"
-                  className="flex justify-center  col-sm-12  xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition"
+                  className="flex justify-center  col-sm-12 col-12 col-md-12 xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition"
                 >
                   <li className="  md:hover:text-[black] sm:hover:text-[black] hover:text-[black] xl:hover:text-[white] lg:hover:text-[white] transition-all duration-700  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] uppercase w-fit">
                     <Link to={"/"}>Home</Link>
@@ -25,7 +25,7 @@ function Footer() {
                 </Link>
                 <Link
                   to=""
-                  className="flex justify-center  col-sm-12  xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition"
+                  className="flex justify-center  col-sm-12 col-12 col-md-12 xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition"
                 >
                   <li className="  hover:text-[black]   transition-all duration-700  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] uppercase w-fit">
                     <Link to={"/contact"}>CONTACT</Link>
@@ -33,7 +33,7 @@ function Footer() {
                 </Link>
                 <Link
                   to=""
-                  className="flex justify-center  col-sm-12  xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition "
+                  className="flex justify-center  col-sm-12 col-12 col-md-12 xl:py-[0] lg:py-[0] md:border-bottom-footer sm:border-bottom-footer border-bottom-footer lg:border-none xl:border-none  md:py-[20px] sm:py-[20px] py-[20px] text-white md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:bg-transparent lg:hover:bg-transparent  hover:text-[#9ad6cc] xl:hover:text-white lg:hover:text-white  custom-transition "
                 >
                   <li className=" md:hover:text-[black] sm:hover:text-[black] hover:text-[black] transition-all duration-700  text-[18px] uppercase w-fit ">
                     TERMS AND CONDITIONS
