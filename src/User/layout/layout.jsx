@@ -9,22 +9,22 @@ function Layout() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > lastScrollY) {
-  //       setIsVisible(false);
-  //     } else {
-  //       setIsVisible(true);
-  //     }
-  //     setLastScrollY(window.scrollY);
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
 
-  //   window.onscroll = handleScroll;
+    window.onscroll = handleScroll;
 
-  //   return () => {
-  //     window.onscroll = null;
-  //   };
-  // }, [lastScrollY]);
+    return () => {
+      window.onscroll = null;
+    };
+  }, [lastScrollY]);
 
   return (
     <>
