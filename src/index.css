@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 
-  
-
+@font-face {
+    font-family: 'Raleway';
+    src: url('./User/assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    font-family: "Raleway"!important;
+}
 .navBody::after{
    content: "";
    position: absolute; 
