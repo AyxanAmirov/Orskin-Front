@@ -5,7 +5,7 @@ import { faMagnifyingGlass, faCartShopping, faBars } from "@fortawesome/free-sol
 import { Link } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
 
-function Navbar({  isVisible }) {
+function Navbar({ isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -14,7 +14,7 @@ function Navbar({  isVisible }) {
 
 
   return (
-    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'transform-none opacity-100' : '-translate-y-full opacity-0'}`}>
+    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="col-lg-2">

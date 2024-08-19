@@ -10,21 +10,15 @@ function Layout() {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
+    window.onscroll = () => {
+      setLastScrollY(window.scrollY - 1)
       if (window.scrollY > lastScrollY) {
-        setIsVisible(false);
+        setIsVisible(true)
       } else {
-        setIsVisible(true);
+        setIsVisible(false)
       }
-      setLastScrollY(window.scrollY);
     };
-
-    window.onscroll = handleScroll;
-
-    return () => {
-      window.onscroll = null;
-    };
-  }, [lastScrollY]);
+  }, [window, scrollY]);
 
   return (
     <>
