@@ -17,6 +17,8 @@ import Aesthetics from "./User/pages/serviceAesthetics/aesthetics";
 import Facials from "./User/pages/servicesFacials/facials";
 import Wellness from "./User/pages/serviceWellness/wellness";
 import LatestOffers from "./User/pages/lstestService/latestOffers";
+import Terms from "./User/pages/terms/terms";
+import TermOfUse from "./User/pages/termOfUse/termOfUse";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/details" element={<ProductDetails />} />
+          <Route path="/terms-and-policy" element={<Terms />} />
+          <Route path="/term-of-use" element={<TermOfUse />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services" element={<ServiceLayout />}>
             <Route path="laser" element={<ServiceLaser />} />

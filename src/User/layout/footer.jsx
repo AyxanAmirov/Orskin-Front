@@ -14,16 +14,31 @@ function Footer() {
         <div className="flex flex-col  gap-[20px]">
           <div className="flex flex-wrap justify-between text-center items-center">
             <ul className=" col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 flex xl:flex-nowrap lg:flex-nowrap flex-wrap  xl:gap-[20px] lg:gap-[20px] text-[#fff]">
-              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]">
-                <Link to={"/"} className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]">Home</Link>
+              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
+                <Link
+                  to={"/"}
+                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                >
+                  Home
+                </Link>
               </li>
 
-              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]">
-                <Link to={"/contact"} className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]">CONTACT</Link>
+              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
+                <Link
+                  to={"/contact"}
+                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                >
+                  CONTACT
+                </Link>
               </li>
 
-              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]">
-                <Link to={"/"} className="hover:text-[black] duration-[.3s]  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]">TERMS AND CONDITIONS</Link>
+              <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
+                <Link
+                  to={"/terms-and-policy"}
+                  className="hover:text-[black] duration-[.3s]  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                >
+                  TERMS AND CONDITIONS
+                </Link>
               </li>
             </ul>
             <div className="col-lg-2 col-md-12 col-sm-12 col-12">

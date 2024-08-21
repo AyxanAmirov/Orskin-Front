@@ -11,11 +11,11 @@ function Layout() {
 
   useEffect(() => {
     window.onscroll = () => {
-      setLastScrollY(window.scrollY - 1)
+      setLastScrollY(window.scrollY - 1);
       if (window.scrollY > lastScrollY) {
-        setIsVisible(true)
+        setIsVisible(true);
       } else {
-        setIsVisible(false)
+        setIsVisible(false);
       }
     };
   }, [window, scrollY]);
