@@ -14,7 +14,7 @@ function Terms() {
             </div>
             <p className="text-[18px] font-[500]">Terms of Use</p>
           </Link>
-          <Link to={"/"} className="cursor-pointer p-[40px] bg-[#F6F6F6] flex flex-col items-center gap-[20px] transition-shadow  duration-300 hover:shadow-[0_12px_24px_rgba(0,0,0,0.35)]  ">
+          <Link to={"/terms-supply"} className="cursor-pointer p-[40px] bg-[#F6F6F6] flex flex-col items-center gap-[20px] transition-shadow  duration-300 hover:shadow-[0_12px_24px_rgba(0,0,0,0.35)]  ">
             <div className="bg-[#9AD6CC] w-[60px] h-[60px] rounded-[50%] flex items-center justify-center">
               <FontAwesomeIcon icon={faBasketShopping} className="text-[white] text-[25px]" />
             </div>
@@ -26,12 +26,12 @@ function Terms() {
             </div>
             <p className="text-[18px] font-[500]">Privacy Policy</p>
           </Link>
-          <div className="cursor-pointer p-[40px] bg-[#F6F6F6] flex flex-col items-center gap-[20px] transition-shadow  duration-300 hover:shadow-[0_12px_24px_rgba(0,0,0,0.35)]  ">
+          <Link to={"/cookie-policy"} className="cursor-pointer p-[40px] bg-[#F6F6F6] flex flex-col items-center gap-[20px] transition-shadow  duration-300 hover:shadow-[0_12px_24px_rgba(0,0,0,0.35)]  ">
             <div className="bg-[#9AD6CC] w-[60px] h-[60px] rounded-[50%] flex items-center justify-center">
               <FontAwesomeIcon icon={faGear} className="text-[white] text-[25px]" />
             </div>
             <p className="text-[18px] font-[500]">Cookie Policy</p>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

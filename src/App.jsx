@@ -20,6 +20,8 @@ import LatestOffers from "./User/pages/lstestService/latestOffers";
 import Terms from "./User/pages/terms/terms";
 import TermOfUse from "./User/pages/termOfUse/termOfUse";
 import Privacy from "./User/pages/privacy/privacy";
+import Supply from "./User/pages/termsSupply/supply";
+import Cookie from "./User/pages/cookiePolicy/cookie";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
           <Route path="/terms-and-policy" element={<Terms />} />
           <Route path="/term-of-use" element={<TermOfUse />} />
           <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/terms-supply" element={<Supply />} />
+          <Route path="/cookie-policy" element={<Cookie />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services" element={<ServiceLayout />}>
             <Route path="laser" element={<ServiceLaser />} />
