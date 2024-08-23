@@ -10,6 +10,8 @@ import Products from "../../components/products/products.jsx";
 import { Link } from "react-router-dom";
 import Slider from "../../components/slider/slider.jsx";
 import axios from "axios";
+import HomeService from "../../components/homeService/home.jsx";
+
 const slides = [
   { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner1.jpg" },
   { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner2.jpg" },
@@ -60,7 +62,15 @@ function Home() {
   return (
     <>
       <HomeSlider slides={slides} />
-      <div className="w-full h-[500px] bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px]"></div>
+      <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
+        <div className="max-w-[1100px] w-[65%] m-auto">
+          <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
+            <HomeService />
+            <HomeService />
+            <HomeService />
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="flex  w-full justify-center pb-[40px]">
           <div className="col-lg-9 col-md-9 col-sm-9 col-9 ">

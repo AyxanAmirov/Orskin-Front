@@ -30,35 +30,35 @@ function ServiceNavbar() {
             </h1>
             <img src={Service} alt="service" />
           </div>
-          <div className="col-lg-6">
-            <ul className="flex justify-between">
+          <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+            <ul className="flex  justify-between ">
               <NavLink
                 to={"/services/laser"}
-                className="text-[#949598] font-[400] uppercase"
+                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
               >
                 Laser
               </NavLink>
               <NavLink
                 to={"/services/slimming"}
-                className="text-[#949598] font-[400] uppercase"
+                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
               >
                 SLIMMING
               </NavLink>
               <NavLink
                 to={"/services/aesthetics"}
-                className="text-[#949598] font-[400] uppercase"
+                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
               >
                 AESTHETICS
               </NavLink>
               <NavLink
                 to={"/services/facials"}
-                className="text-[#949598] font-[400] uppercase"
+                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
               >
                 FACIALS
               </NavLink>
               <NavLink
                 to={"/services/wellness"}
-                className="text-[#949598] font-[400] uppercase"
+                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
               >
                 WELLNESS
               </NavLink>

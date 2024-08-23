@@ -22,14 +22,14 @@ const HomeSlider = ({ slides }) => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden group">
+    <div className="relative w-full h-[550px] overflow-hidden group">
       <div
-        className="flex transition-transform duration-500 ease-in-out"
+        className="flex transition-transform duration-500 ease-in-out h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         {slides.map((slide, index) => (
-          <div key={index} className="w-full flex-shrink-0">
-            <img src={slide.image} alt={`slide ${index}`} className="w-full" />
+          <div key={index} className="w-full h-full flex-shrink-0">
+            <img src={slide.image} alt={`slide ${index}`} className="w-full h-full object-cover" />
           </div>
         ))}
       </div>
