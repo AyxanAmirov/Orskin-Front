@@ -22,7 +22,7 @@ const HomeSlider = ({ slides }) => {
   };
 
   return (
-    <div className="relative w-full h-[550px] overflow-hidden group">
+    <div className="relative w-full xl:h-[550px] lg:h-[550px] md:h-[450px] sm:h-[350px] h-[190px] overflow-hidden group">
       <div
         className="flex transition-transform duration-500 ease-in-out h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}

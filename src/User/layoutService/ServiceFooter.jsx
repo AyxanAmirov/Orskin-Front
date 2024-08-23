@@ -12,7 +12,7 @@ function ServiceFooter() {
     <div className="my-[40px]">
       <div className="w-full bg-service bg-no-repeat bg-center bg-cover py-[60px] text-center">
         <div className="container">
-          <p className="xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[33px] text-[28px] font-[450] leading-[55px] text-shadow">
+          <p className="xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[33px] text-[25px] font-[450] leading-[55px] text-shadow">
             <span className="font-[600]">Everything</span> we do is <br />
             designed to <span className="font-[600]">beautify</span> you.
           </p>
