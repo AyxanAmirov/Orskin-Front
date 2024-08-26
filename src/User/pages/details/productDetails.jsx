@@ -36,15 +36,15 @@ const productData = [
 ];
 function ProductDetails() {
   return (
-    <div className="container pb-[50px]">
-      <div className="flex gap-[20px]">
-        <div className="col-lg-4">
+    <div className="container !mt-[190px] pb-[50px]">
+      <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap gap-[20px]">
+        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
           <img
             src="https://orskin.ae/wp-content/uploads/2024/06/Silk-radience-3-in-1-cleansing-oil-500x500.webp"
             alt="product"
           />
         </div>
-        <div className="col-lg-8 my-[45px]">
+        <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 my-[45px]">
           <div className="flex flex-col gap-[20px]">
             <h2 className="text-[#9ad6cc] text-[22px]">
               Epicuren – Silk Radience 3-in-1 Cleansing Oil
@@ -72,7 +72,7 @@ function ProductDetails() {
                 </span>
               </div>
               <div className="col-lg-10">
-                <button className="w-full text-[14px] bg-[#9ad6cc] py-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+                <button className="w-full text-[14px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                   Add To Card
                 </button>
               </div>
