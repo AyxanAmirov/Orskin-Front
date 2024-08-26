@@ -20,7 +20,7 @@ function Blog() {
                 <div className="bt-blog mt-[60px] ">
                   <div className="px-[30px]">
                     <h3 className="text-[30px] font-[600] mb-[20px] hover:text-[#9AD6CC] duration-[.4s]">
-                      <Link>Platelet Rich Fibrin (PRF) Plasmagel</Link>
+                      <Link to={"/blog-detail"}>Platelet Rich Fibrin (PRF) Plasmagel</Link>
                     </h3>
                     <p className="text-[#555555]">
                       Gently exfoliate away dull, dead skin with the
@@ -29,9 +29,9 @@ function Blog() {
                   </div>
                 </div>
               </div>
-              <button className="w-fit bg-[#a8d4cc]  self-end xl:py-[10px] lg:py-[10px] md:py-[10px] py-[8px] xl:px-[25px] lg:px-[25px] px-[20px] md:px-[25px] font-[600] text-[#ffffff] uppercase xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[17px] text-[17px]  duration-[.4s] hover:bg-[black] hover:text-[#a8d4cc]">
+              <Link to={"/blog-detail"} className="w-fit bg-[#a8d4cc]  self-end xl:py-[10px] lg:py-[10px] md:py-[10px] py-[8px] xl:px-[25px] lg:px-[25px] px-[20px] md:px-[25px] font-[600] text-[#ffffff] uppercase xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[17px] text-[17px]  duration-[.4s] hover:bg-[black] hover:text-[#a8d4cc]">
                 Read More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
