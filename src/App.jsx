@@ -23,6 +23,7 @@ import Privacy from "./User/pages/privacy/privacy";
 import Supply from "./User/pages/termsSupply/supply";
 import Cookie from "./User/pages/cookiePolicy/cookie";
 import BlogDetail from "./User/pages/blogDetail/blogDetail";
+import Checkout from "./User/pages/checkOut/checkot";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/terms-supply" element={<Supply />} />
           <Route path="/cookie-policy" element={<Cookie />} />
           <Route path="/blog-detail" element={<BlogDetail />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services" element={<ServiceLayout />}>
             <Route path="laser" element={<ServiceLaser />} />

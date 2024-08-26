@@ -1,5 +1,6 @@
 import React from "react";
 import CartProduct from "../../components/cartProduct/cartProduct";
+import { Link } from "react-router-dom";
 const productData = [
   {
     imgSrc:
@@ -133,9 +134,9 @@ function Cart() {
               <button className="w-full uppercase xl:text-[14px] lg:text-[14px] text-[12px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
                 update cart
               </button>
-              <button className="w-full uppercase xl:text-[14px] lg:text-[14px] text-[12px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc]">
+              <Link to={"/checkout"} className="w-full uppercase xl:text-[14px] lg:text-[14px] text-[12px] bg-[#9ad6cc] py-[10px] px-[10px]  rounded-[4px] text-[white] duration-[.4s] hover:bg-black hover:text-[#9ad6cc] text-center">
                 proceed to checkout
-              </button>
+              </Link>
             </div>
           </div>
         </div>
