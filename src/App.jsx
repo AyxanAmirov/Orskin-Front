@@ -24,6 +24,8 @@ import Supply from "./User/pages/termsSupply/supply";
 import Cookie from "./User/pages/cookiePolicy/cookie";
 import BlogDetail from "./User/pages/blogDetail/blogDetail";
 import Checkout from "./User/pages/checkOut/checkot";
+import Fav from "./User/pages/fav/fav";
+import Search from "./User/pages/search/search";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/fav" element={<Fav />} />
+          <Route path="/search" element={<Search />} />
           <Route path="/details" element={<ProductDetails />} />
           <Route path="/terms-and-policy" element={<Terms />} />
           <Route path="/term-of-use" element={<TermOfUse />} />

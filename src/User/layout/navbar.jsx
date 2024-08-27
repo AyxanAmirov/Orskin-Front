@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faCartShopping, faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { faMagnifyingGlass, faCartShopping, faBars, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { Link, useNavigate } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
 
 function Navbar({ isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
-
+   const Navigate = useNavigate()
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-
+const goSearch = ()=>{
+  Navigate("/search")
+}
   return (
     <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
@@ -55,19 +57,27 @@ function Navbar({ isVisible }) {
                     />
                   </Link>
                 </li>
+                <li>
+                  <Link to="/fav">
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="text-white text-[18px] hover:text-[black] transition-all duration-700"
+                    />
+                  </Link>
+                </li>
               </ul>
-              <form className="flex">
+              <form className="flex" onSubmit={goSearch}>
                 <input
                   type="text"
                   className="rounded-l-[7px] rounded-bl-[7px] p-[10px] h-[50px] w-[250px]"
                   placeholder="Search..."
                 />
-                <div className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[7px] rounded-br-[7px] flex items-center">
+                <button className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[7px] rounded-br-[7px] flex items-center">
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
                     className="text-white"
                   />
-                </div>
+                </button>
               </form>
             </div>
           </div>
