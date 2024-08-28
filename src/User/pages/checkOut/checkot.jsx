@@ -6,7 +6,7 @@ function Checkout() {
     <div className="mt-[230px] mb-[80px]">
       <div className="container">
         <div className="border-[1px] border-solid border-[#E2E2E2] py-[15px] px-[8px]">
-          <div className="flex justify-between items-center">
+          <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap  xl:justify-between lg:justify-between justify-center items-center">
             <h2 className="text-[#9AD6CC] text-[23px]">
               Have A Promotional Code?
             </h2>
@@ -19,21 +19,21 @@ function Checkout() {
                 />
               </div>
               <div className="col-lg-5">
-                <button className="w-full bg-[#9ad6cc] py-[8px] rounded-[5px] text-[#fff] tetx-[14px] px-[13px]">
+                <button className="w-full bg-[#9ad6cc] py-[8px] rounded-[5px] text-[#fff] text-[14px] px-[13px]">
                   Apply Coupon
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex mt-[50px] gap-[40px]">
-          <div className="col-lg-6">
+        <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap mt-[50px] gap-[40px]">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
             <form className="flex flex-col gap-[20px] border-[1px] border-solid border-[#E2E2E2] p-[20px] ">
               <h3 className="pb-[10px] border-b-[1px] border-b-solid border-b-[#E2E2E2] text-[#9AD6CC] text-[18px]">
                 Billing details
               </h3>
-              <div className="flex gap-[20px]">
-                <div className="col-lg-6">
+              <div className="flex gap-[20px] xl:flex-nowrap lg:flex-nowrap md:flex-nowrap flex-wrap">
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                   <label htmlFor="firstName" className="text-[14px]">
                     First Name*
                   </label>
@@ -43,7 +43,7 @@ function Checkout() {
                     className="w-full focus:outline-[#3ebb3e] border-[1px] border-solid border-[#E2E2E2] py-[12px] px-[8px] rounded-[7px]"
                   />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                   <label htmlFor="name" className="text-[14px]">
                     Name*
                   </label>
@@ -148,13 +148,13 @@ function Checkout() {
               </div>
             </form>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
             <form className="flex flex-col gap-[20px] border-[1px] border-solid border-[#E2E2E2] p-[20px] ">
               <h3 className="pb-[10px] border-b-[1px] border-b-solid border-b-[#E2E2E2] text-[#9AD6CC] text-[18px]">
-                Billing details
+              Ship to a different address?
               </h3>
-              <div className="flex gap-[20px]">
-                <div className="col-lg-6">
+              <div className="flex gap-[20px] xl:flex-nowrap lg:flex-nowrap md:flex-nowrap flex-wrap">
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                   <label htmlFor="firstName" className="text-[14px]">
                     First Name*
                   </label>
@@ -164,7 +164,7 @@ function Checkout() {
                     className="w-full focus:outline-[#3ebb3e] border-[1px] border-solid border-[#E2E2E2] py-[12px] px-[8px] rounded-[7px]"
                   />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                   <label htmlFor="name" className="text-[14px]">
                     Name*
                   </label>
