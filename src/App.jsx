@@ -7,9 +7,6 @@ import About from "./User/pages/about/about";
 import Services from "./User/pages/services/services";
 import Contact from "./User/pages/contact/contact";
 import Blog from "./User/pages/blog/blog";
-import Shop from "./User/pages/shop/shop";
-import Cart from "./User/pages/cart/cart";
-import ProductDetails from "./User/pages/details/productDetails";
 import ServiceLayout from "./User/layoutService/serviceLayout";
 import ServiceLaser from "./User/pages/serviceLaser/serviceLaser";
 import Slimming from "./User/pages/ServiceSlimming/slimming";
@@ -23,8 +20,6 @@ import Privacy from "./User/pages/privacy/privacy";
 import Supply from "./User/pages/termsSupply/supply";
 import Cookie from "./User/pages/cookiePolicy/cookie";
 import BlogDetail from "./User/pages/blogDetail/blogDetail";
-import Checkout from "./User/pages/checkOut/checkot";
-import Fav from "./User/pages/fav/fav";
 import Search from "./User/pages/search/search";
 
 function App() {
@@ -36,18 +31,13 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/fav" element={<Fav />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/details" element={<ProductDetails />} />
           <Route path="/terms-and-policy" element={<Terms />} />
           <Route path="/term-of-use" element={<TermOfUse />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/terms-supply" element={<Supply />} />
           <Route path="/cookie-policy" element={<Cookie />} />
           <Route path="/blog-detail" element={<BlogDetail />} />
-          <Route path="/checkout" element={<Checkout />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services" element={<ServiceLayout />}>
             <Route path="laser" element={<ServiceLaser />} />

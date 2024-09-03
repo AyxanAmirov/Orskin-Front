@@ -41,30 +41,16 @@ const goSearch = ()=>{
                   <Link to="/services">Services</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  <Link to="/shop">Shop</Link>
-                </li>
-                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li>
-                  <Link to="/cart">
-                    <FontAwesomeIcon
-                      icon={faCartShopping}
-                      className="text-white text-[18px] hover:text-[black] transition-all duration-700"
-                    />
-                  </Link>
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
+                  <Link to="/">Shop</Link>
                 </li>
-                <li>
-                  <Link to="/fav">
-                    <FontAwesomeIcon
-                      icon={faHeart}
-                      className="text-white text-[18px] hover:text-[black] transition-all duration-700"
-                    />
-                  </Link>
-                </li>
+                
+                
               </ul>
               <form className="flex" onSubmit={goSearch}>
                 <input

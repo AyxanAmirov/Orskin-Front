@@ -36,7 +36,7 @@ function About({}) {
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">
           <div className="flex flex-wrap justify-center mt-[70px] xl:gap-0 lg:gap-0 md:gap-[30px] sm:gap-[30px] gap-[30px]">
-            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+            <div  className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
               <p className="xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px]">
                 At Orskin, we are driven to help you to achieve your vision of
                 well-being and beauty. Our approach to skincare services is to
@@ -51,7 +51,7 @@ function About({}) {
                 great!
               </p>
             </div>
-            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+            <div  className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
               <p className="xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] text-[#B3D6D0] xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px]  leading-[32px]">
                 Our highly experienced skincare experts are qualified and
                 trained in Europe, US and Asia. Some of our signature services
