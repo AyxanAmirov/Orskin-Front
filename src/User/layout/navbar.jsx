@@ -7,16 +7,16 @@ import { Box, IconButton } from "@chakra-ui/react";
 
 function Navbar({ isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
-   const Navigate = useNavigate()
+  const Navigate = useNavigate()
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-const goSearch = ()=>{
-  Navigate("/search")
-}
+  const goSearch = () => {
+    Navigate("/search")
+  }
   return (
-    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[40px] px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
+    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="col-lg-2">
@@ -49,8 +49,8 @@ const goSearch = ()=>{
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/">Shop</Link>
                 </li>
-                
-                
+
+
               </ul>
               <form className="flex" onSubmit={goSearch}>
                 <input

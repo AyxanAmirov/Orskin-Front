@@ -14,9 +14,10 @@
 }
 
 .card:hover .overlay {
-    opacity: .6;
+    opacity: 1;
     visibility: visible;
     transform: translateX(0);
+    text-transform: uppercase;
 }
 .card:hover .icons{
     opacity: 1;

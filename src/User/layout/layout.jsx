@@ -11,14 +11,15 @@ function Layout() {
 
   useEffect(() => {
     window.onscroll = () => {
-      setLastScrollY(window.scrollY - 1);
-      if (window.scrollY > lastScrollY) {
+      setLastScrollY(window.pageYOffset - 1)
+      console.log(window.pageYOffset);
+      if (window.pageYOffset > lastScrollY) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     };
-  }, [window, scrollY]);
+  }, [window.scrollY]);
 
   return (
     <>

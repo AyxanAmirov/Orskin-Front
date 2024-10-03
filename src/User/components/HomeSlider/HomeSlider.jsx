@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { slides } from "../../../data/data";
 
-const HomeSlider = ({ slides }) => {
+const HomeSlider = () => {
+
+
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -22,14 +25,14 @@ const HomeSlider = ({ slides }) => {
   };
 
   return (
-    <div className="relative w-full xl:h-[550px] lg:h-[550px] md:h-[450px] sm:h-[350px] h-[190px] overflow-hidden group">
+    <div className="relative w-full xl:h-[480px] lg:h-[450px] md:h-[430px] sm:h-[350px] h-[190px] overflow-hidden group">
       <div
         className="flex transition-transform duration-500 ease-in-out h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
-        {slides.map((slide, index) => (
-          <div key={index} className="w-full h-full flex-shrink-0">
-            <img src={slide.image} alt={`slide ${index}`} className="w-full h-full object-cover" />
+        {slides.map(slide => (
+          <div key={slide.id} className="w-full h-full flex-shrink-0">
+            <img src={slide.image} alt={`slide ${slide.id}`} className="w-full h-full object-cover" />
           </div>
         ))}
       </div>

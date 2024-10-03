@@ -1,91 +1,36 @@
 import React, { useEffect, useState } from "react";
 import HomeSlider from "../../components/HomeSlider/HomeSlider.jsx";
-import CosmeticMarka1 from "../../assets/images/dmg-logo.png";
-import CosmeticMarka2 from "../../assets/images/darma-logo copy.png";
-import CosmeticMarka3 from "../../assets/images/nano-logo.png";
-import CosmeticMarka4 from "../../assets/images/nuro-logo.png";
-import HomeBanner from "../../assets/images/facial-banner.jpg";
-import FacialTitle from "../../assets/images/facial-title.png";
 import Products from "../../components/products/products.jsx";
-import { Link } from "react-router-dom";
-import Slider from "../../components/slider/slider.jsx";
-import axios from "axios";
+import HomePartners from "../../components/homepartners/index.jsx";
 import HomeService from "../../components/homeService/home.jsx";
+import Slider from "../../components/slider/slider.jsx";
 
-const slides = [
-  { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner1.jpg" },
-  { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner2.jpg" },
-  { image: "https://orskin.ae/wp-content/uploads/2023/07/home-banner3.jpg" },
-];
+import { homeservice, productData } from "../../../data/data.jsx";
+import HomeBanner from "../../assets/image/facial-banner.jpg";
+import FacialTitle from "../../assets/image/facial-title.png";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
-const productData = [
-  {
-    imgSrc:
-      "https://orskin.ae/wp-content/uploads/2024/06/Silk-radience-3-in-1-cleansing-oil-400x400.webp",
-    title: "Epicuren – Silk Radience 3-in-1 Cleansing Oil",
-    price: "AED 496.32 + VAT",
-  },
-  {
-    imgSrc:
-      "https://orskin.ae/wp-content/uploads/2024/06/Silk-radience-3-in-1-cleansing-oil-400x400.webp",
-    title: "Epicuren – Silk Radience 3-in-1 Cleansing Oil",
-    price: "AED 496.32 + VAT",
-  },
-  {
-    imgSrc:
-      "https://orskin.ae/wp-content/uploads/2024/06/Silk-radience-3-in-1-cleansing-oil-400x400.webp",
-    title: "Epicuren – Silk Radience 3-in-1 Cleansing Oil",
-    price: "AED 496.32 + VAT",
-  },
-];
+
+
+
 
 function Home() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await axios.get(
-          "https://6622d9c13e17a3ac846e1a5a.mockapi.io/books"
-        );
-        const result = response.data;
-
-        setData(result);
-      } catch (error) {
-        console.error("Veri çekme hatası:", error);
-      }
-    };
-
-    getData();
-  }, []);
 
   return (
     <>
-      <HomeSlider slides={slides} />
+      <HomeSlider />
       <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
-        <div className="max-w-[1100px] w-[65%] m-auto">
+        <div className="max-w-[1100px] m-auto">
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
-            <HomeService />
-            <HomeService />
-            <HomeService />
+            {
+              homeservice.map(item => <HomeService key={item.id} {...item} />)
+            }
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="flex  w-full justify-center pb-[40px]">
-          <div className="col-lg-9 col-md-9 col-sm-9 col-9 ">
-            <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 xl:gap-[30px] lg:gap-[30px] md:gap-[30px] sm:gap-[50px] gap-[50px] place-items-center  w-full  py-[30px] ">
-              <img src={CosmeticMarka1} alt="dmg" className="object-contain" />
-              <img
-                src={CosmeticMarka2}
-                alt="darma"
-                className="object-contain"
-              />
-              <img src={CosmeticMarka3} alt="nano" className="object-contain" />
-              <img src={CosmeticMarka4} alt="nuro" className="object-contain" />
-            </div>
-          </div>
-        </div>
+        <HomePartners />
         <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
           <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[33px]  uppercase">
             Shop
@@ -94,8 +39,8 @@ function Home() {
             WE BRING YOU THE BEST IN SKINCARE PRODUCTS
           </h4>
           <div className="grid max-w-[1140px] w-[90%] m-auto grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
-            {productData.map((product, index) => (
-              <Products key={index} product={product} />
+            {productData.map(product => (
+              <Products key={product.id} product={product} />
             ))}
           </div>
         </div>
@@ -131,7 +76,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Slider data={data} />
+      <Slider/>
     </>
   );
 }
