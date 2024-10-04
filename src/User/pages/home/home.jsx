@@ -10,6 +10,7 @@ import HomeBanner from "../../assets/image/facial-banner.jpg";
 import FacialTitle from "../../assets/image/facial-title.png";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import NewSlider from "../../components/slider/newSlider.jsx";
 
 
 
@@ -76,7 +77,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <Slider/>
+      <NewSlider />
+      {/* <Slider /> */}
     </>
   );
 }

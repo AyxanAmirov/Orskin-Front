@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { feedbacks } from "../../../data/data";
+import "./style.css"
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -23,7 +24,7 @@ const Slider = () => {
       }}
     >
       {feedbacks.length > 0 && (
-        <div className="container flex flex-col items-center">
+        <div className="container flex flex-col items-center feedback-item">
           <div className="max-w-[700px] flex flex-col gap-[60px] text-center">
             <h3 className="xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[22px] text-[22px] text-[#2f2f2f]">WHAT OUR CLIENTS SAY</h3>
             <p className="xl:text-xl lg:text-xl md:text-xl sm:text-[15px] text-[15px] text-[#393939] font-bold">
