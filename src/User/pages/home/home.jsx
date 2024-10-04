@@ -1,16 +1,13 @@
-import React, { useEffect, useState } from "react";
-import HomeSlider from "../../components/HomeSlider/HomeSlider.jsx";
+import React from "react";
 import Products from "../../components/products/products.jsx";
-import HomePartners from "../../components/homepartners/index.jsx";
 import HomeService from "../../components/homeService/home.jsx";
-import Slider from "../../components/slider/slider.jsx";
-
 import { homeservice, productData } from "../../../data/data.jsx";
 import HomeBanner from "../../assets/image/facial-banner.jpg";
 import FacialTitle from "../../assets/image/facial-title.png";
 import { Link } from "react-router-dom";
-import axios from "axios";
-import NewSlider from "../../components/slider/newSlider.jsx";
+import Banner from "../../components/banner/index.jsx";
+import Partners from "../../components/partners/index.jsx";
+import Feedbacks from "../../components/feedbacks/index.jsx";
 
 
 
@@ -20,8 +17,8 @@ function Home() {
 
   return (
     <>
-      <HomeSlider />
-      <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
+      <Banner />
+      <div data-aos="fade-up" className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
         <div className="max-w-[1100px] m-auto">
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
             {
@@ -31,7 +28,7 @@ function Home() {
         </div>
       </div>
       <div className="container">
-        <HomePartners />
+        <Partners />
         <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
           <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[33px]  uppercase">
             Shop
@@ -77,8 +74,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <NewSlider />
-      {/* <Slider /> */}
+      <Feedbacks />
     </>
   );
 }

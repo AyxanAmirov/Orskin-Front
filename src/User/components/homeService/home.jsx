@@ -1,6 +1,6 @@
 import React from "react";
 
-function HomeService({category, title}) {
+function HomeService({ category, title }) {
   return (
     <div className=" flex flex-col gap-[20px] bg-white border-r-solid border-r-[3px] border-r-[#D6D6D6] border-l-solid border-l-[3px] border-l-[#D6D6D6]">
       <div className="p-[30px]">

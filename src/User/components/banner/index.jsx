@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { slides } from "../../../data/data";
 
-const HomeSlider = () => {
+const Banner = () => {
 
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -55,4 +55,4 @@ const HomeSlider = () => {
   );
 };
 
-export default HomeSlider;
+export default Banner;

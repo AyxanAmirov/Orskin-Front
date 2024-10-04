@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import HomeSlider from "../../components/HomeSlider/HomeSlider";
+import HomeSlider from "../../components/banner";
 import ViewCard from "../../components/view/viewCard";
 import axios from "axios";
-import Slider from "../../components/slider/slider";
+import Slider from "../../components/feedbacks";
 import ServicesCards from "../../components/allServices/servicesCards";
 const slides = [
   { image: "https://orskin.ae/wp-content/uploads/2023/07/laser-banner.jpg" },
@@ -63,7 +63,7 @@ function Services() {
           {services?.map((service) => (
             <ViewCard service={service} />
           ))}
-          <ServicesCards/>
+          <ServicesCards />
         </div>
       </div>
       <Slider data={data} />
