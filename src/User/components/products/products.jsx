@@ -19,7 +19,7 @@ function Products({ product }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" data-aos="zoom-in">
       <div className="card relative ">
         <img src={product.imgSrc} alt="product" className="w-full" />
 

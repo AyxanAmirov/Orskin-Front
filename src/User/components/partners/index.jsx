@@ -27,10 +27,9 @@ function Partners() {
                 >
 
                     {
-                        partners.map(item => (
+                        partners.map((item, index) => (
                             <SwiperSlide>
-                                <img key={item.id} src={item.image} alt={item.title} className="object-contain" />
-
+                                <img key={item.id} src={item.image} alt={item.title} className="object-contain" data-aos="zoom-in" />
                             </SwiperSlide>
                         ))
                     }

@@ -17,7 +17,7 @@ function Footer() {
               <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
                 <Link
                   to={"/"}
-                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]" data-aos="zoom-in"
                 >
                   Home
                 </Link>
@@ -26,7 +26,7 @@ function Footer() {
               <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
                 <Link
                   to={"/contact"}
-                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                  className="hover:text-[black] duration-[.3s] xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]" data-aos="zoom-in"
                 >
                   CONTACT
                 </Link>
@@ -35,7 +35,7 @@ function Footer() {
               <li className=" xl:w-[max-content] lg:w-[max-content] md:w-full sm:w-full w-full  uppercase xl:py-0 lg:py-0 md:py-[20px] sm:py-[20px] py-[20px] xl:hover:bg-transparent lg:hover:bg-transparent md:hover:bg-white sm:hover:bg-white hover:bg-white xl:hover:text-[white] lg:hover:text-[white] md:hover:text-[#AAD7D2] sm:hover:text-[#AAD7D2] hover:text-[#AAD7D2] duration-[.4s] xl:border-none lg:border-none md:border-b-[1px] sm:border-b-[1px] border-b-[1px] border-[#999999]0">
                 <Link
                   to={"/terms-and-policy"}
-                  className="hover:text-[black] duration-[.3s]  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]"
+                  className="hover:text-[black] duration-[.3s]  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px]" data-aos="zoom-in"
                 >
                   TERMS AND CONDITIONS
                 </Link>
@@ -46,29 +46,29 @@ function Footer() {
                 <img
                   src={Visa}
                   alt="visa icon"
-                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]"
+                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
                 />
                 <img
                   src={MasterCard}
                   alt="mastercard icon"
-                  className="md:w-[80px] sm:w-[80px] w-[80px] xl:w-[40px] lg:w-[40px]"
+                  className="md:w-[80px] sm:w-[80px] w-[80px] xl:w-[40px] lg:w-[40px]" data-aos="zoom-in"
                 />
                 <img
                   src={Visa}
                   alt="visa icon"
-                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]"
+                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
                 />
               </div>
             </div>
             <div className="col-lg-3 col-md-12 col-sm-12 col-12">
-              <p className="text-white  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] font-[600] ">
+              <p className="text-white  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] font-[600] " data-aos="zoom-in">
                 2023 Orskin. All right reserved.
               </p>
             </div>
           </div>
           <div className="flex gap-[20px] xl:justify-normal lg:justify-normal md:justify-center sm:justify-center justify-center">
             <Tooltip hasArrow label="Facebook" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]">
+              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
                 <FontAwesomeIcon
                   icon={faFacebookF}
                   className="text-[#B3D6D0]"
@@ -76,7 +76,7 @@ function Footer() {
               </div>
             </Tooltip>
             <Tooltip hasArrow label="Instagram" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]">
+              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
                 <FontAwesomeIcon
                   icon={faInstagram}
                   className="text-[#B3D6D0]"
@@ -85,13 +85,13 @@ function Footer() {
             </Tooltip>
 
             <Tooltip hasArrow label="Email" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]">
+              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
                 <FontAwesomeIcon icon={faEnvelope} className="text-[#B3D6D0]" />
               </div>
             </Tooltip>
 
             <Tooltip hasArrow label="Contact" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]">
+              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
                 <FontAwesomeIcon icon={faPhone} className="text-[#B3D6D0]" />
               </div>
             </Tooltip>

@@ -1,8 +1,8 @@
 import React from "react";
 
-function HomeService({ category, title }) {
+function HomeService({ category, title, delay }) {
   return (
-    <div className=" flex flex-col gap-[20px] bg-white border-r-solid border-r-[3px] border-r-[#D6D6D6] border-l-solid border-l-[3px] border-l-[#D6D6D6]">
+    <div className=" flex flex-col gap-[20px] bg-white border-r-solid border-r-[3px] border-r-[#D6D6D6] border-l-solid border-l-[3px] border-l-[#D6D6D6]" data-aos="zoom-in" data-aos-delay={delay * 150}>
       <div className="p-[30px]">
         <img src={category} alt="service" className="mb-[30px]" />
         <img src={title} alt="service" />
