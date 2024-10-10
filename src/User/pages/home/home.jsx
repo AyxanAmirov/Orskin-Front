@@ -1,14 +1,15 @@
 import Products from "../../components/products/products.jsx";
 import { Link } from "react-router-dom";
-import Banner from "../../components/banner/index.jsx";
 import Partners from "../../components/partners/index.jsx";
 import Feedbacks from "../../components/feedbacks/index.jsx";
 import {
   productData,
   facialSection,
-  services
+  services,
+  homeSlider
 } from "../../../data/data.jsx";
 import ServiceCard from "../../components/serviceCard/index.jsx";
+import Slider from "../../components/slider/index.jsx";
 
 
 
@@ -17,7 +18,7 @@ function Home() {
 
   return (
     <>
-      <Banner />
+      <Slider slides={homeSlider} />
       <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
         <div className="max-w-[1100px] m-auto container">
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">

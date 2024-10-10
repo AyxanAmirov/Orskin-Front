@@ -4,19 +4,30 @@ import { Outlet } from "react-router-dom";
 import Footer from "./footer";
 import GoTop from "../components/goToTop/goTop";
 import Whatsapp from "../components/whatsapp/whatsapp";
+import { useDispatch, useSelector } from "react-redux";
 
 function Layout() {
-  const [isVisible, setIsVisible] = useState(false);
+
   const [lastScrollY, setLastScrollY] = useState(0);
+  const dispacth = useDispatch()
+  const isVisible = useSelector(state => state);
 
   useEffect(() => {
     window.onscroll = () => {
-      setLastScrollY(window.pageYOffset - 1)
-      console.log(window.pageYOffset);
-      if (window.pageYOffset > lastScrollY) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
+
+      if (window.pageYOffset > 160) {
+        if (window.pageYOffset > 1) {
+          setLastScrollY(window.pageYOffset)
+        }
+        if (window.pageYOffset > lastScrollY) {
+          dispacth({
+            type: "IS_VISIBLE"
+          })
+        } else {
+          dispacth({
+            type: "ANY"
+          })
+        }
       }
     };
   }, [window.scrollY]);

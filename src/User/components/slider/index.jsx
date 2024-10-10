@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { slides } from "../../../data/data";
 
-const Banner = () => {
+const Slider = ({ slides }) => {
 
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,7 +24,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative w-full xl:h-[480px] lg:h-[450px] md:h-[430px] sm:h-[350px] h-[253px] overflow-hidden group">
+    <div className="relative w-full xl:h-[420px] lg:h-[400px] md:h-[380px] sm:h-[330px] h-[253px] overflow-hidden group">
       <div
         className="flex transition-transform duration-500 ease-in-out h-full"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -55,4 +54,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Slider;

@@ -1,6 +1,11 @@
 import benner1 from "../User/assets/image/home-banner1.jpg"
 import banner2 from "../User/assets/image/home-banner2.jpg"
 import benner3 from "../User/assets/image/home-banner3.jpg"
+import servicebanner1 from "../User/assets/image/service-banner-laser.jpg"
+import servicebanner2 from "../User/assets/image/service-banner-slimming.jpg"
+import servicebanner3 from "../User/assets/image/service-banner-aesthetics.jpg"
+import servicebanner4 from "../User/assets/image/service-banner-facials.jpg"
+import servicebanner5 from "../User/assets/image/service-banner-wellness.jpg"
 import service1 from "../User/assets/image/service1.jpg"
 import service2 from "../User/assets/image/service2.jpg"
 import service3 from "../User/assets/image/service3.jpg"
@@ -64,7 +69,7 @@ export const services = [
     }
 ]
 
-export const slides = [
+export const homeSlider = [
     {
         id: 1,
         image: benner1
@@ -78,7 +83,28 @@ export const slides = [
         image: benner3
     },
 ];
-
+export const serviceSlider = [
+    {
+        id: 1,
+        image: servicebanner1
+    },
+    {
+        id: 2,
+        image: servicebanner2
+    },
+    {
+        id: 3,
+        image: servicebanner3
+    },
+    {
+        id: 4,
+        image: servicebanner4
+    },
+    {
+        id: 5,
+        image: servicebanner5
+    }
+];
 export const partners = [
     {
         id: 1,
