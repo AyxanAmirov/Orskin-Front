@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faCartShopping, faBars, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faBars, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
 

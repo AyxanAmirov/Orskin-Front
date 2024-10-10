@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -19,10 +19,7 @@ import { feedbacks } from '../../../data/data';
 function Feedbacks() {
   return <div id='feedbacks'>
     <div
-      className="w-full bg-cover bg-center py-[70px] relative"
-      style={{
-        backgroundImage: `url('https://orskin.ae/wp-content/uploads/2023/02/bg-testimonial-500x208.jpg')`,
-      }}
+      className="w-full bg-cover bg-center py-[70px] relative bg-feedbacks"
     >
       <div className="container flex flex-col items-center feedback-item">
         <h3 className="xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[22px] text-[22px] text-[#2f2f2f] mb-[30px]" data-aos="zoom-in">WHAT OUR CLIENTS SAY</h3>
@@ -31,7 +28,7 @@ function Feedbacks() {
           pagination={{
             clickable: true,
           }} autoplay={{
-            delay: 1000,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           modules={[Pagination, Autoplay]}

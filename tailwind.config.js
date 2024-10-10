@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'walpaper': "url('/src/User/assets/images/walpaper-1.jpg')",
-        'service': "url('/src/User/assets/images/servce-sub-bg.jpg')"
+        'walpaper': "url('/src/User/assets/image/walpaper-h-services.jpg')",
+        'service': "url('/src/User/assets/image/servce-sub-bg.jpg')",
+        'feedbacks': "url('/src/User/assets/image/bg-feedbacks.jpg')"
       }
     },
   },

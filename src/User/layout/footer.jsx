@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Visa from "../assets/icons/visa-svgrepo-com.svg";
+import UniPay from "../assets/icons/unipay.png";
 import MasterCard from "../assets/icons/mastercard-full-svgrepo-com.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -54,9 +55,9 @@ function Footer() {
                   className="md:w-[80px] sm:w-[80px] w-[80px] xl:w-[40px] lg:w-[40px]" data-aos="zoom-in"
                 />
                 <img
-                  src={Visa}
+                  src={UniPay}
                   alt="visa icon"
-                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
+                  className="xl:w-[50px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
                 />
               </div>
             </div>

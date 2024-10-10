@@ -14,7 +14,8 @@ import nuro from "../User/assets/image/nuro-logo.png"
 import product1 from "../User/assets/image/product1.webp"
 import product2 from "../User/assets/image/product2.webp"
 import product3 from "../User/assets/image/product3.webp"
-
+import facialBanner from "../User/assets/image/facial-banner.jpg";
+import facialTitle from "../User/assets/image/facial-title.png";
 
 export const homeservice = [
     {
@@ -150,3 +151,10 @@ export const feedbacks = [
         "author": "Lilla Reti"
     }
 ]
+
+export const facialSection = {
+    banner: facialBanner,
+    titleImage: facialTitle,
+    title: "MAKING YOU HAPPY YOU’RE IN YOUR OWN SKIN.",
+    description: "Taking care of your skin is a journey. And we’re here to make it a little easier for you. Book your complimentary consultation to get expert advice on the right treatment for you."
+}

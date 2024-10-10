@@ -1,33 +1,12 @@
-import React, { useEffect, useState } from "react";
 import AboutBanner from "../../assets/images/aboutus-banner.jpg";
 import TeamPerson from "../../assets/images/team-or.jpg";
 import DoctorGustavo from "../../assets/images/Dr.-Gustavo-Mazariegos.jpg";
 import DoctorAsima from "../../assets/images/team-dr.jpg";
 import Team from "../../assets/images/team.jpg";
-import Slider from "../../components/feedbacks";
-import axios from "axios";
+import Feedbacks from "../../components/feedbacks";
 
-function About({ }) {
-  const [data, setData] = useState([]);
+function About() {
 
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await axios.get(
-          "https://6622d9c13e17a3ac846e1a5a.mockapi.io/books"
-        );
-        const result = response.data;
-
-        setData(result);
-      } catch (error) {
-        console.error("Veri çekme hatası:", error);
-      }
-    };
-
-    getData();
-
-
-  }, []);
   return (
     <>
       <div className="flex justify-center">
@@ -135,7 +114,7 @@ function About({ }) {
       <div className="mt-[40px] flex justify-center">
         <img src={Team} alt="team" />
       </div>
-      <Slider data={data} />
+      <Feedbacks />
     </>
   );
 }
