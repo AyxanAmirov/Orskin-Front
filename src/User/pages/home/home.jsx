@@ -19,7 +19,7 @@ function Home() {
     <>
       <Banner />
       <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
-        <div className="max-w-[1100px] m-auto">
+        <div className="max-w-[1100px] m-auto container">
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
             {
               homeservice.map((item, index) => <HomeService key={item.id} {...item} delay={index} />)

@@ -16,7 +16,7 @@ function Navbar({ isVisible }) {
     Navigate("/search")
   }
   return (
-    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
+    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[20px] sm:px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="col-lg-2">
@@ -68,7 +68,7 @@ function Navbar({ isVisible }) {
             </div>
           </div>
           {/* //toggle menu */}
-          <div className="xl:hidden lg:hidden text-end">
+          <div className="xl:hidden lg:hidden text-end ">
             <IconButton
               aria-label="Toggle menu"
               icon={<FontAwesomeIcon icon={faBars} />}
@@ -77,7 +77,7 @@ function Navbar({ isVisible }) {
               onClick={toggleMenu}
             />
             {isOpen && (
-              <Box className="lg:hidden absolute top-[100px] left-0 right-0 bg-[#B3D6D0] z-[999999]">
+              <Box className="lg:hidden md:top-[130px] absolute pb-[30px] top-[100px] left-0 right-0 bg-[#B3D6D0] z-[999999]">
                 <ul className="flex flex-col items-center">
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <Link to="/" onClick={toggleMenu}>
@@ -101,14 +101,14 @@ function Navbar({ isVisible }) {
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <Link to="/contact">Contact</Link>
                   </li>
-                  <li className="py-2">
+                  {/* <li className="py-2">
                     <Link to="/cart">
                       <FontAwesomeIcon
                         icon={faCartShopping}
                         className="text-white text-[18px] hover:text-[black] transition-all duration-700"
                       />
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </Box>
             )}
