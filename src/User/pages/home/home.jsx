@@ -1,5 +1,4 @@
 import Products from "../../components/products/products.jsx";
-import HomeService from "../../components/homeService/home.jsx";
 import { Link } from "react-router-dom";
 import Banner from "../../components/banner/index.jsx";
 import Partners from "../../components/partners/index.jsx";
@@ -9,6 +8,7 @@ import {
   facialSection,
   services
 } from "../../../data/data.jsx";
+import ServiceCard from "../../components/serviceCard/index.jsx";
 
 
 
@@ -23,7 +23,7 @@ function Home() {
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
             {
               services.map((item, index) => {
-                return index < 3 ? <HomeService key={item.id} {...item} delay={index} /> : null
+                return index < 3 ? <ServiceCard key={item.id} {...item} delay={index} /> : null
               })
             }
           </div>
