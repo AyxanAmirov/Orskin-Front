@@ -22,22 +22,21 @@ function Feedbacks() {
       className="w-full bg-cover bg-center py-[70px] relative bg-feedbacks"
     >
       <div className="container flex flex-col items-center feedback-item">
-        <h3 className="xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[22px] text-[22px] text-[#2f2f2f] mb-[30px]" data-aos="zoom-in">WHAT OUR CLIENTS SAY</h3>
+        <h3 className="xl:text-[40px] lg:text-[40px] md:text-[40px] sm:text-[22px] text-[22px] text-center text-[#2f2f2f] mb-[30px]" data-aos="zoom-in">WHAT OUR CLIENTS SAY</h3>
         <Swiper
           spaceBetween={30}
-          pagination={{
-            clickable: true,
-          }} autoplay={{
-            delay: 2000,
+
+          autoplay={{
+            delay: 20000,
             disableOnInteraction: false,
           }}
-          modules={[Pagination, Autoplay]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           {
             feedbacks.map(item => (
               <SwiperSlide key={item.id}>
-                <div className="max-w-[700px] flex flex-col gap-[20px] text-center ">
+                <div className="max-w-[750px] flex flex-col gap-[20px] text-center ">
                   <p className="xl:text-xl lg:text-xl md:text-xl sm:text-[15px] text-[15px] text-[#393939] font-bold" data-aos="zoom-in">
                     {item.desc}
                   </p>
