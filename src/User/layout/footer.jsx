@@ -43,21 +43,21 @@ function Footer() {
               </li>
             </ul>
             <div className="col-lg-2 col-md-12 col-sm-12 col-12">
-              <div className="flex gap-[20px] justify-center">
+              <div className="flex gap-[20px] md:justify-center justify-around md:my-[0] my-[30px] align-center">
                 <img
                   src={Visa}
                   alt="visa icon"
-                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
+                  className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px]" data-aos="zoom-in"
                 />
                 <img
                   src={MasterCard}
                   alt="mastercard icon"
-                  className="md:w-[80px] sm:w-[80px] w-[80px] xl:w-[40px] lg:w-[40px]" data-aos="zoom-in"
+                  className="md:w-[80px] sm:w-[80px] w-[40px] xl:w-[40px] lg:w-[60px]" data-aos="zoom-in"
                 />
                 <img
                   src={UniPay}
                   alt="visa icon"
-                  className="xl:w-[50px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[80px]" data-aos="zoom-in"
+                  className="xl:w-[50px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px] " data-aos="zoom-in"
                 />
               </div>
             </div>
@@ -69,37 +69,45 @@ function Footer() {
           </div>
           <div className="flex gap-[20px] xl:justify-normal lg:justify-normal md:justify-center sm:justify-center justify-center">
             <Tooltip hasArrow label="Facebook" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                <FontAwesomeIcon
-                  icon={faFacebookF}
-                  className="text-[#B3D6D0]"
-                />
-              </div>
+              <a href="https://www.facebook.com/orskinaesthetics/">
+                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                  <FontAwesomeIcon
+                    icon={faFacebookF}
+                    className="text-[#B3D6D0]"
+                  />
+                </div>
+              </a>
             </Tooltip>
             <Tooltip hasArrow label="Instagram" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="text-[#B3D6D0]"
-                />
-              </div>
+              <a href="https://www.instagram.com/orskinaesthetics/">
+                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-[#B3D6D0]"
+                  />
+                </div>
+              </a>
             </Tooltip>
 
             <Tooltip hasArrow label="Email" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                <FontAwesomeIcon icon={faEnvelope} className="text-[#B3D6D0]" />
-              </div>
+              <a href="mailto:info@orskin.ae">
+                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                  <FontAwesomeIcon icon={faEnvelope} className="text-[#B3D6D0]" />
+                </div>
+              </a>
             </Tooltip>
 
             <Tooltip hasArrow label="Contact" bg="black" color="#D3D3D3">
-              <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                <FontAwesomeIcon icon={faPhone} className="text-[#B3D6D0]" />
-              </div>
+              <a href="tel:+97143455520">
+                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                  <FontAwesomeIcon icon={faPhone} className="text-[#B3D6D0]" />
+                </div>
+              </a>
             </Tooltip>
           </div>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }
 

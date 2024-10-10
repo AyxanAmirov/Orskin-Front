@@ -16,7 +16,10 @@ import product2 from "../User/assets/image/product2.webp"
 import product3 from "../User/assets/image/product3.webp"
 import facialBanner from "../User/assets/image/facial-banner.jpg";
 import facialTitle from "../User/assets/image/facial-title.png";
-
+import AboutBanner from "../User/assets/image/aboutus-banner.jpg";
+import OrsolyaMatheisz from "../User/assets/image/team-co.jpg";
+import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
+import DoctorAsima from "../User/assets/image/team-dr2.jpg";
 export const homeservice = [
     {
         id: 1,
@@ -158,3 +161,33 @@ export const facialSection = {
     title: "MAKING YOU HAPPY YOU’RE IN YOUR OWN SKIN.",
     description: "Taking care of your skin is a journey. And we’re here to make it a little easier for you. Book your complimentary consultation to get expert advice on the right treatment for you."
 }
+
+export const aboutInfo = {
+    banner: AboutBanner,
+    title: "Our highly experienced skincare experts are qualified andtrained in Europe, US and Asia.Some of our signature services include Advalight Laser, Neurotris Microcurrent Facial, and Morpheus microneedling to name a few.",
+    description: "At Orskin, we are driven to help you to achieve your vision of well-being and beauty. Our approach to skincare services is to provide you with an array of holistic and personalized treatments, specifically created to address any of your skin concerns. <br /> <br />We use a combination of advanced high- tech devices with conventional methods giving the best possible skincare treatments to all of our clients.We want you to feel and look great!"
+}
+
+export const team = [
+    {
+        id: 1,
+        fullName: "Orsolya Matheisz",
+        position: "Co-Founder",
+        description: "Introducing our Co-Founder Orsolya Matheisz, also known as Orsi, a licensed aesthetician from Hungary with a passion for beauty and wellness. With over 18 years of experience in beauty, facial care, and anti-aging. <br><br>Orsi was inspired to start this company to bring the very best skincare technology solutions to the market, combined with a down- to - earth yet high - end approach.",
+        image: OrsolyaMatheisz
+    },
+    {
+        id: 2,
+        fullName: "Dr. Gustavo Mazariegos",
+        position: null,
+        description: "Dr. Gustavo Mazariegos is a leader in Aesthetic Medicine and Hair Restoration with over a decade of experience. A Professor of Master’s in Facial Aesthetic Medicine, he is internationally renowned for his skills in treatments such as Botox, Filler, Non-Surgical Face Lift, and Facial Harmonisation, achieving natural results for a more striking, streamlined complexion. He is also a highly sought-after Trichologist and Hair Transplant Surgeon.",
+        image: DoctorGustavo
+    },
+    {
+        id: 3,
+        fullName: "DR. Asima Nasir",
+        position: "Medical Director",
+        description: "An enthusiastic and committed American board-certified aesthetic physician combines art and science to enhance one’s inherent attractiveness. After consulting with the patient and learning about their needs, a holistic approach is used to treat each individual patient in accordance with their specific needs. As a staff member of the Orskin Aesthetic Clinic, Dr. Asima Nasir provides the best treatment possible while producing outstanding outcomes.Additionally, Dr. Asima completed a master’s degree in business administration in healthcare management at UCAM Spain.",
+        image: DoctorAsima
+    }
+]

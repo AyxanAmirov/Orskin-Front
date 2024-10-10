@@ -64,12 +64,14 @@ function Home() {
                 {facialSection.description}
               </p>
             </div>
-            <button className="w-full xl:p-[10px] lg:p-[10px] md:p-[10px] sm:p-[5px] bg-[#f0c6cf] hover:bg-[#EDE1D4] duration-[.3s] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[12px] " data-aos="zoom-in">
-              <Link>Book Now</Link>
-            </button>
+
+            <Link to={"/contact"} className="block w-100">
+              <button className="w-full xl:p-[10px] lg:p-[10px] md:p-[10px] sm:p-[5px] bg-[#f0c6cf] hover:bg-[#EDE1D4] duration-[.3s] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[12px] " data-aos="zoom-in">Book Now
+              </button>
+            </Link>
           </div>
         </div>
-      </div>
+      </div >
       <Feedbacks />
     </>
   );

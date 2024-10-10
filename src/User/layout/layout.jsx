@@ -23,7 +23,7 @@ function Layout() {
 
   return (
     <>
-      <div className={isVisible ? "mb-[176px]" : "mb-[100px]"}>
+      <div className={isVisible ? "mb-[176px]" : "lg:mb-[155px] mb-[115px]"}>
         <Navbar isVisible={isVisible} />
       </div>
       <Outlet />
