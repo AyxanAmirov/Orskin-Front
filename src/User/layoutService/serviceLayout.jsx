@@ -6,9 +6,9 @@ import ServiceFooter from './ServiceFooter'
 function ServiceLayout() {
   return (
     <>
-       <ServiceNavbar/>
-       <Outlet/>
-       <ServiceFooter/>
+      <ServiceNavbar />
+      <Outlet />
+      <ServiceFooter />
     </>
   )
 }

@@ -5,9 +5,9 @@ import Banner from "../../components/banner/index.jsx";
 import Partners from "../../components/partners/index.jsx";
 import Feedbacks from "../../components/feedbacks/index.jsx";
 import {
-  homeservice,
   productData,
-  facialSection
+  facialSection,
+  services
 } from "../../../data/data.jsx";
 
 
@@ -22,7 +22,9 @@ function Home() {
         <div className="max-w-[1100px] m-auto container">
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-[50px]">
             {
-              homeservice.map((item, index) => <HomeService key={item.id} {...item} delay={index} />)
+              services.map((item, index) => {
+                return index < 3 ? <HomeService key={item.id} {...item} delay={index} /> : null
+              })
             }
           </div>
         </div>

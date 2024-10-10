@@ -1,12 +1,16 @@
 import benner1 from "../User/assets/image/home-banner1.jpg"
 import banner2 from "../User/assets/image/home-banner2.jpg"
 import benner3 from "../User/assets/image/home-banner3.jpg"
-import category1 from "../User/assets/image/category1.jpg"
-import category2 from "../User/assets/image/category2.jpg"
-import category3 from "../User/assets/image/category3.jpg"
+import service1 from "../User/assets/image/service1.jpg"
+import service2 from "../User/assets/image/service2.jpg"
+import service3 from "../User/assets/image/service3.jpg"
+import service4 from "../User/assets/image/service4.jpg"
+import service5 from "../User/assets/image/service5.jpg"
+import service6 from "../User/assets/image/service6.jpg"
 import lazer from "../User/assets/image/laser.png"
 import slimming from "../User/assets/image/slimming.png"
 import aesthetics from "../User/assets/image/aesthetics.png"
+import latest from "../User/assets/image/latest.jpg"
 import dmg from "../User/assets/image/dmg-logo.png"
 import darma from "../User/assets/image/darma-logo.png"
 import nano from "../User/assets/image/nano-logo.png"
@@ -20,21 +24,43 @@ import AboutBanner from "../User/assets/image/aboutus-banner.jpg";
 import OrsolyaMatheisz from "../User/assets/image/team-co.jpg";
 import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
 import DoctorAsima from "../User/assets/image/team-dr2.jpg";
-export const homeservice = [
+
+export const services = [
     {
         id: 1,
-        category: category3,
-        title: lazer
+        image: service3,
+        titleImage: lazer,
+        title: "LASER"
     },
     {
         id: 2,
-        category: category2,
-        title: slimming
+        image: service2,
+        titleImage: slimming,
+        title: "SLIMMING"
     },
     {
         id: 3,
-        category: category1,
-        title: aesthetics
+        image: service1,
+        titleImage: aesthetics,
+        title: "aesthetics"
+    },
+    {
+        id: 4,
+        image: service4,
+        titleImage: null,
+        title: "facials"
+    },
+    {
+        id: 5,
+        image: service5,
+        titleImage: null,
+        title: "Wellness"
+    },
+    {
+        id: 6,
+        image: service6,
+        titleImage: latest,
+        title: "Latest"
     }
 ]
 
@@ -152,6 +178,16 @@ export const feedbacks = [
         id: 7,
         "desc": "Absolutely the very best Clinic in Dubai… the professionalism of the Founder Orsi is beyond this world. Super clean, very homey clinic with very kind staff. After trying this place I would never go elsewhere. They have all kinds of latest treatments in a super beautiful and very clean environment. Yes!!! Yes!! Yes!!! 6 stars!!!!",
         "author": "Lilla Reti"
+    },
+    {
+        id: 8,
+        "desc": "One of the best clinic for facials. Highly highly recommend. Allysia hands are magic and she literally transformed my skin. They suggest what’s best for your skin type and go with a plan. Absolutely love their service and all the latest tools for facials.",
+        "author": "Neethu Anzer"
+    },
+    {
+        id: 9,
+        "desc": "I thankful for Zarina – massage therapist, for my result after anti-cellulite massage with maderotherapy 6 sessions. I lost weight and had an excellent tone in my whole body. Professional friendly staff. I went to Diana several times -facial therapist for cosmetic procedures and I was happy after holistic faciaI . I wish success and prosperity to “Orskin clinic”. Highly recommend!",
+        "author": "Khalid Farukh"
     }
 ]
 

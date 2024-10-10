@@ -6,7 +6,7 @@ function ViewCard({ service }) {
     <Link to={service.title.toLowerCase()}>
       <div className="flex flex-col mt-[20px] mb-[20px] gap-[40px] pb-[20px]  bg-white shadow-2xl">
         <div className="flex flex-col gap-[40px] p-[30px]">
-          <img src={service.img} alt="services" />
+          <img src={service.image} alt="services" />
           <p className="text-center xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[15px]">
             {service.title}
           </p>

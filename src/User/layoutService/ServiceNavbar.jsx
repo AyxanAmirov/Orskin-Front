@@ -12,7 +12,7 @@ function ServiceNavbar() {
     "/services/facials": "https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg",
     "/services/wellness": "https://orskin.ae/wp-content/uploads/2023/07/wellness-banner.jpg",
   };
-  let currentImage = images[location.pathname]||  "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg"; 
+  let currentImage = images[location.pathname] || "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg";
 
 
 
@@ -22,6 +22,7 @@ function ServiceNavbar() {
         src={currentImage}
         alt="cover"
       />
+     
       <div className="container">
         <div className="mt-[50px] flex flex-col items-center gap-[20px]">
           <div>
