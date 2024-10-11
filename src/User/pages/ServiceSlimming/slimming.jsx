@@ -7,7 +7,7 @@ function Slimming() {
   const { moreinfo: { items, description } } = useContext(ServiceContext)
   return (
     <div className="container py-[40px]">
-      <p className="text-[#949598] text-[18px] font-[400]">
+      <p className="text-[#949598] text-[18px] font-[400] mb-[30px]" data-aos="zoom-in">
         {description}
       </p>
       <Accordion allowToggle allowMultiple={false}>
@@ -15,6 +15,7 @@ function Slimming() {
           items?.map(item => <AccordionComponent
             title={item.title}
             description={item.description}
+            itemImage={item.image}
             key={item.id}
           />)
         }

@@ -9,12 +9,12 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
-function AccordionComponent({ title, description }) {
+function AccordionComponent({ title, description, itemImage }) {
   return (
     <AccordionItem>
       {({ isExpanded }) => (
         <>
-          <h2>
+          <h2 data-aos="zoom-in">
             <AccordionButton>
               <Box
                 as="span"
@@ -28,12 +28,15 @@ function AccordionComponent({ title, description }) {
                   }`}
               >
                 <FontAwesomeIcon icon={isExpanded ? faMinus : faPlus} />
-                <p>{title}</p>
+                <p data-aos="zoom-in">{title}</p>
               </Box>
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="border-none">
-            <p dangerouslySetInnerHTML={{ __html: description }} />
+          <AccordionPanel pb={4} className="border-none flex gap-[30px] pl-[30px]">
+            {
+              itemImage ? <img src={itemImage} alt={title} /> : null
+            }
+            <p dangerouslySetInnerHTML={{ __html: description }}  ></p>
           </AccordionPanel>
         </>
       )}

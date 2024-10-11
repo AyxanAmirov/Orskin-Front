@@ -16,6 +16,7 @@ function Aesthetics() {
           items?.map(item => <AccordionComponent
             title={item.title}
             description={item.description}
+            itemImage={item.image}
             key={item.id}
           />)
         }

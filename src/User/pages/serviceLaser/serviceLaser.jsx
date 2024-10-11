@@ -13,10 +13,11 @@ function ServiceLaser() {
           <img
             src={image}
             alt="laser"
+            data-aos="zoom-in"
           />
         </div>
         <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
-          <p className="text-[#555555] leading-[30px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[14px]">
+          <p className="text-[#555555] leading-[30px] xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[14px]" data-aos="zoom-in">
             {description}
           </p>
         </div>

@@ -16,13 +16,13 @@ function ServiceNavbar({ moreinfo }) {
       <div className="container">
         <div className="mt-[50px] flex flex-col items-center gap-[20px]">
           <div>
-            <h1 className="text-center text-[#2f2f2f] text-[54px]">
+            <h1 className="text-center text-[#2f2f2f] text-[54px]" data-aos="zoom-in">
               OUR SERVICES
             </h1>
-            <img src={Service} alt="service" />
+            <img src={Service} alt="service" data-aos="zoom-in" />
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-            <ul className="flex  justify-between ">
+            <ul className="flex  justify-between " data-aos="zoom-in">
               <NavLink
                 to={"/services/laser"}
                 className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
