@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <div className="flex justify-center">
-        <img src={aboutInfo.banner} alt="Orskin About Info banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" />
+        <img src={aboutInfo.banner} alt="Orskin About Info banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in"/>
       </div>
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">
