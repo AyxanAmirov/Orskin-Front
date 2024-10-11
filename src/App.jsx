@@ -46,8 +46,7 @@ function App() {
             <Route path="facials" element={<Facials />} />
             <Route path="wellness" element={<Wellness />} />
           </Route>
-          <Route path="services/latest-offers" element={<LatestOffers />} />
-
+          <Route path="services/latest" element={<LatestOffers />} />
         </Route>
       </Routes>
     </ScrollToTop>

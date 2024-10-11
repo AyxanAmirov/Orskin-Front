@@ -1,28 +1,18 @@
-import React, { useEffect } from "react";
-import Service from "../assets/images/choose-your-department (1).png";
-import { NavLink, useLocation } from "react-router-dom";
 
-function ServiceNavbar() {
-  const location = useLocation();
+import Service from "../assets/image/choose-your-department.png";
+import { NavLink } from "react-router-dom";
 
-  const images = {
-    "/services/laser": "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg",
-    "/services/slimming": "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Slimming_Banner.jpg",
-    "/services/aesthetics": "https://orskin.ae/wp-content/uploads/2023/12/orskin-aesthetics.jpg",
-    "/services/facials": "https://orskin.ae/wp-content/uploads/2023/12/orskin-facials.jpg",
-    "/services/wellness": "https://orskin.ae/wp-content/uploads/2023/07/wellness-banner.jpg",
-  };
-  let currentImage = images[location.pathname] || "https://orskin.ae/wp-content/uploads/2023/08/Orskin_Laser_Banner.jpg";
-
+function ServiceNavbar({ moreinfo }) {
 
 
   return (
-    <div className="mt-[175px]">
+    <div>
       <img
-        src={currentImage}
+        src={moreinfo?.banner}
         alt="cover"
+        className="w-100 xl:h-[420px] object-cover lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px]"
       />
-     
+
       <div className="container">
         <div className="mt-[50px] flex flex-col items-center gap-[20px]">
           <div>

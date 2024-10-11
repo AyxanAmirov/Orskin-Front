@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 
 function ServiceCard({ image, titleImage, title, delay }) {
     return (
-        <div className="shadow-xl flex flex-col justify-between gap-[20px] bg-white border-r-solid border-r-[1px] border-r-[#D6D6D6] border-l-solid border-l-[1px] border-l-[#D6D6D6] border-t-[1px] border-t-[#D6D6D6]" data-aos="zoom-in" data-aos-delay={delay * 150}>
+        <Link to={`/services/${title.toLowerCase()}`}
+            className="shadow-xl flex flex-col justify-between gap-[20px] bg-white border-r-solid border-r-[1px] border-r-[#D6D6D6] border-l-solid border-l-[1px] border-l-[#D6D6D6] border-t-[1px] border-t-[#D6D6D6]" data-aos="zoom-in" data-aos-delay={delay * 150}>
             <div className="p-[30px]">
                 <img src={image} alt="service" className="mb-[30px] w-full" />
                 {
@@ -16,7 +18,7 @@ function ServiceCard({ image, titleImage, title, delay }) {
                     See More
                 </button>
             </div>
-        </div>
+        </Link>
     );
 }
 

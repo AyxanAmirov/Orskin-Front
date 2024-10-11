@@ -9,7 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
-function AccordionComponent({ title }) {
+function AccordionComponent({ title, description }) {
   return (
     <AccordionItem>
       {({ isExpanded }) => (
@@ -24,9 +24,8 @@ function AccordionComponent({ title }) {
                 gap="10px"
                 alignItems="center"
                 _hover={{ color: "black" }}
-                className={`duration-[.4s] text-[22px] ${
-                  isExpanded ? "text-black" : "text-[#9AD6CC]"
-                }`}
+                className={`duration-[.4s] text-[22px] ${isExpanded ? "text-black" : "text-[#9AD6CC]"
+                  }`}
               >
                 <FontAwesomeIcon icon={isExpanded ? faMinus : faPlus} />
                 <p>{title}</p>
@@ -34,10 +33,7 @@ function AccordionComponent({ title }) {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} className="border-none">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            <p dangerouslySetInnerHTML={{ __html: description }} />
           </AccordionPanel>
         </>
       )}

@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import './style.css';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 import { feedbacks } from '../../../data/data';
 

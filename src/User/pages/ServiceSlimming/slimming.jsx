@@ -1,20 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import AccordionComponent from "../../components/accordion/accordion";
 import { Accordion } from "@chakra-ui/react";
+import { ServiceContext } from "../../../context/ServiceContext";
 
 function Slimming() {
+  const { moreinfo: { items, description } } = useContext(ServiceContext)
   return (
     <div className="container py-[40px]">
       <p className="text-[#949598] text-[18px] font-[400]">
-        Even with the best intentions it can be difficult to shift fat deposits
-        in certain areas, especially as we age. At Orskin, we offer a
-        combination of different non-surgical slimming treatments, so you can
-        get the desired shape you’re looking for, fast.
+        {description}
       </p>
       <Accordion allowToggle allowMultiple={false}>
-        <AccordionComponent title="EmSlim" />
-        <AccordionComponent title="CoolSculpting" />
-        <AccordionComponent title="Lipo Laser" />
+        {
+          items?.map(item => <AccordionComponent
+            title={item.title}
+            description={item.description}
+            key={item.id}
+          />)
+        }
       </Accordion>
     </div>
   );
