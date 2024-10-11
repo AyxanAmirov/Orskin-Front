@@ -1,0 +1,25 @@
+.servicenavbar {
+
+    .swiper-wrapper {
+        align-items: center;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+    .object-contain {
+        cursor: grab;
+        user-select: none;
+        /* height: 60px !important; */
+    }
+}

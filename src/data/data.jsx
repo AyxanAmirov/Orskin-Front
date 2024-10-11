@@ -51,6 +51,7 @@ import deepcleansing from "../User/assets/image/Deep-Cleansing-400x320.jpg";
 import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.jpg";
 import Morpheus from "../User/assets/image/Morpheus-400x320.jpg";
 import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.jpg";
+import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg";
 
 export const services = [
     {
@@ -159,7 +160,7 @@ export const services = [
                     id: 3,
                     image: Renuva,
                     title: "Renuva",
-                    description: "Renuva is a non-surgical fat grafting solution designed to restore your natural contours. As we age, our faces naturally lose subcutaneous fat. The treatment uses a matrix of adipose-derived stem cells to regenerate fat cells, adding almost instantaneous fat volume in depleted areas of the skin for a smoother, more youthful look. Renuva is the first and only over-the-counter product that uses the body’s own fat to replenish age-related volume loss. Renuva is a non-surgical fat grafting solution designed to restore your natural contours. As we age, our faces naturally lose subcutaneous fat. The treatment uses a matrix of adipose-derived stem cells to regenerate fat cells, adding almost instantaneous fat volume in depleted areas of the skin for a smoother, more youthful look. Renuva is the first and only over-the-counter product that uses the body’s own fat to replenish age-related volume loss. Renuva is exclusively administered by skilled aesthetic injectors and can be injected anywhere that fat naturally occurs."
+                    description: "Renuva is a non-surgical fat grafting solution designed to restore your natural contours. <br/> As we age, our faces naturally lose subcutaneous fat. The treatment uses a matrix of adipose-derived stem cells to regenerate fat cells, adding almost instantaneous fat volume in depleted areas of the skin for a smoother, more youthful look. Renuva is the first and only over-the-counter product that uses the body’s own fat to replenish age-related volume loss. <br/> Renuva is a non-surgical fat grafting solution designed to restore your natural contours. <br/> As we age, our faces naturally lose subcutaneous fat. The treatment uses a matrix of adipose-derived stem cells to regenerate fat cells, adding almost instantaneous fat volume in depleted areas of the skin for a smoother, more youthful look. Renuva is the first and only over-the-counter product that uses the body’s own fat to replenish age-related volume loss. <br/> <br/> Renuva is exclusively administered by skilled aesthetic injectors and can be injected anywhere that fat naturally occurs."
                 },
                 {
                     id: 4,
@@ -171,7 +172,7 @@ export const services = [
                     id: 5,
                     image: null,
                     title: "Skin Boosters",
-                    description: "Skin boosters (also known as injectable moisturizers or microinjections) involve injecting hyaluronic acid-based substances directly into the skin to improve texture, elasticity, hydration and overall appearance. Skin boosters are commonly used to rejuvenate the face, neck, and hands, but they can be applied to other areas of the body.The treatment is usually performed in a series of sessions, spaced a few weeks apart, to achieve optimal results.Unlike traditional dermal fillers, skin boosters provide a natural- looking improvement in skin quality without significantly altering facial contours."
+                    description: "Skin boosters (also known as injectable moisturizers or microinjections) involve injecting hyaluronic acid-based substances directly into the skin to improve texture, elasticity, hydration and overall appearance. <br/> <br/> Skin boosters are commonly used to rejuvenate the face, neck, and hands, but they can be applied to other areas of the body.The treatment is usually performed in a series of sessions, spaced a few weeks apart, to achieve optimal results.Unlike traditional dermal fillers, skin boosters provide a natural- looking improvement in skin quality without significantly altering facial contours."
                 },
                 {
                     id: 6,
@@ -183,7 +184,7 @@ export const services = [
                     id: 7,
                     image: Exosomes,
                     title: "Exosomes",
-                    description: "How does exosomes work? Exosomes’ mode of action is very unique as it follows specific selective cellular signals that act as messengers detecting inflammatory signals and delivering regenerative, anti- inflammatory factors to target cells."
+                    description: "<b>How does exosomes work?</b> <br/> Exosomes’ mode of action is very unique as it follows specific selective cellular signals that act as messengers detecting inflammatory signals and delivering regenerative, anti- inflammatory factors to target cells."
                 },
                 {
                     id: 8,
@@ -335,7 +336,7 @@ export const services = [
                     id: 9,
                     image: null,
                     title: "Pietro Simone",
-                    description: "This Italian brand is renowned for its skin layer treatments fusing powerful skincare formulations and cutting-edge technology for a unique, personalized facial experience. Pietro Simone Skincare is a strategic skin system support, a comprehensive collection of clean, technologically advanced, naturally infused, bio-compatible formulations, entirely dedicated to the well-being of the skin. The foundation of Pietro Simone Skincare is versatility; a skin inclusivity method made possible by proven ingredients developed into a blueprint for skin enhancement and epidermis support, targeting the multi-faceted needs of individuals with diverse requirements in an evolved world."
+                    description: "This Italian brand is renowned for its skin layer treatments fusing powerful skincare formulations and cutting-edge technology for a unique, personalized facial experience. Pietro Simone Skincare is a strategic skin system support, a comprehensive collection of clean, technologically advanced, naturally infused, bio-compatible formulations, entirely dedicated to the well-being of the skin.<br/><br/> The foundation of Pietro Simone Skincare is versatility; a skin inclusivity method made possible by proven ingredients developed into a blueprint for skin enhancement and epidermis support, targeting the multi-faceted needs of individuals with diverse requirements in an evolved world."
                 },
                 {
                     id: 10,
@@ -365,7 +366,7 @@ export const services = [
                     id: 14,
                     image: null,
                     title: "Skin Pen",
-                    description: "The SkinPen treatment works in three simple steps: For Inflammation, SkinPen’s microneedles penetrate the skin’s surface, triggering a natural immune response to disinfect, remove debris, increase blood flow, and activate the creation of new tissue. Proliferations: The micro-channels created by SkinPen are rebuilt with new granulation cells that include collagen proteins. Additionally, a new network of blood vessels develops. Remodelling: New dermal tissues form, rich in collagen and elastin proteins. These proteins improve skin quality, visibly reducing facial acne scars and neck wrinkles, leaving skin more smooth, radiant, and younger-looking."
+                    description: "The SkinPen treatment works in three simple steps:<br/><br/> For Inflammation, SkinPen’s microneedles penetrate the skin’s surface, triggering a natural immune response to disinfect, remove debris, increase blood flow, and activate the creation of new tissue.<br/><br/> Proliferations: The micro-channels created by SkinPen are rebuilt with new granulation cells that include collagen proteins. Additionally, a new network of blood vessels develops.<br/><br/> Remodelling: New dermal tissues form, rich in collagen and elastin proteins. These proteins improve skin quality, visibly reducing facial acne scars and neck wrinkles, leaving skin more smooth, radiant, and younger-looking."
                 },
                 {
                     id: 15,
@@ -470,9 +471,20 @@ export const services = [
         title: "Latest",
         moreinfo: {
             banner: null,
-            image: "",
-            description: "",
-            items: null
+            image: LessPainMoreGain,
+            description: "At Orksin, we make the path to perfection as comfortable as possible with innovative devices that minimise soreness.",
+            items: [
+                {
+                    id: 1,
+                    title: "Noxi-System",
+                    description: "Our Noxi-System is an FDA-approved, self-administered analgesic gas using 50/50 percent oxygen and nitrous oxide to reduce anxiety and discomfort."
+                },
+                {
+                    id: 2,
+                    title: "Cool Skin",
+                    description: "While Cool Skin uses expert technology to numb the skin ready for your procedure."
+                }
+            ]
         }
     }
 ]

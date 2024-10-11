@@ -7,7 +7,7 @@ function Facials() {
   const { moreinfo: { items, description } } = useContext(ServiceContext)
   return (
     <div className="container py-[40px]">
-      <p className="text-[#949598] text-[18px] font-[400]">
+      <p className="text-[#949598] text-[18px] font-[400] mb-[30px]">
         {description}
       </p>
       <Accordion allowToggle allowMultiple={false}>

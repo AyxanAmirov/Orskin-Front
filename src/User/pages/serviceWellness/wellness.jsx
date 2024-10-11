@@ -5,7 +5,7 @@ function Wellness() {
   const { moreinfo: { image, description } } = useContext(ServiceContext)
   return (
     <div className="container py-[40px]">
-      <p className="text-[#949598] xl:text-[18px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[14px] font-[400]">
+      <p className="text-[#949598] xl:text-[18px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[14px] font-[400] mb-[30px]">
         {description}
       </p>
       <div className="flex xl:flex-nowrap lg:flex-nowrap flex-wrap  mt-[30px] gap-[30px]">

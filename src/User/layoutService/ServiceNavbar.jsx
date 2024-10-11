@@ -2,15 +2,22 @@
 import Service from "../assets/image/choose-your-department.png";
 import { NavLink } from "react-router-dom";
 
+import "./style.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 function ServiceNavbar({ moreinfo }) {
 
 
   return (
-    <div>
+    <div className="servicenavbar">
       <img
         src={moreinfo?.banner}
         alt="cover"
         className="w-100 xl:h-[420px] object-cover lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px]"
+        data-aos="zoom-in"
       />
 
       <div className="container">
@@ -22,38 +29,62 @@ function ServiceNavbar({ moreinfo }) {
             <img src={Service} alt="service" data-aos="zoom-in" />
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-            <ul className="flex  justify-between " data-aos="zoom-in">
-              <NavLink
-                to={"/services/laser"}
-                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
-              >
-                Laser
-              </NavLink>
-              <NavLink
-                to={"/services/slimming"}
-                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
-              >
-                SLIMMING
-              </NavLink>
-              <NavLink
-                to={"/services/aesthetics"}
-                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
-              >
-                AESTHETICS
-              </NavLink>
-              <NavLink
-                to={"/services/facials"}
-                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
-              >
-                FACIALS
-              </NavLink>
-              <NavLink
-                to={"/services/wellness"}
-                className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
-              >
-                WELLNESS
-              </NavLink>
-            </ul>
+
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              breakpoints={{
+                140: {
+                  slidesPerView: 3,
+                },
+                640: {
+                  slidesPerView: 5,
+                }
+              }}
+              className="mySwiper"
+            >
+
+              <SwiperSlide>
+                <NavLink
+                  to={"/services/laser"}
+                  className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
+                >
+                  Laser
+                </NavLink>
+              </SwiperSlide>
+              <SwiperSlide>
+                <NavLink
+                  to={"/services/slimming"}
+                  className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
+                >
+                  SLIMMING
+                </NavLink>
+              </SwiperSlide>
+              <SwiperSlide>
+                <NavLink
+                  to={"/services/aesthetics"}
+                  className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
+                >
+                  AESTHETICS
+                </NavLink>
+              </SwiperSlide>
+              <SwiperSlide>
+                <NavLink
+                  to={"/services/facials"}
+                  className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
+                >
+                  FACIALS
+                </NavLink>
+              </SwiperSlide>
+              <SwiperSlide>
+                <NavLink
+                  to={"/services/wellness"}
+                  className="text-[#949598] font-[400] uppercase xl:text-[16px] lg:text-[16px] md:text-[16px] text-[14px]"
+                >
+                  WELLNESS
+                </NavLink>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </div>

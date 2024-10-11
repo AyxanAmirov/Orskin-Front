@@ -16,11 +16,18 @@ function Partners() {
             <div className="col-lg-11 col-md-9 col-sm-9 col-9 ">
 
                 <Swiper
-                    slidesPerView={4}
                     spaceBetween={30}
                     autoplay={{
                         delay: 1000,
                         disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                        140: {
+                            slidesPerView: 2,
+                        },
+                        640: {
+                            slidesPerView: 4,
+                        }
                     }}
                     modules={[Autoplay]}
                     className="mySwiper"
@@ -29,7 +36,7 @@ function Partners() {
                     {
                         partners.map((item, index) => (
                             <SwiperSlide key={item.id}>
-                                <img  src={item.image} alt={item.title} className="object-contain" data-aos="zoom-in" />
+                                <img src={item.image} alt={item.title} className="object-contain" data-aos="zoom-in" />
                             </SwiperSlide>
                         ))
                     }

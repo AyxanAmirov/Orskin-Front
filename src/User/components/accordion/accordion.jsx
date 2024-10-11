@@ -32,7 +32,7 @@ function AccordionComponent({ title, description, itemImage }) {
               </Box>
             </AccordionButton>
           </h2>
-          <AccordionPanel pb={4} className="border-none flex gap-[30px] pl-[30px]">
+          <AccordionPanel pb={4} className="border-none flex flex-col md:flex-row gap-[30px] pl-[30px]">
             {
               itemImage ? <img src={itemImage} alt={title} /> : null
             }
