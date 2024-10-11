@@ -31,13 +31,13 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/search" element={<Search />} />
           <Route path="/terms-and-policy" element={<Terms />} />
           <Route path="/term-of-use" element={<TermOfUse />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/terms-supply" element={<Supply />} />
           <Route path="/cookie-policy" element={<Cookie />} />
-          <Route path="/blog-detail" element={<BlogDetail />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services" element={<ServiceLayout />}>
             <Route path="laser" element={<ServiceLaser />} />

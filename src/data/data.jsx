@@ -52,6 +52,12 @@ import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.jpg";
 import Morpheus from "../User/assets/image/Morpheus-400x320.jpg";
 import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.jpg";
 import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg";
+import blog1cover from "../User/assets/image/blog1-400x600.jpeg";
+import blog1product1 from "../User/assets/image/blog-product1-200x200.jpeg";
+import blog2cover from "../User/assets/image/blog2-cover-1200x429.jpg";
+import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
+import blog2product2 from "../User/assets/image/blog2-product2-400x400.jpg";
+import blog2product3 from "../User/assets/image/blog2-product3-400x400.jpg";
 
 export const services = [
     {
@@ -673,5 +679,99 @@ export const team = [
         position: "Medical Director",
         description: "An enthusiastic and committed American board-certified aesthetic physician combines art and science to enhance one’s inherent attractiveness. After consulting with the patient and learning about their needs, a holistic approach is used to treat each individual patient in accordance with their specific needs. As a staff member of the Orskin Aesthetic Clinic, Dr. Asima Nasir provides the best treatment possible while producing outstanding outcomes.Additionally, Dr. Asima completed a master’s degree in business administration in healthcare management at UCAM Spain.",
         image: DoctorAsima
+    }
+]
+
+export const blogs = [
+    {
+        id: 1,
+        title: "Platelet Rich Fibrin (PRF) Plasmagel",
+        cover: blog1cover,
+        introduction: "Gently exfoliate away dull, dead skin with the age-defying, complexion-boosting PHA Hydration Peel!",
+        description: `
+            <p>In order to, rejuvenate your skin, Orskin Aesthetic Clinic uses two        cutting-edge procedures called platelet-rich fibrin (PRF) and plasma gel, often known as bioscience. These procedures harness the power of your body’s own healing capabilities. Although they both use platelet-rich components as a basis, their applications and advantages are different. Both techniques offer a natural and holistic approach to skin rejuvenation, harnessing the power of your body’s own healing mechanisms.</p>
+            <p><strong>PRF:</strong><br>
+            Platelet-Rich Fibrin (PRF) therapy is a cutting-edge treatment that utilizes the healing properties of your own blood to promote tissue repair. PRF is a concentrated form of platelet-rich plasma (PRP) that is processed to create a fibrin matrix. It is derived by collecting a small amount of the patient’s blood, which is then centrifuged to separate the platelets, growth factors, and other beneficial components from the rest of the blood.&nbsp; Platelet-Rich Fibrin (PRF) treatment is a safe and innovative therapy that utilizes your body’s natural healing properties.</p>
+            <p>Key features:<br>
+            1. Fibrin Matrix : This matrix functions as a scaffold to facilitate tissue and wound healing by supporting platelets and other growth factors.<br>
+            2. Slow Release of Growth Factors<br>
+            3. Rich in Leukocytes</p>
+            <p><strong>Plasma gel / Bio filler</strong></p>
+            <p>Plasma gel bio filler is a type of dermal filler derived from a patient’s own blood plasma. The process involves drawing a small amount of blood, which is then centrifuged to separate the plasma from the red blood cells. The plasma is heated to create a gel-like consistency. This plasma gel is then injected into the skin to act as a natural filler.</p>
+            <p>The primary advantages of plasma gel bio filler are its biocompatibility and low risk of allergic reactions or side effects, as it is derived from the patient’s own body. At Orskin Aesthetics Plasma Gel&nbsp; is commonly used for facial rejuvenation, reducing wrinkles, and adding volume to areas like the cheeks and lips. The results are generally subtle and natural-looking, and because it is autologous (coming from the same individual), it reduces the risks associated with synthetic fillers. Plasma Gel Bio Filler: A Natural Approach to Skin Rejuvenation. The plasma) filler is then injected into areas of the face where volume is needed, such as the cheeks, under-eye area, and lips.</p>
+            <p>Plasma gel bio filler is an innovative and natural method for facial rejuvenation, offering a compelling alternative to synthetic dermal fillers. This treatment harnesses the power of your own blood plasma to create a gel-like substance that can be injected to enhance facial volume, reduce wrinkles, and promote a youthful appearance.</p>
+            <p><strong>Benefits of Plasma Gel Bio Filler</strong></p>
+            <p>Biocompatibility: Since the filler is derived from your own blood, there is a significantly reduced risk of allergic reactions or adverse side effects. Orskin Aesthetics Believe in Natural Results : The plasma gel integrates seamlessly with your tissue, providing subtle, natural-looking enhancements.</p>
+            <p><strong>Safety</strong></p>
+            <p>The use of autologous plasma eliminates the risk of introducing foreign substances into your body.Rejuvenation: In addition to adding volume, the growth factors in the plasma can stimulate collagen production, improving skin texture and elasticity over time.</p>
+            <p>The best homecare product after the Plasma Gel or PRF is definitely &nbsp;Adipeau Cream</p>
+            <p>To maximize the benefits of plasma gel bio filler and maintain healthy, rejuvenated skin, incorporating a high-quality homecare product like Adipea Cream into your skincare routine is highly recommended.</p>
+            <p><strong>What is Adipeau Cream?</strong></p>
+            <p>Adipea Cream is a specialized skincare product designed to complement and enhance the effects of aesthetic treatments like plasma gel bio filler. It is formulated with a blend of active ingredients that promote volume lost, &nbsp;hydration, skin repair, and regeneration.</p>
+            <p><strong>Benefits of Adipeau Cream</strong></p>
+            <ul>
+            <li>Hydration: Deeply moisturizes the skin, helping to maintain the plumpness and smoothness achieved with plasma gel fillers.</li>
+            <li>Repair and Regeneration: Contains ingredients that support skin healing and regeneration, enhancing the longevity of the filler effects.</li>
+            <li>Protection: Provides a protective barrier against environmental damage, helping to maintain the health and appearance of your skin.</li>
+            <li>Anti-Aging: Packed with antioxidants and nutrients that educe the appearance of fine lines and wrinkles.</li>
+            </ul>
+            <p><strong>How to Use Adipeau Cream</strong></p>
+            <p>For best results, apply Adipeau Cream twice daily, in the morning and at night, on clean, dry skin. Gently massage the cream into your face and neck using upward strokes, ensuring even coverage. Consistent use will help sustain the rejuvenating effects of the plasma gel bio filler, keeping your skin looking vibrant and youthful.</p>
+            <p>Adipeau cream is a long-term treatment that gives a filler effect on the volume loss by aging or due to the environmental issues, it usually take approximately around 6 to 8 weeks but the result is promising.</p>`,
+        products: [
+            {
+                id: 1,
+                imgSrc: blog1product1,
+                title: "Adipeau – Active Face Cream 50ml",
+                description: "The Adipeau face cream promotes new cell formation and encourages healthy, plump radiant skin. It restores your skin super powers by targeting the root foundation by delivering nutrition to the skin’s root structure. This requires a different application method that what you may be used to. Apply to areas that are depleted and sagging."
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Winter skin renewal means peel season is here!",
+        cover: blog2cover,
+        introduction: "Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?",
+        description: `<h2>Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?</h2>
+        <h3>So, what is all the hype around winter being peel season?</h3>
+        <p>Because winter is the ideal time for deeper exfoliation. Why?<br>
+        – Less sun exposure<br>
+        – Fewer post-peel complications like hyperpigmentation<br>
+        – Faster recovery and better healing</p>
+        <p>New skin for the new year. Get that holiday glow by exfoliating away the layers of dull summer skin to reveal a brighter complexion.</p>
+        <p>Orskin Aesthetic’s peel options provide a transformative experience that will leave you looking and feeling fabulous. Our selection of peels and combination treatments is designed to address your specific skin concern, including fine lines, sun damage, and uneven skin tone.<br>
+        That’s why peel season marks a golden opportunity to revitalize your complexion and rediscover your glow.</p>
+        <h3>Benefits of an Orskin chemical peel</h3>
+        <p>Customization is key. At Orskin our aesthetician will tailor the treatment to your skin’s needs. We will start by providing you with a proper skin analysis with the help of a special device to see beneath the top layers of the skin and identify any issues. Then, we will recommend a peel type based on our three-level system that ranges from a mild enzyme peel to a more advanced chemical peel.</p>
+        <h3>Is it safe to do a peel during pregnancy and breastfeeding?</h3>
+        <p>Orskin offers a wide range of peels suitable during pregnancy and that work well to tackle the impact of hormonal changes. They can be performed when the skin is breaking out or when it is very dry.</p>
+        <h3>No peel chemical peels?</h3>
+        <p>For those who are a bit nervous or don’t want to get a peel before a big event or holiday, we can offer our no-peel peels without any downtime. They also work well for sensitive skin.</p>
+        <h3>Home peels</h3>
+        <p>Our medical-grade home peels give you professional results away from the clinic. Some of our favorites include:</p>
+       <h3>We focus on results</h3>
+        <p>We know you want to see a difference in your skin. With the right care and best-quality customized treatments, you will soon reveal your true radiance.</p>
+        <p>With the help of one of Orskin’s bespoke Peel Treatments, you will achieve the most vibrant look ever. It will help treat skin tone, firmness, discolouration, and dark circles.</p>
+        <p>Unleash your skin glow before the New Year!</p>`,
+        products: [
+            {
+                id: 1,
+                imgSrc: blog2product1,
+                title: "Environ Lactic Acid Night Cream",
+                description: "Perfect for sensitive and dehydrated dry skin, it is an excellent exfoliator and highly effective moisturizer."
+            },
+            {
+                id: 2,
+                imgSrc: blog2product2,
+                title: "Micro Peel from DMK",
+                description: "This peel is suitable for all skin types except sensitive skin and can be used for the face and body. It contains glycolic acid, citric acid, and lactic acid, making it a great treatment for back acne, rough bumpy patches on the arms, clogged pores, and overall skin brightening"
+            },
+            {
+                id: 3,
+                imgSrc: blog2product3,
+                title: "PHA from Cosmedix",
+                description: "A good way to replenish moisture and target signs of aging, this gentle peel contains lactobionic acid and has a relaxing, cooling effect when applied."
+            }
+        ]
     }
 ]
