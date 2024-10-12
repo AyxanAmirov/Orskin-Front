@@ -63,7 +63,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-12 col-sm-12 col-12">
               <p className="text-white  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] font-[600] " data-aos="zoom-in">
-                2023 Orskin. All right reserved.
+                2024 Orskin. All right reserved.
               </p>
             </div>
           </div>

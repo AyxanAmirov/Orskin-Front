@@ -47,7 +47,7 @@ function Navbar({ isVisible }) {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  <Link to="/">Shop</Link>
+                  <a href="https://shop.orskin.ae/" target="_blank">Shop</a>
                 </li>
 
 
@@ -93,7 +93,7 @@ function Navbar({ isVisible }) {
                     <Link to="/services">Services</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <Link to="/shop">Shop</Link>
+                    <a href="https://shop.orskin.ae/" target="_blank">Shop</a>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <Link to="/blog">Blog</Link>

@@ -579,21 +579,24 @@ export const partners = [
 export const productData = [
     {
         id: 1,
-        imgSrc: product1,
-        title: "Epicuren – Silk Radience 3-in-1 Cleansing Oil",
-        price: "AED 496.32 + VAT",
+        imgSrc: "https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg?v=1724441336",
+        title: "Adipeau - Active Face Cream 50ml",
+        price: "AED 320.00",
+        url: "https://shop.orskin.ae/products/adipeau-active-face-cream-50ml"
     },
     {
         id: 2,
-        imgSrc: product2,
-        title: "Epicuren – Pumpkin Apple Spice Peel",
-        price: "AED 391.00 + VAT",
+        imgSrc: "https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png?v=1727022311",
+        title: "ASCE+ Exobalm",
+        price: "AED 800.00",
+        url: "https://shop.orskin.ae/products/asce-exobalm"
     },
     {
         id: 3,
-        imgSrc: product3,
-        title: "Epicuren – Protein Mist Enzyme Toner",
-        price: "AED 145.20 – AED 238.92 + VAT",
+        imgSrc: "https://shop.orskin.ae/cdn/shop/files/P5.jpg?v=1724441790",
+        title: "Epicutis Lipid Serum",
+        price: "AED 980.00",
+        url: "https://shop.orskin.ae/products/epicutis-lipid-serum"
     },
 ];
 

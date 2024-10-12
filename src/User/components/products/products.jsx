@@ -2,12 +2,12 @@ import "./product.css";
 function Products({ product }) {
 
   return (
-    <div className="flex flex-col items-center" data-aos="zoom-in">
+    <div className="flex flex-col items-center mb-[30px] " data-aos="zoom-in">
       <div className="card relative ">
-        <img src={product.imgSrc} alt="product" className="w-full" />
+        <img src={product.imgSrc} alt="product" className="w-full h-[210px] md:h-[342px]" />
 
         <div className="overlay absolute inset-0 bg-[#b3d6d0c6] text-white flex justify-center align-center">
-          <a href="https://orskin.ae/" target="_blank" rel="noopener noreferrer">
+          <a href={product.url} target="_blank" rel="noopener noreferrer">
             Details</a>
         </div>
       </div>
