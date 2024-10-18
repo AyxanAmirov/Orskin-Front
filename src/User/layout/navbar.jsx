@@ -1,20 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Logo from "../assets/image/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faBars, faHeart } from "@fortawesome/free-solid-svg-icons";
-import { Link, useNavigate } from "react-router-dom";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import { Box, IconButton } from "@chakra-ui/react";
+import SearchForm from "../components/searchForm";
 
 function Navbar({ isVisible }) {
   const [isOpen, setIsOpen] = useState(false);
-  const Navigate = useNavigate()
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const goSearch = () => {
-    Navigate("/search")
-  }
+
   return (
     <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[20px] sm:px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
@@ -52,19 +51,7 @@ function Navbar({ isVisible }) {
 
 
               </ul>
-              <form className="flex" onSubmit={goSearch}>
-                <input
-                  type="text"
-                  className="rounded-l-[7px] rounded-bl-[7px] p-[10px] h-[50px] w-[250px]"
-                  placeholder="Search..."
-                />
-                <button className="bg-black hover:bg-[#9AD6CC] transition-all duration-500 px-[20px] rounded-r-[7px] rounded-br-[7px] flex items-center">
-                  <FontAwesomeIcon
-                    icon={faMagnifyingGlass}
-                    className="text-white"
-                  />
-                </button>
-              </form>
+              <SearchForm />
             </div>
           </div>
           {/* //toggle menu */}
@@ -90,16 +77,16 @@ function Navbar({ isVisible }) {
                     </Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <Link to="/services">Services</Link>
+                    <Link to="/services" onClick={toggleMenu}>Services</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <a href="https://shop.orskin.ae/" target="_blank">Shop</a>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/blog" onClick={toggleMenu}>Blog</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact" onClick={toggleMenu}>Contact</Link>
                   </li>
                   {/* <li className="py-2">
                     <Link to="/cart">
