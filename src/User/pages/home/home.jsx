@@ -10,6 +10,7 @@ import {
 } from "../../../data/data.jsx";
 import ServiceCard from "../../components/serviceCard/index.jsx";
 import Slider from "../../components/slider/index.jsx";
+import { Helmet } from "react-helmet";
 
 
 
@@ -18,6 +19,55 @@ function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>Orskin Aesthetic Clinic - Home</title>
+        <meta name="description" content="Welcome to Orskin Aesthetic Clinic in Dubai. We offer premium skincare treatments with our expert team." />
+        <link rel="canonical" href="https://www.orskin.ae" />
+
+        <script type="application/ld+json">
+          {`
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": "https://orskin.ae/",
+              "url": "https://orskin.ae/",
+              "name": "Orskin Aesthetic Clinic - Home",
+              "description": "Welcome to Orskin Aesthetic Clinic in Dubai. We offer premium skincare treatments with our expert team.",
+              "publisher": {
+                "@type": "MedicalClinic",
+              "name": "Orskin Aesthetic Clinic",
+              "url": "https://orskin.ae/",
+              "logo": {
+                "@type": "ImageObject",
+              "url": "https://orskin.ae/assets/logo-CnwgVcVk.png",
+              "width": 204,
+              "height": 77
+              }
+            },
+              "mainEntity": {
+                "@type": "MedicalClinic",
+              "name": "Orskin Aesthetic Clinic",
+              "url": "https://orskin.ae/",
+              "description": "Orskin Aesthetic Clinic in Dubai provides high-quality aesthetic treatments performed by experienced experts.",
+              "address": {
+                "@type": "PostalAddress",
+              "streetAddress": "285D Al Wasl Rd",
+              "addressLocality": "Dubai",
+              "addressCountry": "AE"
+          },
+              "contactPoint": {
+                "@type": "ContactPoint",
+              "contactType": "Customer Service",
+              "telephone": "+971 (0) 4 345 5520",
+              "email": "info@orskin.ae"
+          },
+              "openingHours": [
+              "Mo-Sa 09:00-21:00",
+              "Su 10:00-19:00"
+              ]
+          }
+        `}
+        </script>
+      </Helmet>
       <Slider slides={homeSlider} />
       <div className="w-full  bg-walpaper bg-no-repeat bg-center bg-cover mb-[60px] py-[80px]">
         <div className="max-w-[1100px] m-auto container">
@@ -50,7 +100,7 @@ function Home() {
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in">
           <img
             src={facialSection.banner}
-            alt="banner"
+            alt={facialSection.bannerALT}
             className="w-full h-full object-cover"
           />
         </div>

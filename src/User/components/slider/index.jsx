@@ -31,7 +31,7 @@ const Slider = ({ slides }) => {
       >
         {slides.map(slide => (
           <div key={slide.id} className="w-full h-full flex-shrink-0">
-            <img src={slide.image} alt={`slide ${slide.id}`} className="w-full h-full object-cover" />
+            <img src={slide.image} alt={slide.title} className="w-full h-full object-cover" />
           </div>
         ))}
       </div>

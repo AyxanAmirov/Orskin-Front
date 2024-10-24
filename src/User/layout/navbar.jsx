@@ -22,7 +22,7 @@ function Navbar({ isVisible }) {
             <Link to={"/"}>
               <img
                 src={Logo}
-                alt="company"
+                alt="Orskin Aesthetic Clinic in Dubai"
                 className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full"
               />
             </Link>

@@ -2,13 +2,20 @@
 import TeamBottomBanner from "../../assets/image/team.jpg";
 import Feedbacks from "../../components/feedbacks";
 import { aboutInfo, team } from "../../../data/data";
+import { Helmet } from "react-helmet";
 
 function About() {
 
   return (
     <>
+      <Helmet>
+        <title>Orskin Aesthetic Clinic in Dubai - About Us: Meet Our Team</title>
+        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling" />
+        <link rel="canonical" href="https://www.orskin.ae/about" />
+      </Helmet>
+
       <div className="flex justify-center">
-        <img src={aboutInfo.banner} alt="Orskin About Info banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in"/>
+        <img src={aboutInfo.banner} alt="Orskin About Info banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in" />
       </div>
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">

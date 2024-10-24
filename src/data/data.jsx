@@ -63,6 +63,7 @@ export const services = [
     {
         id: 1,
         image: service3,
+        imageALT: "Laser treatments",
         titleImage: lazer,
         title: "LASER",
         moreinfo: {
@@ -75,6 +76,7 @@ export const services = [
     {
         id: 2,
         image: service2,
+        imageALT: "Slimming treatments",
         titleImage: slimming,
         title: "SLIMMING",
         moreinfo: {
@@ -143,6 +145,7 @@ export const services = [
     {
         id: 3,
         image: service1,
+        imageALT: "Aesthetics treatments",
         titleImage: aesthetics,
         title: "aesthetics",
         moreinfo: {
@@ -264,6 +267,7 @@ export const services = [
     {
         id: 4,
         image: service4,
+        imageALT: "Facials treatments",
         titleImage: null,
         title: "facials",
         moreinfo: {
@@ -461,6 +465,7 @@ export const services = [
     {
         id: 5,
         image: service5,
+        imageALT: "Wellness treatments",
         titleImage: null,
         title: "Wellness",
         moreinfo: {
@@ -473,6 +478,7 @@ export const services = [
     {
         id: 6,
         image: service6,
+        imageALT: "Latest treatments",
         titleImage: latest,
         title: "Latest",
         moreinfo: {
@@ -498,38 +504,46 @@ export const services = [
 export const homeSlider = [
     {
         id: 1,
-        image: benner1
+        image: benner1,
+        title: "Orskin Aesthetic Clinic - Home"
     },
     {
         id: 2,
-        image: banner2
+        image: banner2,
+        title: "Orskin Aesthetic Clinic - Home"
     },
     {
         id: 3,
-        image: benner3
+        image: benner3,
+        title: "Orskin Aesthetic Clinic - Home"
     },
 ];
 
 export const serviceSlider = [
     {
         id: 1,
-        image: servicebanner1
+        image: servicebanner1,
+        title: "Test"
     },
     {
         id: 2,
-        image: servicebanner2
+        image: servicebanner2,
+        title: "Test"
     },
     {
         id: 3,
-        image: servicebanner3
+        image: servicebanner3,
+        title: "Test"
     },
     {
         id: 4,
-        image: servicebanner4
+        image: servicebanner4,
+        title: "Test"
     },
     {
         id: 5,
-        image: servicebanner5
+        image: servicebanner5,
+        title: "Test"
     }
 ];
 
@@ -537,42 +551,42 @@ export const partners = [
     {
         id: 1,
         image: dmg,
-        title: "dmg logo"
+        title: "dmk cosmetics"
     },
     {
         id: 2,
         image: darma,
-        title: "darma logo"
+        title: "dermaplane"
     },
     {
         id: 3,
         image: nano,
-        title: "nano logo"
+        title: "nanopen"
     },
     {
         id: 4,
         image: nuro,
-        title: "nuro logo"
+        title: "neurotris"
     },
     {
         id: 5,
         image: dmg,
-        title: "dmg logo"
+        title: "dmk cosmetics"
     },
     {
         id: 6,
         image: darma,
-        title: "darma logo"
+        title: "dermaplane"
     },
     {
         id: 7,
         image: nano,
-        title: "nano logo"
+        title: "nanopen"
     },
     {
         id: 8,
         image: nuro,
-        title: "nuro logo"
+        title: "neurotris"
     },
 ]
 
@@ -650,6 +664,7 @@ export const feedbacks = [
 
 export const facialSection = {
     banner: facialBanner,
+    bannerALT: "Lady is having face mask or face peeling.",
     titleImage: facialTitle,
     title: "MAKING YOU HAPPY YOU’RE IN YOUR OWN SKIN.",
     description: "Taking care of your skin is a journey. And we’re here to make it a little easier for you. Book your complimentary consultation to get expert advice on the right treatment for you."

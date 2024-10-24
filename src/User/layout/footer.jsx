@@ -46,17 +46,17 @@ function Footer() {
               <div className="flex gap-[20px] md:justify-center justify-around md:my-[0] my-[30px] align-center">
                 <img
                   src={Visa}
-                  alt="visa icon"
+                  alt="Visa card"
                   className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px]" data-aos="zoom-in"
                 />
                 <img
                   src={MasterCard}
-                  alt="mastercard icon"
+                  alt="Master card"
                   className="md:w-[80px] sm:w-[80px] w-[40px] xl:w-[40px] lg:w-[60px]" data-aos="zoom-in"
                 />
                 <img
                   src={UniPay}
-                  alt="visa icon"
+                  alt="UnionPay card"
                   className="xl:w-[50px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px] " data-aos="zoom-in"
                 />
               </div>
