@@ -109,7 +109,7 @@ function Home() {
             <div className="xl:max-w-[350px] lg:max-w[350px] md:max-w-[350px] sm:max-w-[260px] max-w-[200px] flex flex-col items-center xl:gap-[30px] lg:gap-[30px] md:gap-[20px]">
               <img
                 src={facialSection.titleImage}
-                alt="title"
+                alt={facialSection.bannerALT}
                 className="xl:w-[100%] lg:w-[100%] md:w-[220px] sm:w-[220px] w-[150px]" data-aos="zoom-in"
               />
               <h4 className="text-[#393939] font-bold xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] text-[14px] my-[15px]" data-aos="zoom-in">{facialSection.title}</h4>
