@@ -21,15 +21,13 @@ import dmg from "../User/assets/image/dmg-logo.png"
 import darma from "../User/assets/image/darma-logo.png"
 import nano from "../User/assets/image/nano-logo.png"
 import nuro from "../User/assets/image/nuro-logo.png"
-import product1 from "../User/assets/image/product1.webp"
-import product2 from "../User/assets/image/product2.webp"
-import product3 from "../User/assets/image/product3.webp"
 import facialBanner from "../User/assets/image/facial-banner.jpg";
 import facialTitle from "../User/assets/image/facial-title.png";
 import AboutBanner from "../User/assets/image/aboutus-banner.jpg";
 import OrsolyaMatheisz from "../User/assets/image/team-co.jpg";
 import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
 import DoctorAsima from "../User/assets/image/team-dr2.jpg";
+import DoctorShagoon from "../User/assets/image/team-dr3.jpeg";
 import Endospheres from "../User/assets/image/Endospheres-400x320.jpg";
 import EmSlim from "../User/assets/image/EmSlim-400x320.jpg";
 import LymphaticDrainageMassage from "../User/assets/image/Lymphatic-Drainage-Massage-400x320.jpg";
@@ -681,7 +679,7 @@ export const team = [
         id: 1,
         fullName: "Orsolya Matheisz",
         position: "Co-Founder",
-        description: "Introducing our Co-Founder Orsolya Matheisz, also known as Orsi, a licensed aesthetician from Hungary with a passion for beauty and wellness. With over 18 years of experience in beauty, facial care, and anti-aging. <br><br>Orsi was inspired to start this company to bring the very best skincare technology solutions to the market, combined with a down- to - earth yet high - end approach.",
+        description: "Introducing our Co-Founder Orsolya Matheisz, also known as Orsi, a licensed aesthetician from Hungary with a passion for beauty and wellness. With over 18 years of experience in beauty, facial care, and anti-aging. Orsi was inspired to start this company to bring the very best skincare technology solutions to the market, combined with a down- to - earth yet high - end approach.",
         image: OrsolyaMatheisz
     },
     {
@@ -697,6 +695,13 @@ export const team = [
         position: "Medical Director",
         description: "An enthusiastic and committed American board-certified aesthetic physician combines art and science to enhance one’s inherent attractiveness. After consulting with the patient and learning about their needs, a holistic approach is used to treat each individual patient in accordance with their specific needs. As a staff member of the Orskin Aesthetic Clinic, Dr. Asima Nasir provides the best treatment possible while producing outstanding outcomes.Additionally, Dr. Asima completed a master’s degree in business administration in healthcare management at UCAM Spain.",
         image: DoctorAsima
+    },
+    {
+        id: 4,
+        fullName: "Dr Shagoon",
+        position: "Aesthetic Medicine Doctor",
+        description: "Dr Shagoon is an Aesthetic Medicine Doctor. She has 5 years of experience as a Doctor with a background in General Medicine and Plastic surgery in the UK. She started her aesthetic medicine practice from training in the world-renowned Harley Street in London. She is dedicated to constantly improving her skills through practical courses and ongoing education in Dermatology and Aesthetics. She prioritizes treatments that deliver natural but noticeable results. ",
+        image: DoctorShagoon
     }
 ]
 

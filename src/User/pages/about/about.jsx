@@ -49,7 +49,7 @@ function About() {
                   </p>
                 </div>
                 <div className="col-lg-5 col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]" data-aos="zoom-in">
-                  <img src={member.image} alt={member.fullName} className="w-full" />
+                  <img src={member.image} alt={member.fullName} className="w-full h-[500px] object-cover" />
                 </div>
               </div>
             ))
