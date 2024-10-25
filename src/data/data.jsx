@@ -50,7 +50,7 @@ import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.jpg";
 import Morpheus from "../User/assets/image/Morpheus-400x320.jpg";
 import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.jpg";
 import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg";
-import blog1cover from "../User/assets/image/blog1-400x600.jpeg";
+import blog1cover from "../User/assets/image/blog1-1140px408.jpg";
 import blog1product1 from "../User/assets/image/blog-product1-200x200.jpeg";
 import blog2cover from "../User/assets/image/blog2-cover-1200x429.jpg";
 import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
@@ -698,7 +698,7 @@ export const team = [
     },
     {
         id: 4,
-        fullName: "Dr Shagoon",
+        fullName: "Dr Shagoon Modi",
         position: "Aesthetic Medicine Doctor",
         description: "Dr Shagoon is an Aesthetic Medicine Doctor. She has 5 years of experience as a Doctor with a background in General Medicine and Plastic surgery in the UK. She started her aesthetic medicine practice from training in the world-renowned Harley Street in London. She is dedicated to constantly improving her skills through practical courses and ongoing education in Dermatology and Aesthetics. She prioritizes treatments that deliver natural but noticeable results. ",
         image: DoctorShagoon
