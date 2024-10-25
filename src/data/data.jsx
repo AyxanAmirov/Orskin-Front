@@ -10,6 +10,7 @@ import service1 from "../User/assets/image/service1.jpg"
 import service2 from "../User/assets/image/service2.jpg"
 import service3 from "../User/assets/image/service3.jpg"
 import service3v500x500 from "../User/assets/image/service3 500x400.jpg"
+import service3UltraClear from "../User/assets/image/UltraClear.jpeg"
 import service4 from "../User/assets/image/service4.jpg"
 import service5 from "../User/assets/image/service5.jpg"
 import service6 from "../User/assets/image/service6.jpg"
@@ -66,9 +67,23 @@ export const services = [
         title: "LASER",
         moreinfo: {
             banner: LaserBanner,
-            image: service3v500x500,
-            description: "Our aestheticians use the advanced ADVATx, which is among the most sophisticated dermatology lasers in the world and can be used for multiple stand-alone and combination therapies. Advalight combines high-powered yellow and infrared laser energy to improve skin tone, texture and overall dermal health, making it particularly beneficial for conditions including psoriasis, rosacea, sun damage, wrinkles, spider veins, blemishes, and birth marks.",
-            items: null
+            image: null,
+            description: null,
+            items: [
+                {
+                    id: 1,
+                    image: service3UltraClear,
+                    title: "UltraClear",
+                    description: "Orskin Aesthetics Clinic offers worlds first MID-IR fiber laser facial rejuvenation system in the world safe for all skin types ,UltraClear, can treat several skin layers, from the epidermis to the middermis. This innovative treatment offers precise, non-invasive skin rejuvenation , providing clients with age-defying results without the need for surgery or prolonged recovery. With this new cutting-edge technology and orskin expertises , a wide range of dermatological and cosmetic conditions can be treated, ensuring outstanding patient experience, safety, and efficacy. Ultraclear encourages the skin's natural healing process by vaporizing damaged exterior skin and applying controlled thermal energy to the underlying layers, which in turn promotes the creation of collagen and elastin. Fine lines, deep wrinkles, and scars are visibly reduced, and the skin becomes smoother, healthier, and more luminous as a result.",
+                },
+                {
+                    id: 2,
+                    image: service3v500x500,
+                    title: "ADVATx",
+                    description: "Our aestheticians use the advanced ADVATx, which is among the most sophisticated dermatology lasers in the world and can be used for multiple stand-alone and combination therapies. Advalight combines high-powered yellow and infrared laser energy to improve skin tone, texture and overall dermal health, making it particularly beneficial for conditions including psoriasis, rosacea, sun damage, wrinkles, spider veins, blemishes, and birth marks.",
+                }
+
+            ]
         }
     },
     {
