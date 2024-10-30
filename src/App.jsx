@@ -22,6 +22,7 @@ import Cookie from "./User/pages/cookiePolicy/cookie";
 import BlogDetail from "./User/pages/blogDetail/blogDetail";
 import Search from "./User/pages/search/search";
 import NotFound from "./User/pages/notfound";
+import Shop from "./User/pages/shop";
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
           </Route>
           <Route path="services/latest" element={<LatestOffers />} />
         </Route>
+        <Route path="/shop" element={<Shop />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </ScrollToTop>

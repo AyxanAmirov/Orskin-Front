@@ -21,7 +21,7 @@ function Home() {
     <>
       <Helmet>
         <title>Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments</title>
-        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and high-end laser treatments. Orskin promises exceptional results with an emphasis on customized treatments and state-of-the-art skincare products. Find transformative treatments for confident and beautiful skin in an opulent environment where your aesthetic objectives are our first priority. buda about sehifesi ucun description" />
+        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and high-end laser treatments. Orskin promises exceptional results with an emphasis on customized treatments and state-of-the-art skincare products. Find transformative treatments for confident and beautiful skin in an opulent environment where your aesthetic objectives are our first priority." />
         <link rel="canonical" href="https://www.orskin.ae" />
 
         <script type="application/ld+json">
