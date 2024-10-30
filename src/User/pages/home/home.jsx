@@ -20,8 +20,8 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Orskin Aesthetic Clinic - Home</title>
-        <meta name="description" content="Welcome to Orskin Aesthetic Clinic in Dubai. We offer premium skincare treatments with our expert team." />
+        <title>Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments</title>
+        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and high-end laser treatments. Orskin promises exceptional results with an emphasis on customized treatments and state-of-the-art skincare products. Find transformative treatments for confident and beautiful skin in an opulent environment where your aesthetic objectives are our first priority. buda about sehifesi ucun description" />
         <link rel="canonical" href="https://www.orskin.ae" />
 
         <script type="application/ld+json">
@@ -83,12 +83,12 @@ function Home() {
       <div className="container">
         <Partners />
         <div className="mt-[50px] flex w-full flex-col items-center gap-[20px]">
-          <h2 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[33px]  uppercase" data-aos="zoom-in" >
+          <h1 className="text-[#393939] font-[400] xl:text-[50px] lg:text-[50px] md:text-[45px] sm:text-[45px] text-[33px]  uppercase" data-aos="zoom-in" >
             Shop
-          </h2>
-          <h4 className="font-bold xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[13px] text-center" data-aos="zoom-in">
+          </h1>
+          <h2 className="font-bold xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[13px] text-center" data-aos="zoom-in">
             WE BRING YOU THE BEST IN SKINCARE PRODUCTS
-          </h4>
+          </h2>
           <div className="grid max-w-[1140px] w-[90%] m-auto grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
             {productData.map(product => (
               <Products key={product.id} product={product} />
@@ -112,7 +112,7 @@ function Home() {
                 alt={facialSection.bannerALT}
                 className="xl:w-[100%] lg:w-[100%] md:w-[220px] sm:w-[220px] w-[150px]" data-aos="zoom-in"
               />
-              <h4 className="text-[#393939] font-bold xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] text-[14px] my-[15px]" data-aos="zoom-in">{facialSection.title}</h4>
+              <h2 className="text-[#393939] font-bold xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] text-[14px] my-[15px]" data-aos="zoom-in">{facialSection.title}</h2>
               <p className="font-bold xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[12px]" data-aos="zoom-in">
                 {facialSection.description}
               </p>

@@ -9,9 +9,9 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>Orskin Aesthetic Clinic in Dubai - About Us: Meet Our Team</title>
+        <title>The Best Aesthetic Doctors in Dubai | Expert Doctors in Aesthetic</title>
         <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling" />
-        <link rel="canonical" href="https://www.orskin.ae/about" />
+        <link rel="canonical" href="https://orskin.ae/about" />
       </Helmet>
 
       <div className="flex justify-center">
@@ -31,7 +31,7 @@ function About() {
               </p>
             </div>
           </div>
-          <h2 className="xl:text-[44px] lg:text-[44px] md:text-[44px] sm:text-[40px] text-[40px] text-[#9AD6CC] mb-[50px]" data-aos="zoom-in">MEET OUR TEAM</h2>
+          <h1 className="xl:text-[44px] lg:text-[44px] md:text-[44px] sm:text-[40px] text-[40px] text-[#9AD6CC] mb-[50px]" data-aos="zoom-in">MEET OUR TEAM</h1>
         </div>
         <div className="flex flex-col items-center gap-[50px]">
           {
@@ -40,9 +40,9 @@ function About() {
                 index % 2 == 0 ? "flex justify-center flex-wrap lg:gap-[0px] xl:gap-[0px]  md:gap-[50px] sm:gap-[50px] gap-[50px]" : "flex justify-center flex-wrap lg:gap-[0px] xl:gap-[0px] md:flex-row-reverse md:gap-[50px] sm:gap-[50px] gap-[50px]"
               }>
                 <div className="lg:order-1 xl:order-1 order-2 col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[30px] xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] ">
-                  <h3 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]" data-aos="zoom-in">
+                  <h2 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]" data-aos="zoom-in">
                     {member.fullName}
-                  </h3>
+                  </h2>
 
                   <p className="xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px] " data-aos="zoom-in">
                     {member.description}

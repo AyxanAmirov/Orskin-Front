@@ -686,7 +686,7 @@ export const facialSection = {
 export const aboutInfo = {
     banner: AboutBanner,
     title: "Our highly experienced skincare experts are qualified andtrained in Europe, US and Asia.Some of our signature services include Advalight Laser, Neurotris Microcurrent Facial, and Morpheus microneedling to name a few.",
-    description: "At Orskin, we are driven to help you to achieve your vision of well-being and beauty. Our approach to skincare services is to provide you with an array of holistic and personalized treatments, specifically created to address any of your skin concerns. <br /> <br />We use a combination of advanced high- tech devices with conventional methods giving the best possible skincare treatments to all of our clients.We want you to feel and look great!"
+    description: "At Orskin, we are driven to help you to achieve your vision of well-being and beauty. Our approach to skincare services is to provide you with an array of holistic and personalized treatments, specifically created to address any of your skin concerns. We use a combination of advanced high- tech devices with conventional methods giving the best possible skincare treatments to all of our clients.We want you to feel and look great!"
 }
 
 export const team = [
@@ -699,21 +699,21 @@ export const team = [
     },
     {
         id: 2,
+        fullName: "DR. Asima Nasir",
+        position: "Medical Director",
+        description: "As the medical director of the Orskin Aesthetic Clinic, Dr. Asima Nasir delivers exceptional results while offering the greatest care available. To improve a person's natural beauty, a passionate and dedicated American board-certified aesthetician blends art and science. A holistic approach is employed to treat each patient according to their unique needs after speaking with them and learning about their requirements. Furthermore, at UCAM Spain, Dr. Asima earned a master's degree in business administration with a focus on hospital management.",
+        image: DoctorAsima
+    },
+    {
+        id: 3,
         fullName: "Dr. Gustavo Mazariegos",
         position: null,
         description: "Dr. Gustavo Mazariegos is a leader in Aesthetic Medicine and Hair Restoration with over a decade of experience. A Professor of Master’s in Facial Aesthetic Medicine, he is internationally renowned for his skills in treatments such as Botox, Filler, Non-Surgical Face Lift, and Facial Harmonisation, achieving natural results for a more striking, streamlined complexion. He is also a highly sought-after Trichologist and Hair Transplant Surgeon.",
         image: DoctorGustavo
     },
     {
-        id: 3,
-        fullName: "DR. Asima Nasir",
-        position: "Medical Director",
-        description: "An enthusiastic and committed American board-certified aesthetic physician combines art and science to enhance one’s inherent attractiveness. After consulting with the patient and learning about their needs, a holistic approach is used to treat each individual patient in accordance with their specific needs. As a staff member of the Orskin Aesthetic Clinic, Dr. Asima Nasir provides the best treatment possible while producing outstanding outcomes.Additionally, Dr. Asima completed a master’s degree in business administration in healthcare management at UCAM Spain.",
-        image: DoctorAsima
-    },
-    {
         id: 4,
-        fullName: "Dr Shagoon Modi",
+        fullName: "Dr. Shagoon Modi",
         position: "Aesthetic Medicine Doctor",
         description: "Dr Shagoon is an Aesthetic Medicine Doctor. She has 5 years of experience as a Doctor with a background in General Medicine and Plastic surgery in the UK. She started her aesthetic medicine practice from training in the world-renowned Harley Street in London. She is dedicated to constantly improving her skills through practical courses and ongoing education in Dermatology and Aesthetics. She prioritizes treatments that deliver natural but noticeable results. ",
         image: DoctorShagoon
