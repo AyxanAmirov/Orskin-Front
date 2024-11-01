@@ -2,6 +2,7 @@ import Feedbacks from "../../components/feedbacks";
 import { services, serviceSlider } from "../../../data/data";
 import ServiceCard from "../../components/serviceCard";
 import Slider from "../../components/slider";
+import { Helmet } from "react-helmet";
 
 
 
