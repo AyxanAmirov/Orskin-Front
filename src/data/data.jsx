@@ -694,6 +694,7 @@ export const team = [
         id: 1,
         fullName: "Orsolya Matheisz",
         position: "Co-Founder",
+        alt: "Orsolya Matheisz Co Founder Orskin aesthetics clinic in dubai",
         description: "Introducing our Co-Founder Orsolya Matheisz, also known as Orsi, a licensed aesthetician from Hungary with a passion for beauty and wellness. With over 18 years of experience in beauty, facial care, and anti-aging. Orsi was inspired to start this company to bring the very best skincare technology solutions to the market, combined with a down- to - earth yet high - end approach.",
         image: OrsolyaMatheisz
     },
@@ -701,6 +702,7 @@ export const team = [
         id: 2,
         fullName: "DR. Asima Nasir",
         position: "Medical Director",
+        alt: "Dr asima Nasir Medical Director in orskin aesthetics clinic",
         description: "As the medical director of the Orskin Aesthetic Clinic, Dr. Asima Nasir delivers exceptional results while offering the greatest care available. To improve a person's natural beauty, a passionate and dedicated American board-certified aesthetician blends art and science. A holistic approach is employed to treat each patient according to their unique needs after speaking with them and learning about their requirements. Furthermore, at UCAM Spain, Dr. Asima earned a master's degree in business administration with a focus on hospital management.",
         image: DoctorAsima
     },
@@ -708,6 +710,7 @@ export const team = [
         id: 3,
         fullName: "Dr. Gustavo Mazariegos",
         position: null,
+        alt: "Dr Gustavo Mazariegos",
         description: "Dr. Gustavo Mazariegos is a leader in Aesthetic Medicine and Hair Restoration with over a decade of experience. A Professor of Master’s in Facial Aesthetic Medicine, he is internationally renowned for his skills in treatments such as Botox, Filler, Non-Surgical Face Lift, and Facial Harmonisation, achieving natural results for a more striking, streamlined complexion. He is also a highly sought-after Trichologist and Hair Transplant Surgeon.",
         image: DoctorGustavo
     },
@@ -715,6 +718,7 @@ export const team = [
         id: 4,
         fullName: "Dr. Shagoon Modi",
         position: "Aesthetic Medicine Doctor",
+        alt: "Dr. Shagoon Modi",
         description: "Dr Shagoon is an Aesthetic Medicine Doctor. She has 5 years of experience as a Doctor with a background in General Medicine and Plastic surgery in the UK. She started her aesthetic medicine practice from training in the world-renowned Harley Street in London. She is dedicated to constantly improving her skills through practical courses and ongoing education in Dermatology and Aesthetics. She prioritizes treatments that deliver natural but noticeable results. ",
         image: DoctorShagoon
     }

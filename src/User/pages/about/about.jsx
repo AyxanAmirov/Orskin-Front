@@ -11,11 +11,71 @@ function About() {
       <Helmet>
         <title>The Best Aesthetic Doctors in Dubai | Expert Doctors in Aesthetic</title>
         <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling" />
-        <link rel="canonical" href="https://orskin.ae/about" />
+        <link rel="canonical" href="https://orskin.ae/about-us" />
+        <script type="application/ld+json">
+          {`
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://orskin.ae/about-us/",
+      "url": "https://orskin.ae/about-us/",
+      "name": "About Us - Orskin Aesthetic Clinic in Dubai",
+      "description": "Learn more about Orskin Aesthetic Clinic and our team of skincare experts in Dubai.",
+      "datePublished": "2023-05-21",
+      "dateModified": "2024-01-15",
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://orskin.ae/about-us/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://orskin.ae/about-us/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://orskin.ae/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://orskin.ae/#medicalclinic",
+      "name": "Orskin Aesthetic Clinic",
+      "url": "https://orskin.ae/",
+      "description": "Orskin Aesthetic Clinic in Dubai offers high-quality skincare treatments by experienced experts.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "285D Al Wasl Rd",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+971 (0) 4 345 5520",
+        "email": "info@orskin.ae"
+      },
+      "openingHours": [
+        "Mo-Sa 09:00-21:00",
+        "Su 10:00-19:00"
+      ]
+    }
+  ]
+`}
+        </script>
       </Helmet>
 
       <div className="flex justify-center">
-        <img src={aboutInfo.banner} alt="Orskin About Info banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in" />
+        <img src={aboutInfo.banner} alt="Facial lifting effect demonstrated through our advanced treatment." className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in" />
       </div>
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">
@@ -49,7 +109,7 @@ function About() {
                   </p>
                 </div>
                 <div className="col-lg-5 col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]" data-aos="zoom-in">
-                  <img src={member.image} alt={member.fullName} className="w-full h-[500px] object-cover" />
+                  <img src={member.image} alt={member.alt} className="w-full h-[500px] object-cover" />
                 </div>
               </div>
             ))
@@ -57,7 +117,7 @@ function About() {
         </div>
       </div>
       <div className="mt-[40px] flex justify-center">
-        <img src={TeamBottomBanner} alt="Orskin Doctors" data-aos="zoom-in" className="w-100" />
+        <img src={TeamBottomBanner} alt="Orskin aesthetics clinic's team" data-aos="zoom-in" className="w-100" />
       </div>
       <Feedbacks />
     </>

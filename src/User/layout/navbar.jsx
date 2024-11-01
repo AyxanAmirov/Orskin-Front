@@ -34,7 +34,7 @@ function Navbar({ isVisible }) {
                   <Link to="/">Home</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  <Link to="/about">About us</Link>
+                  <Link to="/about-us">About us</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/services">Services</Link>
@@ -72,7 +72,7 @@ function Navbar({ isVisible }) {
                     </Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <Link to="/about" onClick={toggleMenu}>
+                    <Link to="/about-us" onClick={toggleMenu}>
                       About us
                     </Link>
                   </li>
