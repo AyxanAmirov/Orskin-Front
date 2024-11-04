@@ -485,7 +485,197 @@ export const services = [
             banner: wellnessbanner,
             image: Wellness400x320,
             description: "At Orskin, we don’t just believe in looking your best, but feeling your best. In addition to our expert skincare and aesthetics treatments, our Wellness Department offers a range of proactive solutions to promote good health from within. IV drips are a highly effective way to feel better fast and we create customized solutions based on your body’s needs. A Hollywood favourite, the NAD IV drip stimulates cell regeneration to reduce inflammation and improve energy. Or why not try a vitamin mix to top up your levels? Or a detox drip to remove unwanted toxins.",
-            items: null
+            items: [
+                {
+                    id: 1,
+                    image: null,
+                    title: "Our selection of IV wellness drips includes:",
+                    description: `– Anti-stress and antioxidant<br/>
+– Immune boost and hydration<br/>
+– Glowing and radiant skin<br/>
+– Cardio support<br/>
+– Memory boost<br/>
+– Hair regenerate<br/>
+– Energy boost & fitness support<br/>
+– Vitamin mix<br/>
+– Liver detox<br/>
+– Female balance<br/>
+– Gut healer<br/>
+– Customized (VIP anti-aging)<br/>
+– Blood boost and iron<br/>
+– Diabetic support<br/>
+– Customized (HMD)`
+                },
+                {
+                    id: 2,
+                    image: null,
+                    title: "Exosomes IV therapy ",
+                    description: `Exosomes Small extracellular vesicles released by cells
+                    <br/>
+                    <br/>
+-Role: Involved in cell-to-cell communication, transporting proteins, lipids, and nucleic acids.
+<br/>
+-Impact: Influence recipient cells' behaviour, aiding in immune responses, angiogenesis, and cell proliferation.`
+                },
+                {
+                    id: 3,
+                    image: null,
+                    title: "Stemcell IV therapy",
+                    description: `Stem cells are unique because they are undifferentiated cells capable of differentiating into specialized cell types. They also have the remarkable ability to self-renew, making them highly valuable for tissue repair and regeneration.
+                    <br/>
+                    <br/>
+-Can transform into specialized cell types.
+                    <br/>
+-Ability to replicate and maintain their population.
+                    <br/>
+-Tissue repair and regeneration: Crucial for medical treatments and therapies`
+                },
+                {
+                    id: 4,
+                    image: null,
+                    title: "Anti-Stress and Antioxidant",
+                    description: `This is essential to fight against oxidative stress caused by free radicals. Research has shown
+that raised glutathione levels decrease muscle
+d a m a g e , r e d u c e recovery time, i n c r e a s e
+strength a n d e n d u r a n c e a n d shift metabolism
+from fat production to muscle development.
+`
+                },
+                {
+                    id: 5,
+                    image: null,
+                    title: "Immunity Boost",
+                    description: `This is tailored with high dose of vitamins and
+minerals required to boost the body's immune
+system. With high dose of ascorbic acid, b
+of this i drip, resistsie is indie sod agains:
+m o s t p a t h o g e n s .
+`
+                },
+                {
+                    id: 6,
+                    image: null,
+                    title: "Glowing and Radiant Skin",
+                    description: `Rich in vitamin C and glutathione, which is vital
+to detoxify the skin. Not only is glutathione a
+powerful antioxidant, but it is essential for
+helping your skin recover from the daily
+d a m a g e c a u s e d by sun exposure a n d great at
+combating visible signs of ageing.
+`
+                },
+                {
+                    id: 7,
+                    image: null,
+                    title: "Cardio Support",
+                    description: `For those who are experiencing cardiovascular
+concerns. Infused with alpha-lipoic acid which
+is a protective agent against risk factors of
+cardiovascular disease, and amino acid which
+promotes better cardiovascular functions.`
+                },
+                {
+                    id: 8,
+                    image: null,
+                    title: "MEMORY BOOST",
+                    description: `This contains highly concentrated multi mineral
+vitamins, that help in enhancing and boosting
+m e m o r y functions. Promising research shows
+that B-12 can slow cognitive decline in people
+with dementia and early Alzheimer's disease.`
+                },
+                {
+                    id: 9,
+                    image: null,
+                    title: "HAIR REGENERATE",
+                    description: `This is tailored to help the hair looks glossy,
+healthy, a n d full. It strengthens the hair a n d
+helps prevent hair loss. It is infused with
+essential vitamins and minerals such as b
+vitamins and zinc to stimulate hair growth.`
+                },
+                {
+                    id: 10,
+                    image: null,
+                    title: "Energy boost and fitness support",
+                    description: `This is for those who are energetic and enjoy
+working out at optimum level. Infused with B
+vitamins to boost energy levels and, glutamine
+that increases your ability to secrete human
+growth hormone, which helps metabolize body
+fat and support new muscle growth.`
+                },
+                {
+                    id: 11,
+                    image: null,
+                    title: "Vitamin  Mix",
+                    description: `A tailored multi mineral vitamin, necessary to
+make you always feel and look great. With a mix
+of superantioxidant, immunity booster and
+detox drips, this will give you a total wellness
+and prevention of any further disorders.`
+                },
+                {
+                    id: 12,
+                    image: null,
+                    title: "LIVER DETOX",
+                    description: `Powerful to cleanse and support your liver
+against oxidative s t r e s s . With highly
+concentrated superantioxidant glutathione,
+aka the great protector, is the main component
+of this IV drip. Glutathione is a triple threat to
+toxins. This drip neutralizes free radicals,
+enhances the immune system and detoxifies the liver. `
+                },
+                {
+                    id: 13,
+                    image: null,
+                    title: "FEMALE BALANCE",
+                    description: `Containing high vitamin-mineral a n d
+magnesium which are essential i n balancing
+h o r m o n e s a n d dealing with PMS, painful
+periods, infertility, pregnancy and weight issues.
+"Fluctuating sex h o r m o n e s levels, making,
+affect m a g n e s i u m
+w o m e n m o r e s e n s i t i v e to
+magnesium deficiency than men".`
+                },
+                {
+                    id: 14,
+                    image: null,
+                    title: "GUT  HEALTH",
+                    description: `Rich in glutamine and folic acid that is essential
+for improving digestion and leaky gut. The
+L-glutamine in this IV drip is essential for the
+synthesis of the mucoproteins present in the
+m u c o u s secretions of the Gl tract.`
+                },
+                {
+                    id: 15,
+                    image: null,
+                    title: "BLOOD BOOST AND IRON",
+                    description: `This contains iron, needed to produce red blood
+cells. Iron absorption is enhanced by
+administration of Vitamin C and Vitamin B12
+helps your body to produce red blood cells and
+keep your nervous system healthy. Folic acid
+and vitamin B12 work together to produce red
+b l o o d cells.`
+                },
+                {
+                    id: 16,
+                    image: null,
+                    title: "DIABETIC SUPPORT",
+                    description: `Used to reduce high sugar levels and maintain
+its optimum range. The high B vitamin complex
+concentration of this drip, prevents and targets
+peripheral neuropathy associated with DM. It is
+also packed with a dose of vitamin D, suggests
+that vitamin D deficiency and obesity interact
+synergistically to heighten the risk of diabetes
+and other metabolic disorders.`
+                }
+            ]
         }
     },
     {
