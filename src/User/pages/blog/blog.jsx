@@ -15,7 +15,7 @@ function Blog() {
           {
             blogs.map(blog => <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-[15px]" key={blog.id}>
               <div className="blog-item mb-[30px]">
-                <img src={blog.cover} alt={blog.title} className="h-[300px] w-100 object-cover" data-aos="zoom-in" />
+                <img src={blog.coverMin} alt={blog.title} className="h-[300px] w-100 object-cover" data-aos="zoom-in" />
                 <div className="px-[10px]">
                   <h3 className="text-[25px] font-[600] my-[20px] hover:text-[#9AD6CC] duration-[.4s]" data-aos="zoom-in">
                     <Link to={`/blog/${blog.id}`}>{blog.title}</Link>

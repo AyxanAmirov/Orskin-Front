@@ -12,12 +12,12 @@ function BlogDetail() {
   return (
     <div className="container ">
       <div className="mt-[230px] flex flex-col gap-[30px]">
-        <h2 className="text-[#B3D6D0] text-[18px]" data-aos="zoom-in">
+        <h2 className="text-[#B3D6D0] text-[30px]" data-aos="zoom-in">
           {blog.title}
         </h2>
         <img
           src={blog.cover}
-          alt="blog"
+          alt={blog.title}
           className="self-center"
           data-aos="zoom-in"
         />
