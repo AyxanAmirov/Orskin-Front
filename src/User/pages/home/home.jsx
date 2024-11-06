@@ -20,8 +20,8 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments</title>
-        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority." />
+        <title>Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments</title>
+        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority." />
         <link rel="canonical" href="https://www.orskin.ae" />
 
         <script type="application/ld+json">
@@ -38,7 +38,7 @@ function Home() {
     "url": "https://orskin.ae/",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://orskin.ae/wp-content/uploads/2023/02/logo.png",
+      "url": "https://orskin.ae/assets/logo-CnwgVcVk.png",
       "width": 204,
       "height": 77
     }

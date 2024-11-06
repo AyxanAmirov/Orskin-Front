@@ -69,7 +69,7 @@ export const services = [
     {
         id: 1,
         image: service3,
-        imageALT: "Laser treatments",
+        imageALT: "Laser skin treatments",
         titleImage: lazer,
         title: "LASER",
         moreinfo: {
@@ -96,7 +96,7 @@ export const services = [
     {
         id: 2,
         image: service2,
-        imageALT: "Slimming treatments",
+        imageALT: "Slimming, fat burning procedures",
         titleImage: slimming,
         title: "SLIMMING",
         moreinfo: {
@@ -165,7 +165,7 @@ export const services = [
     {
         id: 3,
         image: service1,
-        imageALT: "Aesthetics treatments",
+        imageALT: "aesthetics procedures, botox, filler, skin boosters",
         titleImage: aesthetics,
         title: "aesthetics",
         moreinfo: {
@@ -287,7 +287,7 @@ export const services = [
     {
         id: 4,
         image: service4,
-        imageALT: "Facials treatments",
+        imageALT: "Facials beauty treatments, deep cleansing, environ, jet peel",
         titleImage: null,
         title: "facials",
         moreinfo: {
@@ -485,7 +485,7 @@ export const services = [
     {
         id: 5,
         image: service5,
-        imageALT: "Wellness treatments",
+        imageALT: "Top wellness procedures available in Dubai to enhance health and well-being.",
         titleImage: null,
         title: "Wellness",
         moreinfo: {
@@ -688,7 +688,7 @@ and other metabolic disorders.`
     {
         id: 6,
         image: service6,
-        imageALT: "Latest treatments",
+        imageALT: "Latest treatment offers, noxi-systemn",
         titleImage: latest,
         title: "Latest",
         moreinfo: {
@@ -733,27 +733,27 @@ export const serviceSlider = [
     {
         id: 1,
         image: servicebanner1,
-        title: "Test"
+        title: "Services: wellness, laser treatments, signature facials and slimming procedures."
     },
     {
         id: 2,
         image: servicebanner2,
-        title: "Test"
+        title: "Services: wellness, laser treatments, signature facials and slimming procedures."
     },
     {
         id: 3,
         image: servicebanner3,
-        title: "Test"
+        title: "Services: wellness, laser treatments, signature facials and slimming procedures."
     },
     {
         id: 4,
         image: servicebanner4,
-        title: "Test"
+        title: "Services: wellness, laser treatments, signature facials and slimming procedures."
     },
     {
         id: 5,
         image: servicebanner5,
-        title: "Test"
+        title: "Services: wellness, laser treatments, signature facials and slimming procedures."
     }
 ];
 

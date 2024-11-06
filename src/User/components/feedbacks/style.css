@@ -1,13 +1,14 @@
 #feedbacks {
-    .swiper-wrapper{
+    .swiper-wrapper {
         align-items: center;
         height: auto !important;
     }
+
     .swiper {
         width: 100%;
         height: auto;
     }
-    
+
     .swiper-slide {
         /* height: 750px !important; */
         display: flex;
@@ -16,11 +17,12 @@
         background-size: cover;
     }
 
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-    }
-    .swiper-pagination{
+
+    .swiper-pagination {
         bottom: 0px !important;
     }
+
+
+
+
 }

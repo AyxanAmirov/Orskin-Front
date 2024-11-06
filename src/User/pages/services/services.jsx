@@ -13,8 +13,8 @@ function Services() {
 
     <>
       <Helmet>
-        <title>Orskin Aesthetics offer exceptional beauty services: wellness, laser treatments, signature facials and slimming “procedures."</title>
-        <meta name="description" content="" />
+        <title>Services: wellness, laser treatments, signature facials and slimming procedures.</title>
+        <meta name="description" content="At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to  slimming procedures, aesthetic injectables, fat burning treatments,  our expert team ensures you look and feel your best. Experience the ultimate in self-care and book your appointment today to unlock your radiant beauty and enhanced well-being." />
         <link rel="canonical" href="https://orskin.ae/services" />
 
       </Helmet>

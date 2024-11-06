@@ -14,12 +14,4 @@
         justify-content: center;
         align-items: center;
     }
-
-   
-
-    .object-contain {
-        cursor: grab;
-        user-select: none;
-        /* height: 60px !important; */
-    }
 }
