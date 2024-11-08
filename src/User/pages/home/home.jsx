@@ -96,7 +96,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex mt-[30px]">
+      <div className="flex mt-[30px] md:flex-row flex-col-reverse">
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in">
           <img
             src={facialSection.banner}
@@ -105,7 +105,7 @@ function Home() {
           />
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in">
-          <div className="w-full flex items-center flex-col text-center md:gap-[20px]">
+          <div className="w-full flex items-center flex-col text-center md:gap-[20px] mb-[30px]">
             <div className="xl:max-w-[350px] lg:max-w[350px] md:max-w-[350px] sm:max-w-[260px] max-w-[200px] flex flex-col items-center xl:gap-[30px] lg:gap-[30px] md:gap-[20px]">
               <img
                 src={facialSection.titleImage}

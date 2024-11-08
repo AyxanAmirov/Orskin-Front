@@ -2,29 +2,35 @@ import { Tooltip } from "@chakra-ui/react";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { blogs } from "../../../data/data";
 
 function BlogDetail() {
-  const { id } = useParams()
-  const blog = blogs[id - 1];
+  const { title } = useParams()
+  const [blogState, setBlogState] = useState({})
+  useEffect(() => {
+
+    setBlogState(blogs.find(item => item.title.includes(title)));
+  }, [title])
+
+
   return (
     <div className="container ">
       <div className="mt-[230px] flex flex-col gap-[30px]">
         <h2 className="text-[#B3D6D0] text-[30px]" data-aos="zoom-in">
-          {blog.title}
+          {blogState.title}
         </h2>
         <img
-          src={blog.cover}
-          alt={blog.title}
+          src={blogState.cover}
+          alt={blogState.title}
           className="self-center"
           data-aos="zoom-in"
         />
-        <div dangerouslySetInnerHTML={{ __html: blog.description }} data-aos="zoom-in"></div>
+        <div dangerouslySetInnerHTML={{ __html: blogState.description }} ></div>
         <div className="flex flex-row flex-wrap">
           {
-            blog.products.map(product =>
+            blogState.products?.map(product =>
               <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 px-[20px]" key={product.id} >
                 <div className="flex flex-col gap-[10px] mb-[50px]">
                   <div>
@@ -34,16 +40,18 @@ function BlogDetail() {
                       className="h-[300px] w-100 object-cover"
                       data-aos="zoom-in"
                     />
-                    <Link className="text-[#9DD7CD] text-[13px]" data-aos="zoom-in">
+                    <a className="text-[#9DD7CD] text-[13px]" data-aos="zoom-in" href={product.url} target="_blank">
                       {product.title}
-                    </Link>
+                    </a>
                   </div>
                   <p data-aos="zoom-in">
                     {product.description}
                   </p>
-                  <button className="w-full py-[10px] px-[10px] bg-[#9AD6CC] rounded-[5px] text-white" data-aos="zoom-in">
-                    Buy Now
-                  </button>
+                  <a href={product.url} target="_blank">
+                    <button className="w-full py-[10px] px-[10px] bg-[#9AD6CC] rounded-[5px] text-white" data-aos="zoom-in">
+                      Buy Now
+                    </button>
+                  </a>
                 </div>
               </div>)
           }
@@ -84,25 +92,34 @@ function BlogDetail() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 mb-[100px]">
+        <div className="mb-[100px]">
           <h2 className="text-[30px] text-[#B3D6D0] mb-[20px]" data-aos="zoom-in">
             Related Posts
           </h2>
 
-          <div className="card relative ">
-            <img
-              src={blogs[1].cover}
-              alt="product"
-              className="w-full" data-aos="zoom-in"
-            />
+          <div className="flex gap-[30px]">
+            {
+              blogs.filter(item => item.id !== blogState.id).map(blog => <div className="col-lg-3 border-gray-50 border p-[5px]">
+                <div className="card relative ">
+                  <img
+                    src={blog.cover}
+                    alt="product"
+                    className="w-full" data-aos="zoom-in"
+                  />
 
-            <div className="overlay absolute  inset-0 bg-[#9AD6CC] opacity-70 ">
-              <Link to={"/blog/2"} >DETAILS</Link>
-            </div>
+                  <div className="overlay absolute  inset-0 bg-[#9ad6ccda] opacity-30  flex justify-center align-center">
+                    <Link to={`/blog/${blog.title}`} className="text-[#fff]">DETAILS</Link>
+                  </div>
+                </div>
+                <p className="text-[16px] mt-[10px] text-[#B3D6D0]" data-aos="zoom-in">
+                  <Link to={`/blog/${blog.title}`}>
+                    {blog.title}
+                  </Link>
+                </p>
+              </div>)
+            }
+
           </div>
-          <p className="text-[14px] text-[#B3D6D0]" data-aos="zoom-in">
-            {blogs[1].title}
-          </p>
         </div>
       </div>
     </div>

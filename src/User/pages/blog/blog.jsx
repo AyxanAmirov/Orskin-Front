@@ -18,7 +18,7 @@ function Blog() {
                 <img src={blog.coverMin} alt={blog.title} className="h-[300px] w-100 object-cover" data-aos="zoom-in" />
                 <div className="px-[10px]">
                   <h3 className="text-[25px] font-[600] my-[20px] hover:text-[#9AD6CC] duration-[.4s]" data-aos="zoom-in">
-                    <Link to={`/blog/${blog.id}`}>{blog.title}</Link>
+                    <Link to={`/blog/${blog.title}`}>{blog.title}</Link>
                   </h3>
                   <p className="text-[#555555]" data-aos="zoom-in">
                     {blog.introduction}

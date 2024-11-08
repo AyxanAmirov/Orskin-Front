@@ -52,10 +52,8 @@ import Morpheus from "../User/assets/image/Morpheus-400x320.jpg";
 import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.jpg";
 import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg";
 import blog1cover from "../User/assets/image/blog1-1140px408.jpg";
-import blog1product1 from "../User/assets/image/blog-product1-200x200.jpeg";
 import blog2cover from "../User/assets/image/blog2-cover-1200x429.jpg";
 import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
-import blog2product2 from "../User/assets/image/blog2-product2-400x400.jpg";
 import blog2product3 from "../User/assets/image/blog2-product3-400x400.jpg";
 
 import blog3cover from "../User/assets/image/SeasonalBlog1140 x 408.jpg";
@@ -280,6 +278,12 @@ export const services = [
                     image: null,
                     title: "PDRN",
                     description: "PDRN is a naturally-occurring building block in your DNA that helps to repair damaged skin cells and stimulate collagen production. PDRN skin treatments are a type of skin injectable, comprising biological molecules called Polydeoxyribonucleotide (PDRN), that helps to reverse signs of aging and scars through promoting skin repair"
+                },
+                {
+                    id: 19,
+                    image: null,
+                    title: "Perfect Derma Peel",
+                    description: "The Perfect Derma Peel is a medium-depth chemical peel that revitalizes and rejuvenates the skin. Its blend of powerful ingredients, including glutathione, TCA, and retinoic acid, works to diminish fine lines, acne scars, and sun damage while enhancing skin clarity and texture. This peel is suitable for all skin types and delivers transformative results with minimal downtime, making it ideal for those seeking radiant, youthful skin."
                 }
             ]
         }
@@ -929,42 +933,60 @@ export const blogs = [
         coverMin: blog1cover,
         introduction: "Gently exfoliate away dull, dead skin with the age-defying, complexion-boosting PHA Hydration Peel!",
         description: `
-            <p>In order to, rejuvenate your skin, Orskin Aesthetic Clinic uses two        cutting-edge procedures called platelet-rich fibrin (PRF) and plasma gel, often known as bioscience. These procedures harness the power of your body’s own healing capabilities. Although they both use platelet-rich components as a basis, their applications and advantages are different. Both techniques offer a natural and holistic approach to skin rejuvenation, harnessing the power of your body’s own healing mechanisms.</p>
-            <p><strong>PRF:</strong><br>
-            Platelet-Rich Fibrin (PRF) therapy is a cutting-edge treatment that utilizes the healing properties of your own blood to promote tissue repair. PRF is a concentrated form of platelet-rich plasma (PRP) that is processed to create a fibrin matrix. It is derived by collecting a small amount of the patient’s blood, which is then centrifuged to separate the platelets, growth factors, and other beneficial components from the rest of the blood.&nbsp; Platelet-Rich Fibrin (PRF) treatment is a safe and innovative therapy that utilizes your body’s natural healing properties.</p>
-            <p>Key features:<br>
+            <p data-aos="zoom-in">In order to, rejuvenate your skin, Orskin Aesthetic Clinic uses two cutting-edge procedures called platelet-rich fibrin (PRF) and plasma gel, often known as bioscience. These procedures harness the power of your body’s own healing capabilities. Although they both use platelet-rich components as a basis, their applications and advantages are different. Both techniques offer a natural and holistic approach to skin rejuvenation, harnessing the power of your body’s own healing mechanisms.</p>
+            <br>
+            <br>
+            <h2 data-aos="zoom-in"><strong>PRF:</strong></h2>
+            <br>
+            <p data-aos="zoom-in" >Platelet-Rich Fibrin (PRF) therapy is a cutting-edge treatment that utilizes the healing properties of your own blood to promote tissue repair. PRF is a concentrated form of platelet-rich plasma (PRP) that is processed to create a fibrin matrix. It is derived by collecting a small amount of the patient’s blood, which is then centrifuged to separate the platelets, growth factors, and other beneficial components from the rest of the blood.&nbsp; Platelet-Rich Fibrin (PRF) treatment is a safe and innovative therapy that utilizes your body’s natural healing properties.</p>
+            <p data-aos="zoom-in" >Key features:<br>
             1. Fibrin Matrix : This matrix functions as a scaffold to facilitate tissue and wound healing by supporting platelets and other growth factors.<br>
             2. Slow Release of Growth Factors<br>
             3. Rich in Leukocytes</p>
-            <p><strong>Plasma gel / Bio filler</strong></p>
-            <p>Plasma gel bio filler is a type of dermal filler derived from a patient’s own blood plasma. The process involves drawing a small amount of blood, which is then centrifuged to separate the plasma from the red blood cells. The plasma is heated to create a gel-like consistency. This plasma gel is then injected into the skin to act as a natural filler.</p>
-            <p>The primary advantages of plasma gel bio filler are its biocompatibility and low risk of allergic reactions or side effects, as it is derived from the patient’s own body. At Orskin Aesthetics Plasma Gel&nbsp; is commonly used for facial rejuvenation, reducing wrinkles, and adding volume to areas like the cheeks and lips. The results are generally subtle and natural-looking, and because it is autologous (coming from the same individual), it reduces the risks associated with synthetic fillers. Plasma Gel Bio Filler: A Natural Approach to Skin Rejuvenation. The plasma) filler is then injected into areas of the face where volume is needed, such as the cheeks, under-eye area, and lips.</p>
-            <p>Plasma gel bio filler is an innovative and natural method for facial rejuvenation, offering a compelling alternative to synthetic dermal fillers. This treatment harnesses the power of your own blood plasma to create a gel-like substance that can be injected to enhance facial volume, reduce wrinkles, and promote a youthful appearance.</p>
-            <p><strong>Benefits of Plasma Gel Bio Filler</strong></p>
-            <p>Biocompatibility: Since the filler is derived from your own blood, there is a significantly reduced risk of allergic reactions or adverse side effects. Orskin Aesthetics Believe in Natural Results : The plasma gel integrates seamlessly with your tissue, providing subtle, natural-looking enhancements.</p>
-            <p><strong>Safety</strong></p>
-            <p>The use of autologous plasma eliminates the risk of introducing foreign substances into your body.Rejuvenation: In addition to adding volume, the growth factors in the plasma can stimulate collagen production, improving skin texture and elasticity over time.</p>
-            <p>The best homecare product after the Plasma Gel or PRF is definitely &nbsp;Adipeau Cream</p>
-            <p>To maximize the benefits of plasma gel bio filler and maintain healthy, rejuvenated skin, incorporating a high-quality homecare product like Adipea Cream into your skincare routine is highly recommended.</p>
-            <p><strong>What is Adipeau Cream?</strong></p>
-            <p>Adipea Cream is a specialized skincare product designed to complement and enhance the effects of aesthetic treatments like plasma gel bio filler. It is formulated with a blend of active ingredients that promote volume lost, &nbsp;hydration, skin repair, and regeneration.</p>
-            <p><strong>Benefits of Adipeau Cream</strong></p>
+            <br>
+            <br>
+            <p data-aos="zoom-in" ><strong>Plasma gel / Bio filler</strong></p>
+            <p data-aos="zoom-in" >Plasma gel bio filler is a type of dermal filler derived from a patient’s own blood plasma. The process involves drawing a small amount of blood, which is then centrifuged to separate the plasma from the red blood cells. The plasma is heated to create a gel-like consistency. This plasma gel is then injected into the skin to act as a natural filler.</p>
+            <br>
+            <p data-aos="zoom-in" >The primary advantages of plasma gel bio filler are its biocompatibility and low risk of allergic reactions or side effects, as it is derived from the patient’s own body. At Orskin Aesthetics Plasma Gel&nbsp; is commonly used for facial rejuvenation, reducing wrinkles, and adding volume to areas like the cheeks and lips. The results are generally subtle and natural-looking, and because it is autologous (coming from the same individual), it reduces the risks associated with synthetic fillers. Plasma Gel Bio Filler: A Natural Approach to Skin Rejuvenation. The plasma) filler is then injected into areas of the face where volume is needed, such as the cheeks, under-eye area, and lips.</p>
+            <br>
+            <p data-aos="zoom-in" >Plasma gel bio filler is an innovative and natural method for facial rejuvenation, offering a compelling alternative to synthetic dermal fillers. This treatment harnesses the power of your own blood plasma to create a gel-like substance that can be injected to enhance facial volume, reduce wrinkles, and promote a youthful appearance.</p>
+            <br>
+            <p data-aos="zoom-in" ><strong>Benefits of Plasma Gel Bio Filler</strong></p>
+            <p data-aos="zoom-in" >Biocompatibility: Since the filler is derived from your own blood, there is a significantly reduced risk of allergic reactions or adverse side effects. Orskin Aesthetics Believe in Natural Results : The plasma gel integrates seamlessly with your tissue, providing subtle, natural-looking enhancements.</p>
+            <br>
+            <p data-aos="zoom-in" ><strong>Safety</strong></p>
+            <p data-aos="zoom-in" >The use of autologous plasma eliminates the risk of introducing foreign substances into your body.Rejuvenation: In addition to adding volume, the growth factors in the plasma can stimulate collagen production, improving skin texture and elasticity over time.</p>
+            <br>
+            <p data-aos="zoom-in" >The best homecare product after the Plasma Gel or PRF is definitely &nbsp;Adipeau Cream</p>
+            <p data-aos="zoom-in" >To maximize the benefits of plasma gel bio filler and maintain healthy, rejuvenated skin, incorporating a high-quality homecare product like Adipea Cream into your skincare routine is highly recommended.</p>
+            <br>
+
+            <p data-aos="zoom-in" ><strong>What is Adipeau Cream?</strong></p>
+            <p data-aos="zoom-in" >Adipea Cream is a specialized skincare product designed to complement and enhance the effects of aesthetic treatments like plasma gel bio filler. It is formulated with a blend of active ingredients that promote volume lost, &nbsp;hydration, skin repair, and regeneration.</p>
+            <br>
+
+            <p data-aos="zoom-in" ><strong>Benefits of Adipeau Cream</strong></p>
             <ul>
-            <li>Hydration: Deeply moisturizes the skin, helping to maintain the plumpness and smoothness achieved with plasma gel fillers.</li>
-            <li>Repair and Regeneration: Contains ingredients that support skin healing and regeneration, enhancing the longevity of the filler effects.</li>
-            <li>Protection: Provides a protective barrier against environmental damage, helping to maintain the health and appearance of your skin.</li>
-            <li>Anti-Aging: Packed with antioxidants and nutrients that educe the appearance of fine lines and wrinkles.</li>
+            <li data-aos="zoom-in"  style="list-style:square">Hydration: Deeply moisturizes the skin, helping to maintain the plumpness and smoothness achieved with plasma gel fillers.</li>
+            <li data-aos="zoom-in"  style="list-style:square">Repair and Regeneration: Contains ingredients that support skin healing and regeneration, enhancing the longevity of the filler effects.</li>
+            <li data-aos="zoom-in"  style="list-style:square">Protection: Provides a protective barrier against environmental damage, helping to maintain the health and appearance of your skin.</li>
+            <li data-aos="zoom-in"  style="list-style:square">Anti-Aging: Packed with antioxidants and nutrients that educe the appearance of fine lines and wrinkles.</li>
             </ul>
-            <p><strong>How to Use Adipeau Cream</strong></p>
-            <p>For best results, apply Adipeau Cream twice daily, in the morning and at night, on clean, dry skin. Gently massage the cream into your face and neck using upward strokes, ensuring even coverage. Consistent use will help sustain the rejuvenating effects of the plasma gel bio filler, keeping your skin looking vibrant and youthful.</p>
-            <p>Adipeau cream is a long-term treatment that gives a filler effect on the volume loss by aging or due to the environmental issues, it usually take approximately around 6 to 8 weeks but the result is promising.</p>`,
+            <br/>
+            <p data-aos="zoom-in" ><strong>How to Use Adipeau Cream</strong></p>
+            <p data-aos="zoom-in" >For best results, apply Adipeau Cream twice daily, in the morning and at night, on clean, dry skin. Gently massage the cream into your face and neck using upward strokes, ensuring even coverage. Consistent use will help sustain the rejuvenating effects of the plasma gel bio filler, keeping your skin looking vibrant and youthful.</p>
+            <br/>
+
+            <p data-aos="zoom-in" >Adipeau cream is a long-term treatment that gives a filler effect on the volume loss by aging or due to the environmental issues, it usually take approximately around 6 to 8 weeks but the result is promising.</p>`,
         products: [
             {
                 id: 1,
-                imgSrc: blog1product1,
-                title: "Adipeau – Active Face Cream 50ml",
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg",
+                title: "Adipeau - Active Face Cream 50ml",
+                url: "https://shop.orskin.ae/products/adipeau-active-face-cream-50ml",
                 description: "The Adipeau face cream promotes new cell formation and encourages healthy, plump radiant skin. It restores your skin super powers by targeting the root foundation by delivering nutrition to the skin’s root structure. This requires a different application method that what you may be used to. Apply to areas that are depleted and sagging."
-            }
+            },
         ]
     },
     {
@@ -973,44 +995,55 @@ export const blogs = [
         cover: blog2cover,
         coverMin: blog2cover,
         introduction: "Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?",
-        description: `<h2>Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?</h2>
-        <h3>So, what is all the hype around winter being peel season?</h3>
-        <p>Because winter is the ideal time for deeper exfoliation. Why?<br>
+        description: `<h2 data-aos="zoom-in"  class="text-[20px] mb-[16px]"> <strong>Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?</strong></h2>
+        <h3 data-aos="zoom-in"  class="text-[18px] mb-[16px]"><strong>So, what is all the hype around winter being peel season?</strong></h3>
+        <p data-aos="zoom-in" >Because winter is the ideal time for deeper exfoliation. Why?<br>
         – Less sun exposure<br>
         – Fewer post-peel complications like hyperpigmentation<br>
         – Faster recovery and better healing</p>
-        <p>New skin for the new year. Get that holiday glow by exfoliating away the layers of dull summer skin to reveal a brighter complexion.</p>
-        <p>Orskin Aesthetic’s peel options provide a transformative experience that will leave you looking and feeling fabulous. Our selection of peels and combination treatments is designed to address your specific skin concern, including fine lines, sun damage, and uneven skin tone.<br>
+        <br/>
+        <p data-aos="zoom-in" >New skin for the new year. Get that holiday glow by exfoliating away the layers of dull summer skin to reveal a brighter complexion.</p>
+        <p data-aos="zoom-in" >Orskin Aesthetic’s peel options provide a transformative experience that will leave you looking and feeling fabulous. Our selection of peels and combination treatments is designed to address your specific skin concern, including fine lines, sun damage, and uneven skin tone.<br/>
         That’s why peel season marks a golden opportunity to revitalize your complexion and rediscover your glow.</p>
-        <h3>Benefits of an Orskin chemical peel</h3>
-        <p>Customization is key. At Orskin our aesthetician will tailor the treatment to your skin’s needs. We will start by providing you with a proper skin analysis with the help of a special device to see beneath the top layers of the skin and identify any issues. Then, we will recommend a peel type based on our three-level system that ranges from a mild enzyme peel to a more advanced chemical peel.</p>
-        <h3>Is it safe to do a peel during pregnancy and breastfeeding?</h3>
-        <p>Orskin offers a wide range of peels suitable during pregnancy and that work well to tackle the impact of hormonal changes. They can be performed when the skin is breaking out or when it is very dry.</p>
-        <h3>No peel chemical peels?</h3>
-        <p>For those who are a bit nervous or don’t want to get a peel before a big event or holiday, we can offer our no-peel peels without any downtime. They also work well for sensitive skin.</p>
-        <h3>Home peels</h3>
-        <p>Our medical-grade home peels give you professional results away from the clinic. Some of our favorites include:</p>
-       <h3>We focus on results</h3>
-        <p>We know you want to see a difference in your skin. With the right care and best-quality customized treatments, you will soon reveal your true radiance.</p>
-        <p>With the help of one of Orskin’s bespoke Peel Treatments, you will achieve the most vibrant look ever. It will help treat skin tone, firmness, discolouration, and dark circles.</p>
-        <p>Unleash your skin glow before the New Year!</p>`,
+        <br/><br/>
+        <h3 data-aos="zoom-in"  class="text-[18px] mb-[16px]"> <strong>Benefits of an Orskin chemical peel</strong></h3>
+        <p data-aos="zoom-in" >Customization is key. At Orskin our aesthetician will tailor the treatment to your skin’s needs. We will start by providing you with a proper skin analysis with the help of a special device to see beneath the top layers of the skin and identify any issues. Then, we will recommend a peel type based on our three-level system that ranges from a mild enzyme peel to a more advanced chemical peel.</p>
+        <br/>
+        <h3 data-aos="zoom-in"  class="text-[18px] mb-[16px]"><strong>Is it safe to do a peel during pregnancy and breastfeeding?</strong></h3>
+        <p data-aos="zoom-in" >Orskin offers a wide range of peels suitable during pregnancy and that work well to tackle the impact of hormonal changes. They can be performed when the skin is breaking out or when it is very dry.</p>
+        <br/>
+        <h3 data-aos="zoom-in"  class="text-[18px] mb-[16px]"><strong>No peel chemical peels?</strong></h3>
+        <p data-aos="zoom-in" >For those who are a bit nervous or don’t want to get a peel before a big event or holiday, we can offer our no-peel peels without any downtime. They also work well for sensitive skin.</p>
+        <br/>
+        <h3 data-aos="zoom-in"  class="text-[18px]"><strong>Home peels</strong></h3>
+        <p data-aos="zoom-in" >Our medical-grade home peels give you professional results away from the clinic. Some of our favorites include:</p>
+        <br/>
+       <h3 data-aos="zoom-in"  class="text-[18px] mb-[6px]"><strong>We focus on results</strong></h3>
+        <p data-aos="zoom-in" >We know you want to see a difference in your skin. With the right care and best-quality customized treatments, you will soon reveal your true radiance.</p>
+        <p data-aos="zoom-in" >With the help of one of Orskin’s bespoke Peel Treatments, you will achieve the most vibrant look ever. It will help treat skin tone, firmness, discolouration, and dark circles.</p>
+        <br/>
+        <p data-aos="zoom-in" >Unleash your skin glow before the New Year!</p>`,
         products: [
             {
                 id: 1,
                 imgSrc: blog2product1,
                 title: "Environ Lactic Acid Night Cream",
+                url: "https://shop.orskin.ae/collections/all",
                 description: "Perfect for sensitive and dehydrated dry skin, it is an excellent exfoliator and highly effective moisturizer."
+
             },
             {
                 id: 2,
-                imgSrc: blog2product2,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/Micro-Peel-180ml.jpg",
                 title: "Micro Peel from DMK",
+                url: "https://shop.orskin.ae/products/dmk-micro-peel-180ml",
                 description: "This peel is suitable for all skin types except sensitive skin and can be used for the face and body. It contains glycolic acid, citric acid, and lactic acid, making it a great treatment for back acne, rough bumpy patches on the arms, clogged pores, and overall skin brightening"
             },
             {
                 id: 3,
-                imgSrc: blog2product3,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/PHA-Hydration-Peel.jpg",
                 title: "PHA from Cosmedix",
+                url: "https://shop.orskin.ae/products/pha-hydration-peel",
                 description: "A good way to replenish moisture and target signs of aging, this gentle peel contains lactobionic acid and has a relaxing, cooling effect when applied."
             }
         ]
@@ -1022,110 +1055,105 @@ export const blogs = [
         coverMin: blog3coverMin,
         introduction: "At Orskin Aesthetic Clinic, we provide specially designed laser treatment procedures that are tailored to each patients ‘s requirement and concerns.",
         description: `
-        Laser treatments are best performed in the fall. At Orskin Aesthetic Clinic, we provide specially designed laser treatment procedures that are tailored to each patients ‘s requirement and concerns.<br/> <br/> It's the perfect time of year to engage in laser treatments for skin renewal as the cool fall air arrives. With our state-of-the-art laser technology, we at Orskin Aesthetics are thrilled to provide innovative solutions to maintain the youthful, glowing appearance of your skin. However, what makes our offerings stand out? Both the cutting-edge AdvaLight and UltraClear laser treatments are intended to change your skin with little recovery time.<br/> <br/> <b>UltraClear</b>: A New Development in Skin Rejuvenation The first cold ablative fiber laser therapy in the world is now available at Orskin thanks to the launch of the UltraClear laser. With more impact and reduced downtime, this is the second generation of CO2 lasers. The FDA-approved UltraClear technology offers non-invasive but incredibly effective skin regeneration for all skin types. <br/> <br/>By vaporizing damaged surface cells and promoting the formation of collagen and elastin beneath, the UltraClear laser works its magic by penetrating the surface, mid-dermis, and deeper layers of skin. By speeding up your skin's natural healing processes, this procedure minimizes small wrinkles and leaves your skin looking healthier, smoother, and more radiant. <br/> <br/> <br/> 
-       <b> Why Choose UltraClear?</b>
+        <p data-aos="zoom-in" >
+        Laser treatments are best performed in the fall. At Orskin Aesthetic Clinic, we provide specially designed laser treatment procedures that are tailored to each patients ‘s requirement and concerns.</p>
+        <br/> 
+        <p data-aos="zoom-in" > It's the perfect time of year to engage in laser treatments for skin renewal as the cool fall air arrives. With our state-of-the-art laser technology, we at Orskin Aesthetics are thrilled to provide innovative solutions to maintain the youthful, glowing appearance of your skin. However, what makes our offerings stand out? Both the cutting-edge AdvaLight and UltraClear laser treatments are intended to change your skin with little recovery time.</p>
+        <br/> 
+        <p data-aos="zoom-in" >By vaporizing damaged surface cells and promoting the formation of collagen and elastin beneath, the UltraClear laser works its magic by penetrating the surface, mid-dermis, and deeper layers of skin. By speeding up your skin's natural healing processes, this procedure minimizes small wrinkles and leaves your skin looking healthier, smoother, and more radiant. </p> <br/>
+        <p data-aos="zoom-in"><b > Why Choose UltraClear?</b></p>
         <br/>
         <br/>
         <ul>
-            <li>Deep collagen remodeling for age-defying results.</li>
-            <li>Surface-level skin quality enhancement with minimal recovery time.</li>
-            <li>Options for quick lunchtime treatments or more extensive anti-aging care</li>
-            <li>Safe and effective for all skin types</li>
+            <li data-aos="zoom-in" >Deep collagen remodeling for age-defying results.</li>
+            <li data-aos="zoom-in" >Surface-level skin quality enhancement with minimal recovery time.</li>
+            <li data-aos="zoom-in" >Options for quick lunchtime treatments or more extensive anti-aging care</li>
+            <li data-aos="zoom-in" >Safe and effective for all skin types</li>
         </ul>
         <br/>
+<p data-aos="zoom-in" ><b >Advalight :</b></p>
         <br/>
-<b>Advalight :</b>
-        <br/>
-        <br/>
-Each of ADVATx's two wavelengths targets distinct chromophores and penetration depths to restore whole skin health, setting the gold standard. This energy-based device is highly effective in treating a variety of cosmetic and medical dermatology issues, including acne, rosacea, vascular issues, scars, skin rejuvenation, pigmentation, and melasma. Its dual 589nm and 1319nm wavelengths have been linked to 25 FDA cleared indications. It consistently produces long-lasting, off-the-table results.
+<p data-aos="zoom-in" >
+Each of ADVATx's two wavelengths targets distinct chromophores and penetration depths to restore whole skin health, setting the gold standard. This energy-based device is highly effective in treating a variety of cosmetic and medical dermatology issues, including acne, rosacea, vascular issues, scars, skin rejuvenation, pigmentation, and melasma. Its dual 589nm and 1319nm wavelengths have been linked to 25 FDA cleared indications. It consistently produces long-lasting, off-the-table results.</p>
 <br/>
 <br/>
-<b>-589 wavelength:</b>
+<p  data-aos="zoom-in" ><b>-589 wavelength:</b></p>
 <br/>
-589 wavelength can Target c. acne bacteria and pigment, the 589 nm wavelength is preferentially absorbed by oxyhemoglobin and has a penetration depth of up to 1.25 mm. This makes it the best option for treating vascular issues, pigmented lesions, rosacea, acne, and melasma.
-<br/>
+<p data-aos="zoom-in" >589 wavelength can Target c. acne bacteria and pigment, the 589 nm wavelength is preferentially absorbed by oxyhemoglobin and has a penetration depth of up to 1.25 mm. This makes it the best option for treating vascular issues, pigmented lesions, rosacea, acne, and melasma.</p>
 <br/>
 
-<b>-1319 wavelength:</b>
+<p  data-aos="zoom-in" ><b>-1319 wavelength:</b></p>
 <br/>
 
- Darker skin types are safer since the 1319 nm wavelength is preferentially absorbed by water and penetrates up to 2 mm. In addition to giving sebaceous glands a thermal impact to control the production of oil and sebum, it stimulates fibroblasts and encourages the formation of collagen for non-ablative skin resurfacing. When paired with the wavelength of 589 nm, it provides a powerful remedy for aggressive acne.
-<br/>
-<br/>
+ <p data-aos="zoom-in" >Darker skin types are safer since the 1319 nm wavelength is preferentially absorbed by water and penetrates up to 2 mm. In addition to giving sebaceous glands a thermal impact to control the production of oil and sebum, it stimulates fibroblasts and encourages the formation of collagen for non-ablative skin resurfacing. When paired with the wavelength of 589 nm, it provides a powerful remedy for aggressive acne.</p>
 <br/>
 
-Dual-Wavelength Laser Therapy's Gold Standard The AdvaLight treatment is unique in the field of laser skincare. This next-generation yellow laser is an unmatched choice for treating a range of skin issues because it is the only solid-state laser that can produce two wavelengths in one location. The yellow and infrared light technology from AdvaLight can help enhance skin tone, texture, and general health, whether you're fighting wrinkles, melasma, acne scars, or vascular lesions. Beyond its versatility, AdvaLight is known for its safety and efficacy. Its intelligent design includes preset treatment modes, ensuring the most effective and safe results for our clients.
-<br/>
-<br/>
-
-<b>Pre-Preparation of skin Orskin style for optimal results </b>
-<br/>
+<p data-aos="zoom-in" >Dual-Wavelength Laser Therapy's Gold Standard The AdvaLight treatment is unique in the field of laser skincare. This next-generation yellow laser is an unmatched choice for treating a range of skin issues because it is the only solid-state laser that can produce two wavelengths in one location. The yellow and infrared light technology from AdvaLight can help enhance skin tone, texture, and general health, whether you're fighting wrinkles, melasma, acne scars, or vascular lesions. Beyond its versatility, AdvaLight is known for its safety and efficacy. Its intelligent design includes preset treatment modes, ensuring the most effective and safe results for our clients.<p>
 <br/>
 
-To promote healing and guarantee the finest outcomes, it's critical to properly prepare your skin before receiving laser treatments like UltraClear or AdvaLight. At Orskin, we advise including Salmon DNA therapy or Platelet-Rich Fibrin (PRF) in your pre-treatment routine. Both treatments enhance your skin's capacity to heal, laying the ideal groundwork for laser operations.
+<p data-aos="zoom-in" ><b >Pre-Preparation of skin Orskin style for optimal results </b></p>
 <br/>
+<p data-aos="zoom-in" >To promote healing and guarantee the finest outcomes, it's critical to properly prepare your skin before receiving laser treatments like UltraClear or AdvaLight. At Orskin, we advise including Salmon DNA therapy or Platelet-Rich Fibrin (PRF) in your pre-treatment routine. Both treatments enhance your skin's capacity to heal, laying the ideal groundwork for laser operations.</p>
 <br/>
-
-*PRF: Platelet-rich fibrin (PRF) is an autogenous material that is derived from a person’s own platelets and is used to enhance wound healing and tissue regeneration.
-<br/>
-<br/>
-
-*Salmon DNA: The PDRN found in salmon DNA is up to 95% compatible with human DNA, which explains why it can directly influence the body's manufacture of collagen and cell regeneration. This ingredient can improve skin suppleness, minimize wrinkles, and hasten skin cell renewal. Injections of salmon DNA enhance the general look of your skin.
-<br/>
+<p data-aos="zoom-in" >
+*PRF: Platelet-rich fibrin (PRF) is an autogenous material that is derived from a person’s own platelets and is used to enhance wound healing and tissue regeneration.</p>
 <br/>
 
-<b>Post-Care: Ensuring Long-Lasting Results</b>
-<br/>
-<br/>
-Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our Aura Face Shield. This advanced shield helps calm and protect the skin while accelerating the healing process.
-<br/>
-<br/>
-Post-Treatment Tips:
+<p data-aos="zoom-in" >*Salmon DNA: The PDRN found in salmon DNA is up to 95% compatible with human DNA, which explains why it can directly influence the body's manufacture of collagen and cell regeneration. This ingredient can improve skin suppleness, minimize wrinkles, and hasten skin cell renewal. Injections of salmon DNA enhance the general look of your skin.</p>
 <br/>
 
-The first stage in the Orskin Aesthetics team's post-care routine, which is crucial and extremely important, is applying sunscreen. Avoid direct sunlight and use high SPF to protect your skin. Although we have a lot of SPF at Orskin, we really appreciate how colorescince can be adjusted to fit any skin tone. <b>Colorescience</b> -- Flecks of encapsulated pigments adjust to skin's natural tone Hydrating and antioxidant-rich formula, Free of parabens, sulfates, phthalates, oil, dyes, and fragrance  100% chemical-free active ingredient ,Broad Spectrum SPF 50/PA++++  Water/sweat resistant (40 minutes)  Dermatologist tested, hypoallergenic, non-comedogenic. Medium color coverage, Demi-Matte natural finish. Key ingredient is zinc oxide.
+<p data-aos="zoom-in" ><b >Post-Care: Ensuring Long-Lasting Results</b></p>
+<br/>
+<p data-aos="zoom-in" >Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our Aura Face Shield. This advanced shield helps calm and protect the skin while accelerating the healing process.</p>
+<br/>
+<p data-aos="zoom-in" >Post-Treatment Tips:</p>
+<br/>
+
+<p data-aos="zoom-in" >
+The first stage in the Orskin Aesthetics team's post-care routine, which is crucial and extremely important, is applying sunscreen. Avoid direct sunlight and use high SPF to protect your skin. Although we have a lot of SPF at Orskin, we really appreciate how colorescince can be adjusted to fit any skin tone. </p>
+<p data-aos="zoom-in" ><b data-aos="zoom-in" >Colorescience</b> -- Flecks of encapsulated pigments adjust to skin's natural tone Hydrating and antioxidant-rich formula, Free of parabens, sulfates, phthalates, oil, dyes, and fragrance  100% chemical-free active ingredient ,Broad Spectrum SPF 50/PA++++  Water/sweat resistant (40 minutes)  Dermatologist tested, hypoallergenic, non-comedogenic. Medium color coverage, Demi-Matte natural finish. Key ingredient is zinc oxide.</p>
 
 <br/>
+<p data-aos="zoom-in" >Follow a gentle skincare routine to allow your skin to recover.</p>
 <br/>
-Follow a gentle skincare routine to allow your skin to recover.
+<p data-aos="zoom-in" >To encourage healing, After a range of aesthetic procedures you would require couple or products to  keep your skin well-hydrated. <p>
 <br/>
+<p data-aos="zoom-in" ><b >Medical foundation from Oxygenetix</b></p>
 <br/>
-To encourage healing, After a range of aesthetic procedures you would require couple or products to  keep your skin well-hydrated. 
+<p data-aos="zoom-in" >Oxygenating Foundation breathes and protects your skin as you wear it. By using the unique Oxygenetix aloe vera base, this foundation is calming and soothing.
+Enjoy seeing the natural beauty of your skin shine through. Goes on sheer but once set, you can build as much as you wish to cover blemishes and any imperfections to give you the finish that you desire. And, it lasts longer and feels lighter than other foundations so you can wear it all day and won't need to keep reapplying it.</p>
 <br/>
-<br/>
-<b>Medical foundation from Oxygenetix</b>
-<br/>
-<br/>
-Oxygenating Foundation breathes and protects your skin as you wear it. By using the unique Oxygenetix aloe vera base, this foundation is calming and soothing.
-Enjoy seeing the natural beauty of your skin shine through. Goes on sheer but once set, you can build as much as you wish to cover blemishes and any imperfections to give you the finish that you desire. And, it lasts longer and feels lighter than other foundations so you can wear it all day and won't need to keep reapplying it.
-<br/>
-Our goal at Orskin Aesthetics is to use our cutting-edge laser treatments to help you attain healthy, glowing skin. Whether you choose a superficial or deep rejuvenation, our cutting-edge technologies, along with the proper pre- and post-treatment care, can help you get the radiant skin you deserve. The time is right to make an investment in the future of your skin. Get your consultation scheduled with us right now to learn more about the benefits of AdvaLight and UltraClear laser treatments!
+<p data-aos="zoom-in" >Our goal at Orskin Aesthetics is to use our cutting-edge laser treatments to help you attain healthy, glowing skin. Whether you choose a superficial or deep rejuvenation, our cutting-edge technologies, along with the proper pre- and post-treatment care, can help you get the radiant skin you deserve. The time is right to make an investment in the future of your skin. Get your consultation scheduled with us right now to learn more about the benefits of AdvaLight and UltraClear laser treatments!</p>
 
 `,
         products: [
             {
                 id: 1,
-                imgSrc: blog3product1,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png",
                 title: "ASCE+ Exobalm",
-                description: "Exobalm's special EXO CAPSULE blended composition greatly heals damaged skin, minimizes downtime, and has long-lasting healing effects. A balm solution designed to promote healing, hydration, anti-pigmentation, and relaxation."
+                description: "Exobalm's special EXO CAPSULE blended composition greatly heals damaged skin, minimizes downtime, and has long-lasting healing effects. A balm solution designed to promote healing, hydration, anti-pigmentation, and relaxation.",
+                url: "https://shop.orskin.ae/products/asce-exobalm"
             },
             {
                 id: 2,
-                imgSrc: blog3product2,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/2.jpg",
                 title: "Soothe Dermal Repair Mist",
-                description: "Soothe Dermal Repair Mist from Epicuren is an ultra-light toner that is designed with superior ingredients to reduce the appearance of sensitivity.Recommended for All skin types."
+                description: "Soothe Dermal Repair Mist from Epicuren is an ultra-light toner that is designed with superior ingredients to reduce the appearance of sensitivity.Recommended for All skin types.",
+                url: "https://shop.orskin.ae/products/soothe-dermal-repair-mist"
             },
             {
                 id: 3,
-                imgSrc: blog3product3,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/P1.jpg",
                 title: "Epicutis Recovery Mask",
-                description: "Epicutis Recovery Mask- An ultra-concentrated version of our Lipid Serum delivered through a bio-cellulose mask, this deeply healing treatment instantly calms and soothes our skin in as little as 10–15 minutes."
+                description: "Epicutis Recovery Mask- An ultra-concentrated version of our Lipid Serum delivered through a bio-cellulose mask, this deeply healing treatment instantly calms and soothes our skin in as little as 10–15 minutes.",
+                url: "https://shop.orskin.ae/products/epicutis-lipid-recovery-box-of-masks"
             },
             {
                 id: 4,
-                imgSrc: blog3product4,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/P5.jpg",
                 title: "Epicutis Lipid Serum ",
-                description: " Epicutis Lipid Serum With only eight ingredients, this gentle formula is an essential member of your healing arsenal. delivers an instant dose of relief for dry, stressed, sensitive or post-procedure skin-PLUS proven healthy-skin benefits that build over time."
+                description: " Epicutis Lipid Serum With only eight ingredients, this gentle formula is an essential member of your healing arsenal. delivers an instant dose of relief for dry, stressed, sensitive or post-procedure skin-PLUS proven healthy-skin benefits that build over time.",
+                url: "https://shop.orskin.ae/products/epicutis-lipid-serum"
             }
         ]
     }

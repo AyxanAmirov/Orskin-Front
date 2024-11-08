@@ -8,7 +8,7 @@ function Wellness() {
   return (
 
     <div className="container py-[40px]">
-      <div className="flex gap-[30px] align-center mb-[50px]">
+      <div className="flex gap-[30px] align-center mb-[50px] md:flex-row flex-col">
         <img
           src={image}
           alt="wellness"
