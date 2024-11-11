@@ -54,14 +54,9 @@ import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg"
 import blog1cover from "../User/assets/image/blog1-1140px408.jpg";
 import blog2cover from "../User/assets/image/blog2-cover-1200x429.jpg";
 import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
-import blog2product3 from "../User/assets/image/blog2-product3-400x400.jpg";
 
-import blog3cover from "../User/assets/image/SeasonalBlog1140 x 408.jpg";
-import blog3coverMin from "../User/assets/image/SeasonalBlog350 x 300.jpg";
-import blog3product1 from "../User/assets/image/Exobalm.webp";
-import blog3product2 from "../User/assets/image/Soothedermal.webp";
-import blog3product3 from "../User/assets/image/EpicutisRecoveryMask.jpg";
-import blog3product4 from "../User/assets/image/EpicutisLipidSerum.webp";
+import blog3cover from "../User/assets/image/blog3cover1140x408.jpg";
+import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.jpg";
 
 export const services = [
     {
@@ -1050,19 +1045,26 @@ export const blogs = [
     },
     {
         id: 3,
-        title: "Laser treatments are best performed in the fall",
+        title: "Fall is the Perfect Time for Laser Treatments.",
         cover: blog3cover,
         coverMin: blog3coverMin,
-        introduction: "At Orskin Aesthetic Clinic, we provide specially designed laser treatment procedures that are tailored to each patients ‘s requirement and concerns.",
+        introduction: "At  Orskin Aesthetics we are offering special protocols when it comes to laser treatments, it is customised for each patient needs and concern.",
         description: `
         <p data-aos="zoom-in" >
-        Laser treatments are best performed in the fall. At Orskin Aesthetic Clinic, we provide specially designed laser treatment procedures that are tailored to each patients ‘s requirement and concerns.</p>
+        At  Orskin Aesthetics we are offering special protocols when it comes to laser treatments, it is customised for each patient needs and concern.</p>
         <br/> 
-        <p data-aos="zoom-in" > It's the perfect time of year to engage in laser treatments for skin renewal as the cool fall air arrives. With our state-of-the-art laser technology, we at Orskin Aesthetics are thrilled to provide innovative solutions to maintain the youthful, glowing appearance of your skin. However, what makes our offerings stand out? Both the cutting-edge AdvaLight and UltraClear laser treatments are intended to change your skin with little recovery time.</p>
+        <p data-aos="zoom-in" > As the crisp autumn air sets in, it's the ideal season to invest in your skin’s rejuvenation with laser treatments. At Orskin Aesthetics, we are excited to offer cutting-edge solutions to keep your skin looking youthful and radiant with our latest generation laser technologies. But what is the star of our offerings?</p>
         <br/> 
-        <p data-aos="zoom-in" >By vaporizing damaged surface cells and promoting the formation of collagen and elastin beneath, the UltraClear laser works its magic by penetrating the surface, mid-dermis, and deeper layers of skin. By speeding up your skin's natural healing processes, this procedure minimizes small wrinkles and leaves your skin looking healthier, smoother, and more radiant. </p> <br/>
-        <p data-aos="zoom-in"><b > Why Choose UltraClear?</b></p>
+        <p data-aos="zoom-in" >The revolutionary UltraClear and AdvaLight laser treatments, both designed to transform your skin.</p> <br/>
+        <p data-aos="zoom-in" ><b>UltraClear</b>: The Latest Innovation in Skin Rejuvenation
         <br/>
+        With the introduction of the UltraClear laser at Orskin, we’re thrilled to offer the world’s first cold ablative fiber laser treatment. UltraClear is superior to CO2 lasers enhanced safety, less downtime and more comfortable experience.  UltraClear is FDA-approved technology,  suitable for all skin types, providing non-invasive yet highly effective skin rejuvenation.
+        </p>
+        <br/>
+         <p data-aos="zoom-in">The UltraClear laser can be customised to  penetrate the surface, mid-dermis, and deeper skin layers, working its magic by vaporizing damaged surface cells and stimulating collagen and elastin production underneath. This process accelerates your skin's natural healing abilities, reducing fine lines and leaving your skin smoother, healthier, and more luminous.</p>
+        <br/>
+
+        <p data-aos="zoom-in"><b > Why Choose UltraClear?</b></p>
         <br/>
         <ul>
             <li data-aos="zoom-in" >Deep collagen remodeling for age-defying results.</li>
@@ -1071,59 +1073,49 @@ export const blogs = [
             <li data-aos="zoom-in" >Safe and effective for all skin types</li>
         </ul>
         <br/>
-<p data-aos="zoom-in" ><b >Advalight :</b></p>
+        <p data-aos="zoom-in">The UltraClear laser accelerates the skin's natural healing process by vaporizing damaged surface skin and delivering controlled thermal energy to underneath layers, which increases the creation of collagen and elastin. As a result, there are less fine lines on skin that is smoother, healthier, and many more.</p>
         <br/>
-<p data-aos="zoom-in" >
-Each of ADVATx's two wavelengths targets distinct chromophores and penetration depths to restore whole skin health, setting the gold standard. This energy-based device is highly effective in treating a variety of cosmetic and medical dermatology issues, including acne, rosacea, vascular issues, scars, skin rejuvenation, pigmentation, and melasma. Its dual 589nm and 1319nm wavelengths have been linked to 25 FDA cleared indications. It consistently produces long-lasting, off-the-table results.</p>
-<br/>
-<br/>
-<p  data-aos="zoom-in" ><b>-589 wavelength:</b></p>
-<br/>
-<p data-aos="zoom-in" >589 wavelength can Target c. acne bacteria and pigment, the 589 nm wavelength is preferentially absorbed by oxyhemoglobin and has a penetration depth of up to 1.25 mm. This makes it the best option for treating vascular issues, pigmented lesions, rosacea, acne, and melasma.</p>
-<br/>
-
-<p  data-aos="zoom-in" ><b>-1319 wavelength:</b></p>
-<br/>
-
- <p data-aos="zoom-in" >Darker skin types are safer since the 1319 nm wavelength is preferentially absorbed by water and penetrates up to 2 mm. In addition to giving sebaceous glands a thermal impact to control the production of oil and sebum, it stimulates fibroblasts and encourages the formation of collagen for non-ablative skin resurfacing. When paired with the wavelength of 589 nm, it provides a powerful remedy for aggressive acne.</p>
-<br/>
-
-<p data-aos="zoom-in" >Dual-Wavelength Laser Therapy's Gold Standard The AdvaLight treatment is unique in the field of laser skincare. This next-generation yellow laser is an unmatched choice for treating a range of skin issues because it is the only solid-state laser that can produce two wavelengths in one location. The yellow and infrared light technology from AdvaLight can help enhance skin tone, texture, and general health, whether you're fighting wrinkles, melasma, acne scars, or vascular lesions. Beyond its versatility, AdvaLight is known for its safety and efficacy. Its intelligent design includes preset treatment modes, ensuring the most effective and safe results for our clients.<p>
-<br/>
-
-<p data-aos="zoom-in" ><b >Pre-Preparation of skin Orskin style for optimal results </b></p>
-<br/>
-<p data-aos="zoom-in" >To promote healing and guarantee the finest outcomes, it's critical to properly prepare your skin before receiving laser treatments like UltraClear or AdvaLight. At Orskin, we advise including Salmon DNA therapy or Platelet-Rich Fibrin (PRF) in your pre-treatment routine. Both treatments enhance your skin's capacity to heal, laying the ideal groundwork for laser operations.</p>
-<br/>
-<p data-aos="zoom-in" >
-*PRF: Platelet-rich fibrin (PRF) is an autogenous material that is derived from a person’s own platelets and is used to enhance wound healing and tissue regeneration.</p>
-<br/>
-
-<p data-aos="zoom-in" >*Salmon DNA: The PDRN found in salmon DNA is up to 95% compatible with human DNA, which explains why it can directly influence the body's manufacture of collagen and cell regeneration. This ingredient can improve skin suppleness, minimize wrinkles, and hasten skin cell renewal. Injections of salmon DNA enhance the general look of your skin.</p>
-<br/>
-
-<p data-aos="zoom-in" ><b >Post-Care: Ensuring Long-Lasting Results</b></p>
-<br/>
-<p data-aos="zoom-in" >Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our Aura Face Shield. This advanced shield helps calm and protect the skin while accelerating the healing process.</p>
-<br/>
-<p data-aos="zoom-in" >Post-Treatment Tips:</p>
-<br/>
-
-<p data-aos="zoom-in" >
-The first stage in the Orskin Aesthetics team's post-care routine, which is crucial and extremely important, is applying sunscreen. Avoid direct sunlight and use high SPF to protect your skin. Although we have a lot of SPF at Orskin, we really appreciate how colorescince can be adjusted to fit any skin tone. </p>
-<p data-aos="zoom-in" ><b data-aos="zoom-in" >Colorescience</b> -- Flecks of encapsulated pigments adjust to skin's natural tone Hydrating and antioxidant-rich formula, Free of parabens, sulfates, phthalates, oil, dyes, and fragrance  100% chemical-free active ingredient ,Broad Spectrum SPF 50/PA++++  Water/sweat resistant (40 minutes)  Dermatologist tested, hypoallergenic, non-comedogenic. Medium color coverage, Demi-Matte natural finish. Key ingredient is zinc oxide.</p>
-
-<br/>
-<p data-aos="zoom-in" >Follow a gentle skincare routine to allow your skin to recover.</p>
-<br/>
-<p data-aos="zoom-in" >To encourage healing, After a range of aesthetic procedures you would require couple or products to  keep your skin well-hydrated. <p>
-<br/>
-<p data-aos="zoom-in" ><b >Medical foundation from Oxygenetix</b></p>
-<br/>
-<p data-aos="zoom-in" >Oxygenating Foundation breathes and protects your skin as you wear it. By using the unique Oxygenetix aloe vera base, this foundation is calming and soothing.
-Enjoy seeing the natural beauty of your skin shine through. Goes on sheer but once set, you can build as much as you wish to cover blemishes and any imperfections to give you the finish that you desire. And, it lasts longer and feels lighter than other foundations so you can wear it all day and won't need to keep reapplying it.</p>
-<br/>
-<p data-aos="zoom-in" >Our goal at Orskin Aesthetics is to use our cutting-edge laser treatments to help you attain healthy, glowing skin. Whether you choose a superficial or deep rejuvenation, our cutting-edge technologies, along with the proper pre- and post-treatment care, can help you get the radiant skin you deserve. The time is right to make an investment in the future of your skin. Get your consultation scheduled with us right now to learn more about the benefits of AdvaLight and UltraClear laser treatments!</p>
+        <br/>
+        <p data-aos="zoom-in" >We all know uniqueness of <b>AdvaLight</b> Laser: Think about a laser that targets for than 25 concerns at the same time, thanks  to it’s 589 and 1319 nn , AdvaLight can address everything from wrinkles and fine lines to acne, rosacea, pigmentation problems, and vascular concerns. </p>
+        <br/>
+        <br/>
+        <p data-aos="zoom-in" ><b >Preparing Your Skin with PRF and Salmon DNA for Optimal Results</b></p>
+        <br/>
+        <p data-aos="zoom-in" >Before undergoing laser treatments like UltraClear or AdvaLight, it’s essential to prepare your skin properly to enhance healing and ensure the best results. At Orskin, we recommend Platelet-Rich Fibrin (PRF) or Salmon DNA therapy as part of your pre-treatment regimen. Both treatments work to supercharge your skin’s healing potential, creating a perfect foundation for laser procedures.</p>
+        <br/>
+        <p data-aos="zoom-in"><b>But What Does AdvaLight Treat?</b></p>
+        <p data-aos="zoom-in" class="mb-[10px]">
+         - Melasma and unwanted pigmentation.<br/>
+         - Wrinkles and fine lines.<br/>
+         - Acne scars and oil production.<br/>
+         - Sun damage and dyschromia.
+        </p>
+        <p data-aos="zoom-in">Beyond its versatility, AdvaLight is known for its safety and efficacy. Its intelligent design includes preset treatment modes, ensuring the most effective and safe results for our clients.</p>
+        <br/>
+        <p data-aos="zoom-in"><b>Preparing Your Skin with PRF and Salmon DNA for Optimal Results</b></p>
+        <p data-aos="zoom-in">Before undergoing laser treatments like UltraClear or AdvaLight, it’s essential to prepare your skin properly to enhance healing and ensure the best results. At Orskin, we recommend Platelet-Rich Fibrin (PRF) or Salmon DNA therapy as part of your pre-treatment regimen. Both treatments work to supercharge your skin’s healing potential, creating a perfect foundation for laser procedures.</p>
+        <br/>
+        <p data-aos="zoom-in"><b>PRF:</b> This natural serum, drawn from your own blood, is rich in growth factors that stimulate cell repair and rejuvenation. When applied before laser treatments, PRF enhances the skin's ability to heal, reduces inflammation, and promotes collagen production.
+        </p>
+        <br/>
+        <p data-aos="zoom-in"><b>Salmon DNA:</b> Packed with nutrients and antioxidants, salmon DNA helps to repair damaged skin cells and boost collagen synthesis, creating a strong, healthy canvas for your laser treatment.</p>
+        <br/>
+        <p><b>Post-Care:</b> Ensuring Long-Lasting Results</p>
+        <p>Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our Aura Face Shield. This advanced shield helps calm and protect the skin while accelerating the healing process.</p>
+        <br/>
+        <br/>
+        <p data-aos="zoom-in" >Post-Treatment Tips:</p>
+        <p data-aos="zoom-in" class="mt-[10px]">Follow a gentle skincare routine to allow your skin to recover.</p>
+        <p data-aos="zoom-in" class="mt-[10px]">To encourage healing, After a range of aesthetic procedures you would require couple or products to  keep your skin well-hydrated. <p>
+        <br/>
+        <p data-aos="zoom-in" ><b >Medical foundation from Oxygenetix</b></p>
+        <br/>
+        <p data-aos="zoom-in" >Oxygenating Foundation breathes and protects your skin as you wear it. By using the unique Oxygenetix aloe vera base, this foundation is calming and soothing.
+        Enjoy seeing the natural beauty of your skin shine through. Goes on sheer but once set, you can build as much as you wish to cover blemishes and any imperfections to give you the finish that you desire. And, it lasts longer and feels lighter than other foundations so you can wear it all day and won't need to keep reapplying it. </p>
+        <br/>
+        <p data-aos="zoom-in" >Our goal at Orskin Aesthetics is to use our cutting-edge laser treatments to help you attain healthy, glowing skin. Whether you choose a superficial or deep rejuvenation, our cutting-edge technologies, along with the proper pre- and post-treatment care, can help you get the radiant skin you deserve. The time is right to make an investment in the future of your skin. Get your consultation scheduled with us right now to learn more about the benefits of AdvaLight and UltraClear laser treatments!</p>
+        <br/>
+        <p data-aos="zoom-in" >Now is the perfect time to invest in your skin’s future. Contact us today to schedule your consultation and discover the power of UltraClear and AdvaLight laser treatments!</p>
 
 `,
         products: [

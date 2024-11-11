@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../assets/images/contactBanner.jpg";
+import Banner from "../../assets/image/contactBanner.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
