@@ -1,5 +1,5 @@
 import Feedbacks from "../../components/feedbacks";
-import { services, serviceSlider } from "../../../data/data";
+import { seoContent, services, serviceSlider } from "../../../data/data";
 import ServiceCard from "../../components/serviceCard";
 import Slider from "../../components/slider";
 import { Helmet } from "react-helmet";
@@ -8,15 +8,19 @@ import { Helmet } from "react-helmet";
 
 
 function Services() {
+  const { title, description, canonical, schema } = seoContent["services"];
+
 
   return (
 
     <>
       <Helmet>
-        <title>Services: wellness, laser treatments, signature facials and slimming procedures.</title>
-        <meta name="description" content="At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to  slimming procedures, aesthetic injectables, fat burning treatments,  our expert team ensures you look and feel your best. Experience the ultimate in self-care and book your appointment today to unlock your radiant beauty and enhanced well-being." />
-        <link rel="canonical" href="https://orskin.ae/services" />
-
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
+        <script type="application/ld+json">
+          {schema}
+        </script>
       </Helmet>
       <section>
         <Slider slides={serviceSlider} />

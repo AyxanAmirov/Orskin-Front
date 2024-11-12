@@ -6,10 +6,23 @@ import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { seoContent } from "../../../data/data";
+import { Helmet } from "react-helmet";
 
 function Contact() {
+  const { title, description, canonical, schema } = seoContent["contact"];
+
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
+        <script type="application/ld+json">
+          {schema}
+        </script>
+      </Helmet>
+
       <img src={Banner} alt="banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in" />
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-[50px] my-[70px]">
@@ -132,7 +145,9 @@ function Contact() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         data-aos="zoom-in"
-      ></iframe>    </>
+      >
+      </iframe>
+    </>
   );
 }
 

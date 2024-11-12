@@ -1150,3 +1150,155 @@ export const blogs = [
         ]
     }
 ]
+
+export const seoContent = {
+    home: {
+        id: 1,
+        title: "Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments",
+        description: "Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority.",
+        keywords: "",
+        canonical: "https://www.orskin.ae",
+        schema: `
+               {
+                "@context": "https://schema.org",
+                "@type": "MedicalBusiness",
+                "name": "Orskin Aesthetic Clinic",
+                "url": "https://www.orskin.ae/",
+                "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.png",
+                "image": [
+                    "https://www.orskin.ae/assets/service2-CeFVQCHM.jpg",
+                    "https://www.orskin.ae/assets/service1-BNft6HlT.jpg",
+                    "https://www.orskin.ae/assets/service3-REL2V-_H.jpg",
+                    "https://www.orskin.ae/assets/facial-banner-CENLn1Yy.jpg",
+                    "https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg?v=1724441336",
+                    "https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png?v=1727022311",
+                    "https://shop.orskin.ae/cdn/shop/files/P5.jpg?v=1724441790"
+                ],
+                "description": "Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and the latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "285D Al Wasl Rd",
+                    "addressLocality": "Dubai",
+                    "addressRegion": "Dubai",
+                    "postalCode": "00000",
+                    "addressCountry": "AE"
+                },
+                "contactPoint": [
+                    {
+                    "@type": "ContactPoint",
+                    "telephone": "+971 (0) 4 345 5520",
+                    "contactType": "Customer Service",
+                    "areaServed": "AE",
+                    "availableLanguage": "English"
+                    },
+                    {
+                    "@type": "ContactPoint",
+                    "telephone": "+971 (0) 50 445 9672",
+                    "contactType": "Customer Service",
+                    "areaServed": "AE",
+                    "availableLanguage": "English"
+                    }
+                ],
+                "email": "info@orskin.ae",
+                "sameAs": [
+                    "https://www.facebook.com/orskin.ae",
+                    "https://www.instagram.com/orskin.ae"
+                ],
+                "medicalSpecialty": "Aesthetic Medicine",
+                "healthPlan": {
+                    "@type": "HealthInsurancePlan",
+                    "name": "Cosmetic Health Plan",
+                    "provider": {
+                    "@type": "Organization",
+                    "name": "Orskin Aesthetic Clinic"
+                    }
+                },
+                "openingHours": [
+                    "Mo-Sa 09:00-21:00",
+                    "Su 10:00-19:00"
+                ]
+                }
+                `
+    },
+    about: {
+        id: 2,
+        title: "The Best Aesthetic Doctors in Dubai | Expert Doctors in Aesthetic",
+        description: "Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling",
+        keywords: "",
+        canonical: "https://orskin.ae/about-us",
+        schema: `
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalBusiness",
+            "name": "Orskin Aesthetic Clinic",
+            "url": "https://www.orskin.ae/about-us",
+            "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.png",
+            "image": [
+                "https://www.orskin.ae/assets/team-co-BppUgFf-.jpg",
+                "https://www.orskin.ae/assets/team-dr2-Dv0KbIuq.jpg",
+                "https://www.orskin.ae/assets/team-dr1-DGWkyuvE.jpg",
+                "https://www.orskin.ae/assets/team-dr3-DFT5prVC.jpeg",
+                "https://www.orskin.ae/assets/team-Cfhm_83u.jpg"
+            ],
+            "description": "Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "285D Al Wasl Rd",
+                "addressLocality": "Dubai",
+                "addressRegion": "Dubai",
+                "postalCode": "00000",
+                "addressCountry": "AE"
+            },
+            "contactPoint": [
+                {
+                "@type": "ContactPoint",
+                "telephone": "+971 (0) 4 345 5520",
+                "contactType": "Customer Service",
+                "areaServed": "AE",
+                "availableLanguage": "English"
+                },
+                {
+                "@type": "ContactPoint",
+                "telephone": "+971 (0) 50 445 9672",
+                "contactType": "Customer Service",
+                "areaServed": "AE",
+                "availableLanguage": "English"
+                }
+            ],
+            "email": "info@orskin.ae",
+            "sameAs": [
+                "https://www.facebook.com/orskin.ae",
+                "https://www.instagram.com/orskin.ae"
+            ],
+            "medicalSpecialty": "Aesthetic Medicine",
+            "openingHours": [
+                "Mo-Sa 09:00-21:00",
+                "Su 10:00-19:00"
+            ]
+            }`
+    },
+    services: {
+        id: 3,
+        title: "Wellness, Laser Treatments, Signature Facials and Slimming procedures.",
+        description: "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
+        keywords: "",
+        canonical: "https://orskin.ae/services",
+        schema: ``
+    },
+    blog: {
+        id: 4,
+        title: "What You Need to Know About Skin Care, Wellness, Slimming, and Beauty",
+        description: "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
+        keywords: "",
+        canonical: "https://orskin.ae/blog",
+        schema: ``
+    },
+    contact: {
+        id: 5,
+        title: "",
+        description: "",
+        keywords: "",
+        canonical: "https://orskin.ae/contact",
+        schema: ``
+    }
+}

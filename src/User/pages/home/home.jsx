@@ -6,7 +6,8 @@ import {
   productData,
   facialSection,
   services,
-  homeSlider
+  homeSlider,
+  seoContent
 } from "../../../data/data.jsx";
 import ServiceCard from "../../components/serviceCard/index.jsx";
 import Slider from "../../components/slider/index.jsx";
@@ -16,56 +17,16 @@ import { Helmet } from "react-helmet";
 
 
 function Home() {
+  const { title, description, canonical, schema } = seoContent["home"];
 
   return (
     <>
       <Helmet>
-        <title>Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments</title>
-        <meta name="description" content="Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority." />
-        <link rel="canonical" href="https://www.orskin.ae" />
-
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
         <script type="application/ld+json">
-          {`
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": "https://orskin.ae/",
-  "url": "https://orskin.ae/",
-  "name": "Orskin Aesthetic Clinic - Home",
-  "description": "Welcome to Orskin Aesthetic Clinic in Dubai. We offer premium skincare treatments with our expert team.",
-  "publisher": {
-    "@type": "MedicalClinic",
-    "name": "Orskin Aesthetic Clinic",
-    "url": "https://orskin.ae/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://orskin.ae/assets/logo-CnwgVcVk.png",
-      "width": 204,
-      "height": 77
-    }
-  },
-  "mainEntity": {
-    "@type": "MedicalClinic",
-    "name": "Orskin Aesthetic Clinic",
-    "url": "https://orskin.ae/",
-    "description": "Orskin Aesthetic Clinic in Dubai provides high-quality aesthetic treatments performed by experienced experts.",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "285D Al Wasl Rd",
-      "addressLocality": "Dubai",
-      "addressCountry": "AE"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "Customer Service",
-      "telephone": "+971 (0) 4 345 5520",
-      "email": "info@orskin.ae"
-    },
-    "openingHours": [
-      "Mo-Sa 09:00-21:00",
-      "Su 10:00-19:00"
-    ]
-  }
-`}
+          {schema}
         </script>
       </Helmet>
       <Slider slides={homeSlider} />
