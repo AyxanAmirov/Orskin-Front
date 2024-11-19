@@ -23,12 +23,12 @@ function Contact() {
         </script>
       </Helmet>
 
-      <img src={Banner} alt="banner" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in" />
+      <img src={Banner} alt="Book your skincare appointment now, experience best skincare treatments now" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in" />
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-[50px] my-[70px]">
-          <h2 className="text-[#8B8B8B] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[28px] text-[28px]" data-aos="zoom-in">
+          <h1 className="text-[#8B8B8B] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[28px] text-[28px]" data-aos="zoom-in">
             EXPERIENCE THE ORSKIN DIFFERENCE
-          </h2>
+          </h1>
           <form className="w-full mb-[40px] flex flex-col gap-[30px]">
             <input
               type="text"

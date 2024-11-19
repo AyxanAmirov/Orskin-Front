@@ -1078,11 +1078,10 @@ export const blogs = [
         <br/>
         <p data-aos="zoom-in" >We all know uniqueness of <b>AdvaLight</b> Laser: Think about a laser that targets for than 25 concerns at the same time, thanks  to it’s 589 and 1319 nn , AdvaLight can address everything from wrinkles and fine lines to acne, rosacea, pigmentation problems, and vascular concerns. </p>
         <br/>
-        <br/>
-        <p data-aos="zoom-in" ><b >Preparing Your Skin with PRF and Salmon DNA for Optimal Results</b></p>
-        <br/>
-        <p data-aos="zoom-in" >Before undergoing laser treatments like UltraClear or AdvaLight, it’s essential to prepare your skin properly to enhance healing and ensure the best results. At Orskin, we recommend Platelet-Rich Fibrin (PRF) or Salmon DNA therapy as part of your pre-treatment regimen. Both treatments work to supercharge your skin’s healing potential, creating a perfect foundation for laser procedures.</p>
-        <br/>
+       
+        <p data-aos="zoom-in" ><b>The Gold Standard in Dual-Wavelength Laser Treatment</b></p>
+        <p data-aos="zoom-in" >In the world of laser skincare, the AdvaLight treatment stands out. This next-generation yellow laser is the only solid-state laser that produces two wavelengths in a single spot, making it an unparalleled option for targeting a variety of skin concerns. Whether you're battling vascular lesions, melasma, acne scars, or wrinkles, AdvaLight’s yellow and infrared light technology can help improve skin tone, texture, and overall health.</p>
+<br/>
         <p data-aos="zoom-in"><b>But What Does AdvaLight Treat?</b></p>
         <p data-aos="zoom-in" class="mb-[10px]">
          - Melasma and unwanted pigmentation.<br/>
@@ -1100,9 +1099,10 @@ export const blogs = [
         <br/>
         <p data-aos="zoom-in"><b>Salmon DNA:</b> Packed with nutrients and antioxidants, salmon DNA helps to repair damaged skin cells and boost collagen synthesis, creating a strong, healthy canvas for your laser treatment.</p>
         <br/>
-        <p><b>Post-Care:</b> Ensuring Long-Lasting Results</p>
-        <p>Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our Aura Face Shield. This advanced shield helps calm and protect the skin while accelerating the healing process.</p>
+        <p data-aos="zoom-in"><b>Post-Care:</b> Ensuring Long-Lasting Results</p>
+        <p data-aos="zoom-in">Post-laser care is just as important as pre-treatment preparation. After your session, we’ll provide you with a customized post-care plan, including hydration, sun protection, and the use of soothing products like our <b>Aura Face Shield</b>. This advanced shield helps calm and protect the skin while accelerating the healing process.</p>
         <br/>
+        <p data-aos="zoom-in">Avoid direct sunlight and use high SPF to protect your skin .  Orskin Aesthetics team highly recommend Sun Block that can also adapt your skin colour and make skin tone even is <b>Colorescience</b> -- Flecks of encapsulated pigments adjust to skin's natural tone Hydrating and antioxidant-rich formula, Free of parabens, sulfates, phthalates, oil, dyes, and fragrance  100% chemical-free active ingredient ,Broad Spectrum SPF 50/PA++++  Water/sweat resistant (40 minutes)  Dermatologist tested, hypoallergenic, non-comedogenic. Medium color coverage, Demi-Matte natural finish. Key ingredient is zinc oxide.</p>
         <br/>
         <p data-aos="zoom-in" >Post-Treatment Tips:</p>
         <p data-aos="zoom-in" class="mt-[10px]">Follow a gentle skincare routine to allow your skin to recover.</p>
@@ -1146,6 +1146,13 @@ export const blogs = [
                 title: "Epicutis Lipid Serum ",
                 description: " Epicutis Lipid Serum With only eight ingredients, this gentle formula is an essential member of your healing arsenal. delivers an instant dose of relief for dry, stressed, sensitive or post-procedure skin-PLUS proven healthy-skin benefits that build over time.",
                 url: "https://shop.orskin.ae/products/epicutis-lipid-serum"
+            },
+            {
+                id: 5,
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/No-show-mineral-sunscreen.png",
+                title: "Colorescience - Total Protection™ No-Show Mineral Sunscreen SPF 50",
+                description: "Orskin Aesthetics recommends Colorescience Sunblock, which adapts to your skin tone and evens it out. Its 100% chemical-free zinc oxide formula offers Broad Spectrum SPF 50/PA++++, is water-resistant (40 min), dermatologist-tested, hypoallergenic, and non-comedogenic. Medium coverage with a natural matte finish.",
+                url: "https://shop.orskin.ae/products/colorescience-total-protection%E2%84%A2-no-show-mineral-sunscreen-spf-50"
             }
         ]
     }
@@ -1225,7 +1232,7 @@ export const seoContent = {
         title: "The Best Aesthetic Doctors in Dubai | Expert Doctors in Aesthetic",
         description: "Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling",
         keywords: "",
-        canonical: "https://orskin.ae/about-us",
+        canonical: "https://www.orskin.ae/about-us",
         schema: `
         {
             "@context": "https://schema.org",
@@ -1282,7 +1289,7 @@ export const seoContent = {
         title: "Wellness, Laser Treatments, Signature Facials and Slimming procedures.",
         description: "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
         keywords: "",
-        canonical: "https://orskin.ae/services",
+        canonical: "https://www.orskin.ae/services",
         schema: ``
     },
     blog: {
@@ -1290,15 +1297,15 @@ export const seoContent = {
         title: "What You Need to Know About Skin Care, Wellness, Slimming, and Beauty",
         description: "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
         keywords: "",
-        canonical: "https://orskin.ae/blog",
+        canonical: "https://www.orskin.ae/blog",
         schema: ``
     },
     contact: {
         id: 5,
-        title: "",
-        description: "",
+        title: "Book your appointment at Orskin –Leading Aesthetic Clinic in Dubai",
+        description: "Get in touch with Orskin Aesthetic Clinic in Dubai for tailored skincare treatments and aesthetic services.Happy to assist you-book your appointment now.",
         keywords: "",
-        canonical: "https://orskin.ae/contact",
+        canonical: "https://www.orskin.ae/contact",
         schema: ``
     }
 }
