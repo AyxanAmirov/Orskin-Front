@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/image/logo.png";
+import hat from "../assets/image/hat-christmas.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -18,13 +19,14 @@ function Navbar({ isVisible }) {
     <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[20px] sm:px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
         <div className="flex items-center justify-between">
-          <div className="col-lg-2">
-            <Link to={"/"}>
+          <div className="col-lg-2 relative">
+            <Link to={"/"} >
               <img
                 src={Logo}
                 alt="Orskin Aesthetic Clinic in Dubai"
                 className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full"
               />
+              <img src={hat} className="hat" />
             </Link>
           </div>
           <div className="col-lg-8 menu-hidden">
