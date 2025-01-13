@@ -902,14 +902,14 @@ export const team = [
         description: "As the medical director of the Orskin Aesthetic Clinic, Dr. Asima Nasir delivers exceptional results while offering the greatest care available. To improve a person's natural beauty, a passionate and dedicated American board-certified aesthetician blends art and science. A holistic approach is employed to treat each patient according to their unique needs after speaking with them and learning about their requirements. Furthermore, at UCAM Spain, Dr. Asima earned a master's degree in business administration with a focus on hospital management.",
         image: DoctorAsima
     },
-    {
-        id: 3,
-        fullName: "Dr. Gustavo Mazariegos",
-        position: null,
-        alt: "Dr Gustavo Mazariegos",
-        description: "Dr. Gustavo Mazariegos is a leader in Aesthetic Medicine and Hair Restoration with over a decade of experience. A Professor of Master’s in Facial Aesthetic Medicine, he is internationally renowned for his skills in treatments such as Botox, Filler, Non-Surgical Face Lift, and Facial Harmonisation, achieving natural results for a more striking, streamlined complexion. He is also a highly sought-after Trichologist and Hair Transplant Surgeon.",
-        image: DoctorGustavo
-    },
+    // {
+    //     id: 3,
+    //     fullName: "Dr. Gustavo Mazariegos",
+    //     position: null,
+    //     alt: "Dr Gustavo Mazariegos",
+    //     description: "Dr. Gustavo Mazariegos is a leader in Aesthetic Medicine and Hair Restoration with over a decade of experience. A Professor of Master’s in Facial Aesthetic Medicine, he is internationally renowned for his skills in treatments such as Botox, Filler, Non-Surgical Face Lift, and Facial Harmonisation, achieving natural results for a more striking, streamlined complexion. He is also a highly sought-after Trichologist and Hair Transplant Surgeon.",
+    //     image: DoctorGustavo
+    // },
     {
         id: 4,
         fullName: "Dr. Shagoon Modi",

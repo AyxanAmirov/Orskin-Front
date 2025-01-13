@@ -26,7 +26,7 @@ function Navbar({ isVisible }) {
                 alt="Orskin Aesthetic Clinic in Dubai"
                 className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full"
               />
-              <img src={hat} className="hat" />
+              {/* <img src={hat} className="hat" /> */}
             </Link>
           </div>
           <div className="col-lg-8 menu-hidden">
