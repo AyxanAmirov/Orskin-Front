@@ -34,7 +34,9 @@ function AccordionComponent({ title, description, itemImage }) {
           </h2>
           <AccordionPanel pb={4} className="border-none flex flex-col md:flex-row gap-[30px] pl-[30px]">
             {
-              itemImage ? <img src={itemImage} alt={title} /> : null
+              itemImage ? <div className="w-[350px] h-[350px] flex-shrink-0">
+                <img src={itemImage} alt={title} className="w-[100%] h-[100%] object-cover" />
+              </div> : null
             }
             <p dangerouslySetInnerHTML={{ __html: description }}  ></p>
           </AccordionPanel>

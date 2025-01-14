@@ -58,6 +58,8 @@ import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
 import blog3cover from "../User/assets/image/blog3cover1140x408.jpg";
 import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.jpg";
 
+import AestheFill from "../User/assets/image/AestheFill.jpg"
+
 export const services = [
     {
         id: 1,
@@ -276,6 +278,12 @@ export const services = [
                 },
                 {
                     id: 19,
+                    image: AestheFill,
+                    title: "AestheFill",
+                    description: "AestheFill goes one step further and adds natural volume to the patient's face by encouraging the production of collagen. This biocompatible and biodegradable biostimulator is made of poly-D, L-lactic acid, or PDLLA.Additionally, AestheFill can increase collagen production, which decreases with age and causes wrinkles and volume loss."
+                },
+                {
+                    id: 20,
                     image: null,
                     title: "Perfect Derma Peel",
                     description: "The Perfect Derma Peel is a medium-depth chemical peel that revitalizes and rejuvenates the skin. Its blend of powerful ingredients, including glutathione, TCA, and retinoic acid, works to diminish fine lines, acne scars, and sun damage while enhancing skin clarity and texture. This peel is suitable for all skin types and delivers transformative results with minimal downtime, making it ideal for those seeking radiant, youthful skin."
