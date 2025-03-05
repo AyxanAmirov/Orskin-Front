@@ -1,32 +1,32 @@
-import benner1 from "../User/assets/image/home-banner1.jpg"
-import banner2 from "../User/assets/image/home-banner2.jpg"
-import benner3 from "../User/assets/image/home-banner3.jpg"
+import benner1 from "../User/assets/image/home-banner1.webp"
+import banner2 from "../User/assets/image/home-banner2.webp"
+import benner3 from "../User/assets/image/home-banner3.webp"
 import servicebanner1 from "../User/assets/image/service-banner-laser.jpg"
 import servicebanner2 from "../User/assets/image/service-banner-slimming.jpg"
 import servicebanner3 from "../User/assets/image/service-banner-aesthetics.jpg"
 import servicebanner4 from "../User/assets/image/service-banner-facials.jpg"
 import servicebanner5 from "../User/assets/image/service-banner-wellness.jpg"
-import service1 from "../User/assets/image/service1.jpg"
-import service2 from "../User/assets/image/service2.jpg"
-import service3 from "../User/assets/image/service3.jpg"
-import service3v500x500 from "../User/assets/image/service3 500x400.jpg"
+import service1 from "../User/assets/image/service1.webp"
+import service2 from "../User/assets/image/service2.webp"
+import service3 from "../User/assets/image/service3.webp"
+import service3v500x500 from "../User/assets/image/service3 500x400.webp"
 import service3UltraClear from "../User/assets/image/UltraClear.jpeg"
-import service4 from "../User/assets/image/service4.jpg"
-import service5 from "../User/assets/image/service5.jpg"
-import service6 from "../User/assets/image/service6.jpg"
-import lazer from "../User/assets/image/laser.png"
-import slimming from "../User/assets/image/slimming.png"
-import aesthetics from "../User/assets/image/aesthetics.png"
+import service4 from "../User/assets/image/service4.webp"
+import service5 from "../User/assets/image/service5.webp"
+import service6 from "../User/assets/image/service6.webp"
+import lazer from "../User/assets/image/laser.webp"
+import slimming from "../User/assets/image/slimming.webp"
+import aesthetics from "../User/assets/image/aesthetics.webp"
 import latest from "../User/assets/image/latest.jpg"
-import dmg from "../User/assets/image/dmg-logo.png"
-import darma from "../User/assets/image/darma-logo.png"
-import nano from "../User/assets/image/nano-logo.png"
-import nuro from "../User/assets/image/nuro-logo.png"
-import facialBanner from "../User/assets/image/facial-banner.jpg";
-import facialTitle from "../User/assets/image/facial-title.png";
+import dmg from "../User/assets/image/dmg-logo.webp"
+import darma from "../User/assets/image/darma-logo.webp"
+import nano from "../User/assets/image/nano-logo.webp"
+import nuro from "../User/assets/image/nuro-logo.webp"
+import facialBanner from "../User/assets/image/facial-banner.webp";
+import facialTitle from "../User/assets/image/facial-title.webp";
 import AboutBanner from "../User/assets/image/aboutus-banner.jpg";
 import OrsolyaMatheisz from "../User/assets/image/team-co.jpg";
-import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
+// import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
 import DoctorAsima from "../User/assets/image/team-dr2.jpg";
 import DoctorShagoon from "../User/assets/image/team-dr3.jpeg";
 import Endospheres from "../User/assets/image/Endospheres-400x320.jpg";
@@ -1169,7 +1169,7 @@ export const blogs = [
 export const seoContent = {
     home: {
         id: 1,
-        title: "Orskin Aesthetics Clinic in Dubai | Skincare products & Treatments",
+        title: "Orskin - Dubai’s Best Aesthetic Clinic | Skincare & Treatments",
         description: "Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority.",
         keywords: "",
         canonical: "https://www.orskin.ae",

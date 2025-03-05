@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Visa from "../assets/icons/visa-svgrepo-com.svg";
-import UniPay from "../assets/icons/unipay.png";
+import UniPay from "../assets/icons/unipay.webp";
 import MasterCard from "../assets/icons/mastercard-full-svgrepo-com.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";

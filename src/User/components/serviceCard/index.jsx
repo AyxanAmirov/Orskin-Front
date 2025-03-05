@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 function ServiceCard({ image, imageALT, titleImage, title, delay }) {
     return (
         <Link to={`/services/${title.toLowerCase()}`}
-            className="shadow-xl flex flex-col justify-between gap-[20px] bg-white border-r-solid border-r-[1px] border-r-[#D6D6D6] border-l-solid border-l-[1px] border-l-[#D6D6D6] border-t-[1px] border-t-[#D6D6D6]" data-aos="zoom-in" data-aos-delay={delay * 150}>
+            className="shadow-xl flex flex-col justify-between gap-[20px] bg-white border-r-solid border-r-[1px] border-r-[#D6D6D6] border-l-solid border-l-[1px] border-l-[#D6D6D6] border-t-[1px] border-t-[#D6D6D6]">
             <div className="p-[30px]">
-                <img src={image} alt={imageALT} className="mb-[30px] w-full" />
+                <img src={image} alt={imageALT} className="mb-[30px] w-full min-w-[250px] min-h-[190px]" loading="lazy" />
                 {
-                    titleImage ? <img src={titleImage} alt={imageALT} className="mx-auto" /> :
+                    titleImage ? <img src={titleImage} alt={imageALT} className="mx-auto min-w-[229px] min-h-[84px]" loading="lazy" /> :
                         <p className="text-center xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[15px] uppercase">
                             {title}
                         </p>

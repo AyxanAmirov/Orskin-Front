@@ -1,5 +1,5 @@
 import React from "react";
-import whatsappIcon from "../../assets/icons/whatsapp.png";
+import whatsappIcon from "../../assets/icons/whatsapp.webp";
 function Whatsapp() {
   return (
     <a href="https://wa.me/971504459672">
