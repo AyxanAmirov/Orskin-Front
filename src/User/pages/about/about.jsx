@@ -2,7 +2,7 @@
 import TeamBottomBanner from "../../assets/image/team.jpg";
 import Feedbacks from "../../components/feedbacks";
 import { aboutInfo, seoContent, team } from "../../../data/data";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function About() {
   const { title, description, canonical, schema } = seoContent["about"];

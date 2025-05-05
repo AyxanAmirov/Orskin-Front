@@ -7,7 +7,7 @@ import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { seoContent } from "../../../data/data";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function Contact() {
   const { title, description, canonical, schema } = seoContent["contact"];

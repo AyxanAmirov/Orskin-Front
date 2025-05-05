@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { blogs } from "../../../data/data";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function BlogDetail() {
   const { title } = useParams()
@@ -26,7 +26,7 @@ function BlogDetail() {
       </Helmet>
       <div className="container ">
         <div className="mt-[230px] flex flex-col gap-[30px]">
-          <h2 className="text-[#B3D6D0] text-[30px]" data-aos="zoom-in">
+          <h2 className="text-[#B3D6D0] text-[30px] font-[900]" data-aos="zoom-in">
             {blogState.title}
           </h2>
           <img

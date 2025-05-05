@@ -58,6 +58,9 @@ import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
 import blog3cover from "../User/assets/image/blog3cover1140x408.jpg";
 import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.jpg";
 
+import blog4cover from "../User/assets/image/blog4cover.jpg";
+import blog4coverMin from "../User/assets/image/blog4min.jpg";
+
 import AestheFill from "../User/assets/image/AestheFill.jpg"
 
 export const services = [
@@ -1163,7 +1166,37 @@ export const blogs = [
                 url: "https://shop.orskin.ae/products/colorescience-total-protection%E2%84%A2-no-show-mineral-sunscreen-spf-50"
             }
         ]
+    },
+    {
+        id: 4,
+        title: "Unlocking Radiant Skin with Orkin’s Combinations ",
+        cover: blog4cover,
+        coverMin: blog4coverMin,
+        introduction: "The Science Behind Combination Treatments at Orskin Aesthetics provides one of the finest safest with the latest techniques combined with the best customized facials of Orskin.",
+        description: `
+        <p class="mb-[10px]">The Science Behind Combination Treatments at Orskin Aesthetics provides one of the finest safest with the latest techniques combined with the best customized facials of Orskin. </p>
+        <p class="mb-[15px]">At Orskin Aesthetics, we recognize that optimal skin health requires a comprehensive and scientifically tailored approach. By combining advanced, evidence-based treatments, we effectively address multiple skin concerns, enhancing both aesthetic outcomes and skin function. In this article, we explore the synergistic effects of three powerful treatment combinations: </p>
+        <ul class="flex flex-col gap-[10px] mb-[20px]">
+            <li>- Plasma Gel with SkinPen</li>
+            <li>- AdvaLight laser with PDRN and Microbotox</li>
+            <li>- Soft Laser with Chemical Peel.</li>
+        </ul>
+        <h3 class="font-[900] text-[20px] mb-[10px]">What is Plasma gel when combined with Skin Pen for?</h3>
+        <p  class="mb-[10px]">A Regenerative Method for Rejuvenating the Skin Often referred to as biofiller, plasma gel is an autologous biofiller made from the patient's own plasma that provides a regenerative and biocompatible substitute for conventional fillers.  Packed with growth ingredients, it promotes skin hydration and fibroblast activity.  It significantly increases the production of collagen, which promotes anti-aging and a perceptible lift in appearance.</p>
+        <p  class="mb-[10px]">Collagen induction is greatly increased when used in conjunction with SkinPen, an FDA-approved microneedling tool.  By inducing regulated micro-injuries in the skin, SkinPen stimulates neocollagenesis and starts the wound healing cascade.  Skin tone, suppleness, and texture all improve as a result. It also works on acne, acne scars and scars as well.  SkinPen and Plasma Gel work together to improve dermal remodeling, giving the face a plumper, more hydrated, and younger appearance. Our highly skilled skin specialists at Orskin Aesthetics ensure that our patients receive the safest and best microneedling treatment possible, popularly known as SkinPen.</p>
+
+        <h3  class="font-[900] text-[20px] mb-[10px]">How does Advalight with PDRN and Microbotox work?</h3>
+        <p class="mb-[10px]">A Multi-Modal Strategy for Skin Repair The dual-wavelength AdvaLight laser system is specifically designed to tackle pigmentation, acne, vascular lesions, and general skin rejuvenation.  It uses wavelengths of 1319 nm and 589 nm to increase skin clarity, promote collagen synthesis, and lessen inflammation. In conjunction with PDRN (polydeoxyribonucleotide), a physiologically active compound that is isolated from salmon DNA, the treatment increases hydration, improves microcirculation, and encourages cellular repair.  It has been demonstrated that PDRN speeds up tissue regeneration by promoting extracellular matrix remodeling and fibroblast proliferation.</p>
+        <p  class="mb-[10px]">The addition of Microbotox —a diluted form of botulinum toxin administered intradermally—further refines skin texture by reducing pore size, controlling sebaceous gland activity, and softening dynamic fine lines. This technique preserves natural facial expressions while enhancing overall skin smoothness and luminosity.</p>
+
+        <h3 class="font-[900] text-[20px] mb-[10px]">How does Soft Laser with Chemical Peel work?</h3>
+        <p class="mb-[10px]">For patients seeking a non-invasive yet effective treatment, the combination of Soft Laser therapy and a Chemical Peel offers a gentle yet scientifically driven approach to skin resurfacing. Soft Laser utilizes low-level laser therapy (LLLT) to enhance cellular metabolism, reduce inflammation, and promote tissue repair with minimal discomfort and no downtime.</p>
+        <p class="mb-[10px]">The application of a Chemical Peel further optimizes this treatment by exfoliating the stratum corneum, facilitating the removal of dead skin cells and stimulating epidermal renewal. Depending on the type and depth of the peel, this process can effectively address hyperpigmentation, uneven texture, and dull skin tone. When used in conjunction, Soft Laser enhances post-peel recovery, minimizes irritation, and amplifies the regenerative benefits of chemical exfoliation.</p>
+        <p class="mb-[10px]">At Orskin Aesthetics, our combination treatments are designed to provide customized, medically sound solutions tailored to each patient’s unique skin needs. By integrating cutting-edge regenerative therapies, laser modalities, and injectables, we optimize skin health and aesthetics for long-lasting, natural-looking results.</p>
+        <p class="mb-[10px]">Experience the transformative benefits of our personalized skin treatments. Contact us today to schedule a consultation and embark on your journey to healthier, more radiant skin.</p>
+        `
     }
+
 ]
 
 export const seoContent = {

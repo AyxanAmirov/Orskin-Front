@@ -7,13 +7,16 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Provider } from "react-redux";
 import { globalStore } from "./redux/store.jsx";
+import { HelmetProvider } from "react-helmet-async";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <ChakraProvider>
-      <Provider store={globalStore}>
-        <App />
-      </Provider>
+      <HelmetProvider>
+        <Provider store={globalStore}>
+          <App />
+        </Provider>
+      </HelmetProvider>
     </ChakraProvider>
   </BrowserRouter>
 );

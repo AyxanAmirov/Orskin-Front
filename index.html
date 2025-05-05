@@ -98,6 +98,14 @@
 <body>
   <div id="root"></div>
 
+  <img src="./src/User/assets/gif/Loading_2.gif" id="loadergif"
+    class="w-[50px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+
+
+  <script>
+    setTimeout(() => document.querySelector("#loadergif").remove(), 3000)
+  </script>
+
   <script type="module" src="/src/main.jsx"></script>
 </body>
 

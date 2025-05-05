@@ -11,7 +11,7 @@ import {
 } from "../../../data/data.jsx";
 import ServiceCard from "../../components/serviceCard/index.jsx";
 import Slider from "../../components/slider/index.jsx";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 

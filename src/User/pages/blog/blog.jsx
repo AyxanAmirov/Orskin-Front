@@ -2,7 +2,7 @@
 import NewWalpaper from "../../assets/image/whats-new.jpg";
 import { Link } from "react-router-dom";
 import { blogs, seoContent } from "../../../data/data";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 function Blog() {
 
   const { title, description, canonical, schema } = seoContent["blog"];
