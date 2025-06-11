@@ -7,6 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Tooltip } from "@chakra-ui/react";
+// import Mastercard from "../assets/icons/mastercard";
+// import Visa from "../assets/icons/visa";
+// import Unipay from "../assets/icons/unipay";
 
 function Footer() {
   return (
@@ -48,16 +51,25 @@ function Footer() {
                   src={Visa}
                   alt="Visa card"
                   className="xl:w-[40px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px]" data-aos="zoom-in"
+                  width={"60px"} height={"100%"}
+                  loading="lazy"
                 />
                 <img
                   src={MasterCard}
                   alt="Master card"
                   className="md:w-[80px] sm:w-[80px] w-[40px] xl:w-[40px] lg:w-[60px]" data-aos="zoom-in"
+                  width={"60px"} height={"100%"}
+                  loading="lazy"
                 />
+                {/* <Visa />
+                <Mastercard />
+                <Unipay /> */}
                 <img
                   src={UniPay}
                   alt="UnionPay card"
                   className="xl:w-[50px] lg:w-[40px] md:w-[80px] sm:w-[80px] w-[60px] " data-aos="zoom-in"
+                  width={"60px"} height={"100%"}
+                  loading="lazy"
                 />
               </div>
             </div>

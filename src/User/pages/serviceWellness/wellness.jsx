@@ -12,6 +12,8 @@ function Wellness() {
         <img
           src={image}
           alt="wellness"
+          className="w-[100%] h-[auto] object-cover"
+          width={"100%"} height={"auto"} loading="lazy"
         />
         <p className="text-[#949598] text-[18px] font-[400] mb-[30px]">
           {description}

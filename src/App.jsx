@@ -33,7 +33,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:title" element={<BlogDetail />} />
+          <Route path="/blog/:slug" element={<BlogDetail />} />
           <Route path="/search/:query" element={<Search />} />
           <Route path="/terms-and-policy" element={<Terms />} />
           <Route path="/term-of-use" element={<TermOfUse />} />

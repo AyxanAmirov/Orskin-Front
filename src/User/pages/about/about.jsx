@@ -1,5 +1,5 @@
 
-import TeamBottomBanner from "../../assets/image/team.jpg";
+import TeamBottomBanner from "../../assets/image/team.webp";
 import Feedbacks from "../../components/feedbacks";
 import { aboutInfo, seoContent, team } from "../../../data/data";
 import { Helmet } from "react-helmet-async";
@@ -20,7 +20,10 @@ function About() {
       </Helmet>
 
       <div className="flex justify-center">
-        <img src={aboutInfo.banner} alt="Facial lifting effect demonstrated through our advanced treatment." className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in" />
+        <img src={aboutInfo.banner} alt="Facial lifting effect demonstrated through our advanced treatment." className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover" data-aos="zoom-in"
+          width={"100%"} height={"100%"}
+          loading="lazy"
+        />
       </div>
       <div className="container ">
         <div className="flex flex-col items-center gap-[50px]">
@@ -54,7 +57,10 @@ function About() {
                   </p>
                 </div>
                 <div className="col-lg-5 col-md-12 col-sm-12 col-12 xl:px-[30px] lg:px-[30px] md:px-[30px] sm:px-[30px]" data-aos="zoom-in">
-                  <img src={member.image} alt={member.alt} className="w-full h-[500px] object-cover" />
+                  <img src={member.image} alt={member.alt} className="w-full h-[500px] object-cover"
+                    width={"100%"} height={"500px"}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             ))
@@ -62,7 +68,10 @@ function About() {
         </div>
       </div>
       <div className="mt-[40px] flex justify-center">
-        <img src={TeamBottomBanner} alt="Orskin aesthetics clinic's team" data-aos="zoom-in" className="w-100" />
+        <img src={TeamBottomBanner} alt="Orskin aesthetics clinic's team" data-aos="zoom-in" className="w-100"
+          width={"100%"} height={"100%"}
+          loading="lazy"
+        />
       </div>
       <Feedbacks />
     </>

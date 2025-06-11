@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function SearchCards() {
   return (
     <div className="border-solid border-[1px] border-[#F2F3F5]">
-      <div className="card relative border-b-solid border-b-[1px] border-b-[#F2F3F5] ">
+      {/* <div className="card relative border-b-solid border-b-[1px] border-b-[#F2F3F5] ">
         <img
           src="https://orskin.ae/wp-content/uploads/2024/06/Silk-radience-3-in-1-cleansing-oil-400x400.webp"
           alt="product"
@@ -43,7 +43,7 @@ function SearchCards() {
             <p className="text-[20px] mt-[20px]">Protein Mist Enzyme Toner is an enzyme protein toner that restores the skin’s pH, while hydrating and refreshing the skin. When used throughout the da</p>
             <button className="text-[20px] text-[#9AD6CC]">Read More</button> <FontAwesomeIcon icon={faChevronRight} className="text-[14px] text-[#9AD6CC]" />
 
-      </div>
+      </div> */}
     </div>
   );
 }

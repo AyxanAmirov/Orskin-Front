@@ -32,11 +32,11 @@ function Partners() {
                     modules={[Autoplay]}
                     className="mySwiper"
                 >
-
                     {
                         partners.map((item, index) => (
                             <SwiperSlide key={item.id}>
-                                <img src={item.image} alt={item.title} className="object-contain" data-aos="zoom-in" />
+                                <img src={item.image} alt={item.title} className="object-contain" data-aos="zoom-in" 
+                                width="auto" height="auto"/>
                             </SwiperSlide>
                         ))
                     }

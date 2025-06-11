@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../assets/image/logo.png";
-import hat from "../assets/image/hat-christmas.png";
+import Logo from "../assets/image/logo.webp";
+import hat from "../assets/image/hat-christmas.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -25,6 +25,8 @@ function Navbar({ isVisible }) {
                 src={Logo}
                 alt="Orskin Aesthetic Clinic in Dubai"
                 className="sm:w-[120px] w-[120px] xl:w-full lg:w-full md:w-full"
+                width={"100%"}
+                height={"100%"}
               />
               {/* <img src={hat} className="hat" /> */}
             </Link>

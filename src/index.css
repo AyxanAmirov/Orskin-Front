@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("./User/assets/fonts/Raleway-VariableFont_wght.ttf")
-    format("truetype");
+  src: url("./User/assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
 }
@@ -600,9 +600,9 @@ a {
 }
 
 @media (max-width: 768px) {
-    .hat {
-        top: -20px;
-        left: -35px;
-        width: 90px;
-    }
+  .hat {
+    top: -20px;
+    left: -35px;
+    width: 90px;
   }
+}

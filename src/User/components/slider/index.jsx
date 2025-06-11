@@ -35,7 +35,10 @@ const Slider = ({ slides }) => {
               src={slide.image}
               alt={slide.title}
               className="w-full h-full object-cover"
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
+              width={"100%"}
+              height={"100%"}
             />
           </div>
         ))}

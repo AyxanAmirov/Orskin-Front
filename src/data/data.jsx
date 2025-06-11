@@ -1,67 +1,74 @@
 import benner1 from "../User/assets/image/home-banner1.webp"
 import banner2 from "../User/assets/image/home-banner2.webp"
 import benner3 from "../User/assets/image/home-banner3.webp"
-import servicebanner1 from "../User/assets/image/service-banner-laser.jpg"
-import servicebanner2 from "../User/assets/image/service-banner-slimming.jpg"
-import servicebanner3 from "../User/assets/image/service-banner-aesthetics.jpg"
-import servicebanner4 from "../User/assets/image/service-banner-facials.jpg"
-import servicebanner5 from "../User/assets/image/service-banner-wellness.jpg"
+import servicebanner1 from "../User/assets/image/service-banner-laser.webp"
+import servicebanner2 from "../User/assets/image/service-banner-slimming.webp"
+import servicebanner3 from "../User/assets/image/service-banner-aesthetics.webp"
+import servicebanner4 from "../User/assets/image/service-banner-facials.webp"
+import servicebanner5 from "../User/assets/image/service-banner-wellness.webp"
 import service1 from "../User/assets/image/service1.webp"
 import service2 from "../User/assets/image/service2.webp"
 import service3 from "../User/assets/image/service3.webp"
 import service3v500x500 from "../User/assets/image/service3 500x400.webp"
-import service3UltraClear from "../User/assets/image/UltraClear.jpeg"
+import service3UltraClear from "../User/assets/image/UltraClear.webp"
 import service4 from "../User/assets/image/service4.webp"
 import service5 from "../User/assets/image/service5.webp"
 import service6 from "../User/assets/image/service6.webp"
 import lazer from "../User/assets/image/laser.webp"
 import slimming from "../User/assets/image/slimming.webp"
 import aesthetics from "../User/assets/image/aesthetics.webp"
-import latest from "../User/assets/image/latest.jpg"
+import latest from "../User/assets/image/latest.webp"
 import dmg from "../User/assets/image/dmg-logo.webp"
 import darma from "../User/assets/image/darma-logo.webp"
 import nano from "../User/assets/image/nano-logo.webp"
 import nuro from "../User/assets/image/nuro-logo.webp"
 import facialBanner from "../User/assets/image/facial-banner.webp";
 import facialTitle from "../User/assets/image/facial-title.webp";
-import AboutBanner from "../User/assets/image/aboutus-banner.jpg";
-import OrsolyaMatheisz from "../User/assets/image/team-co.jpg";
-// import DoctorGustavo from "../User/assets/image/team-dr1.jpg";
-import DoctorAsima from "../User/assets/image/team-dr2.jpg";
-import DoctorShagoon from "../User/assets/image/team-dr3.jpeg";
-import Endospheres from "../User/assets/image/Endospheres-400x320.jpg";
-import EmSlim from "../User/assets/image/EmSlim-400x320.jpg";
-import LymphaticDrainageMassage from "../User/assets/image/Lymphatic-Drainage-Massage-400x320.jpg";
-import PreNatalMassage from "../User/assets/image/Pre-Post-Natal-Massage-400x320.jpg";
-import MaderoTherapy from "../User/assets/image/Madero-Therapy-400x320.jpg";
-import Botox from "../User/assets/image/Botox-400x320.jpg";
-import Fillers from "../User/assets/image/Fillers-400x320.jpg";
-import Renuva from "../User/assets/image/Renuva-400x320.jpg";
-import Sculptra from "../User/assets/image/Sculptra-400x320.jpg";
-import Exosomes from "../User/assets/image/Exosomes-400x320.jpg";
-import Regenera from "../User/assets/image/Regenera-400x320.jpg";
-import LaserBanner from "../User/assets/image/Laser_Banner.jpg";
-import SlimmingBanner from "../User/assets/image/Slimming_Banner.jpg";
-import aestheticsbanner from "../User/assets/image/aesthetics-banner.jpg";
-import facialsbanner from "../User/assets/image/facials-banner.jpg";
-import wellnessbanner from "../User/assets/image/wellness-banner.jpg";
-import Holistic from "../User/assets/image/Holistic-Facial-400x320.jpg";
-import deepcleansing from "../User/assets/image/Deep-Cleansing-400x320.jpg";
-import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.jpg";
-import Morpheus from "../User/assets/image/Morpheus-400x320.jpg";
-import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.jpg";
-import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.jpg";
-import blog1cover from "../User/assets/image/blog1-1140px408.jpg";
-import blog2cover from "../User/assets/image/blog2-cover-1200x429.jpg";
-import blog2product1 from "../User/assets/image/blog2-product1-400x400.jpg";
+import AboutBanner from "../User/assets/image/aboutus-banner.webp";
+import OrsolyaMatheisz from "../User/assets/image/team-co.webp";
+// import DoctorGustavo from "../User/assets/image/team-dr1.webp";
+import DoctorAsima from "../User/assets/image/team-dr2.webp";
+import DoctorShagoon from "../User/assets/image/team-dr3.webp";
+import Endospheres from "../User/assets/image/Endospheres-400x320.webp";
+import EmSlim from "../User/assets/image/EmSlim-400x320.webp";
+import LymphaticDrainageMassage from "../User/assets/image/Lymphatic-Drainage-Massage-400x320.webp";
+import PreNatalMassage from "../User/assets/image/Pre-Post-Natal-Massage-400x320.webp";
+import MaderoTherapy from "../User/assets/image/Madero-Therapy-400x320.webp";
+import Botox from "../User/assets/image/Botox-400x320.webp";
+import Fillers from "../User/assets/image/Fillers-400x320.webp";
+import Renuva from "../User/assets/image/Renuva-400x320.webp";
+import Sculptra from "../User/assets/image/Sculptra-400x320.webp";
+import Exosomes from "../User/assets/image/Exosomes-400x320.webp";
+import Regenera from "../User/assets/image/Regenera-400x320.webp";
+import LaserBanner from "../User/assets/image/Laser_Banner.webp";
+import SlimmingBanner from "../User/assets/image/Slimming_Banner.webp";
+import aestheticsbanner from "../User/assets/image/aesthetics-banner.webp";
+import facialsbanner from "../User/assets/image/facials-banner.webp";
+import wellnessbanner from "../User/assets/image/wellness-banner.webp";
+import Holistic from "../User/assets/image/Holistic-Facial-400x320.webp";
+import deepcleansing from "../User/assets/image/Deep-Cleansing-400x320.webp";
+import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.webp";
+import Morpheus from "../User/assets/image/Morpheus-400x320.webp";
+import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.webp";
+import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.webp";
+import blog1cover from "../User/assets/image/blog1-1140px408.webp";
+import blog2cover from "../User/assets/image/blog2-cover-1200x429.webp";
+import blog2product1 from "../User/assets/image/blog2-product1-400x400.webp";
 
-import blog3cover from "../User/assets/image/blog3cover1140x408.jpg";
-import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.jpg";
+import blog3cover from "../User/assets/image/blog3cover1140x408.webp";
+import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.webp";
 
-import blog4cover from "../User/assets/image/blog4cover.jpg";
-import blog4coverMin from "../User/assets/image/blog4min.jpg";
+import blog4cover from "../User/assets/image/blog4cover.webp";
+import blog4coverMin from "../User/assets/image/blog4min.webp";
 
-import AestheFill from "../User/assets/image/AestheFill.jpg"
+import blog5cover from "../User/assets/image/blog5cover.webp";
+import blog5coverMin from "../User/assets/image/blog5min.webp";
+import blog5_1 from "../User/assets/image/blog5_body.webp";
+import blog5_2 from "../User/assets/image/blog5_dreamstime.webp";
+import blog5_3 from "../User/assets/image/blog5_Skin-Rejuvenation.webp";
+import blog5_4 from "../User/assets/image/blog5_Electron-mic.webp";
+
+import AestheFill from "../User/assets/image/AestheFill.webp"
 
 export const services = [
     {
@@ -163,7 +170,7 @@ export const services = [
     {
         id: 3,
         image: service1,
-        imageALT: "aesthetics procedures, botox, filler, skin boosters",
+        imageALT: "aesthetics procedures, facial rejuvenation, filler, skin boosters",
         titleImage: aesthetics,
         title: "aesthetics",
         moreinfo: {
@@ -174,8 +181,8 @@ export const services = [
                 {
                     id: 1,
                     image: Botox,
-                    title: "Botox",
-                    description: "Botox (botulinum toxin) is injected into the skin to weaken or paralyze the muscle. It is commonly used to reduce facial wrinkles in the forehead and around the eyes by blocking certain chemical signals from nerves that cause muscles to contract. As a result, the facial muscles that cause wrinkles are temporarily relaxed. <br> <br> Botox is known to have multiple functions, such as combatting excessive sweating under the arms and treating migraines. At Orskin, we use high-quality botulinum toxin brands. The treatment time can vary from 20-50 minutes. It is always advisable to repeat the session every 3 to 6 months, depending on each case. As muscle action slowly returns, lines and wrinkles begin to reappear, requiring subsequent treatment."
+                    title: "Facial Rejuvenation",
+                    description: "Facial Rejuvenation (botulinum toxin) is injected into the skin to weaken or paralyze the muscle. It is commonly used to reduce facial wrinkles in the forehead and around the eyes by blocking certain chemical signals from nerves that cause muscles to contract. As a result, the facial muscles that cause wrinkles are temporarily relaxed. <br> <br> Facial Rejuvenation is known to have multiple functions, such as combatting excessive sweating under the arms and treating migraines. At Orskin, we use high-quality botulinum toxin brands. The treatment time can vary from 20-50 minutes. It is always advisable to repeat the session every 3 to 6 months, depending on each case. As muscle action slowly returns, lines and wrinkles begin to reappear, requiring subsequent treatment."
                 },
                 {
                     id: 2,
@@ -935,6 +942,7 @@ export const blogs = [
     {
         id: 1,
         title: "Platelet Rich Fibrin (PRF) Plasmagel",
+        slug: "platelet-rich-fibrin-(prf)-plasmagel",
         cover: blog1cover,
         coverMin: blog1cover,
         introduction: "Gently exfoliate away dull, dead skin with the age-defying, complexion-boosting PHA Hydration Peel!",
@@ -998,6 +1006,7 @@ export const blogs = [
     {
         id: 2,
         title: "Winter skin renewal means peel season is here!",
+        slug: "winter-skin-renewal-means-peel-season-is-here!",
         cover: blog2cover,
         coverMin: blog2cover,
         introduction: "Winter is the absolute best time of the year! Who doesn’t love the winter season in Dubai -cooler temperatures, less humidity and… knowing that chemical peel season has arrived?",
@@ -1057,6 +1066,7 @@ export const blogs = [
     {
         id: 3,
         title: "Fall is the Perfect Time for Laser Treatments.",
+        slug: "fall-is-the-perfect-time-for-laser-treatments.",
         cover: blog3cover,
         coverMin: blog3coverMin,
         introduction: "At  Orskin Aesthetics we are offering special protocols when it comes to laser treatments, it is customised for each patient needs and concern.",
@@ -1139,7 +1149,7 @@ export const blogs = [
             },
             {
                 id: 2,
-                imgSrc: "https://shop.orskin.ae/cdn/shop/files/2.jpg",
+                imgSrc: "https://shop.orskin.ae/cdn/shop/files/2.webp",
                 title: "Soothe Dermal Repair Mist",
                 description: "Soothe Dermal Repair Mist from Epicuren is an ultra-light toner that is designed with superior ingredients to reduce the appearance of sensitivity.Recommended for All skin types.",
                 url: "https://shop.orskin.ae/products/soothe-dermal-repair-mist"
@@ -1169,7 +1179,8 @@ export const blogs = [
     },
     {
         id: 4,
-        title: "Unlocking Radiant Skin with Orkin’s Combinations ",
+        title: "Unlocking Radiant Skin with Orkin’s Combinations",
+        slug: "unlocking-radiant-skin-with-orkin’s-combinations",
         cover: blog4cover,
         coverMin: blog4coverMin,
         introduction: "The Science Behind Combination Treatments at Orskin Aesthetics provides one of the finest safest with the latest techniques combined with the best customized facials of Orskin.",
@@ -1178,16 +1189,16 @@ export const blogs = [
         <p class="mb-[15px]">At Orskin Aesthetics, we recognize that optimal skin health requires a comprehensive and scientifically tailored approach. By combining advanced, evidence-based treatments, we effectively address multiple skin concerns, enhancing both aesthetic outcomes and skin function. In this article, we explore the synergistic effects of three powerful treatment combinations: </p>
         <ul class="flex flex-col gap-[10px] mb-[20px]">
             <li>- Plasma Gel with SkinPen</li>
-            <li>- AdvaLight laser with PDRN and Microbotox</li>
+            <li>- AdvaLight laser with PDRN and Micro-Infusion Facial</li>
             <li>- Soft Laser with Chemical Peel.</li>
         </ul>
         <h3 class="font-[900] text-[20px] mb-[10px]">What is Plasma gel when combined with Skin Pen for?</h3>
         <p  class="mb-[10px]">A Regenerative Method for Rejuvenating the Skin Often referred to as biofiller, plasma gel is an autologous biofiller made from the patient's own plasma that provides a regenerative and biocompatible substitute for conventional fillers.  Packed with growth ingredients, it promotes skin hydration and fibroblast activity.  It significantly increases the production of collagen, which promotes anti-aging and a perceptible lift in appearance.</p>
         <p  class="mb-[10px]">Collagen induction is greatly increased when used in conjunction with SkinPen, an FDA-approved microneedling tool.  By inducing regulated micro-injuries in the skin, SkinPen stimulates neocollagenesis and starts the wound healing cascade.  Skin tone, suppleness, and texture all improve as a result. It also works on acne, acne scars and scars as well.  SkinPen and Plasma Gel work together to improve dermal remodeling, giving the face a plumper, more hydrated, and younger appearance. Our highly skilled skin specialists at Orskin Aesthetics ensure that our patients receive the safest and best microneedling treatment possible, popularly known as SkinPen.</p>
 
-        <h3  class="font-[900] text-[20px] mb-[10px]">How does Advalight with PDRN and Microbotox work?</h3>
+        <h3  class="font-[900] text-[20px] mb-[10px]">How does Advalight with PDRN and Micro-Infusion Facial work?</h3>
         <p class="mb-[10px]">A Multi-Modal Strategy for Skin Repair The dual-wavelength AdvaLight laser system is specifically designed to tackle pigmentation, acne, vascular lesions, and general skin rejuvenation.  It uses wavelengths of 1319 nm and 589 nm to increase skin clarity, promote collagen synthesis, and lessen inflammation. In conjunction with PDRN (polydeoxyribonucleotide), a physiologically active compound that is isolated from salmon DNA, the treatment increases hydration, improves microcirculation, and encourages cellular repair.  It has been demonstrated that PDRN speeds up tissue regeneration by promoting extracellular matrix remodeling and fibroblast proliferation.</p>
-        <p  class="mb-[10px]">The addition of Microbotox —a diluted form of botulinum toxin administered intradermally—further refines skin texture by reducing pore size, controlling sebaceous gland activity, and softening dynamic fine lines. This technique preserves natural facial expressions while enhancing overall skin smoothness and luminosity.</p>
+        <p  class="mb-[10px]">The addition of Micro-Infusion Facial —a diluted form of botulinum toxin administered intradermally—further refines skin texture by reducing pore size, controlling sebaceous gland activity, and softening dynamic fine lines. This technique preserves natural facial expressions while enhancing overall skin smoothness and luminosity.</p>
 
         <h3 class="font-[900] text-[20px] mb-[10px]">How does Soft Laser with Chemical Peel work?</h3>
         <p class="mb-[10px]">For patients seeking a non-invasive yet effective treatment, the combination of Soft Laser therapy and a Chemical Peel offers a gentle yet scientifically driven approach to skin resurfacing. Soft Laser utilizes low-level laser therapy (LLLT) to enhance cellular metabolism, reduce inflammation, and promote tissue repair with minimal discomfort and no downtime.</p>
@@ -1195,8 +1206,197 @@ export const blogs = [
         <p class="mb-[10px]">At Orskin Aesthetics, our combination treatments are designed to provide customized, medically sound solutions tailored to each patient’s unique skin needs. By integrating cutting-edge regenerative therapies, laser modalities, and injectables, we optimize skin health and aesthetics for long-lasting, natural-looking results.</p>
         <p class="mb-[10px]">Experience the transformative benefits of our personalized skin treatments. Contact us today to schedule a consultation and embark on your journey to healthier, more radiant skin.</p>
         `
-    }
+    },
+    {
+        id: 5,
+        title: "Stem cell Therapy Blog",
+        slug: "stem-cell-therapy-blog",
+        cover: blog5cover,
+        coverMin: blog5coverMin,
+        introduction: " At Orskin, your beauty and well-being are at the heart of everything we do. We offer a holistic and highly personalised approach to skincare—designing every treatment to meet your unique concerns and deliver lasting, visible results.",
+        description: `
+        <div style="font-family: Arial, sans-serif; line-height: 1.7; padding: 40px 0; color: #222;">
+            <div data-aos="fade-up">
+                <p style="font-size: 18px;">
+                    At Orskin, your beauty and well-being are at the heart of everything we do.
+                    We offer a holistic and highly personalised approach to skincare—designing every treatment to meet your unique concerns and deliver lasting, visible results.
+                </p>
+            </div>
+            <h2 style="font-size: 28px; color: #F2008B; margin-top: 40px;" data-aos="fade-up">
+                A Scientific Partnership for Real Results
+            </h2>
+            <div style="background: #f7f7f7; padding: 30px; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up">
+                <div class="gap-[30px] grid grid-cols-1">
+                    <div class="text-[20px] flex flex-col gap-[10px]">
+                        <p data-aos="fade-up">
+                            In our commitment to innovation and excellence, Orskin has partnered with a leading UAE-based laboratory specialising in advanced cell biology, including therapies based on stem cells and exosomes. Through this collaboration, we now offer some of the world’s most cutting-edge, regenerative treatments using adipose-derived stem cells and exosomes.
+                        </p>
+                        <p data-aos="fade-up">
+                            Additionally, Orskin proudly offers in-house stem cell therapy using your own blood, making regenerative treatments even more accessible, safe, and natural. This personalised approach enhances skin rejuvenation, supports tissue repair, and improves overall skin vitality—without synthetic additives or downtime.
+                        </p>
+                        <p data-aos="fade-up">
+                            All stem cell and exosome procedures—ranging from extraction and expansion to banking—are conducted at accredited laboratories in Dubai Healthcare City (DHCC) and Italy, under the supervision of licensed specialists. These state-of-the-art services address a wide spectrum of concerns, including skin and body ageing, hair loss, hormonal imbalances, and age-related cellular degeneration.
+                            All facilities are fully licensed and regularly inspected by the DHA and the UAE Ministry of Health, ensuring the highest standards of safety and quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <h2 style="font-size: 28px; color: #0074BD; margin-top: 40px" data-aos="fade-up">
+                Stem Cell & Exosome Therapy: The Future of Regenerative Beauty at Orskin
+            </h2>
+
+            <div style="background: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up">
+                <p>
+                    In the evolving world of aesthetics and wellness, stem cell and exosome therapy have emerged as two of the most revolutionary breakthroughs—offering regenerative power that transforms not only how we age, but how we heal and thrive. At Orskin, we are proud to offer the most advanced, holistic solutions that work with your body—not against it—restoring youth, vitality, and radiance from deep within.
+                </p>
+            </div>
+
+            <h2 style="font-size: 28px; color: #0074BD; margin-top: 40px;" data-aos="fade-up">
+                Why Stem Cells?
+            </h2>
+            <div class="bg-[#fff] p-[30px] rounded-[20px] shadow-[0_4px_12px_rgba(0,0,0,0.1)]" data-aos="fade-up">
+                <div class="gap-[30px] grid grid-cols-1">
+                    <div>
+                        <h3 style="font-size: 20px; font-weight: 700; color: #F2008B;" data-aos="fade-up">
+                            Stem cells are the body’s natural repair system. As we age, the number and vitality of these cells decrease, which leads to:
+                        </h3>
+                        <div class="gap-[30px] grid grid-cols-1">
+                            <div data-aos="fade-up">
+                                <ul class="!list-disc pl-5">
+                                    <li class="!list-[disc]" data-aos="fade-up">Wrinkles and volume loss</li>
+                                    <li class="!list-[disc]" data-aos="fade-up">Slower skin healing</li>
+                                    <li class="!list-[disc]" data-aos="fade-up">Thinning hair</li>
+                                    <li class="!list-[disc]" data-aos="fade-up">General fatigue and inflammation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <div>
+                    <h3 style="font-size: 20px; font-weight: 700; color: #F2008B;" data-aos="fade-up">
+                        Stem cell therapy replenishes and reactivates this natural healing process. When introduced into the body or skin, stem cells:
+                    </h3>
+                    <ul class="!list-disc pl-5" data-aos="fade-up">
+                        <li class="!list-[disc]" data-aos="fade-up">Replace damaged or ageing cells</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Stimulate collagen and elastin production</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Improve skin texture, firmness, and tone</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Reverse signs of UV damage</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Boost immune function and reduce inflammation</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="font-bold" data-aos="fade-up">
+                The results are not only visible—they are long-lasting, because stem cells help your body regenerate at a cellular level.
+            </p>
+        </div>
+
+        <div data-aos="fade-up" class="bg-[#f7f7f7] p-[30px] rounded-[20px] shadow-[0_4px_12px_rgba(0,0,0,0.1)] my-[40px]">
+            <h3 style="font-size: 24px; color: #F2008B;" data-aos="fade-up">
+                Exosomes: Small but Mighty
+            </h3>
+            <p data-aos="fade-up">
+                Exosomes can be considered as messengers that carry strong directives.  Stem cells release these nano-vesicles, which carry proteins, lipids, and genetic elements to other cells, reviving their capacity for renewal, regeneration, and repair.
+            </p>
+            <div class="gap-[30px] grid lg:grid-cols-2 grid-cols-1" data-aos="fade-up">
+                <img src="${blog5_4}" alt="Exosomes" style="width: 100%; height:300px;object-fit:cover; border-radius: 16px; margin: 20px 0;" 
+                height="300" width="100%" data-aos="fade-up">
+                <div>
+                    <p data-aos="fade-up">
+                        Exosome therapy is a game-changer in both aesthetics and regenerative medicine, with effects such as:
+                    </p>
+                    <ul class="!list-disc pl-5">
+                        <li class="!list-[disc]" data-aos="fade-up">Enhanced collagen synthesis</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Brighter, smoother skin with improved tone</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Reduced inflammation and accelerated healing</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Revitalised hair follicles for hair growth</li>
+                        <li class="!list-[disc]" data-aos="fade-up">Improved skin hydration, elasticity, and strength</li>
+                        <li class="!list-[disc]" data-aos="fade-up">They’re also ideal for treating scars, stretch marks, and damaged tissue—providing a non-surgical, natural alternative for skin renewal.</li>
+                    </ul>
+                </div>
+            </div>
+            <blockquote style="background-color: #eef6ff; border-left: 4px solid #0074BD; padding: 10px 20px; margin: 30px 0;" data-aos="fade-up">
+                If stem cells are the body’s architects, exosomes are their messengers—carrying powerful signals that instruct your skin to repair, restore, and glow.
+            </blockquote>
+            </div>
+            <p class=" mb-[60px]" data-aos="fade-up">
+                Ageing is no longer something we have to accept—it’s something we can reverse. At Orskin, we bring you the future of aesthetic medicine with powerful, cutting-edge stem cell and exosome therapies designed to rejuvenate your skin, restore your youth, and boost your body from the inside out.
+            </p>
+            <div class="w-full absolute left-0 bg-service bg-no-repeat bg-center bg-cover py-[60px] text-center">
+                <div class="container">
+                    <p class="xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[33px] text-[22px] font-[450] leading-[55px] text-shadow" data-aos="fade-up">
+                        <span class="font-[600]">
+                            Turn Back Time
+                        </span> 
+                        with Stem Cell & Exosome <br /> Therapy at 
+                        <span class="font-[600]">
+                            <a href="https://www.orskin.ae">
+                                Orskin.
+                            </a>
+                        </span>
+                    </p>
+                <p data-aos="fade-up">Where Regenerative Beauty Meets Science.</p>
+            </div>
+        </div>
+        <div style="background: #fff; padding: 30px; border-radius: 20px; margin-top: 390px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up" >
+            <h2 style="font-size: 2rem; color: #0074BD; text-align: center; margin-bottom: 30px;" data-aos="fade-up">
+                Anti-Ageing Like Never Before
+            </h2>
+            <p class="max-w-[700px] mx-auto" style="text-align: center; margin-bottom: 30px;" data-aos="fade-up"> 
+                Whether you want to rewind the clock, boost skin health, or simply glow with youthful energy, Orskin’s regenerative therapies offer unmatched results:
+            </p>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-[20px]">
+                <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up">
+                    <img src="${blog5_3}" alt="Skin Rejuvenation" style="width: 100%; height: 200px; object-fit: cover;" height="200" width="100%" data-aos="fade-up">
+                    <div style="padding: 20px;">
+                        <h3 style="font-size: 1.1rem; color: #F2008B;" data-aos="fade-up">For the Skin:</h3>
+                        <ul style="padding-left: 20px; color: #333;">
+                            <li class="list-disc" data-aos="fade-up">Visibly tighter, firmer, plumper skin</li>
+                            <li class="list-disc" data-aos="fade-up">Fewer wrinkles and fine lines</li>
+                            <li class="list-disc" data-aos="fade-up">Glowing, hydrated, youthful complexion</li>
+                            <li class="list-disc" data-aos="fade-up">Brighter skin tone and refined texture</li>
+                            <li class="list-disc" data-aos="fade-up">Natural volume restoration in face and hands</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up" data-aos-delay="150">
+                    <img src="${blog5_1}" alt="Body Wellness" style="width: 100%; height: 200px; object-fit: cover;" height="200"  width="100%" data-aos="fade-up">
+                    <div style="padding: 20px;">
+                        <h3 style="font-size: 1.1rem; color: #F2008B;" data-aos="fade-up">For the Body:</h3>
+                        <ul style="padding-left: 20px; color: #333;">
+                            <li class="list-disc" data-aos="fade-up">Stronger immune system</li>
+                            <li class="list-disc" data-aos="fade-up">Reduced inflammation and joint pain</li>
+                            <li class="list-disc" data-aos="fade-up">Enhanced energy, endurance & recovery</li>
+                            <li class="list-disc" data-aos="fade-up">Hormonal balance and overall wellness</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" data-aos="fade-up" data-aos-delay="250">
+                    <img src="${blog5_2}" alt="Hair Growth" style="width: 100%; height: 200px; object-fit: cover;" height="200"  width="100%" data-aos="fade-up">
+                    <div style="padding: 20px;">
+                        <h3 style="font-size: 1.1rem; color: #F2008B;" data-aos="fade-up">For the Hair:</h3>
+                        <ul style="padding-left: 20px; color: #333;">
+                            <li class="list-disc" data-aos="fade-up">Activated hair follicles</li>
+                            <li class="list-disc" data-aos="fade-up">Increased density and strength</li>
+                            <li class="list-disc" data-aos="fade-up">Fuller, thicker hair—naturally</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 60px; text-align: center;" data-aos="zoom-in-up">
+            <h2 style="font-size: 28px; color: #F2008B;" data-aos="fade-up">Why Orskin?</h2>
+            <p data-aos="fade-up">At Orskin, we don’t cover ageing—<b>we correct it.</b></p>
+            <p data-aos="fade-up">We don’t offer trends—<b>we deliver timeless solutions rooted in science.</b></p>
+            <p style="max-width: 700px; margin: auto;" data-aos="fade-up">
+                Our regenerative anti-ageing therapies are customised to your body and your goals, helping you rediscover your glow, confidence, and youthful vitality—without surgery, without compromise, and with real, lasting results.
+            </p>
+            <h2 style="font-size: 32px; color: #0074BD; margin-top: 40px;" data-aos="fade-up">Be the Future of Beauty</h2>
+            <p data-aos="fade-up">Experience the power of regenerative aesthetics.</p>
+            <p data-aos="fade-up"><strong>Only at <a href="https://www.orskin.ae">Orskin.</a></strong></p>
+        </div>
+    </div>
+`,
+    }
 ]
 
 export const seoContent = {
@@ -1212,15 +1412,15 @@ export const seoContent = {
                 "@type": "MedicalBusiness",
                 "name": "Orskin Aesthetic Clinic",
                 "url": "https://www.orskin.ae/",
-                "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.png",
+                "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.webp",
                 "image": [
-                    "https://www.orskin.ae/assets/service2-CeFVQCHM.jpg",
-                    "https://www.orskin.ae/assets/service1-BNft6HlT.jpg",
-                    "https://www.orskin.ae/assets/service3-REL2V-_H.jpg",
-                    "https://www.orskin.ae/assets/facial-banner-CENLn1Yy.jpg",
-                    "https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg?v=1724441336",
-                    "https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png?v=1727022311",
-                    "https://shop.orskin.ae/cdn/shop/files/P5.jpg?v=1724441790"
+                    "https://www.orskin.ae/assets/service2-CeFVQCHM.webp",
+                    "https://www.orskin.ae/assets/service1-BNft6HlT.webp",
+                    "https://www.orskin.ae/assets/service3-REL2V-_H.webp",
+                    "https://www.orskin.ae/assets/facial-banner-CENLn1Yy.webp",
+                    "https://shop.orskin.ae/cdn/shop/files/adipeau-active1.webp?v=1724441336",
+                    "https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.webp?v=1727022311",
+                    "https://shop.orskin.ae/cdn/shop/files/P5.webp?v=1724441790"
                 ],
                 "description": "Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and the latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority.",
                 "address": {
@@ -1280,13 +1480,13 @@ export const seoContent = {
             "@type": "MedicalBusiness",
             "name": "Orskin Aesthetic Clinic",
             "url": "https://www.orskin.ae/about-us",
-            "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.png",
+            "logo": "https://www.orskin.ae/assets/logo-CnwgVcVk.webp",
             "image": [
-                "https://www.orskin.ae/assets/team-co-BppUgFf-.jpg",
-                "https://www.orskin.ae/assets/team-dr2-Dv0KbIuq.jpg",
-                "https://www.orskin.ae/assets/team-dr1-DGWkyuvE.jpg",
-                "https://www.orskin.ae/assets/team-dr3-DFT5prVC.jpeg",
-                "https://www.orskin.ae/assets/team-Cfhm_83u.jpg"
+                "https://www.orskin.ae/assets/team-co-BppUgFf-.webp",
+                "https://www.orskin.ae/assets/team-dr2-Dv0KbIuq.webp",
+                "https://www.orskin.ae/assets/team-dr1-DGWkyuvE.webp",
+                "https://www.orskin.ae/assets/team-dr3-DFT5prVC.webp",
+                "https://www.orskin.ae/assets/team-Cfhm_83u.webp"
             ],
             "description": "Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling.",
             "address": {

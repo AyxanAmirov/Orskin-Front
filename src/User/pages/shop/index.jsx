@@ -8,7 +8,9 @@ function Shop() {
     }, [])
     return (
         <div className='shop-container'>
-            <img src={spin} alt="Spinner" />
+            <img src={spin} alt="Spinner"
+                width={"40px"} height={"40px"} loading="lazy"
+            />
         </div>
     )
 }

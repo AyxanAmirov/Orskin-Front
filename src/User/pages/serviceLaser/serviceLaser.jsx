@@ -17,6 +17,9 @@ function ServiceLaser() {
                 alt={item.title}
                 data-aos="zoom-in"
                 className="w-[500px] h-[400px] object-cover"
+                loading="lazy"
+                width="500"
+                height="400"
               />
             </div>
             <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">

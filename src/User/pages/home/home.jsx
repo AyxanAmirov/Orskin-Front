@@ -63,6 +63,9 @@ function Home() {
             src={facialSection.banner}
             alt={facialSection.bannerALT}
             className="w-full h-full object-cover"
+            loading="lazy"
+            width={"100%"}
+            height={"100%"}
           />
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in">
@@ -72,6 +75,9 @@ function Home() {
                 src={facialSection.titleImage}
                 alt={facialSection.bannerALT}
                 className="xl:w-[100%] lg:w-[100%] md:w-[220px] sm:w-[220px] w-[150px]" data-aos="zoom-in"
+                loading="lazy"
+                width={"100%"}
+                height={"100%"}
               />
               <h2 className="text-[#393939] font-bold xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[16px] text-[14px] my-[15px]" data-aos="zoom-in">{facialSection.title}</h2>
               <p className="font-bold xl:text-[16px] lg:text-[16px] md:text-[16px] sm:text-[14px] text-[12px]" data-aos="zoom-in">
