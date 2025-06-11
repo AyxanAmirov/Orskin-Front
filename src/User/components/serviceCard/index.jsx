@@ -8,8 +8,8 @@ function ServiceCard({ image, imageALT, titleImage, title, delay }) {
                 <img src={image} alt={imageALT} className="mb-[30px] w-full min-w-[250px] min-h-[190px]" loading="lazy"
                     width={"100%"} height={"100%"} />
                 {
-                    titleImage ? <img src={titleImage} alt={imageALT} className="mx-auto min-w-[150px] min-h-[84px]" loading="lazy"
-                        width={"auto"} height={"auto"}
+                    titleImage.image ? <img src={titleImage.image} alt={titleImage.alt} className="mx-auto min-w-[150px] min-h-[84px]" loading="lazy"
+                        width={titleImage.width} height={titleImage.height}
                     /> :
                         <p className="text-center xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[15px] uppercase">
                             {title}

@@ -50,7 +50,7 @@ function Navbar({ isVisible }) {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  <a href="https://shop.orskin.ae/" target="_blank">Shop</a>
+                  <a href="https://shop.orskin.ae/collections/all" target="_blank">Shop</a>
                 </li>
 
 

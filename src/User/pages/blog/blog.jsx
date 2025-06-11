@@ -22,7 +22,7 @@ function Blog() {
         <div className="mt-[230px] flex flex-col items-center">
           <h1 className="font-[400 ] text-[40px]  font-[900] mb-[20px]" data-aos="zoom-in">OUR BLOG</h1>
           <img src={NewWalpaper} alt="What’s New" data-aos="zoom-in"
-            width={"auto"} height={"auto"} />
+            width={"305px"} height={"69px"} />
         </div>
         <div className="bb-blog pb-[50px] mt-[30px] mb-[90px]">
 

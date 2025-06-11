@@ -75,8 +75,13 @@ export const services = [
         id: 1,
         image: service3,
         imageALT: "Laser skin treatments",
-        titleImage: lazer,
         title: "LASER",
+        titleImage: {
+            image: lazer,
+            alt: "Laser treatments",
+            width: "229px",
+            height: "84px"
+        },
         moreinfo: {
             banner: LaserBanner,
             image: null,
@@ -102,8 +107,13 @@ export const services = [
         id: 2,
         image: service2,
         imageALT: "Slimming, fat burning procedures",
-        titleImage: slimming,
         title: "SLIMMING",
+        titleImage: {
+            image: slimming,
+            alt: "Slimming treatments",
+            width: "281px",
+            height: "84px"
+        },
         moreinfo: {
             banner: SlimmingBanner,
             image: null,
@@ -171,8 +181,13 @@ export const services = [
         id: 3,
         image: service1,
         imageALT: "aesthetics procedures, facial rejuvenation, filler, skin boosters",
-        titleImage: aesthetics,
         title: "aesthetics",
+        titleImage: {
+            image: aesthetics,
+            alt: "Aesthetics treatments",
+            width: "281px",
+            height: "97px"
+        },
         moreinfo: {
             banner: aestheticsbanner,
             image: null,
@@ -305,7 +320,9 @@ export const services = [
         id: 4,
         image: service4,
         imageALT: "Facials beauty treatments, deep cleansing, environ, jet peel",
-        titleImage: null,
+        titleImage: {
+            image: null
+        },
         title: "facials",
         moreinfo: {
             banner: facialsbanner,
@@ -503,7 +520,9 @@ export const services = [
         id: 5,
         image: service5,
         imageALT: "Top wellness procedures available in Dubai to enhance health and well-being.",
-        titleImage: null,
+        titleImage: {
+            image: null
+        },
         title: "Wellness",
         moreinfo: {
             banner: wellnessbanner,
@@ -706,7 +725,12 @@ and other metabolic disorders.`
         id: 6,
         image: service6,
         imageALT: "Latest treatment offers, noxi-systemn",
-        titleImage: latest,
+        titleImage: {
+            image: latest,
+            alt: "Latest offers",
+            width: "159px",
+            height: "104px"
+        },
         title: "Latest",
         moreinfo: {
             banner: null,
@@ -778,42 +802,58 @@ export const partners = [
     {
         id: 1,
         image: dmg,
-        title: "dmk cosmetics"
+        title: "dmk cosmetics",
+        width: "141px",
+        height: "53px"
     },
     {
         id: 2,
         image: darma,
-        title: "dermaplane"
+        title: "dermaplane",
+        width: "99px",
+        height: "71px"
     },
     {
         id: 3,
         image: nano,
-        title: "nanopen"
+        title: "nanopen",
+        width: "152px",
+        height: "29px"
     },
     {
         id: 4,
         image: nuro,
-        title: "neurotris"
+        title: "neurotris",
+        width: "162px",
+        height: "47px"
     },
     {
         id: 5,
         image: dmg,
-        title: "dmk cosmetics"
+        title: "dmk cosmetics",
+        width: "141px",
+        height: "53px"
     },
     {
         id: 6,
         image: darma,
-        title: "dermaplane"
+        title: "dermaplane",
+        width: "99px",
+        height: "71px"
     },
     {
         id: 7,
         image: nano,
-        title: "nanopen"
+        title: "nanopen",
+        width: "152px",
+        height: "29px"
     },
     {
         id: 8,
         image: nuro,
-        title: "neurotris"
+        title: "neurotris",
+        width: "162px",
+        height: "47px"
     },
 ]
 

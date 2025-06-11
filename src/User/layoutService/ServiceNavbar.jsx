@@ -29,7 +29,7 @@ function ServiceNavbar({ moreinfo }) {
               OUR SERVICES
             </h1>
             <img src={Service} alt="Choose Your Department" data-aos="zoom-in"
-              width="auto" height="auto" />
+              width="485px" height="55px" />
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 col-12">
 
