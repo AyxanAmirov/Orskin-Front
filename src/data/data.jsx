@@ -1,14 +1,14 @@
-import benner1 from "../User/assets/image/home-banner1.webp"
-import banner2 from "../User/assets/image/home-banner2.webp"
-import benner3 from "../User/assets/image/home-banner3.webp"
+// import benner1 from "../User/assets/image/home-banner1.webp"
+// import banner2 from "../User/assets/image/home-banner2.webp"
+// import benner3 from "../User/assets/image/home-banner3.webp"
 import servicebanner1 from "../User/assets/image/service-banner-laser.webp"
 import servicebanner2 from "../User/assets/image/service-banner-slimming.webp"
 import servicebanner3 from "../User/assets/image/service-banner-aesthetics.webp"
 import servicebanner4 from "../User/assets/image/service-banner-facials.webp"
 import servicebanner5 from "../User/assets/image/service-banner-wellness.webp"
-import service1 from "../User/assets/image/service1.webp"
-import service2 from "../User/assets/image/service2.webp"
-import service3 from "../User/assets/image/service3.webp"
+// import service1 from "../User/assets/image/service1.webp"
+// import service2 from "../User/assets/image/service2.webp"
+// import service3 from "../User/assets/image/service3.webp"
 import service3v500x500 from "../User/assets/image/service3 500x400.webp"
 import service3UltraClear from "../User/assets/image/UltraClear.webp"
 import service4 from "../User/assets/image/service4.webp"
@@ -18,10 +18,10 @@ import lazer from "../User/assets/image/laser.webp"
 import slimming from "../User/assets/image/slimming.webp"
 import aesthetics from "../User/assets/image/aesthetics.webp"
 import latest from "../User/assets/image/latest.webp"
-import dmg from "../User/assets/image/dmg-logo.webp"
-import darma from "../User/assets/image/darma-logo.webp"
-import nano from "../User/assets/image/nano-logo.webp"
-import nuro from "../User/assets/image/nuro-logo.webp"
+// import dmg from "../User/assets/image/dmg-logo.webp"
+// import darma from "../User/assets/image/darma-logo.webp"
+// import nano from "../User/assets/image/nano-logo.webp"
+// import nuro from "../User/assets/image/nuro-logo.webp"
 import facialBanner from "../User/assets/image/facial-banner.webp";
 import facialTitle from "../User/assets/image/facial-title.webp";
 import AboutBanner from "../User/assets/image/aboutus-banner.webp";
@@ -73,7 +73,7 @@ import AestheFill from "../User/assets/image/AestheFill.webp"
 export const services = [
     {
         id: 1,
-        image: service3,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/service3-ug3fQgUK.webp",
         imageALT: "Laser skin treatments",
         title: "LASER",
         titleImage: {
@@ -105,7 +105,7 @@ export const services = [
     },
     {
         id: 2,
-        image: service2,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/service2-BqUB7RlW.webp",
         imageALT: "Slimming, fat burning procedures",
         title: "SLIMMING",
         titleImage: {
@@ -179,7 +179,7 @@ export const services = [
     },
     {
         id: 3,
-        image: service1,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/service1-BFVOTuiR.webp",
         imageALT: "aesthetics procedures, facial rejuvenation, filler, skin boosters",
         title: "aesthetics",
         titleImage: {
@@ -755,17 +755,17 @@ and other metabolic disorders.`
 export const homeSlider = [
     {
         id: 1,
-        image: benner1,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/home-banner1-DpsM_D1Q.webp",
         title: "Orskin Aesthetic Clinic - Home"
     },
     {
         id: 2,
-        image: banner2,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/home-banner2-Db9vjFMp.webp",
         title: "Orskin Aesthetic Clinic - Home"
     },
     {
         id: 3,
-        image: benner3,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/home-banner3-CONic7xC.webp",
         title: "Orskin Aesthetic Clinic - Home"
     },
 ];
@@ -801,56 +801,56 @@ export const serviceSlider = [
 export const partners = [
     {
         id: 1,
-        image: dmg,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/dmg-logo-DLHPqhzP.webp",
         title: "dmk cosmetics",
         width: "141px",
         height: "53px"
     },
     {
         id: 2,
-        image: darma,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/darma-logo.webp",
         title: "dermaplane",
         width: "99px",
         height: "71px"
     },
     {
         id: 3,
-        image: nano,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/nano-logo.webp",
         title: "nanopen",
         width: "152px",
         height: "29px"
     },
     {
         id: 4,
-        image: nuro,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/nuro-logo-D3DMUIna.webp",
         title: "neurotris",
         width: "162px",
         height: "47px"
     },
     {
         id: 5,
-        image: dmg,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/dmg-logo-DLHPqhzP.webp",
         title: "dmk cosmetics",
         width: "141px",
         height: "53px"
     },
     {
         id: 6,
-        image: darma,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/darma-logo.webp",
         title: "dermaplane",
         width: "99px",
         height: "71px"
     },
     {
         id: 7,
-        image: nano,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/nano-logo.webp",
         title: "nanopen",
         width: "152px",
         height: "29px"
     },
     {
         id: 8,
-        image: nuro,
+        image: "https://d2mibg5rblp3sh.cloudfront.net/assets/nuro-logo-D3DMUIna.webp",
         title: "neurotris",
         width: "162px",
         height: "47px"
