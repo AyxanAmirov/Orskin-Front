@@ -9,7 +9,11 @@ const LeafletMap = () => {
     <MapContainer center={position} zoom={13} style={{ height: "500px", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.webp"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution='&copy; <a 
+        href="https://www.openstreetmap.org/copyright"
+        target="_blank"
+        rel="noopener noreferrer"
+        >OpenStreetMap</a> contributors'
       />
       <Marker position={position}>
         <Popup>

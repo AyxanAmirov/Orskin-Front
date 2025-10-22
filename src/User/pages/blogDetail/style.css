@@ -1,0 +1,9 @@
+#recentPost {
+  .swiper-wrapper {
+    align-items: start;
+  }
+
+  .swiper-slide {
+    align-items: start;
+  }
+}

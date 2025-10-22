@@ -1,143 +1,531 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-   <url>
-      <loc>https://orskin.ae/</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>1.0</priority>
-      <changefreq>weekly</changefreq>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/home-banner1-VEzgh9xM.webp</image:loc>
-        <image:title>Orskin Aesthetic Clinic - Banne-1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/home-banner2-F-T5zwtn.webp</image:loc>
-        <image:title>Orskin Aesthetic Clinic - Banne-2</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/home-banner3-DbiuwkQ7.webp</image:loc>
-        <image:title>Orskin Aesthetic Clinic - Banne-3</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/service3-REL2V-_H.webp</image:loc>
-        <image:title>Laser treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/laser-Cz2MZYcb.webp</image:loc>
-        <image:title>Laser treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/service2-CeFVQCHM.webp</image:loc>
-        <image:title>Slimming treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/slimming-Dx_6jYcz.webp</image:loc>
-        <image:title>Slimming treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/service1-BNft6HlT.webp</image:loc>
-        <image:title>Aesthetics treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/aesthetics-ByaXcTRS.webp</image:loc>
-        <image:title>Aesthetics treatments</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/dmg-logo-Qs5OKQYT.webp</image:loc>
-        <image:title>dmk cosmetics</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/darma-logo-B3wIjSWA.webp</image:loc>
-        <image:title>dermaplane</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/nano-logo-B0e_kFsP.webp</image:loc>
-        <image:title>nanopen</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/nuro-logo-BakANYQM.webp</image:loc>
-        <image:title>neurotris</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://shop.orskin.ae/cdn/shop/files/adipeau-active1.webp</image:loc>
-        <image:title>Adipeau - Active Face Cream 50ml</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.webp</image:loc>
-        <image:title>ASCE+ Exobalm</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://shop.orskin.ae/cdn/shop/files/P5.webp</image:loc>
-        <image:title>Epicutis Lipid Serum</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://orskin.ae/assets/facial-banner-CENLn1Yy.webp</image:loc>
-        <image:title>Lady is having face mask or face peeling.</image:title>
-      </image:image>
-       <image:image>
-        <image:loc>https://orskin.ae/assets/facial-title-D4SewPmp.webp</image:loc>
-        <image:title>Lady is having face mask or face peeling.</image:title>
-      </image:image>
-      <!-- <image:image>
-        <image:loc>https://orskin.ae/assets/mastercard-full-svgrepo-com-D2Uu585k.svg</image:loc>
-        <image:title>Master card</image:title>
-      </image:image> -->
-      <!-- <image:image>
-        <image:loc>https://orskin.ae/assets/unipay-qALRpsoZ.webp</image:loc>
-        <image:title>union pay</image:title>
-      </image:image> -->
-   </url>
-   <url>
-      <loc>https://orskin.ae/about-us</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.9</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/contact</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.8</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.9</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/blog</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>1.0</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services/laser</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.7</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services/slimming</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.7</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services/aesthetics</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.7</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services/facials</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.7</priority>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>https://orskin.ae/services/wellness</loc>
-      <lastmod>2024-10-22</lastmod>
-      <priority>0.7</priority>
-      <changefreq>weekly</changefreq>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Home -->
+  <url>
+    <loc>https://orskin.ae</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/logo.webp</image:loc>
+      <image:title>Orskin Aesthetic Clinic - LOGO</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/home-banner1.webp</image:loc>
+      <image:title>Orskin Aesthetic Clinic - Banne-1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/home-banner2.webp</image:loc>
+      <image:title>Orskin Aesthetic Clinic - Banne-2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/home-banner3.webp</image:loc>
+      <image:title>Orskin Aesthetic Clinic - Banne-3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service3.webp</image:loc>
+      <image:title>Laser treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/laser.webp</image:loc>
+      <image:title>Laser treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service2.webp</image:loc>
+      <image:title>Slimming treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/slimming.webp</image:loc>
+      <image:title>Slimming treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service1.webp</image:loc>
+      <image:title>Aesthetics treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/aesthetics.webp</image:loc>
+      <image:title>Aesthetics treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/dmg-logo.webp</image:loc>
+      <image:title>DMK cosmetics</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/darma-logo.webp</image:loc>
+      <image:title>Dermaplane</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/nano-logo.webp</image:loc>
+      <image:title>Nanopen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/nuro-logo.webp</image:loc>
+      <image:title>Neurotris</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg</image:loc>
+      <image:title>Adipeau - Active Face Cream 50ml</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png</image:loc>
+      <image:title>ASCE+ Exobalm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/P5.jpg</image:loc>
+      <image:title>Epicutis Lipid Serum</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/facial-banner.webp</image:loc>
+      <image:title>Lady is having face mask or face peeling.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/facial-title.webp</image:loc>
+      <image:title>Lady is having face mask or face peeling.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/mastercard-full-svgrepo-com.svg</image:loc>
+      <image:title>Master card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/visa-svgrepo-com.svg</image:loc>
+      <image:title>Visa card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/unipay.webp</image:loc>
+      <image:title>Union pay</image:title>
+    </image:image>
+  </url>
+  <!-- About -->
+  <url>
+    <loc>https://orskin.ae/about-us</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/aboutus-banner.webp</image:loc>
+      <image:title>Facial lifting effect demonstrated through our advanced treatment.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/team-co.webp</image:loc>
+      <image:title>Orsolya Matheisz</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/team-dr2.webp</image:loc>
+      <image:title>DR. Asima Nasir</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/team-dr3.webp</image:loc>
+      <image:title>Dr. Shagoon Modi</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/team.webp</image:loc>
+      <image:title>Orskin aesthetics clinic's team</image:title>
+    </image:image>
+  </url>
+  <!-- Contact -->
+  <url>
+    <loc>https://orskin.ae/contact</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/contactBanner.webp</image:loc>
+      <image:title>Book your skincare appointment now, experience the finest skincare treatments now</image:title>
+    </image:image>
+  </url>
+  <!-- Services -->
+  <url>
+    <loc>https://orskin.ae/services</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service-banner-laser.webp</image:loc>
+      <image:title>Laser treatments Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service-banner-slimming.webp</image:loc>
+      <image:title>Slimming treatments Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service-banner-aesthetics.webp</image:loc>
+      <image:title>Aesthetics treatments Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service-banner-facials.webp</image:loc>
+      <image:title>Facials treatments Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service-banner-wellness.webp</image:loc>
+      <image:title>Wellness treatments Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service3.webp</image:loc>
+      <image:title>Laser treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/laser.webp</image:loc>
+      <image:title>Laser treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service2.webp</image:loc>
+      <image:title>Slimming treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/slimming.webp</image:loc>
+      <image:title>Slimming treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service1.webp</image:loc>
+      <image:title>Aesthetics treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/aesthetics.webp</image:loc>
+      <image:title>Aesthetics treatments title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service4.webp</image:loc>
+      <image:title>Facials treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service5.webp</image:loc>
+      <image:title>Wellness treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service6.webp</image:loc>
+      <image:title>Latest treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/latest.webp</image:loc>
+      <image:title>Latest treatments title</image:title>
+    </image:image>
+  </url>
+  <!-- Blog -->
+  <url>
+    <loc>https://orskin.ae/blog</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/whats-new.webp</image:loc>
+      <image:title>Whats new title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5min.webp</image:loc>
+      <image:title>Stem cell Therapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog4min.webp</image:loc>
+      <image:title>Unlocking Radiant Skin with Orkin’s Combinations</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog3sm350x300Orskin.webp</image:loc>
+      <image:title>Fall is the Perfect Time for Laser Treatments.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog2-cover-1200x429.webp</image:loc>
+      <image:title>Winter skin renewal means peel season is here!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog1-1140px408.webp</image:loc>
+      <image:title>Platelet Rich Fibrin (PRF) Plasmagel</image:title>
+    </image:image>
+  </url>
+  <!-- Laser Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/laser</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Laser_Banner.webp</image:loc>
+      <image:title>Lazer Service Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/UltraClear.webp</image:loc>
+      <image:title>Ultra Clear</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/service3%20500x400.webp</image:loc>
+      <image:title>ADVATx</image:title>
+    </image:image>
+  </url>
+  <!-- Slimming Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/slimming</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Slimming_Banner.webp</image:loc>
+      <image:title>Slimming Service Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Endospheres-400x320.webp</image:loc>
+      <image:title>Endospheres</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/EmSlim-400x320.webp</image:loc>
+      <image:title>EmSlim</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Lymphatic-Drainage-Massage-400x320.webp</image:loc>
+      <image:title>Lymphatic Drainage massage</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Pre-Post-Natal-Massage-400x320.webp</image:loc>
+      <image:title>Pre and postnatal massage</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Madero-Therapy-400x320.webp</image:loc>
+      <image:title>Madero Therapy</image:title>
+    </image:image>
+  </url>
+  <!-- Aesthetics Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/aesthetics</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/aesthetics-banner.webp</image:loc>
+      <image:title>Aesthetics Service Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Botox-400x320.webp</image:loc>
+      <image:title>Facial Rejuvenation (botulinum toxin) botox</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Fillers-400x320.webp</image:loc>
+      <image:title>Filler</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Renuva-400x320.webp</image:loc>
+      <image:title>Renuva</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Sculptra-400x320.webp</image:loc>
+      <image:title>Sculptra</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Exosomes-400x320.webp</image:loc>
+      <image:title>Exosomes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Regenera-400x320.webp</image:loc>
+      <image:title>Regenera</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/AestheFill.webp</image:loc>
+      <image:title>AestheFill</image:title>
+    </image:image>
+  </url>
+  <!-- Facials Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/facials</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/facials-banner.webp</image:loc>
+      <image:title>Facials Service Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Holistic-Facial-400x320.webp</image:loc>
+      <image:title>holistic facial service</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Deep-Cleansing-400x320.webp</image:loc>
+      <image:title>Deep Cleansing Facial service</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Neurotris-Sculpt-400x320.webp</image:loc>
+      <image:title>Sculpt Facial with Neurotris</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Morpheus-400x320.webp</image:loc>
+      <image:title>Morpheus</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Volnewmer-350x350.jpg</image:loc>
+      <image:title>VOLNEWMER: Advanced Skin Tightening and Remodeling Technology</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Ultraformer_350x350.jpg</image:loc>
+      <image:title>Ultraformer MPT: The Next Generation of Non-Invasive Lifting and Contouring</image:title>
+    </image:image>
+  </url>
+  <!-- Wellness Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/wellness</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/wellness-banner.webp</image:loc>
+      <image:title>Wellness Service Banner</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/Wellness-IVDrips-400x320.webp</image:loc>
+      <image:title>Wellness Service</image:title>
+    </image:image>
+  </url>
+  <!-- Latest Servcie -->
+  <url>
+    <loc>https://orskin.ae/services/latest</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/treatment-offers.webp</image:loc>
+      <image:title>Latest Service title</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/LessPainMoreGain-400x600.webp</image:loc>
+      <image:title>Less Pain More Gain</image:title>
+    </image:image>
+  </url>
+  <!-- Stem-cell-therapy-blog -->
+  <url>
+    <loc>https://orskin.ae/blog/stem-cell-therapy-blog</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5cover.webp</image:loc>
+      <image:title>Stem cell Therapy Blog Cover</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5_Electron-mic.webp</image:loc>
+      <image:title>Exosomes: Small but Mighty</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5_Skin-Rejuvenation.webp</image:loc>
+      <image:title>Skin Rejuvenation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5_body.webp</image:loc>
+      <image:title>Body Wellness</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog5_dreamstime.webp</image:loc>
+      <image:title>Hair Growth</image:title>
+    </image:image>
+  </url>
+  <!-- Unlocking Radiant Skin with Orkin’s Combinations blog -->
+  <url>
+    <loc>https://orskin.ae/blog/unlocking-radiant-skin-with-orkin%E2%80%99s-combinations</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog4cover.webp</image:loc>
+      <image:title>Unlocking Radiant Skin with Orkin’s Combinations</image:title>
+    </image:image>
+  </url>
+  <!-- Fall is the Perfect Time for Laser Treatments blog -->
+  <url>
+    <loc>https://orskin.ae/blog/fall-is-the-perfect-time-for-laser-treatments</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog3cover1140x408.webp</image:loc>
+      <image:title>Fall is the Perfect Time for Laser Treatments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/ASCE_-Exobalm-2.png</image:loc>
+      <image:title>ASCE+ Exobalm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/2.webp</image:loc>
+      <image:title>Soothe Dermal Repair Mist</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/P1.jpg</image:loc>
+      <image:title>Epicutis Recovery Mask</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/P5.jpg</image:loc>
+      <image:title>Epicutis Lipid Serum </image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/No-show-mineral-sunscreen.png</image:loc>
+      <image:title>Colorescience - Total Protection™ No-Show Mineral Sunscreen SPF 50</image:title>
+    </image:image>
+  </url>
+  <!-- Winter skin renewal means peel season is here Blog -->
+  <url>
+    <loc>https://orskin.ae/blog/winter-skin-renewal-means-peel-season-is-here</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog2-cover-1200x429.webp</image:loc>
+      <image:title>Winter skin renewal means peel season is here</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog2-product1-400x400.webp</image:loc>
+      <image:title>Environ Lactic Acid Night Cream</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/Micro-Peel-180ml.jpg</image:loc>
+      <image:title>Micro Peel from DMK</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/PHA-Hydration-Peel.jpg</image:loc>
+      <image:title>PHA from Cosmedix</image:title>
+    </image:image>
+  </url>
+  <!-- Platelet Rich Fibrin (PRF) Plasmagel Blog -->
+  <url>
+    <loc>https://orskin.ae/blog/platelet-rich-fibrin-(prf)-plasmagel</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>https://orskin.ae/assets/images/blog1-1140px408.webp</image:loc>
+      <image:title>Platelet Rich Fibrin (PRF) Plasmagel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shop.orskin.ae/cdn/shop/files/adipeau-active1.jpg</image:loc>
+      <image:title>Adipeau - Active Face Cream 50ml</image:title>
+    </image:image>
+  </url>
+  <!-- Terms and policy -->
+  <url>
+    <loc>https://orskin.ae/terms-and-policy</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Term of use -->
+  <url>
+    <loc>https://orskin.ae/term-of-use</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Terms supply -->
+  <url>
+    <loc>https://orskin.ae/terms-supply</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Privacy policy -->
+  <url>
+    <loc>https://orskin.ae/privacy-policy</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Cookie policy -->
+  <url>
+    <loc>https://orskin.ae/cookie-policy</loc>
+    <lastmod>2025-10-19</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

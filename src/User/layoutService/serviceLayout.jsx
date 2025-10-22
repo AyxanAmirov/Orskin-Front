@@ -4,22 +4,22 @@ import { services } from '../../data/data'
 import ServiceNavbar from './ServiceNavbar'
 import ServiceFooter from './ServiceFooter'
 import { ServiceContext } from '../../context/ServiceContext'
+import Loader from '../components/loader'
 
 function ServiceLayout() {
   const loaction = useLocation()
-  const [service, setService] = useState({
-    moreinfo: {
-      image: "",
-      description: ""
-    }
-  })
-  const pathName = loaction.pathname.slice(loaction.pathname.lastIndexOf("/") + 1)
+  const [service, setService] = useState(null)
+
+  const pathName = loaction.pathname.split("/")
 
   useEffect(() => {
-    let foundServ = services.find(service => service.title.toLowerCase() === pathName)
+    let foundServ = services.find(service => service.title.toLowerCase() === (pathName[3] || pathName[2]))
     setService(foundServ)
   }, [loaction.pathname])
 
+  if (!service) {
+    return <Loader />
+  }
 
   return (
     <>

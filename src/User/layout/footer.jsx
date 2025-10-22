@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Tooltip } from "@chakra-ui/react";
+import file from "../assets/file/mohap-license.pdf"
 // import Mastercard from "../assets/icons/mastercard";
 // import Visa from "../assets/icons/visa";
 // import Unipay from "../assets/icons/unipay";
@@ -75,47 +76,74 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-12 col-sm-12 col-12">
               <p className="text-white  xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] font-[600] " data-aos="zoom-in">
-                2024 Orskin. All right reserved.
+                2025 Orskin. All right reserved.
               </p>
             </div>
           </div>
-          <div className="flex gap-[20px] xl:justify-normal lg:justify-normal md:justify-center sm:justify-center justify-center">
-            <Tooltip hasArrow label="Facebook" bg="black" color="#D3D3D3">
-              <a href="https://www.facebook.com/orskinaesthetics/">
-                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                  <FontAwesomeIcon
-                    icon={faFacebookF}
-                    className="text-[#B3D6D0]"
-                  />
-                </div>
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-[20px] justify-between items-center">
+            <div className="flex gap-[20px] xl:justify-normal lg:justify-normal md:justify-center sm:justify-center justify-center">
+              <Tooltip hasArrow label="Facebook" bg="black" color="#D3D3D3">
+                <a
+                  href="https://www.facebook.com/orskinaesthetics/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                    <FontAwesomeIcon
+                      icon={faFacebookF}
+                      className="text-[#B3D6D0]"
+                    />
+                  </div>
+                </a>
+              </Tooltip>
+              <Tooltip hasArrow label="Instagram" bg="black" color="#D3D3D3">
+                <a
+                  href="https://www.instagram.com/orskinaesthetics/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                    <FontAwesomeIcon
+                      icon={faInstagram}
+                      className="text-[#B3D6D0]"
+                    />
+                  </div>
+                </a>
+              </Tooltip>
+              <Tooltip hasArrow label="Email" bg="black" color="#D3D3D3">
+                <a
+                  href="mailto:info@orskin.ae"
+                >
+                  <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-[#B3D6D0]" />
+                  </div>
+                </a>
+              </Tooltip>
+              <Tooltip hasArrow label="Contact" bg="black" color="#D3D3D3">
+                <a
+                  href="tel:+97143455520"
+                >
+                  <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
+                    <FontAwesomeIcon icon={faPhone} className="text-[#B3D6D0]" />
+                  </div>
+                </a>
+              </Tooltip>
+            </div>
+            <p
+              className="text-white text-center lg:text-end xl:text-[18px] lg:text-[18px] md:text-[16px] text-[16px] font-[600]"
+              data-aos="zoom-in"
+            >
+              <a
+                href={file}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline hover:text-[#F2008B] duration-300 transition-colors"
+              >
+                MOHAP Licensed Clinic – License No:
+                <span style={{ fontFamily: "'Oxygen', sans-serif" }}>3ELWT8YK-091025</span> | Valid till
+                <span style={{ fontFamily: "'Oxygen', sans-serif " }}>2026</span>
               </a>
-            </Tooltip>
-            <Tooltip hasArrow label="Instagram" bg="black" color="#D3D3D3">
-              <a href="https://www.instagram.com/orskinaesthetics/">
-                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                  <FontAwesomeIcon
-                    icon={faInstagram}
-                    className="text-[#B3D6D0]"
-                  />
-                </div>
-              </a>
-            </Tooltip>
-
-            <Tooltip hasArrow label="Email" bg="black" color="#D3D3D3">
-              <a href="mailto:info@orskin.ae">
-                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px] bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                  <FontAwesomeIcon icon={faEnvelope} className="text-[#B3D6D0]" />
-                </div>
-              </a>
-            </Tooltip>
-
-            <Tooltip hasArrow label="Contact" bg="black" color="#D3D3D3">
-              <a href="tel:+97143455520">
-                <div className="py-[5px] px-[13px] :xl:text-[16px] lg:text-[16px] md:text-[14px] text-[14px]  bg-white rounded-[5px] hover:bg-[#F0F5F4] transition duration-[500]" data-aos="zoom-in">
-                  <FontAwesomeIcon icon={faPhone} className="text-[#B3D6D0]" />
-                </div>
-              </a>
-            </Tooltip>
+            </p>
           </div>
         </div>
       </div >

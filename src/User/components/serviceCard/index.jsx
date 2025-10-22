@@ -5,7 +5,7 @@ function ServiceCard({ image, imageALT, titleImage, title, delay }) {
         <Link to={`/services/${title.toLowerCase()}`}
             className="shadow-xl flex flex-col justify-between gap-[20px] bg-white border-r-solid border-r-[1px] border-r-[#D6D6D6] border-l-solid border-l-[1px] border-l-[#D6D6D6] border-t-[1px] border-t-[#D6D6D6]">
             <div className="p-[30px]">
-                <img src={image} alt={imageALT} className="mb-[30px] w-full min-w-[250px] min-h-[190px]" loading="lazy"
+                <img src={image} alt={imageALT} className="mb-[30px] w-full object-cover min-h-[190px]" loading="lazy"
                     width={"100%"} height={"100%"} />
                 {
                     titleImage.image ? <img src={titleImage.image} alt={titleImage.alt} className="mx-auto min-w-[150px] min-h-[84px]" loading="lazy"

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/image/logo.webp";
-import hat from "../assets/image/hat-christmas.webp";
+// import hat from "../assets/image/hat-christmas.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ function Navbar({ isVisible }) {
 
 
   return (
-    <nav className={`navBody fixed top-0 z-[999999] w-full bg-[#B3D6D0] py-[30px] px-[20px] sm:px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
+    <nav className={`navBody fixed top-0 z-[12] w-full bg-[#B3D6D0] py-[30px] px-[20px] sm:px-[60px] transition-transform duration-500 ${isVisible ? 'nav-none' : 'nav-block'}`}>
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="col-lg-2 relative">
@@ -44,16 +44,18 @@ function Navbar({ isVisible }) {
                   <Link to="/services">Services</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
+                  <a
+                    target="_blank"
+                    href="https://shop.orskin.ae/collections/all"
+                    rel="noopener noreferrer"
+                  >Shop</a>
+                </li>
+                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/blog">Blog</Link>
                 </li>
                 <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase">
-                  <a href="https://shop.orskin.ae/collections/all" target="_blank">Shop</a>
-                </li>
-
-
               </ul>
               <SearchForm />
             </div>
@@ -68,7 +70,7 @@ function Navbar({ isVisible }) {
               onClick={toggleMenu}
             />
             {isOpen && (
-              <Box className="lg:hidden md:top-[130px] absolute pb-[30px] top-[100px] left-0 right-0 bg-[#B3D6D0] z-[999999]">
+              <Box className="lg:hidden md:top-[130px] absolute pb-[30px] top-[100px] left-0 right-0 bg-[#B3D6D0] z-[12]">
                 <ul className="flex flex-col items-center">
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <Link to="/" onClick={toggleMenu}>
@@ -84,7 +86,11 @@ function Navbar({ isVisible }) {
                     <Link to="/services" onClick={toggleMenu}>Services</Link>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
-                    <a href="https://shop.orskin.ae/" target="_blank">Shop</a>
+                    <a
+                      href="https://shop.orskin.ae/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >Shop</a>
                   </li>
                   <li className="text-white hover:text-[black] transition-all duration-700 text-[18px] font-[600] uppercase py-2">
                     <Link to="/blog" onClick={toggleMenu}>Blog</Link>

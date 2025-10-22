@@ -22,7 +22,7 @@ textarea:focus {
 .navBody::after {
   content: "";
   position: absolute;
-  z-index: 999;
+  z-index: 10;
   opacity: 0.4;
   left: 0;
   bottom: -40px;
@@ -176,14 +176,14 @@ textarea:focus {
 .position {
   position: fixed;
   width: 100%;
-  z-index: 1314;
+  z-index: 11;
   background-color: #fff;
   height: 56px;
 }
 
 .pos-fix {
   position: fixed;
-  z-index: 999999;
+  z-index: 12;
 }
 
 .margin-auto {
@@ -605,4 +605,13 @@ a {
     left: -35px;
     width: 90px;
   }
+}
+
+@keyframes slideIn {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.4s ease-out;
 }

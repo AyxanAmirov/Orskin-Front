@@ -48,7 +48,7 @@ function Home() {
             Shop
           </h1>
           <h2 className="font-bold xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[13px] text-center" data-aos="zoom-in">
-            WE BRING YOU THE BEST IN SKINCARE PRODUCTS
+            WE BRING YOU THE FINEST IN SKINCARE PRODUCTS
           </h2>
           <div className="grid max-w-[1140px] w-[90%] m-auto grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-between pb-[50px]">
             {productData.map(product => (

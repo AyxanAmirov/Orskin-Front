@@ -1,16 +1,46 @@
-import React from "react";
 import Banner from "../../assets/image/contactBanner.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 import { seoContent } from "../../../data/data";
 import { Helmet } from "react-helmet-async";
+import { api } from "../../../api";
+import { useState } from "react";
 
 function Contact() {
   const { title, description, canonical, schema } = seoContent["contact"];
+  const [errors, setErrors] = useState(null);
+  const [showSuccess, setShowSuccess] = useState(false);
+
+
+
+  const formSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const data = await api.post("/orskin", {
+        fullName: e.target.fullName.value,
+        email: e.target.email.value,
+        message: e.target.message.value,
+        phoneNumber: e.target.phoneNumber.value,
+      })
+      setErrors(null);
+      setShowSuccess(true);
+      setTimeout(() => {
+        setShowSuccess(false);
+      }, 3000);
+
+    } catch (error) {
+      if (error.response && error.response.status === 400) {
+        setErrors(error.response.data);
+      }
+    }
+
+  }
+
+  console.log(errors);
 
   return (
     <>
@@ -23,41 +53,74 @@ function Contact() {
         </script>
       </Helmet>
 
-      <img src={Banner} alt="Book your skincare appointment now, experience best skincare treatments now" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in"
+      {
+        showSuccess && (<div
+          className={`fixed top-6 right-6 z-[9999] border-l-4 p-4 rounded-xl shadow-lg animate-slideIn bg-green-100 text-green-800 border-green-400`}
+        >
+          <p className="font-medium">Your message has been sent successfully!</p>
+        </div>)
+      }
+
+      <img src={Banner} alt="Book your skincare appointment now, experience the finest skincare treatments now" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in"
         width={"100%"} height={"auto"} />
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-[50px] my-[70px]">
           <h1 className="text-[#8B8B8B] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[28px] text-[28px]" data-aos="zoom-in">
             EXPERIENCE THE ORSKIN DIFFERENCE
           </h1>
-          <form className="w-full mb-[40px] flex flex-col gap-[30px]">
-            <input
-              type="text"
-              placeholder="Full Name"
-              className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]" data-aos="zoom-in"
-            />
+          <form
+            className="w-full mb-[40px] flex flex-col gap-[30px]"
+            onSubmit={formSubmit}
+          >
+            <div>
+              <input
+                type="text"
+                placeholder="Full Name"
+                name="fullName"
+                className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]" data-aos="zoom-in"
+              />
+              {errors && errors.fullName && (
+                <p className="text-red-500 text-sm">{errors.fullName}</p>
+              )}
+            </div>
             <div className="flex gap-[3px]">
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <input
-                  type="number"
-                  placeholder="Phone Number"
+                  type="tel"
+                  name="phoneNumber"
+                  placeholder="example: +97143455520"
                   className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]" data-aos="zoom-in"
                 />
+                {errors && errors.phoneNumber && (
+                  <p className="text-red-500 text-sm">{errors.phoneNumber}</p>
+                )}
               </div>
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <input
                   type="email"
+                  name="email"
                   placeholder="@  Email*"
                   className="w-full bg-[#F6F6F6] rounded-[7px] py-[15px] px-[20px]" data-aos="zoom-in"
                 />
+                {errors && errors.email && (
+                  <p className="text-red-500 text-sm">{errors.email}</p>
+                )}
               </div>
+
             </div>
-            <textarea
-              className="w-full h-[100px] bg-[#F6F6F6] rounded-[7px] px-[20px] py-[15px]"
-              placeholder="Message" data-aos="zoom-in"
-            ></textarea>
+            <div>
+              <textarea
+                name="message"
+                className="w-full h-[100px] bg-[#F6F6F6] rounded-[7px] px-[20px] py-[15px]"
+                placeholder="Message" data-aos="zoom-in"
+              ></textarea>
+              {errors && errors.message && (
+                <p className="text-red-500 text-sm">{errors.message}</p>
+              )}
+            </div>
             <div className="px-[40px]">
-              <button className="w-full rounded-[3px] bg-[#f0c6cf] py-[10px] hover:bg-[#EDE1D4] duration-[.4s] text-[14px] font-[500]" data-aos="zoom-in">
+              <button
+                className="w-full rounded-[3px] bg-[#f0c6cf] py-[10px] hover:bg-[#EDE1D4] duration-[.4s] text-[14px] font-[500]" data-aos="zoom-in">
                 ENQUIRE NOW
               </button>
             </div>
@@ -70,7 +133,11 @@ function Contact() {
                   className="text-[20px] text-[#a8d4cc]" data-aos="zoom-in"
                 />
                 <p className=" text-[14px]" data-aos="zoom-in">
-                  <a href="https://maps.app.goo.gl/jGyWQpXMiHcQMW65A" target="_blank" >
+                  <a
+                    href="https://maps.app.goo.gl/jGyWQpXMiHcQMW65A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     285D Al Wasl Rd, Dubai,
                     <br /> United Arab Emirates
                   </a>
@@ -116,7 +183,11 @@ function Contact() {
           </div>
           <div className="flex flex-col gap-[20px] items-center">
             <div className="flex gap-[10px]">
-              <a href="https://www.facebook.com/orskinaesthetics/">
+              <a
+                href="https://www.facebook.com/orskinaesthetics/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="w-[50px] h-[50px] hover:bg-white duration-[.4s] flex items-center justify-center rounded-[50%] bg-[#a8d4cc]" data-aos="zoom-in">
                   <FontAwesomeIcon
                     icon={faFacebookF}
@@ -124,7 +195,10 @@ function Contact() {
                   />
                 </div>
               </a>
-              <a href="https://www.instagram.com/orskinaesthetics/">
+              <a
+                href="https://www.instagram.com/orskinaesthetics/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <div className="w-[50px] h-[50px] hover:bg-white duration-[.4s] flex items-center justify-center rounded-[50%] bg-[#a8d4cc]" data-aos="zoom-in">
                   <FontAwesomeIcon
                     icon={faInstagram}

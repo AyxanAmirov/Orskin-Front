@@ -47,10 +47,11 @@ function About() {
               <div key={member.id} className={
                 index % 2 == 0 ? "flex justify-center flex-wrap lg:gap-[0px] xl:gap-[0px]  md:gap-[50px] sm:gap-[50px] gap-[50px]" : "flex justify-center flex-wrap lg:gap-[0px] xl:gap-[0px] md:flex-row-reverse md:gap-[50px] sm:gap-[50px] gap-[50px]"
               }>
-                <div className="lg:order-1 xl:order-1 order-2 col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[30px] xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] ">
+                <div className="lg:order-1 xl:order-1 order-2 col-lg-5 col-md-12 col-sm-12 col-12 flex flex-col gap-[10px] xl:px-[50px] lg:px-[50px] md:px-[50px] sm:px-[50px] ">
                   <h2 className="xl:text-[25px] lg:text-[25px] md:text-[25px] sm:text-[23px] text-[23px] leading-[32px] text-[#B3D6D0] font-[600]" data-aos="zoom-in">
                     {member.fullName}
                   </h2>
+                  <p className="text-[#B3D6D0] text-[17px] leading-[25px] font-[700]">{member.position}</p>
 
                   <p className="xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[16px] leading-[25px] " data-aos="zoom-in">
                     {member.description}
