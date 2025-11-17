@@ -1,0 +1,135 @@
+import Banner from "../../assets/image/contactBanner.webp";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { seoContent } from "../../data/data";
+import { Helmet } from "react-helmet-async";
+import ContactForm from "../../components/form";
+
+function Contact() {
+  const { title, description, canonical, schema } = seoContent["contact"];
+
+  return (
+    <>
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
+        <script type="application/ld+json">
+          {schema}
+        </script>
+      </Helmet>
+      <img src={Banner} alt="Book your skincare appointment now, experience the finest skincare treatments now" className="w-100 xl:h-[420px] lg:h-[390px] md:h-[330px] sm:h-[310px] h-[200px] object-cover " data-aos="zoom-in"
+        width={"100%"} height={"auto"} />
+      <div className="container">
+        <div className="my-[70px]">
+          <h1 className="text-center text-[#8B8B8B] xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[28px] text-[28px]" data-aos="zoom-in">
+            EXPERIENCE THE ORSKIN DIFFERENCE
+          </h1>
+          <ContactForm />
+        </div>
+        <div className="w-full flex flex-col items-center justify-center gap-[50px] my-[70px]">
+          <div className="w-3/4 flex xl:flex-nowrap lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap gap-[30px] justify-center">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  flex flex-col gap-[30px] ">
+              <div className="flex gap-[30px] items-center">
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  className="text-[20px] text-[#a8d4cc]" data-aos="zoom-in"
+                />
+                <p className=" text-[14px]" data-aos="zoom-in">
+                  <a
+                    href="https://maps.app.goo.gl/jGyWQpXMiHcQMW65A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    285D Al Wasl Rd, Dubai,
+                    <br /> United Arab Emirates
+                  </a>
+                </p>
+              </div>
+              <div className="flex gap-[30px] items-center">
+                <FontAwesomeIcon
+                  icon={faMobileScreenButton}
+                  className="text-[20px] text-[#a8d4cc]" data-aos="zoom-in"
+                />
+                <div>
+                  <p className=" text-[14px]" data-aos="zoom-in">
+                    <a href="tel:+97143455520">+971 (0) 4 345 5520</a>
+                  </p>
+                  <p className=" text-[14px]" data-aos="zoom-in">
+                    <a href="tel:+971504459672">+971 (0) 50 445 9672</a>
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-[30px] items-center">
+                <FontAwesomeIcon
+                  icon={faEnvelopeOpen}
+                  className="text-[20px] text-[#a8d4cc]" data-aos="zoom-in"
+                />
+                <p className=" text-[14px]" data-aos="zoom-in">
+                  <a href="mailto:info@orskin.ae">info@orskin.ae</a>
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  flex flex-col gap-[40px] ">
+              <h3 className="text-[22px] text-[#B3D6D0]" data-aos="zoom-in">We are open</h3>
+              <p className="text-[22px] text-[#B3D6D0]" data-aos="zoom-in">
+                Monday to Saturday
+                <br />
+                09:00 a.m to 09:00 p.m
+              </p>
+              <p className="text-[22px] text-[#B3D6D0]" data-aos="zoom-in">
+                Sundays
+                <br />
+                10:00 a.m to 07:00 p.m
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[20px] items-center">
+            <div className="flex gap-[10px]">
+              <a
+                href="https://www.facebook.com/orskinaesthetics/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-[50px] h-[50px] hover:bg-white duration-[.4s] flex items-center justify-center rounded-[50%] bg-[#a8d4cc]" data-aos="zoom-in">
+                  <FontAwesomeIcon
+                    icon={faFacebookF}
+                    className="text-[30px] text-white w-full hover:text-[#a8d4cc] duration-[.4s]" data-aos="zoom-in"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/orskinaesthetics/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <div className="w-[50px] h-[50px] hover:bg-white duration-[.4s] flex items-center justify-center rounded-[50%] bg-[#a8d4cc]" data-aos="zoom-in">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-[30px] text-white w-full hover:text-[#a8d4cc] duration-[.4s]" data-aos="zoom-in"
+                  />
+                </div>
+              </a>
+            </div>
+            <h4 className="text-[22px] text-[#a8d4cc]" data-aos="zoom-in"> @orskinaesthetics</h4>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.4424300213145!2d55.261461775164456!3d25.222019177695024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f425bd2f81ec1%3A0x6b2f70c7bbe69233!2s285d%20Al%20Wasl%20Rd%20-%20Al%20Bada'a%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2saz!4v1722337468106!5m2!1sen!2saz"
+        width="100%"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        data-aos="zoom-in"
+      >
+      </iframe>
+    </>
+  );
+}
+
+export default Contact;

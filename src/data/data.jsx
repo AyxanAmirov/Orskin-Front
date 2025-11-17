@@ -1,75 +1,75 @@
-import benner1 from "../User/assets/image/home-banner1.webp"
-import banner2 from "../User/assets/image/home-banner2.webp"
-import benner3 from "../User/assets/image/home-banner3.webp"
-import servicebanner1 from "../User/assets/image/service-banner-laser.webp"
-import servicebanner2 from "../User/assets/image/service-banner-slimming.webp"
-import servicebanner3 from "../User/assets/image/service-banner-aesthetics.webp"
-import servicebanner4 from "../User/assets/image/service-banner-facials.webp"
-import servicebanner5 from "../User/assets/image/service-banner-wellness.webp"
-import service1 from "../User/assets/image/service1.webp"
-import service2 from "../User/assets/image/service2.webp"
-import service3 from "../User/assets/image/service3.webp"
-import service3v500x500 from "../User/assets/image/service3 500x400.webp"
-import service3UltraClear from "../User/assets/image/UltraClear.webp"
-import service4 from "../User/assets/image/service4.webp"
-import service5 from "../User/assets/image/service5.webp"
-import service6 from "../User/assets/image/service6.webp"
-import lazer from "../User/assets/image/laser.webp"
-import slimming from "../User/assets/image/slimming.webp"
-import aesthetics from "../User/assets/image/aesthetics.webp"
-import latest from "../User/assets/image/latest.webp"
-import dmg from "../User/assets/image/dmg-logo.webp"
-import darma from "../User/assets/image/darma-logo.webp"
-import nano from "../User/assets/image/nano-logo.webp"
-import nuro from "../User/assets/image/nuro-logo.webp"
-import facialBanner from "../User/assets/image/facial-banner.webp";
-import facialTitle from "../User/assets/image/facial-title.webp";
-import AboutBanner from "../User/assets/image/aboutus-banner.webp";
-import OrsolyaMatheisz from "../User/assets/image/team-co.webp";
-import DoctorAsima from "../User/assets/image/team-dr2.webp";
-import DoctorShagoon from "../User/assets/image/team-dr3.webp";
-import Endospheres from "../User/assets/image/Endospheres-400x320.webp";
-import EmSlim from "../User/assets/image/EmSlim-400x320.webp";
-import LymphaticDrainageMassage from "../User/assets/image/Lymphatic-Drainage-Massage-400x320.webp";
-import PreNatalMassage from "../User/assets/image/Pre-Post-Natal-Massage-400x320.webp";
-import MaderoTherapy from "../User/assets/image/Madero-Therapy-400x320.webp";
-import Botox from "../User/assets/image/Botox-400x320.webp";
-import Fillers from "../User/assets/image/Fillers-400x320.webp";
-import Renuva from "../User/assets/image/Renuva-400x320.webp";
-import Sculptra from "../User/assets/image/Sculptra-400x320.webp";
-import Exosomes from "../User/assets/image/Exosomes-400x320.webp";
-import Regenera from "../User/assets/image/Regenera-400x320.webp";
-import LaserBanner from "../User/assets/image/Laser_Banner.webp";
-import SlimmingBanner from "../User/assets/image/Slimming_Banner.webp";
-import aestheticsbanner from "../User/assets/image/aesthetics-banner.webp";
-import facialsbanner from "../User/assets/image/facials-banner.webp";
-import wellnessbanner from "../User/assets/image/wellness-banner.webp";
-import Holistic from "../User/assets/image/Holistic-Facial-400x320.webp";
-import deepcleansing from "../User/assets/image/Deep-Cleansing-400x320.webp";
-import SculptFacial from "../User/assets/image/Neurotris-Sculpt-400x320.webp";
-import Morpheus from "../User/assets/image/Morpheus-400x320.webp";
-import Wellness400x320 from "../User/assets/image/Wellness-IVDrips-400x320.webp";
-import LessPainMoreGain from "../User/assets/image/LessPainMoreGain-400x600.webp";
-import blog1cover from "../User/assets/image/blog1-1140px408.webp";
-import blog2cover from "../User/assets/image/blog2-cover-1200x429.webp";
-import blog2product1 from "../User/assets/image/blog2-product1-400x400.webp";
+import benner1 from "../assets//image/home-banner1.webp"
+import banner2 from "../assets//image/home-banner2.webp"
+import benner3 from "../assets//image/home-banner3.webp"
+import servicebanner1 from "../assets//image/service-banner-laser.webp"
+import servicebanner2 from "../assets//image/service-banner-slimming.webp"
+import servicebanner3 from "../assets//image/service-banner-aesthetics.webp"
+import servicebanner4 from "../assets//image/service-banner-facials.webp"
+import servicebanner5 from "../assets//image/service-banner-wellness.webp"
+import service1 from "../assets//image/service1.webp"
+import service2 from "../assets//image/service2.webp"
+import service3 from "../assets//image/service3.webp"
+import service3v500x500 from "../assets//image/service3 500x400.webp"
+import service3UltraClear from "../assets//image/UltraClear.webp"
+import service4 from "../assets//image/service4.webp"
+import service5 from "../assets//image/service5.webp"
+import service6 from "../assets//image/service6.webp"
+import lazer from "../assets//image/laser.webp"
+import slimming from "../assets//image/slimming.webp"
+import aesthetics from "../assets//image/aesthetics.webp"
+import latest from "../assets//image/latest.webp"
+import dmg from "../assets//image/dmg-logo.webp"
+import darma from "../assets//image/darma-logo.webp"
+import nano from "../assets//image/nano-logo.webp"
+import nuro from "../assets//image/nuro-logo.webp"
+import facialBanner from "../assets//image/facial-banner.webp";
+import facialTitle from "../assets//image/facial-title.webp";
+import AboutBanner from "../assets//image/aboutus-banner.webp";
+import OrsolyaMatheisz from "../assets//image/team-co.webp";
+import DoctorAsima from "../assets//image/team-dr2.webp";
+import DoctorShagoon from "../assets//image/team-dr3.webp";
+import Endospheres from "../assets//image/Endospheres-400x320.webp";
+import EmSlim from "../assets//image/EmSlim-400x320.webp";
+import LymphaticDrainageMassage from "../assets//image/Lymphatic-Drainage-Massage-400x320.webp";
+import PreNatalMassage from "../assets//image/Pre-Post-Natal-Massage-400x320.webp";
+import MaderoTherapy from "../assets//image/Madero-Therapy-400x320.webp";
+import Botox from "../assets//image/Botox-400x320.webp";
+import Fillers from "../assets//image/Fillers-400x320.webp";
+import Renuva from "../assets//image/Renuva-400x320.webp";
+import Sculptra from "../assets//image/Sculptra-400x320.webp";
+import Exosomes from "../assets//image/Exosomes-400x320.webp";
+import Regenera from "../assets//image/Regenera-400x320.webp";
+import LaserBanner from "../assets//image/Laser_Banner.webp";
+import SlimmingBanner from "../assets//image/Slimming_Banner.webp";
+import aestheticsbanner from "../assets//image/aesthetics-banner.webp";
+import facialsbanner from "../assets//image/facials-banner.webp";
+import wellnessbanner from "../assets//image/wellness-banner.webp";
+import Holistic from "../assets//image/Holistic-Facial-400x320.webp";
+import deepcleansing from "../assets//image/Deep-Cleansing-400x320.webp";
+import SculptFacial from "../assets//image/Neurotris-Sculpt-400x320.webp";
+import Morpheus from "../assets//image/Morpheus-400x320.webp";
+import Wellness400x320 from "../assets//image/Wellness-IVDrips-400x320.webp";
+import LessPainMoreGain from "../assets//image/LessPainMoreGain-400x600.webp";
+import blog1cover from "../assets//image/blog1-1140px408.webp";
+import blog2cover from "../assets//image/blog2-cover-1200x429.webp";
+import blog2product1 from "../assets//image/blog2-product1-400x400.webp";
 
-import blog3cover from "../User/assets/image/blog3cover1140x408.webp";
-import blog3coverMin from "../User/assets/image/blog3sm350x300Orskin.webp";
+import blog3cover from "../assets//image/blog3cover1140x408.webp";
+import blog3coverMin from "../assets//image/blog3sm350x300Orskin.webp";
 
-import blog4cover from "../User/assets/image/blog4cover.webp";
-import blog4coverMin from "../User/assets/image/blog4min.webp";
+import blog4cover from "../assets//image/blog4cover.webp";
+import blog4coverMin from "../assets//image/blog4min.webp";
 
-import blog5cover from "../User/assets/image/blog5cover.webp";
-import blog5coverMin from "../User/assets/image/blog5min.webp";
-import blog5_1 from "../User/assets/image/blog5_body.webp";
-import blog5_2 from "../User/assets/image/blog5_dreamstime.webp";
-import blog5_3 from "../User/assets/image/blog5_Skin-Rejuvenation.webp";
-import blog5_4 from "../User/assets/image/blog5_Electron-mic.webp";
+import blog5cover from "../assets//image/blog5cover.webp";
+import blog5coverMin from "../assets//image/blog5min.webp";
+import blog5_1 from "../assets//image/blog5_body.webp";
+import blog5_2 from "../assets//image/blog5_dreamstime.webp";
+import blog5_3 from "../assets//image/blog5_Skin-Rejuvenation.webp";
+import blog5_4 from "../assets//image/blog5_Electron-mic.webp";
 
-import AestheFill from "../User/assets/image/AestheFill.webp"
-import Volnewmer from "../User/assets/image/Volnewmer-350x350.jpg"
-import Ultraformer from "../User/assets/image/Ultraformer_350x350.jpg"
+import AestheFill from "../assets//image/AestheFill.webp"
+import Volnewmer from "../assets//image/Volnewmer-350x350.jpg"
+import Ultraformer from "../assets//image/Ultraformer_350x350.jpg"
 
 export const services = [
   {
@@ -1310,15 +1310,15 @@ export const blogs = [
             <li>- AdvaLight laser with PDRN and Micro-Infusion Facial</li>
             <li>- Soft Laser with Chemical Peel.</li>
         </ul>
-        <h3 class="font-[900] text-[20px] mb-[10px]">What is Plasma gel when combined with Skin Pen for?</h3>
+        <h3 class="font-[600] text-[20px] mb-[10px]">What is Plasma gel when combined with Skin Pen for?</h3>
         <p  class="mb-[10px]">A Regenerative Method for Rejuvenating the Skin Often referred to as biofiller, plasma gel is an autologous biofiller made from the patient's own plasma that provides a regenerative and biocompatible substitute for conventional fillers.  Packed with growth ingredients, it promotes skin hydration and fibroblast activity.  It significantly increases the production of collagen, which promotes anti-aging and a perceptible lift in appearance.</p>
         <p  class="mb-[10px]">Collagen induction is greatly increased when used in conjunction with SkinPen, an FDA-approved microneedling tool.  By inducing regulated micro-injuries in the skin, SkinPen stimulates neocollagenesis and starts the wound healing cascade.  Skin tone, suppleness, and texture all improve as a result. It also works on acne, acne scars and scars as well.  SkinPen and Plasma Gel work together to improve dermal remodeling, giving the face a plumper, more hydrated, and younger appearance. Our highly skilled skin specialists at Orskin Aesthetics ensure that our patients receive the safest and microneedling treatment possible, popularly known as SkinPen.</p>
 
-        <h3  class="font-[900] text-[20px] mb-[10px]">How does Advalight with PDRN and Micro-Infusion Facial work?</h3>
+        <h3  class="font-[600] text-[20px] mb-[10px]">How does Advalight with PDRN and Micro-Infusion Facial work?</h3>
         <p class="mb-[10px]">A Multi-Modal Strategy for Skin Repair The dual-wavelength AdvaLight laser system is specifically designed to tackle pigmentation, acne, vascular lesions, and general skin rejuvenation.  It uses wavelengths of 1319 nm and 589 nm to increase skin clarity, promote collagen synthesis, and lessen inflammation. In conjunction with PDRN (polydeoxyribonucleotide), a physiologically active compound that is isolated from salmon DNA, the treatment increases hydration, improves microcirculation, and encourages cellular repair.  It has been demonstrated that PDRN speeds up tissue regeneration by promoting extracellular matrix remodeling and fibroblast proliferation.</p>
         <p  class="mb-[10px]">The addition of Micro-Infusion Facial —a diluted form of botulinum toxin administered intradermally—further refines skin texture by reducing pore size, controlling sebaceous gland activity, and softening dynamic fine lines. This technique preserves natural facial expressions while enhancing overall skin smoothness and luminosity.</p>
 
-        <h3 class="font-[900] text-[20px] mb-[10px]">How does Soft Laser with Chemical Peel work?</h3>
+        <h3 class="font-[600] text-[20px] mb-[10px]">How does Soft Laser with Chemical Peel work?</h3>
         <p class="mb-[10px]">For patients seeking a non-invasive yet effective treatment, the combination of Soft Laser therapy and a Chemical Peel offers a gentle yet scientifically driven approach to skin resurfacing. Soft Laser utilizes low-level laser therapy (LLLT) to enhance cellular metabolism, reduce inflammation, and promote tissue repair with minimal discomfort and no downtime.</p>
         <p class="mb-[10px]">The application of a Chemical Peel further optimizes this treatment by exfoliating the stratum corneum, facilitating the removal of dead skin cells and stimulating epidermal renewal. Depending on the type and depth of the peel, this process can effectively address hyperpigmentation, uneven texture, and dull skin tone. When used in conjunction, Soft Laser enhances post-peel recovery, minimizes irritation, and amplifies the regenerative benefits of chemical exfoliation.</p>
         <p class="mb-[10px]">At Orskin Aesthetics, our combination treatments are designed to provide customized, medically sound solutions tailored to each patient’s unique skin needs. By integrating cutting-edge regenerative therapies, laser modalities, and injectables, we optimize skin health and aesthetics for long-lasting, natural-looking results.</p>
@@ -1333,7 +1333,7 @@ export const blogs = [
     coverMin: blog5coverMin,
     introduction: " At Orskin, your beauty and well-being are at the heart of everything we do. We offer a holistic and highly personalised approach to skincare—designing every treatment to meet your unique concerns and deliver lasting, visible results.",
     description: `
-          <div style="font-family: Arial, sans-serif; line-height: 1.7; padding: 40px 0; color: #222;">
+          <div style="line-height: 1.7; padding: 40px 0; color: #222;">
               <div data-aos="fade-up">
                   <p style="font-size: 18px;">
                       At Orskin, your beauty and well-being are at the heart of everything we do.
@@ -1439,7 +1439,9 @@ export const blogs = [
               <p class=" mb-[60px]" data-aos="fade-up">
                   Ageing is no longer something we have to accept—it’s something we can reverse. At Orskin, we bring you the future of aesthetic medicine with powerful, cutting-edge stem cell and exosome therapies designed to rejuvenate your skin, restore your youth, and boost your body from the inside out.
               </p>
-              <div class="w-full absolute left-0 bg-service bg-no-repeat bg-center bg-cover py-[60px] text-center">
+              <div class="w-full absolute left-0 bg-no-repeat bg-center bg-cover py-[60px] text-center"
+              style="background-image:url('/src/assets/image/servce-sub-bg.webp')"
+              >
                   <div class="container">
                       <p class="xl:text-[45px] lg:text-[45px] md:text-[45px] sm:text-[33px] text-[22px] font-[450] leading-[55px] text-shadow" data-aos="fade-up">
                           <span class="font-[600]">
@@ -1550,7 +1552,7 @@ export const seoContent = {
             "https://orskin.ae/assets/images/darma-logo.webp",
             "https://orskin.ae/assets/images/nano-logo.webp",
             "https://orskin.ae/assets/images/nuro-logo.webp",
-            "https://orskin.ae/assets/images/facial-banner.webp",
+            "https://orskin.ae/assets/images/facial-banner.webp"
           ],
           "description": "Orskin Aesthetic Clinic in Dubai offers slimming, wellness, signature facials, and the latest laser treatments. Focusing on personalized care and top-quality skincare, Orskin delivers transformative results in a luxurious setting, making your beauty goals a priority.",
           "address": {
@@ -1643,7 +1645,7 @@ export const seoContent = {
             "https://orskin.ae/assets/images/team-co.webp",
             "https://orskin.ae/assets/images/team-dr2.webp",
             "https://orskin.ae/assets/images/team-dr3.webp",
-            "https://orskin.ae/assets/images/team.webp",
+            "https://orskin.ae/assets/images/team.webp"
           ],
           "description": "Orskin Aesthetic Clinic in Dubai offers advanced aesthetic treatments with global expertise. Experience Advalight Laser, Neurotris Microcurrent Facial, and Morpheus Microneedling.",
           "address": {
@@ -1845,7 +1847,7 @@ export const seoContent = {
               "https://orskin.ae/assets/images/blog4min.webp",
               "https://orskin.ae/assets/images/blog3sm350x300Orskin.webp",
               "https://orskin.ae/assets/images/blog2-cover-1200x429.webp",
-              "https://orskin.ae/assets/images/blog1-1140px408.webp",
+              "https://orskin.ae/assets/images/blog1-1140px408.webp"
             ],
             "description": "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
             "address": {
@@ -2038,7 +2040,7 @@ export const seoContent = {
           "image": [
             "https://orskin.ae/assets/images/Laser_Banner.webp",
             "https://orskin.ae/assets/images/UltraClear.webp",
-            "https://orskin.ae/assets/images/service3%20500x400.webp",
+            "https://orskin.ae/assets/images/service3%20500x400.webp"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2143,7 +2145,7 @@ export const seoContent = {
             "https://orskin.ae/assets/images/EmSlim-400x320.webp",
             "https://orskin.ae/assets/images/Lymphatic-Drainage-Massage-400x320.webp",
             "https://orskin.ae/assets/images/Pre-Post-Natal-Massage-400x320.webp",
-            "https://orskin.ae/assets/images/Madero-Therapy-400x320.webp",
+            "https://orskin.ae/assets/images/Madero-Therapy-400x320.webp"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2250,7 +2252,7 @@ export const seoContent = {
             "https://orskin.ae/assets/images/Renuva-400x320.webp",
             "https://orskin.ae/assets/images/Fillers-400x320.webp",
             "https://orskin.ae/assets/images/Botox-400x320.webp",
-            "https://orskin.ae/assets/images/aesthetics-banner.webp",
+            "https://orskin.ae/assets/images/aesthetics-banner.webp"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2356,7 +2358,7 @@ export const seoContent = {
             "https://orskin.ae/assets/images/Neurotris-Sculpt-400x320.webp",
             "https://orskin.ae/assets/images/Morpheus-400x320.webp",
             "https://orskin.ae/assets/images/Volnewmer-350x350.jpg",
-            "https://orskin.ae/assets/images/Ultraformer_350x350.jpg",
+            "https://orskin.ae/assets/images/Ultraformer_350x350.jpg"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2457,7 +2459,7 @@ export const seoContent = {
           "logo": "https://orskin.ae/assets/images/logo.webp",
           "image": [
             "https://orskin.ae/assets/images/wellness-banner.webp",
-            "https://orskin.ae/assets/images/Wellness-IVDrips-400x320.webp",
+            "https://orskin.ae/assets/images/Wellness-IVDrips-400x320.webp"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2558,7 +2560,7 @@ export const seoContent = {
           "logo": "https://orskin.ae/assets/images/logo.webp",
           "image": [
             "https://orskin.ae/assets/images/treatment-offers.webp",
-            "https://orskin.ae/assets/images/LessPainMoreGain-400x600.webp",
+            "https://orskin.ae/assets/images/LessPainMoreGain-400x600.webp"
           ],
           "description": "At Orskin Aesthetics in Dubai, we offer a variety of exceptional beauty and wellness services tailored to your needs. From rejuvenating wellness treatments, advanced laser therapies, and signature facials to slimming procedures, aesthetic injectables, fat burning treatments.",
           "address": {
@@ -2662,7 +2664,7 @@ export const seoContent = {
               "https://orskin.ae/assets/images/blog5_Electron-mic.webp",
               "https://orskin.ae/assets/images/blog5_Skin-Rejuvenation.webp",
               "https://orskin.ae/assets/images/blog5_body.webp",
-              "https://orskin.ae/assets/images/blog5_dreamstime.webp",
+              "https://orskin.ae/assets/images/blog5_dreamstime.webp"
             ],
             "description": "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
             "address": {
@@ -2869,7 +2871,7 @@ export const seoContent = {
               "https://shop.orskin.ae/cdn/shop/files/2.webp",
               "https://shop.orskin.ae/cdn/shop/files/P1.jpg",
               "https://shop.orskin.ae/cdn/shop/files/P5.jpg",
-              "https://shop.orskin.ae/cdn/shop/files/No-show-mineral-sunscreen.png",
+              "https://shop.orskin.ae/cdn/shop/files/No-show-mineral-sunscreen.png"
             ],
             "description": "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
             "address": {
@@ -2973,7 +2975,7 @@ export const seoContent = {
               "https://orskin.ae/assets/images/blog2-cover-1200x429.webp",
               "https://orskin.ae/assets/images/blog2-product1-400x400.webp",
               "https://shop.orskin.ae/cdn/shop/files/Micro-Peel-180ml.jpg",
-              "https://shop.orskin.ae/cdn/shop/files/PHA-Hydration-Peel.jpg",
+              "https://shop.orskin.ae/cdn/shop/files/PHA-Hydration-Peel.jpg"
             ],
             "description": "Discover expert insights, beauty tips, skin care treatments, and wellness advice on the Orskin Aesthetic Clinic blog. Find the latest trends in aesthetic procedures, wellness routines, and skin rejuvenation in Dubai.",
             "address": {

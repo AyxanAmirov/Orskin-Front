@@ -4,14 +4,31 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("./User/assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
-  font-display: swap;
-  font-weight: normal;
+  src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
   font-style: normal;
 }
 
-* {
-  font-family: "Raleway", sans-serif !important;
+@font-face {
+  font-family: "Raleway";
+  src: url('./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
 }
 
 input:focus,
@@ -87,15 +104,6 @@ textarea:focus {
   display: flex;
 }
 
-.chakra-accordion__item,
-.css-17mg6aq {
-  border: none !important;
-}
-
-.chakra-accordion__button,
-.css-uttm9k:hover {
-  background-color: transparent !important;
-}
 
 .green {
   color: green;
@@ -536,8 +544,6 @@ textarea:focus {
 
 /* reset css */
 * {
-  font-family: "Oxygen Regular", sans-serif;
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -549,7 +555,7 @@ textarea:focus {
 
 body {
   color: #000;
-  font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif !important;
 }
 
 ul li {
@@ -576,10 +582,10 @@ a {
     }
 } */
 
-.chakra-button {
+#menu-btn {
   border-radius: 0 !important;
-  min-width: var(--chakra-sizes-14) !important;
-  min-height: var(--chakra-sizes-14) !important;
+  min-width: 56px;
+  min-height: 56px;
 }
 
 .hat {
@@ -608,8 +614,15 @@ a {
 }
 
 @keyframes slideIn {
-  0% { transform: translateX(100%); opacity: 0; }
-  100% { transform: translateX(0); opacity: 1; }
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .animate-slideIn {

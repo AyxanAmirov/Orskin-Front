@@ -1,0 +1,42 @@
+#online-form {
+  font-family: "Montserrat", sans-serif !important;
+
+  background: url("../../assets/image/bg-form.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  header {
+    background: url("../../assets/image/smart-vector.png");
+  }
+
+  input {
+    background-color: transparent;
+    border: 1px solid #395e57;
+    outline: none;
+
+    &:focus {
+      border-color: #70C5B5;
+    }
+  }
+
+  button {
+    border: 1px solid #000;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    transition: all .2s;
+    box-shadow: 1px 1px 1px #395e57;
+
+    &:checked {
+      box-shadow: none;
+    }
+  }
+
+  /* @media screen and (max-width:600px) {
+    label {
+      font-size: 16px;
+    }
+  } */
+}
