@@ -218,19 +218,19 @@ function ConsultationForm() {
                 >How is your diet?</p>
                 <div className="grid sm:grid-cols-4 grid-cols-2 gap-[30px_50px] items-center">
                   <label className="flex gap-[10px] items-center">
-                    <input type="checkbox" name="dairy" className="appearance-none border border-gray-400 outline-none rounded-[none] w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
+                    <input type="checkbox" name="dairy" className="appearance-none border border-gray-400 outline-none rounded-[none] min-w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
                     <span className="font-light text-[22px] leading-[26px] text-[#70C5B5]">Dairy</span>
                   </label>
                   <label className="flex gap-[10px] items-center">
-                    <input type="checkbox" name="gluten" className="appearance-none border border-gray-400 outline-none rounded-[none]  w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
+                    <input type="checkbox" name="gluten" className="appearance-none border border-gray-400 outline-none rounded-[none]  min-w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
                     <span className="font-light text-[22px] leading-[26px] text-[#70C5B5]">Gluten</span>
                   </label>
                   <label className="flex gap-[10px] items-center">
-                    <input type="checkbox" name="carbs" className="appearance-none border border-gray-400 outline-none rounded-[none]  w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
+                    <input type="checkbox" name="carbs" className="appearance-none border border-gray-400 outline-none rounded-[none]  min-w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
                     <span className="font-light text-[22px] leading-[26px] text-[#70C5B5]">Carbs</span>
                   </label>
                   <label className="flex gap-[10px] items-center">
-                    <input type="checkbox" name="oils" className="appearance-none border border-gray-400 outline-none rounded-[none]  w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
+                    <input type="checkbox" name="oils" className="appearance-none border border-gray-400 outline-none rounded-[none]  min-w-7 h-7 flex items-center justify-center relative  checked:after:content-['✔']  checked:after:text-[20px] checked:after:text-[#2f7265] checked:after:absolute checked:after:top-[1px] checked:after:left-[3px] transition-all duration-200" onChange={inputHandler} />
                     <span className="font-light text-[22px] leading-[26px] text-[#70C5B5]">Oils</span>
                   </label>
                 </div>
